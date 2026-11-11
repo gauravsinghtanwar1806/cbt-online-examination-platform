@@ -1,0 +1,3602 @@
+[
+  {
+    "id": "achiever_001",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 1,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "The potential energy of a particle of mass 1kg free to move along x-axis is given by \nU(x) =\n joule. If total mechanical energy of the particle is 2J, then find the maximum speed\nof the particle.",
+    "options": [
+      "Option (1)",
+      "Option (2)",
+      "Option (3)",
+      "2 m/s"
+    ],
+    "image_url": "/images/achiever/q_1.png",
+    "official_answer": 1,
+    "solution_text": "Explaining : We have to find the maximum speed of particle.\nConcept : This question is based on F = –\nU and equilibrium.\nSolution :\nPotential energy U = \n \nFor minimum U,  \n = \n – 1 = 0    &       \n = 1 = positive\nSo at x = 1, U is minimum. Hence Umin = –  J\nTotal mechanical energy = Max KE + Min PE\nMax KE = mv\n2\nmax = 2 – \n =  \n⇒  vmax = \n = \n ms\n–1.\nFinal Answer : (1)",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "achiever_002",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 2,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "A force F acting on a particle varies with the position x as shown in the graph. Find the work done\nby the force in displacing the particle from x = –a to x = +2a.",
+    "options": [
+      "Option (1)",
+      "Option (2)",
+      "Option (3)",
+      "Option (4)"
+    ],
+    "image_url": "/images/achiever/q_2.png",
+    "official_answer": 1,
+    "solution_text": "Question Explanation: The question asks to find the work done by a variable force when a\nparticle moves from x = –a to x = +2a.\nConcept: Work done by variable force.\nSolution: \nFinal answer: Option (1)",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "achiever_003",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 3,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "Velocity-time graph for a body of mass 10 kg is shown in figure. Work-done on the body in first\ntwo seconds of the motion is :- \n(1)  –9300 J",
+    "options": [
+      "(1) Option 1",
+      "(2) Option 2",
+      "(3) Option 3",
+      "(4) Option 4"
+    ],
+    "image_url": "/images/achiever/q_3.png",
+    "official_answer": 4,
+    "solution_text": "Explaining : Find the work done on the body in first 2 sec.\nConcept : This question is based on work-energy theorem.\nSolution :\nSlope (a) = \n = –5 m/s\n2\nBy the graph at t = 0 sec, v1 = 50 m/s\nvelocity at t = 2 sec,  v2 = 50 – (5)(2) = 40 m/s\nwork done is change in kE \n\n<<<PAGE 43>>>\nω = \nFinal Answer : (4)",
+    "solution_final_answer": 4,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 1
+  },
+  {
+    "id": "achiever_004",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 4,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "A block of mass 2 kg is hanging over a smooth and light pulley through a light string. The other\nend of the string is pulled by a constant force F = 40 N. At t = 0 the system is at rest as shown. Then\nin the time interval from t = 0 to t = 2 seconds work done by tension on block will be : (g = 10 m/s\n2)",
+    "options": [
+      "800 J",
+      "400 J",
+      "–400 J",
+      "–800 J"
+    ],
+    "image_url": "/images/achiever/q_4.png",
+    "official_answer": 1,
+    "solution_text": "Explaining : Find the work done by tension on the block.\nConcept : This question is based on work done by tension.\nSolution :\nAcceleration of block is = 10 m/s\n2\n∴ displacement s =  at\n2 =  × 10 × 4 = 20m\nTension in the string is 40 N\nand work done by tension is\nω = T× s = 40 × 20 = 800 J\nFinal Answer : (1)",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "achiever_005",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 5,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "A 2.0 kg block is dropped from a height of 40 cm onto a spring of spring constant k = 1960 N/m.\nFind the maximum distance the spring is compressed :-",
+    "options": [
+      "0.080 m",
+      "0.20 m",
+      "0.40 m",
+      "0.10 m"
+    ],
+    "image_url": "/images/achiever/q_5.png",
+    "official_answer": 4,
+    "solution_text": "Explaining : Find the maximum compression in spring.\nConcept : This question is based on conservation of mechanical energy.\nSolution :\nFrom COME\ng = 9.8 ms\n2\n⇒  (2) (1960)\n2 = 2 × 9.8 (x + 0.4)\n⇒ x = 0.10 m\nFinal Answer : (4)",
+    "solution_final_answer": 4,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "achiever_006",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 6,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "A 10kg mass moves along x-axis. Its acceleration as a function of its position is shown in the\nfigure. What is the total work done on the mass by the force as the mass moves from x = 0  to x = 8\ncm",
+    "options": [
+      "8 × 10\n–2 joule",
+      "16 × 10\n–2 joule",
+      "4 × 10\n–4 joule",
+      "1.6 × 10\n–3 joule"
+    ],
+    "image_url": "/images/achiever/q_6.png",
+    "official_answer": 1,
+    "solution_text": "Explaining : Find the total work done.\nConcept : This question is based on work done by constant force.\nSolution :\nWork done = Area covered in between force displacement curve and displacement axis\n = Mass × Area covered in between acceleration–displacement curve and displacement axis.\n    = \n    = \nFinal Answer : (1)",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 2
+  },
+  {
+    "id": "achiever_007",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 7,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "Force on a particle is given by \n What is the work done on the particle if it moves\nfrom (0, 0) to (2, 2) along the given path.",
+    "options": [
+      "3 J",
+      "10 J",
+      "5 J",
+      "4 J"
+    ],
+    "image_url": "/images/achiever/q_7.png",
+    "official_answer": 2,
+    "solution_text": "Explaining : Find the total work done on the particle.\nConcept : This question is based on work done by variable force.\nSolution :\n\n<<<PAGE 44>>>\nFor (0, 0) to (0, 2)\n     \nFor (0, 2) to (2, 2)\n       \nTotal work = W1 + W2\n                  = 6 + 4 = 10 J\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 3
+  },
+  {
+    "id": "achiever_008",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 8,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "Figure shows the vertical section of frictionless surface. A block of mass 1 kg is released from the\nposition A; its KE as it reaches the position C is (g = 10 m/s\n2):-",
+    "options": [
+      "180J",
+      "140J",
+      "70J",
+      "280J"
+    ],
+    "image_url": "/images/achiever/q_8.png",
+    "official_answer": 3,
+    "solution_text": "Explaining : Find the K.E. of block at position C.\nConcept : This question is based on conservation of mechanical energy.\nSolution :\nGain in KE = Loss in PE\n          = 70 J\nFinal Answer : (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 3
+  },
+  {
+    "id": "achiever_009",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 9,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "A farmer wants to have delivery rate of water (mass/sec.) three times as that of existing delivery\nrate from the pump of 2 hp. then he should use the pump of power :",
+    "options": [
+      "16 hp",
+      "32 hp",
+      "54 hp",
+      "64 hp"
+    ],
+    "image_url": "/images/achiever/q_9.png",
+    "official_answer": 3,
+    "solution_text": "Question Explanation: Find pump power factor to multiply water mass flow rate by 3.\nConcept: Power and Mass Flow Rate.\nSolution: As we know that\n & \nSo, that \n \ntherefore to mape \n→ 3 times → \nthe, Pnew = (3)\n3 Pold\n= 27 × 2\n= 54 hP",
+    "solution_final_answer": null,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 3
+  },
+  {
+    "id": "achiever_010",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 10,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "A car of mass m is accelerating on a level smooth road under the action of a single force F. The\npower delivered to the car is constant and equal to P. If the velocity of the car at an instant is v, then",
+    "options": [
+      "(1) Option 1",
+      "(2) Option 2",
+      "(3) Option 3",
+      "(4) Option 4"
+    ],
+    "image_url": "/images/achiever/q_10.png",
+    "official_answer": 1,
+    "solution_text": "Explanation Question:\nAsking about distance covered by a car before doubling the speed, if power delivering to the\ncar is constant.\nConcept:\n\n<<<PAGE 45>>>\nThis question is based on Power & use of calculus\nSolution:\nP = Fv\n∵ F = ma\n∵ a = \nP = \nFinal Answer :\nOption (1)",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 3
+  },
+  {
+    "id": "achiever_011",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 11,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "If KE is increased by 400% then % change in momentum :-",
+    "options": [
+      "150 %",
+      "123 %",
+      "100 %",
+      "500 %"
+    ],
+    "image_url": "/images/achiever/q_11.png",
+    "official_answer": 2,
+    "solution_text": "Question Explanation: Find momentum percentage change for a given KE percentage\nincrease.\nConcept: This question is based on kinetic energy & linear momentum. \nSolution: As we know, that\nP = \ni.e. P ∝ \nthen % change in the momentum will be given as   \nFinal answer: The correct option is (2).",
+    "solution_final_answer": null,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 4
+  },
+  {
+    "id": "achiever_012",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 12,
+    "subject": "Physics",
+    "question_type": "statement_based",
+    "question_text": "If a force is conservative, then correct statements are :-\n(i) work is path independent\n(ii) it must be central\n(iii) work done round a closed path is zero\n(iv) potential energy remains constant",
+    "options": [
+      "(i,ii)",
+      "(ii,iii)",
+      "(i,iii)",
+      "(i,ii,iv)"
+    ],
+    "image_url": "/images/achiever/q_12.png",
+    "official_answer": 3,
+    "solution_text": "Question Explanation: Identifying properties of conservative forces.\nConcept: Conservative Forces and Work Done.\n\n<<<PAGE 46>>>\nSolution: A force is called conservative if the work it does on an object depends only on where\nthe object starts and ends, not on the path taken. Because the path doesn't matter, if an object\nreturns to its starting point (a closed loop), the total work done by that force is always zero.\nWhile many conservative forces (like gravity) are central, it is not a requirement. Potential\nenergy changes as work is done, so it does not remain constant.\nStatement (i): True. By definition, work depends only on initial and final positions.\nA.\nStatement (iii): True. Since work is path-independent, wAB = –wBA, making the total work\nB.\nfor a round trip zero.\nFinal Answer: Option 3 (i, iii)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 4
+  },
+  {
+    "id": "achiever_013",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 13,
+    "subject": "Physics",
+    "question_type": "assertion_reason",
+    "question_text": "Assertion: The work done by conservative forces does not depend on path taken.\nReason: The work done by non conservative forces depends only on initial and final position.",
+    "options": [
+      "If both assertion and reason are true and reason is correct explanation of the assertion.",
+      "If both assertion and reason are true and reason is not correct explanation of the assertion.",
+      "If assertion is true but reason is false.",
+      "If assertion and reason both are false."
+    ],
+    "image_url": "/images/achiever/q_13.png",
+    "official_answer": 3,
+    "solution_text": "Question Explanation: Evaluate assertion and reason about conservative and non-\nconservative forces.\nConcept:  This question is based on conservative and non-conservative forces.\nSolution: Assertion: Work done by conservative forces does not depend on path taken. (True,\nthis is the definition).\nReason: Work done by non-conservative forces depends only on initial and final position.\n(False, work done by non-conservative forces depends on the path taken).\nFinal answer: The correct option is (3).",
+    "solution_final_answer": null,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 4
+  },
+  {
+    "id": "achiever_014",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 14,
+    "subject": "Physics",
+    "question_type": "match_following",
+    "question_text": "A block of mass m = 2  kg : -\nColumn I\nColumn II\n(P) Lifting the block vertically by 2 m at constant\nspeed (Work by external agent)\n(i) 0 J",
+    "options": [
+      "(1) Option 1",
+      "(2) Option 2",
+      "(3) Option 3",
+      "(4) Option 4"
+    ],
+    "image_url": "/images/achiever/q_14.png",
+    "official_answer": 2,
+    "solution_text": "Explaining : Find the work done by given forces and match the correct values with\ncolumn-II.\nConcept : This question is based on work done by variable force.\nSolution :\n(P) \n(Q) \n(R) Gravity and Normal force are perpendicular to displacement. \n(S) \n \nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 4
+  },
+  {
+    "id": "achiever_015",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 15,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "If the maximum compression in the spring is 50 cm then find the value of K(g = 10 m/s\n2) :-",
+    "options": [
+      "Option (1)",
+      "Option (2)",
+      "Option (3)",
+      "None of these"
+    ],
+    "image_url": "/images/achiever/q_15.png",
+    "official_answer": 1,
+    "solution_text": "Explanation the Question : Find spring constant from max compression on a rough\nsurface.\nConcept: This question is based on work-energy theorem.\nSolution:\nwfriction = ΔKE + ΔU\n– μmg(ℓ + x) = \n\n<<<PAGE 47>>>\nFinal answer : (1)",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 5
+  },
+  {
+    "id": "achiever_016",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 16,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "Current density of an area of cross section is varying according to equation \n. Find\nthe current through the cylinder",
+    "options": [
+      "πR\n2J0",
+      "Option (2)",
+      "Option (3)",
+      "Option (4)"
+    ],
+    "image_url": "/images/achiever/q_16.png",
+    "official_answer": 3,
+    "solution_text": "Explaining : To find the current through the cylinder.\nConcept : This question is based on non uniform current density.\nSolution : \nFinal Answer : (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 5
+  },
+  {
+    "id": "achiever_017",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 17,
+    "subject": "Physics",
+    "question_type": "statement_based",
+    "question_text": "Suppose a current carrying wire has a cross-sectional area that, gradually become smaller along\nthe wire, has the shape of a very long cone as shown in figure. Choose the correct statement:",
+    "options": [
+      "(1) Option 1",
+      "(2) Option 2",
+      "(3) Option 3",
+      "(4) Option 4"
+    ],
+    "image_url": "/images/achiever/q_17.png",
+    "official_answer": 3,
+    "solution_text": "Explaining : To choose the current statements.\nConcept : This question is based on Drift Velocity\nSolution : \nElectric current is same in different portions of wire but current density (or electric field) is\ndifferent in different portions of the wire. \nFrom I = neAvd we have \nFinal Answer : (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 5
+  },
+  {
+    "id": "achiever_018",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 18,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "Two metallic wires of identical dimensions are connected in parallel. If ρ1 and ρ2 are the specific\nresistances of the metals respectively the effective resistivity of the combination will be :-",
+    "options": [
+      "Option (1)",
+      "Option (2)",
+      "Option (3)",
+      "Option (4)"
+    ],
+    "image_url": "/images/achiever/q_18.png",
+    "official_answer": 2,
+    "solution_text": "Explain the question : Find effective resistivity of combination.\nConcept : This question is based on for parallel combination \nSolution : In given question two wire are connected in parallel so \n having same\ndimensions.\n \n\n<<<PAGE 48>>>\nFinal answer : Option (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 6
+  },
+  {
+    "id": "achiever_019",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 19,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "The V-I graph for two conductor of resistance R1 & R2 are as shown in the figure, the resistance\nof their series combination  (R2 + R1) is proportional to :",
+    "options": [
+      "Option (1)",
+      "Option (2)",
+      "Option (3)",
+      "Option (4)"
+    ],
+    "image_url": "/images/achiever/q_19.png",
+    "official_answer": 2,
+    "solution_text": "Explaining : To fine R1 + R2 is proportional to \nConcept : This question is based on VI characteristics \nSolution : \nSlope of VI curve = Resistance\nR1 = tan θ ; R2 = tan (90 – θ) = cot θ\nR2 + R1 \n tan θ + cot θ = tan θ + \n= \n = \n = \nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 6
+  },
+  {
+    "id": "achiever_020",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 20,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "In the circuit shown, the potential drop across 6 Ω resistor is 12 V. The emf of the ideal battery is",
+    "options": [
+      "(1) Option 1",
+      "(2) Option 2",
+      "(3) Option 3",
+      "(4) Option 4"
+    ],
+    "image_url": "/images/achiever/q_20.png",
+    "official_answer": 3,
+    "solution_text": "Explanation : To find EMF when potential drop is 12 volt across 6Ω as shown in circuit. \nConcept : This question is based on KVL\nSolution :\nFrom the above diagram the branch having 6Ω, 12Ω & 4Ω is in parallel with \"E\" therefore,\nE = 12 + 12\n    = 24 volt\nFinal Answer : (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 6
+  },
+  {
+    "id": "achiever_021",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 21,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "What is the equivalent resistance between the points A and B of the network :-",
+    "options": [
+      "Option (1)",
+      "8 Ω",
+      "6 Ω",
+      "Option (4)"
+    ],
+    "image_url": "/images/achiever/q_21.png",
+    "official_answer": 2,
+    "solution_text": "Explaining : To find equivalent resistance\nConcept : This question is based on combination of resistors\nSolution : \n\n<<<PAGE 49>>>\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 7
+  },
+  {
+    "id": "achiever_022",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 22,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "Electric field (E) and current density (J) have relation :-",
+    "options": [
+      "E ∝ J\n-1",
+      "E ∝ J",
+      "Option (3)",
+      "Option (4)"
+    ],
+    "image_url": "/images/achiever/q_22.png",
+    "official_answer": 2,
+    "solution_text": "Explain the Question : In this question, we have to find how electric field (E) and current\ndensity (J) are related in a conductor. \nConcept : This question is based on relation between electric field and current density\nSolution :\nE = ρJ, where = resistivity.\nHence, E ∝ J (for same material)  \nFinal answer : 2",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 7
+  },
+  {
+    "id": "achiever_023",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 23,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "10 cells, each of emf 'E' and internal resistance 'r', are connected in series to a variable external\nresistance figure shows the variation of terminal potential difference to their combination with the\ncurrent drawn from the combination. Emf of each cell is: \n(1) 1.6 V",
+    "options": [
+      "(1) Option 1",
+      "(2) Option 2",
+      "(3) Option 3",
+      "(4) Option 4"
+    ],
+    "image_url": "/images/achiever/q_23.png",
+    "official_answer": 4,
+    "solution_text": "Explaining : To find emf of each cell\nConcept : This question is based on combination of cells\nSolution : \nFor combination V = 10E –(10r)i\nat i = 12 A ; V = 6V ; Put values\n6 = 10 E –(10r) (12) .....(i)\nat i = 14 A ;  V = 0\n0 = 10 E –(10r) (14) ⇒ 10 E = 140r .... (ii)\nE = 4.2 Volt\nFinal Answer : (4)",
+    "solution_final_answer": 4,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 7
+  },
+  {
+    "id": "achiever_024",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 24,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "To get maximum current through a resistance of 2.5 , one can use m rows of cells, each row\nhaving n cells. The internal resistance of each cell is 0.5 . What are the values of n and m if the\ntotal number of cells is 45 ?",
+    "options": [
+      "m= 3, n = 15",
+      "m= 5, n = 9",
+      "m= 9, n = 5",
+      "m= 15, n = 3"
+    ],
+    "image_url": "/images/achiever/q_24.png",
+    "official_answer": 1,
+    "solution_text": "Explaining : To find value of n & m.\nConcept : This question is based on Battery grid\nSolution : \n\n<<<PAGE 50>>>\nFinal Answer : (1)",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 8
+  },
+  {
+    "id": "achiever_025",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 25,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "Find maximum power in resistance R :-",
+    "options": [
+      "11.25 W",
+      "20 W",
+      "15.5 W",
+      "25 W"
+    ],
+    "image_url": "/images/achiever/q_25.png",
+    "official_answer": 1,
+    "solution_text": "Explain the Question : We need to calculate maximum power dissipated in resistance R of\nthe given circuit. \nConcept : This question is based on maximum power transfer occurs when R = req.\nSolution : \nEeq = (10 + 5) = 15V and\nreq = (3 + 2) = 5Ω\nFor maximum power in R\nR = req = 5Ω\nSo current \nPower in resistance R\nP = I\n2R\n= (1.5)\n2 × 5W\n= 11.25 W\nFinal answer : 1",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 8
+  },
+  {
+    "id": "achiever_026",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 26,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "The given circuit is made up by using identical light bulbs. The light bulbs of maximum\nbrightness of the following will be",
+    "options": [
+      "A",
+      "C",
+      "D",
+      "E"
+    ],
+    "image_url": "/images/achiever/q_26.png",
+    "official_answer": 2,
+    "solution_text": "Explain Question:\nFind which bulb glow with maximum brightness.\nConcept:\nBrightness of bulb \n.\nSolution:\nIn given question all bulbs are identical i.e. having same resistance.\nSo P × V\n2\nPotential difference of (C) is\nMaximum hence bulb (C) lights with maximum brightness.\n\n<<<PAGE 51>>>\nFinal Answer: Option (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 8
+  },
+  {
+    "id": "achiever_027",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 27,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "A galvanometer of \n resistance yields complete deflection when 10 mA current flows. What\nshould be the value of shunt so that it can measure currents upto 100 mA ?",
+    "options": [
+      "Option (1)",
+      "Option (2)",
+      "Option (3)",
+      "Option (4)"
+    ],
+    "image_url": "/images/achiever/q_27.png",
+    "official_answer": 1,
+    "solution_text": "Explaining : To find value of shunt resistance\nConcept : This question is based on Ammeter\nSolution : \nFinal Answer : (4)",
+    "solution_final_answer": 4,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 8
+  },
+  {
+    "id": "achiever_028",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 28,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "The reading of the ammeter as per figure shown is :",
+    "options": [
+      "Option (1)",
+      "Option (2)",
+      "Option (3)",
+      "Option (4)"
+    ],
+    "image_url": "/images/achiever/q_28.png",
+    "official_answer": 4,
+    "solution_text": "Explaining : Given : Electric circuit\n                      Ask : Reading of ammeter\nConcept : This question is based on key points :\n(i) \n(ii) \nSolution :\nx–2 + x –4 + 2x = 0 \n4x = 6 \nx = 3/2 = 1.5 V\nLet say I1, I2 and I3 are current in branches applying KCl on assuming potential at lift as x and\non Right as zero. \nI1 = \nFinal Answer : (4)",
+    "solution_final_answer": 4,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 9
+  },
+  {
+    "id": "achiever_029",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 29,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "In the circuit diagram, all the bulbs are identical. Which bulb will be the brightest ?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "image_url": "/images/achiever/q_29.png",
+    "official_answer": 3,
+    "solution_text": "Explaining : Given : Electric circuit with bulb\n                      Ask : Brightness of bulb\nConcept : This question is based on key points :\n(i) \n(ii) \nSolution :\n\n<<<PAGE 52>>>\nP = I\n2R\nCalculation :- As all bulls are identical and the power (related by brightness) is given as P =\nI\n2R so me bulb with the most current will be brightest. In Parallel connection, the current is\nspilt between the branches while in series the current will be same.\nSo in figure we can set mat bulb 'C' will receive into maximum current while the bulbs A, B, D\nwill not get complete current as 'C' as m are connected in Parallel trenches. So bulb 'C' will\nbe the brightest.\nConclusion : The current answer option 3.\nFinal Answer : (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 9
+  },
+  {
+    "id": "achiever_030",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 30,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "Six resistances each of value r = 6 Ω are connected between points A, B and C as shown in the\nfigure. If R1, R2 and R3 are the net resistance between A and B, between B and C and between A and\nC respectively, then R1 : R2 : R3 will be equal to :-",
+    "options": [
+      "6 : 3 : 2",
+      "1 : 2 : 3",
+      "5 : 4 : 3",
+      "4 : 3 : 2"
+    ],
+    "image_url": "/images/achiever/q_30.png",
+    "official_answer": 3,
+    "solution_text": "Explaining : Given : Electric network\n                     Ask : Ratio of equivalent resistance of three different cases\nConcept : This question is based on key points :\n(i) \n(ii) \n(iii) Circuit reduction\nSolution :\n5 : 4 : 3\nFinal Answer : (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 9
+  },
+  {
+    "id": "achiever_031",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 31,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "Figure shows a balanced wheatstone bridge :",
+    "options": [
+      "(1) Option 1",
+      "(2) Option 2",
+      "(3) Option 3",
+      "(4) Option 4"
+    ],
+    "image_url": "/images/achiever/q_31.png",
+    "official_answer": 3,
+    "solution_text": "Explanation : To find direction of flow of current in galvanometer.\nConcept : This question is based on galvanometer (wheat stone bridge)\nSolution : \nIf  \n  Current B → D\nFinal Answer : (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 9
+  },
+  {
+    "id": "achiever_032",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 32,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "A 100μF capacitor is charged to 200 volt. It is discharged through a 2 ohm resistance. The\namount of heat generated will be :-",
+    "options": [
+      "2 Joule",
+      "4 Joule",
+      "0.2 Joule",
+      "0.4 Joule"
+    ],
+    "image_url": "/images/achiever/q_32.png",
+    "official_answer": 1,
+    "solution_text": "Explaining : Energy dissipated when 100 μF capacitor charged to 200 V is discharged\nthrough resistor.\nConcept : This question is based on All stored energy converts to heat.\nSolution : \nC = 100μf       V = 200V\nHeat generated = \nFinal Answer : (1)",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 10
+  },
+  {
+    "id": "achiever_033",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 33,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "A parallel plate condenser has a uniform electric field E(V/m) in the space between the plates. If\nthe distance between the plates is d(m) and area of each plate is A(m\n2) the energy (joules) stored in\nthe condenser is",
+    "options": [
+      "Option (1)",
+      "Option (2)",
+      "Option (3)",
+      "Option (4)"
+    ],
+    "image_url": "/images/achiever/q_33.png",
+    "official_answer": 4,
+    "solution_text": "Explaining : Energy stored in parallel plate capacitor with field (E) between plates\nseparated by (d), area (A).\nConcept : This question is based on energy density\nSolution : \n\n<<<PAGE 53>>>\nFinal Answer : (4)",
+    "solution_final_answer": 4,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 10
+  },
+  {
+    "id": "achiever_034",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 34,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "On placing a dielectric slab between the plates of a charged condenser its:-\n \nCapacity\nCharge\nPotential\nDifference\nEnergy\nstored",
+    "options": [
+      "decreases\nremains\nunchanged\ndecreases\nincreases",
+      "increases\nremains\nunchanged\nincreases\nincreases",
+      "increases\nremains\nunchanged\ndecreases\ndecreases",
+      "Option (4)"
+    ],
+    "image_url": "/images/achiever/q_34.png",
+    "official_answer": 3,
+    "solution_text": "Explain Question:\nA dielectric slab is inserted between the plates of a charged condenser (isolated capacitor). We\nhave to determine the change in capacitance, charge, potential difference, and energy stored.\nConcept:\nFor an isolated charged capacitor, charge remains constant; inserting a dielectric increases\ncapacitance, hence potential difference and energy decrease.\nSolution:\nOn inserting a dielectric, capacitance increases: \nA.\n         C' = kC\nSince the condenser is charged and isolated, charge remains unchanged:\nA.\n         Q' = Q\nPotential difference:\nA.\n          \n        Hence, potential difference decreases.\nEnergy stored:\nA.\n         \nHence, energy stored decreases.\nTherefore:\nCapacitance increases, charge remains unchanged, potential difference decreases, and energy\nstored decreases.\nFinal answer: Option (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 10
+  },
+  {
+    "id": "achiever_035",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 35,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "Voltage rating of a parallel plate capacitor is 500V. Its dielectric can withstand a maximum\nelectric field of 10\n6 V/m. The plate area is 10\n–4 m\n2. What is the dielectric constant is the capacitance\nis 15 pF?\n(given ∈0 = 8.86 × 10\n–12 C\n2/Nm\n2)",
+    "options": [
+      "3.8",
+      "4.5",
+      "6.2",
+      "8.5"
+    ],
+    "image_url": "/images/achiever/q_35.png",
+    "official_answer": 4,
+    "solution_text": "Explanation : To find the dielectric constant is the capacitance\nConcept : This question is based on breakdown voltage\nSolution : \n\n<<<PAGE 54>>>\nA = 10\n–4 m\n2\nEmax = 10\n6 V/m\nC = 15 µF\nk ≈ 8.5\nFinal Answer : (4)",
+    "solution_final_answer": 4,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 11
+  },
+  {
+    "id": "achiever_036",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 36,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "A \n capacitor is charged by a 200 V supply. It is then disconnected from the supply and is\nconnected to another uncharged \n capacitor. How much electrostatic energy is lost in the\nprocess ?",
+    "options": [
+      "3 J",
+      "6 J",
+      "9 J",
+      "12 J"
+    ],
+    "image_url": "/images/achiever/q_36.png",
+    "official_answer": 2,
+    "solution_text": "Explaining : To solve for energy lost in redistribution of charge\nConcept : This question is based on Energy lost, \nSolution : \nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 11
+  },
+  {
+    "id": "achiever_037",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 37,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "A galvanometer (G) of 2Ω resistance is connected in the given circuit. The ratio of charge stored\nin C1 and C2 is :",
+    "options": [
+      "Option (1)",
+      "Option (2)",
+      "1",
+      "Option (4)"
+    ],
+    "image_url": "/images/achiever/q_37.png",
+    "official_answer": 4,
+    "solution_text": "Explaining the Question: To find the ratio of charge stored in C1 and C2.\nConcept : Charge on capacitor is Q = CV\nSolution :\nIn steady state\nReq = 12Ω\nP.D across C1 = 3V\nP.D across C2 = 4V\nq1 = C1V1 = 12 μC\nq2 = C2V2 = 24 μC\nFinal Answer : (4)",
+    "solution_final_answer": 4,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 11
+  },
+  {
+    "id": "achiever_038",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 38,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "A dielectric slab of area A is inserted between the plates of a capacitor of area 2A with constant\nspeed v as shown in figure. Distance between the plates is d.",
+    "options": [
+      "(1) Option 1",
+      "(2) Option 2",
+      "(3) Option 3",
+      "(4) Option 4"
+    ],
+    "image_url": "/images/achiever/q_38.png",
+    "official_answer": 2,
+    "solution_text": "Explaining the Question: To choose correct graph between i and t.\nConcept : Q = CV\n\n<<<PAGE 55>>>\nSolution :\nQ = CV\nC↑ , Q↑ ,\n constant,\ni ∝ Constant\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 11
+  },
+  {
+    "id": "achiever_039",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 39,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "Five identical metal plates 1, 2, 3, 4 and 5 each of area A on one side are fixed parallel and\nequidistant (d) to each other. The plates 1 and 4 are joined by a conductor and plates 3 and 5 are\nalso joined by a conductor as shown in figure. Then, the capacitance of this system between A and B\nis :",
+    "options": [
+      "Option (1)",
+      "Option (2)",
+      "Option (3)",
+      "None"
+    ],
+    "image_url": "/images/achiever/q_39.png",
+    "official_answer": 3,
+    "solution_text": "Question Explanation:\nFive parallel metal plates of area A are arranged equidistantly at d. Plates 1 and 4 are\nconnected, and plates 3 and 5 are connected. The capacitance between A and B is required.\nConcept :\nCapacitance (combination of plotes)\nFormula Used:\n• Capacitance of a parallel plate capacitor:\nC = \n• For series capacitors:\n• For parallel capacitors:\nCeq = \nVisual Diagram:\nCalculation:\nCeq = C + \nCeq = C +  C\nCeq = C         ∵ C = \n\n<<<PAGE 56>>>\nFinal Answer:\nThe correct option is (3).",
+    "solution_final_answer": null,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 12
+  },
+  {
+    "id": "achiever_040",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 40,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "Figure shows a network of capacitors. Find the value of C, if the effective capacitance between",
+    "options": [
+      "(1) Option 1",
+      "(2) Option 2",
+      "(3) Option 3",
+      "(4) Option 4"
+    ],
+    "image_url": "/images/achiever/q_40.png",
+    "official_answer": 1,
+    "solution_text": "Explanation : To find equivalent capacitance between A and B\nConcept : This question is based on equivalent capacitance\nSolution : \nEquivalent diagram                    \n≡  \n≡ \nC = 18 µF    \nFinal Answer : (1)",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 12
+  },
+  {
+    "id": "achiever_041",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 41,
+    "subject": "Physics",
+    "question_type": "match_following",
+    "question_text": "In the circuit shown in figure, match the following two columns.\nColumn-I\nColumn-II\n(I) Charge given by battery\n(a) 20 μC\n(II) Charge of 4μF capacitor\n(b) 30 μC\n(III) Charge of 2 μF capacitor\n(c)  60 μC\n(IV) Charge of 3 μF capacitor\n(d)  40 μC",
+    "options": [
+      "I → a ;  II → b ;  III → b ;  IV → c",
+      "I → c ;  II → d ;  III → a ;  IV → c",
+      "I → b ;  II → a ;  III → c ;  IV → d",
+      "I → c ;  II → d ;  III → c ;  IV → a"
+    ],
+    "image_url": "/images/achiever/q_41.png",
+    "official_answer": 2,
+    "solution_text": "Explanation: For the circuit shown, match the charge supplied by the battery and the\ncharges on specific capacitors.\nConcept: Capacitors in series have the same charge, and capacitors in parallel have the same\nvoltage. The total charge is \n.\nSolution:\n(i) Qbattery = Ceff V\n     = 2 × 30 = 60 μC\n(ii) Q4μF = 4 × 10\n             = 40 μC\n(iii) Q2μF = 2 × 10\n               = 20 μC\n(iv) Q3μF = 3 × 20\n               = 60 μC\nFinal Answer : (2)\n\n<<<PAGE 57>>>",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 13
+  },
+  {
+    "id": "achiever_042",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 42,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "Find out amount of charge on capacitor shown in circuit. \n(1) 0µC",
+    "options": [
+      "(1) Option 1",
+      "(2) Option 2",
+      "(3) Option 3",
+      "(4) Option 4"
+    ],
+    "image_url": "/images/achiever/q_42.png",
+    "official_answer": 3,
+    "solution_text": "Explanation : To find charge on the given capacitor\nConcept : This question is based on RC circuit\nSolution : \nCurrent in 2Ω is 1 amp.\nPotential difference across capacitor is 2 volt\nQ = CV = 10 µC\nFinal Answer : (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 13
+  },
+  {
+    "id": "achiever_043",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 43,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "Three identical capacitors are given a charge Q each and they are then allowed to discharge\nthrough resistance R1, R2 and R3. Their charges as a function of time shown in the graph below. The\nsmallest of the three resistance is :-",
+    "options": [
+      "R3",
+      "R2",
+      "R1",
+      "Cannot be predicted"
+    ],
+    "image_url": "/images/achiever/q_43.png",
+    "official_answer": 3,
+    "solution_text": "Explanation : To find the smallest of the three resistance\nConcept : This question is based on RC circuit\nSolution : \nSlope \nAt t =0, Slope = i\n0 = \nQ Slope 1 > Slope2 > Slope3\n∴ R1 < R2 < R3\nFinal Answer : (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 14
+  },
+  {
+    "id": "achiever_044",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 44,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "In the circuit shown, the internal resistance of the cell is negligible. The steady state current in\nthe 2 Ω resistor is :-",
+    "options": [
+      "0.6 A",
+      "0.9 A",
+      "1.2 A",
+      "1.5 A"
+    ],
+    "image_url": "/images/achiever/q_44.png",
+    "official_answer": 2,
+    "solution_text": "Explain the Question : In the given RC circuit, we need to find the current through 2Ω\nresistor in steady state.  \nConcept : This question is based on RC circuit at steady state.\nSolution :\nAt steady state no current is flow in capacitor branch\n and \n= 0.9 A\nFinal Answer : 2",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 14
+  },
+  {
+    "id": "achiever_045",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 45,
+    "subject": "Physics",
+    "question_type": "diagram_based",
+    "question_text": "Two parallel plate capacitors whose capacitances are C and 2 C respectively, are joined in\nparallel. These are charged to V potential difference. If the battery is now removed and a dielectric\nof dielectric constant K is filled in between the plates of the capacitor 2 C, then what will be the\npotential difference across each capacitor ?",
+    "options": [
+      "Option (1)",
+      "Option (2)",
+      "Option (3)",
+      "Option (4)"
+    ],
+    "image_url": "/images/achiever/q_45.png",
+    "official_answer": 4,
+    "solution_text": "Explanation : To find the potential difference across each of the capacitor\nConcept : This question is based on sharing of charges\nSolution : \nVCommon = \n        = \n = \nFinal Answer : (4)\nCHEMISTRY",
+    "solution_final_answer": 4,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 14
+  },
+  {
+    "id": "achiever_046",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 46,
+    "subject": "Chemistry",
+    "question_type": "statement_based",
+    "question_text": "Which of the following statements regarding the human testis is correct?",
+    "options": [
+      "Formation of spermatids by meiosis II",
+      "Transformation of spermatids into spermatozoa",
+      "Formation of primary spermatocytes",
+      "Formation of secondary spermatocytes\n5) Which hormone primarily stimulates the Leydig cells of the testes?"
+    ],
+    "image_url": "/images/achiever/q_46.png",
+    "official_answer": 2,
+    "solution_text": "Explaining : Calculate EMF of cell.\nConcept : This question is based on \nSolution :\n\n<<<PAGE 58>>>\n         = +0.8 V – 0.3V = 0.5 V\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 23
+  },
+  {
+    "id": "achiever_047",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 47,
+    "subject": "Chemistry",
+    "question_type": "diagram_based",
+    "question_text": "During spermatogenesis, which sequence correctly represents the developmental stages?",
+    "options": [
+      "Formation of spermatids by meiosis II",
+      "Transformation of spermatids into spermatozoa",
+      "Formation of primary spermatocytes",
+      "Formation of secondary spermatocytes\n5) Which hormone primarily stimulates the Leydig cells of the testes?"
+    ],
+    "image_url": "/images/achiever/q_47.png",
+    "official_answer": 2,
+    "solution_text": "Explaining : Calculate \nConcept : This question is based on \nSolution : \n = – 0.41 – 0.15 = –0.56 V\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 23
+  },
+  {
+    "id": "achiever_048",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 48,
+    "subject": "Chemistry",
+    "question_type": "diagram_based",
+    "question_text": "A primary spermatocyte in humans contains 46 chromosomes and 92 chromatids.\nAfter completion of meiosis I, each secondary spermatocyte will contain:",
+    "options": [
+      "Formation of spermatids by meiosis II",
+      "Transformation of spermatids into spermatozoa",
+      "Formation of primary spermatocytes",
+      "Formation of secondary spermatocytes\n5) Which hormone primarily stimulates the Leydig cells of the testes?"
+    ],
+    "image_url": "/images/achiever/q_48.png",
+    "official_answer": 4,
+    "solution_text": "Explaining : Calculate Ecell.\nConcept : This question is based on nernst equation\nSolution : Net cell reaction :\n2Cr + 3Fe\n2+ → 2Cr\n3+ + 3Fe\nEcell = \nFinal Answer : (4)",
+    "solution_final_answer": 4,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 23
+  },
+  {
+    "id": "achiever_049",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 49,
+    "subject": "Chemistry",
+    "question_type": "diagram_based",
+    "question_text": "Which of the following changes occurs during spermiogenesis?",
+    "options": [
+      "Formation of spermatids by meiosis II",
+      "Transformation of spermatids into spermatozoa",
+      "Formation of primary spermatocytes",
+      "Formation of secondary spermatocytes\n5) Which hormone primarily stimulates the Leydig cells of the testes?"
+    ],
+    "image_url": "/images/achiever/q_49.png",
+    "official_answer": 1,
+    "solution_text": "Explaining : Find reaction quotient.\nConcept : This question is based on Nernst equation\nSolution : \nFinal Answer : (1)",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 23
+  },
+  {
+    "id": "achiever_050",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 50,
+    "subject": "Chemistry",
+    "question_type": "diagram_based",
+    "question_text": "Which hormone primarily stimulates the Leydig cells of the testes?",
+    "options": [
+      "(1) Option 1",
+      "(2) Option 2",
+      "(3) Option 3",
+      "(4) Option 4"
+    ],
+    "image_url": "/images/achiever/q_50.png",
+    "official_answer": 2,
+    "solution_text": "Explaining : Calculate equilibrium constant.\nConcept : This question is based on Nernst equation.\nSolution : \n ; E° = 0.32 V\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 23
+  },
+  {
+    "id": "achiever_051",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 51,
+    "subject": "Chemistry",
+    "question_type": "diagram_based",
+    "question_text": "The molar conductivities  \n and  \n at infinite dilution in water at 25°C are 91.0\nand 426.2 S cm\n2 mol\n–1 respectively. To calculate \n the additional value required is :",
+    "options": [
+      "Option (1)",
+      "Option (2)",
+      "Option (3)",
+      "Option (4)"
+    ],
+    "image_url": "/images/achiever/q_51.png",
+    "official_answer": 1,
+    "solution_text": "Explain the Question : To find molar conductivity of acetic acid (HOAc) at infinite dilution\nusing known values of other electrolytes.\nConcept : This question is based on By Kohlrausch’s Law of Independent Migration of Ions,\n\n<<<PAGE 59>>>\nΛ\n0(HOAc) = Λ\n0(HCl) + Λ\n0(NaOAc) – Λ\n0(NaCl).\nSolution :\nGiven Λ\n0(NaOAc) = 91.0 S cm\n2 mol\n−1,\nΛ\n0(HCl) = 426.2 S cm\n2 mol\n−1.\nHence, to calculate Λ\n0(HOAc), we also need Λ\n0(NaCl).\nFinal Answer : (1)",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 16
+  },
+  {
+    "id": "achiever_052",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 52,
+    "subject": "Chemistry",
+    "question_type": "diagram_based",
+    "question_text": "How many faradays are required to reduce one mole of \n to Mn\n2+ ?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "5"
+    ],
+    "image_url": "/images/achiever/q_52.png",
+    "official_answer": 4,
+    "solution_text": "Explaining : Calculate number of faradays.\nConcept : This question is based on apply faradays law\nSolution :\n   ;       No. of E = No. of Faradays\n5 mole e\n– = 5 Faradays            mol × Vf = No. of F\n                                                  1 × 5 = No. of F\nFinal Answer : (4)",
+    "solution_final_answer": 4,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 16
+  },
+  {
+    "id": "achiever_053",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 53,
+    "subject": "Chemistry",
+    "question_type": "diagram_based",
+    "question_text": "Three faradays of electricity  was passed through an aqueous solution of iron (II) bromide. The\nmass of iron metal (at. mass = 56) deposited at the cathode is :",
+    "options": [
+      "56 g",
+      "84 g",
+      "112 g",
+      "168 g"
+    ],
+    "image_url": "/images/achiever/q_53.png",
+    "official_answer": 2,
+    "solution_text": "Explaining : Calculate mass of iron deposited.\nConcept : This question is based on apply faradays law.\nSolution : \nNo. of F = No. of Faradays\n ; w = 84 g\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 16
+  },
+  {
+    "id": "achiever_054",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 54,
+    "subject": "Chemistry",
+    "question_type": "diagram_based",
+    "question_text": "How many electrons flow when a current  of 5 amperes is passed through a conductor for 200\nsecond ?",
+    "options": [
+      "6.214 × 10\n21",
+      "60.241 × 10\n21",
+      "6.241 × 10\n22",
+      "6.0241 × 10\n22"
+    ],
+    "image_url": "/images/achiever/q_54.png",
+    "official_answer": 1,
+    "solution_text": "Explaining : Find number of electrons.\nConcept : This question is based on Faradays law\nSolution :\n = 6.24 × 10\n21\n{No. of Faradays = No. of mol of e\n–}\n = mol of e\n–\nFinal Answer : (1)",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 16
+  },
+  {
+    "id": "achiever_055",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 55,
+    "subject": "Chemistry",
+    "question_type": "diagram_based",
+    "question_text": "The specific conductivity of a saturated solution AgCl is 3.40 × 10\n-6 ohm\n–1cm\n–1 at 25° C. If molar\nconductance of  Ag\n+ = 62.3 ohm\n–1 cm² mol\n–1 and molar conductance of Cl¯ = 67.7 ohm\n–1 cm\n2 mol\n–1 at\ninfinite dilution, the solubility of AgCl at 25° C is:",
+    "options": [
+      "2.6 × 10\n–5 M",
+      "4.5 × 10\n–3 M",
+      "3.6 × 10\n–5 M",
+      "3.6 × 10\n–3 M"
+    ],
+    "image_url": "/images/achiever/q_55.png",
+    "official_answer": 1,
+    "solution_text": "Explaining : Calculate solubility.\nConcept : This question is based on application of Kohlrausch law.\nSolution : \n    \n  for sparingly soluble salt.\n\n<<<PAGE 60>>>\n⇒ S = 2.6 × 10\n–5\nFinal Answer : (1)",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 16
+  },
+  {
+    "id": "achiever_056",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 56,
+    "subject": "Chemistry",
+    "question_type": "diagram_based",
+    "question_text": "The common features among the species CN\n–, CO and NO\n+ are :",
+    "options": [
+      "(1) Option 1",
+      "(2) Option 2",
+      "(3) Option 3",
+      "(4) Option 4"
+    ],
+    "image_url": "/images/achiever/q_56.png",
+    "official_answer": 1,
+    "solution_text": "Explaining : - The common features among the species CN\n–, CO and NO\n+ are :\nConcept : This question is based on types of ligand.\nSolution :\nCN\n–, CO and NO\n+ have bond order three and diamagnetic.\nFinal Answer : (1)",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 16
+  },
+  {
+    "id": "achiever_057",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 57,
+    "subject": "Chemistry",
+    "question_type": "diagram_based",
+    "question_text": "Which of the following ambidentate ligand can act as flexidentate ligand ?",
+    "options": [
+      "SCN\n–",
+      "OCN\n–",
+      "Option (3)",
+      "None of these"
+    ],
+    "image_url": "/images/achiever/q_57.png",
+    "official_answer": 3,
+    "solution_text": "Explaining : - Which of the following ambidentate ligand can act as flexidentate ligand ?\nConcept : This question is based on types of ligand.\nSolution :\nSCN\n–, OCN\n–, \n all are ambidentate ligand, but only \n can act as flexidentate ligand.\nFinal Answer : (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 17
+  },
+  {
+    "id": "achiever_058",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 58,
+    "subject": "Chemistry",
+    "question_type": "diagram_based",
+    "question_text": "CO bond length is longest in :",
+    "options": [
+      "[Mn(CO)6]\n+",
+      "[V(CO)6]\n–",
+      "Cr(CO)6",
+      "[Ti(CO)6]\n2–"
+    ],
+    "image_url": "/images/achiever/q_58.png",
+    "official_answer": 4,
+    "solution_text": "Explaining : - CO bond length is longest in which complex?\nConcept : This question is based on metal carbonyl compounds.\nSolution :\n(Bond length)CO ∝ \n  ; All central have same configuration but Ti\n–2 has strongest\nM–C back bond so bond length C–O is longest.\n(Bond order)CO ∝ \n \nFinal Answer : (4)",
+    "solution_final_answer": 4,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 17
+  },
+  {
+    "id": "achiever_059",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 59,
+    "subject": "Chemistry",
+    "question_type": "diagram_based",
+    "question_text": "What is the oxidation number of Fe in [Fe(H2O)5(NO)]\n2+ ion?",
+    "options": [
+      "+2",
+      "+3",
+      "+1",
+      "0"
+    ],
+    "image_url": "/images/achiever/q_59.png",
+    "official_answer": 3,
+    "solution_text": "Explaining : - What is the oxidation number of Fe in [Fe(H2O)5(NO)]\n2+ ion?\nConcept : This question is based on oxidation state calculation.\nSolution :\n[Fe\n+1(H2O)5(NO)\n2+] ion\nFinal Answer : (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 17
+  },
+  {
+    "id": "achiever_060",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 60,
+    "subject": "Chemistry",
+    "question_type": "match_following",
+    "question_text": "Incorrect match for given complex compound/ion and its characteristics :",
+    "options": [
+      "[CrBrCl(en)2]Br → Ionization and optical isomerism",
+      "[CoBr3(H2O)3] → Fac-mer and hydrate isomerism",
+      "[PtCl2(NH3)4] [Co(SCN)4] → Linkage isomerism and paramagnetic character",
+      "[Co(ox)3]\n3– → Inner orbital complex and optical isomerism"
+    ],
+    "image_url": "/images/achiever/q_60.png",
+    "official_answer": 2,
+    "solution_text": "<<<PAGE 61>>>\nExplaining : - Incorrect match for given complex compound/ion and its characteristics :\nConcept : This question is based on isomerism in complex compound.\nSolution : [CoBr3(H2O)3] : It does not exhibit hydrate isomerism.\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 17
+  },
+  {
+    "id": "achiever_061",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 61,
+    "subject": "Chemistry",
+    "question_type": "diagram_based",
+    "question_text": "Find IUPAC name of the hydrate isomer of CrCl3.6H2O, which is having lowest electrical\nconductivity.",
+    "options": [
+      "Hexaaquachromium(III)chloride",
+      "Tetraaquadichloridochromium(III)chloridedihydrate",
+      "Pentaaquachloridochromium(III)chloridemonohydrate",
+      "Triaquatrichloridochromium(III)trihydrate"
+    ],
+    "image_url": "/images/achiever/q_61.png",
+    "official_answer": 2,
+    "solution_text": "Explaining : - Find IUPAC name of the hydrate isomer of CrCl3.6H2O, which is having lowest\nelectrical conductivity.\nConcept : This question is based on IUPAC\nSolution :\n[Cr(H2O)4Cl2]Cl.2H2O ; hydrate isomer of complex [Cr(H2O)6]Cl3 has lowest electrical\nconductivity, because it gives only two ions on ionization in aqueous medium.\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 17
+  },
+  {
+    "id": "achiever_062",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 62,
+    "subject": "Chemistry",
+    "question_type": "diagram_based",
+    "question_text": "If EAN of central metal cation M\n2+ in a non-chelating complex is 36 and atomic no. of metal M is\n26, then the number of monodentate ligand in this complex are :\n(1) 5",
+    "options": [
+      "(1) Option 1",
+      "(2) Option 2",
+      "(3) Option 3",
+      "(4) Option 4"
+    ],
+    "image_url": "/images/achiever/q_62.png",
+    "official_answer": 3,
+    "solution_text": "Explaining : - If EAN of central metal cation M\n2+ in a non-chelating complex is 36 and atomic\nno. of metal M is 26, then the number of monodentate ligand in this complex are :\nConcept : This question is based on EAN rule.\nSolution :\nEAN = Z–O.S. + 2 × C.N. ; 36 = 26 – 2 + 2x\n                                            x = 6 = Co-ordination no.\nFinal Answer : (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 17
+  },
+  {
+    "id": "achiever_063",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 63,
+    "subject": "Chemistry",
+    "question_type": "mcq",
+    "question_text": "Which of the following pair the EAN of central metal atom is not same ?",
+    "options": [
+      "[Fe(CN)6]\n3– and [Fe(NH3)6]\n3+",
+      "[Cr(NH3)6]\n3+ and [Cr(CN)6]\n3–",
+      "[FeF6]\n3– and [Fe(CN)6]\n3–",
+      "[Ni(CO)4] and [Ni(CN)4]\n2–"
+    ],
+    "image_url": "/images/achiever/q_63.png",
+    "official_answer": 4,
+    "solution_text": "Explaining : Effective atomic number\nConcept : This question is based on Effective atomic number\nSolution :\nEAN = Z–O.S. + 2 × C.N.\n                [Fe(CN)6]\n3– and [Fe(NH3)6]\n3+\nEAN                35                       35\n                [Cr(NH3)6]\n3+ and [Cr(CN)6]\n3–\nEAN                33                       33\n                [FeF6]\n3– and [Fe(CN)6]\n3–\nEAN           35                      35\n                [Ni(CO)4] and [Ni(CN)4]\n2–\nEAN               36                   34\nFinal Answer : (4)",
+    "solution_final_answer": 4,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 18
+  },
+  {
+    "id": "achiever_064",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 64,
+    "subject": "Chemistry",
+    "question_type": "mcq",
+    "question_text": "IUPAC name of [Fe(O2)(CN)4Cl]\n4– is :",
+    "options": [
+      "chlorotetracyano dioxoferrate (IV)ion",
+      "chlorotetracyano peroxoferrate (II)ion",
+      "chlorotetracyano superoxoferrate (II)ion",
+      "tetracyanochloro superoxoferrate (II)ion"
+    ],
+    "image_url": "/images/achiever/q_64.png",
+    "official_answer": 3,
+    "solution_text": "Explaining : IUPAC Nomenclature.\nConcept : This question is based on IUPAC Nomenclature.\nSolution :\n[Fe(O2)(CN)4Cl]\n4– ion\nIUPAC name – chlorotetracyano superoxo ferrate (II) ion.\n\n<<<PAGE 62>>>\nFinal Answer : (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 18
+  },
+  {
+    "id": "achiever_065",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 65,
+    "subject": "Chemistry",
+    "question_type": "mcq",
+    "question_text": "Select the correct IUPAC name of Prussian blue :",
+    "options": [
+      "Iron(II) hexacyanoferrate(II)",
+      "Iron(II) hexacyanoferrate(III)",
+      "Iron(III) hexacyanoferrate(II)",
+      "Iron(III) hexacyanoferrate(III)"
+    ],
+    "image_url": "/images/achiever/q_65.png",
+    "official_answer": 3,
+    "solution_text": "Explaining : - Select the correct IUPAC name of Prussian blue :\nConcept : This question is based on IUPAC.\nSolution :\nPrussian blue : Fe4[Fe(CN)6]3 or Fe\n3+[Fe\n2+(CN)6]\n4–\nIron(III) hexacyanoferrate(II)\nFinal Answer : (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 18
+  },
+  {
+    "id": "achiever_066",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 66,
+    "subject": "Chemistry",
+    "question_type": "mcq",
+    "question_text": "Which of the following complex compound is “Pentaaquacyanidoiron (III)trichloridotricyanido\ncobaltate (III)” ?",
+    "options": [
+      "[Fe(CN)(H2O)5][CoCl3(CN)3]",
+      "[Fe(CN)(H2O)5]2[CoCl3(CN)3]3",
+      "[Fe(CN)2(H2O)4]3[FeCl3(CN)3]2",
+      "[Fe(CN)(H2O)5]3[CoCl3(CN)3]2"
+    ],
+    "image_url": "/images/achiever/q_66.png",
+    "official_answer": 4,
+    "solution_text": "Explaining : - Which of the following complex compound is “Pentaaquacyanidoiron\n(III)trichloridotricyanido cobaltate (III)” ?\nConcept : This question is based on IUPAC.\nSolution :\nIn “Pentaaquacyanidoiron (III)trichloridotricyanido cobaltate (III)”.\nComplex cation is [Fe\nIII(CN)(H2O)5]\n2+ and complex anion[Co\nIIICl3(CN)3]\n3–\nTherefore complex is [Fe(CN)(H2O)5]3[CoCl3(CN)3]2\nFinal Answer : (4)",
+    "solution_final_answer": 4,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 18
+  },
+  {
+    "id": "achiever_067",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 67,
+    "subject": "Chemistry",
+    "question_type": "mcq",
+    "question_text": "A platinum complex of ammonia and chlorine produces four ions per molecule in the solution. It\nis:",
+    "options": [
+      "[Pt(NH3)5Cl]Cl3",
+      "[Pt(NH3)6]Cl4",
+      "[Pt(NH3)2Cl4]",
+      "[Pt(NH3)4Cl2]Cl2"
+    ],
+    "image_url": "/images/achiever/q_67.png",
+    "official_answer": 1,
+    "solution_text": "Explaining : No. of ions.\nConcept : This question is based on Werner's Theory\nSolution :\n[Pt(NH3)5Cl]Cl3 produces four ions per molecule\n[Pt(NH3)6Cl]Cl4 produces five ions per molecule\n[Pt(NH3)2Cl4] produces 0 ions per molecule\n[Pt(NH3)4Cl2]Cl2 produces three ions per molecule in the solution.\nFinal Answer : (1)",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 18
+  },
+  {
+    "id": "achiever_068",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 68,
+    "subject": "Chemistry",
+    "question_type": "mcq",
+    "question_text": "Iron carbonyl, Fe(CO)5 is :",
+    "options": [
+      "tetranuclear",
+      "mononuclear",
+      "Option (3)",
+      "Option (4)"
+    ],
+    "image_url": "/images/achiever/q_68.png",
+    "official_answer": 2,
+    "solution_text": "Explaining : - Iron carbonyl, Fe(CO)5 is :\nConcept : This question is based on metal carbonyl.\nSolution :\nBased on the number of metal atoms present in a complex, they are classified as :\ne.g., : Fe(CO)5 : mononuclear\nCo2(CO)8 : dinuclear\nFe3(CO)12 : trinuclear\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 18
+  },
+  {
+    "id": "achiever_069",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 69,
+    "subject": "Chemistry",
+    "question_type": "diagram_based",
+    "question_text": "What is the correct electronic configuration of the central atom in K4[Fe(CN)6] based on crystal\nfield theory ?",
+    "options": [
+      "Option (1)",
+      "Option (2)",
+      "Option (3)",
+      "Option (4)"
+    ],
+    "image_url": "/images/achiever/q_69.png",
+    "official_answer": 3,
+    "solution_text": "Explaining : Crystal field theory.\nConcept : This question is based on Crystal field theory.\n\n<<<PAGE 63>>>\nSolution :\nIn K4[Fe(CN)6] is complex, Fe is in +2 oxidation state.\nAs CN\n– is a strong field ligand, it causes pairing of electrons therefore, electronic configuration\nof Fe\n2+ in K4[Fe(CN)6] is \n.\nFinal Answer : (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 19
+  },
+  {
+    "id": "achiever_070",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 70,
+    "subject": "Chemistry",
+    "question_type": "diagram_based",
+    "question_text": "Which of the following is the correct order of increasing field strength of ligands to form\ncoordination compounds ?",
+    "options": [
+      "Option (1)",
+      "Option (2)",
+      "Option (3)",
+      "Option (4)"
+    ],
+    "image_url": "/images/achiever/q_70.png",
+    "official_answer": 4,
+    "solution_text": "Explaining : - Which of the following is the correct order of increasing field strength\nof ligands to form coordination compounds ?\nConcept : This question is based on spectrochemical series.\nSolution :\nSpectrochemical series (as given in NCERT) :\nFinal Answer : (4)",
+    "solution_final_answer": 4,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 19
+  },
+  {
+    "id": "achiever_071",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 71,
+    "subject": "Chemistry",
+    "question_type": "match_following",
+    "question_text": "Match List-I with List-II.\nList-I\nList-II\n(A)\n[Fe(CN)6]\n3–\n(i)\n5.92 BM\n(B)\n[Fe(H2O)6]\n3+\n(ii)\n0 BM\n(C)\n[Fe(CN)6]\n4–\n(iii)\n4.90 BM\n(D)\n[Fe(H2O)6]\n2+\n(iv)\n1.73 BM\nSelect the correct answer from the options given below.",
+    "options": [
+      "(A)-(iv), (B)-(ii), (C)-(i), (D)-(iii)",
+      "(A)-(ii), (B)-(iv), (C)-(iii), (D)-(i)",
+      "(A)-(i), (B)-(iii), (C)-(iv), (D)-(ii)",
+      "(A)-(iv), (B)-(i), (C)-(ii), (D)-(iii)"
+    ],
+    "image_url": "/images/achiever/q_71.png",
+    "official_answer": 4,
+    "solution_text": "Explaining : Magnetic moment\nConcept : This question is based on Magnetic moment\nSolution : \n(A)-(iv), (B)-(i), (C)-(ii), (D)-(iii)\nFormula : \nwhere n = number of unpaired electron.\nFinal Answer : (4)",
+    "solution_final_answer": 4,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 19
+  },
+  {
+    "id": "achiever_072",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 72,
+    "subject": "Chemistry",
+    "question_type": "diagram_based",
+    "question_text": "Which of the following complex ions is expected to absorb visible light ?",
+    "options": [
+      "[Ti(en)2(NH3)2]\n4+",
+      "[Cr(NH3)6]\n3+",
+      "[Zn(NH3)6]\n2+",
+      "[Sc(H2O)3(NH3)3]\n3+\n[At. no. : Zn = 30, Sc = 21, Ti = 22, Cr = 24]"
+    ],
+    "image_url": "/images/achiever/q_72.png",
+    "official_answer": 2,
+    "solution_text": "Explaining : - Applications of Crystal field theory\nConcept : This question is based on Applications of Crystal field theory\nSolution :\nTi\n4+ and Sc\n3+ have d\n0 configuration whereas Zn\n2+ has d\n10 configuration. These are colourless\nspecies. Cr\n3+ has d\n3 configuration. Due to d-d transitions, it is coloured.\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 19
+  },
+  {
+    "id": "achiever_073",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 73,
+    "subject": "Chemistry",
+    "question_type": "diagram_based",
+    "question_text": "Which one of the following has an optical isomer ?",
+    "options": [
+      "(1) Option 1",
+      "(2) Option 2",
+      "(3) Option 3",
+      "(4) Option 4"
+    ],
+    "image_url": "/images/achiever/q_73.png",
+    "official_answer": 4,
+    "solution_text": "Explaining : - Which one of the following has an optical isomer ?\nConcept : This question is based on isomerism in complex compound.\nSolution :\nRead in optical isomerism of type [M(AA)3]. Here AA is a symmetrical didentate ligand.\nFinal Answer : (4)",
+    "solution_final_answer": 4,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 19
+  },
+  {
+    "id": "achiever_074",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 74,
+    "subject": "Chemistry",
+    "question_type": "diagram_based",
+    "question_text": "Which of the following complex has minimum magnitude of Δ0?",
+    "options": [
+      "[Cr(CN)6]\n3–",
+      "[Co(NH3)6]\n3+",
+      "[CoCl6]\n3–",
+      "[Cr(H2O)6]\n3+"
+    ],
+    "image_url": "/images/achiever/q_74.png",
+    "official_answer": 3,
+    "solution_text": "<<<PAGE 64>>>\nExplaining : - C.F.S.E.\nConcept : This question is based on Crystal field theory\nSolution :\nIn[Cr(CN)6]\n3– complex ion,           Cr\n3+ = d\n3 = \n \nIn[Co(NH3)6]\n3+ complex ion,        Co\n3+ = d\n6 = \n                   (low spin)\nIn[CoCl6]\n3– complex ion,              Co\n3+ = d\n6 = \n    ; Weaker the ligand lesser the splitting   \nIn[Co(H2O)6]\n3+ complex ion,        Co\n3+ = d\n6 = \nFinal Answer : (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 20
+  },
+  {
+    "id": "achiever_075",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 75,
+    "subject": "Chemistry",
+    "question_type": "diagram_based",
+    "question_text": "The ligands in anti-cancer drug cis platin are :",
+    "options": [
+      "NH3, Cl",
+      "Option (2)",
+      "Cl, H2O",
+      "NO, Cl"
+    ],
+    "image_url": "/images/achiever/q_75.png",
+    "official_answer": 1,
+    "solution_text": "Explaining : Cis platin formula.\nConcept : This question is based on application of coordination compounds.\nSolution : The complex cis-platin, [Pt(NH3)2Cl2] is anti-cancer.\nFinal Answer : (1)",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 20
+  },
+  {
+    "id": "achiever_076",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 76,
+    "subject": "Chemistry",
+    "question_type": "diagram_based",
+    "question_text": "Which of the following is π acid ligand ?",
+    "options": [
+      "NH3",
+      "CO",
+      "F\n–",
+      "Ethylene diamine"
+    ],
+    "image_url": "/images/achiever/q_76.png",
+    "official_answer": 2,
+    "solution_text": "Explaining : Types of Ligand.\nConcept : This question is based on Synergic Bonding.\nSolution :\nCO is a π-acid ligand \n.\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 20
+  },
+  {
+    "id": "achiever_077",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 77,
+    "subject": "Chemistry",
+    "question_type": "statement_based",
+    "question_text": "Statement-1 : In N2H4, any one N-atom can coordination with central metal cation in a\ncoordination compound.\nStatement-2 : N2H4 can also act as ambidentate ligand.",
+    "options": [
+      "If statement-1 is true but the statement-2 is false.",
+      "If statement-1 is false but statement-2 is true.",
+      "If both statements are true and the statement-2 is the correct explanation of statement-1.",
+      "If both statements are true and the statement-2 is not the correct explanation of statement-1."
+    ],
+    "image_url": "/images/achiever/q_77.png",
+    "official_answer": 1,
+    "solution_text": "Explaining : - Statement based question.\nConcept : This question is based on types of ligand.\nSolution :\nN2H4 can only act as monodentate ligand.\n; Three membered (unstable) ring. Hence it acts as monodentate ligand only.\nFinal Answer : (1)",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 20
+  },
+  {
+    "id": "achiever_078",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 78,
+    "subject": "Chemistry",
+    "question_type": "statement_based",
+    "question_text": "Statement-1 : [Ti(H2O)6]\n4+ is coloured while [Sc(H2O)6]\n3+ is colourless.\nStatement-2 : d-d transition is not possible in [Sc(H2O)6]\n3+ complex.",
+    "options": [
+      "If statement-1 is true but the statement-2 is false.",
+      "If statement-1 is false but statement-2 is true.",
+      "If both statements are true and the statement-2 is the correct explanation of statement-1.",
+      "If both statements are true and the statement-2 is not the correct explanation of statement-1."
+    ],
+    "image_url": "/images/achiever/q_78.png",
+    "official_answer": 2,
+    "solution_text": "Explaining : Color in coordination compounds.\nConcept : This question is based on applications of coordination chemistry.\nSolution :\nBoth [Ti(H2O)6]\n4+ and [Sc(H2O)6]\n3+ are colourless, due to absence of free electrons in 3d\nsubshell.\nFinal Answer : (2)\n\n<<<PAGE 65>>>",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 20
+  },
+  {
+    "id": "achiever_079",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 79,
+    "subject": "Chemistry",
+    "question_type": "statement_based",
+    "question_text": "Statement-1 : Zeise’s salt is π-bonded organometallic compound.",
+    "options": [
+      "(1) Option 1",
+      "(2) Option 2",
+      "(3) Option 3",
+      "(4) Option 4"
+    ],
+    "image_url": "/images/achiever/q_79.png",
+    "official_answer": 3,
+    "solution_text": "Explaining : - Statement based question.\nConcept : This question is based on organometallic compound.\nSolution : \nZeise’s salt is a π-bonded organo-metallic compound, K[PtCl3(π-C2H4)]\nZeise’s salt contains C2H4 molecule as one of the ligand.\nFinal Answer : (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 20
+  },
+  {
+    "id": "achiever_080",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 80,
+    "subject": "Chemistry",
+    "question_type": "statement_based",
+    "question_text": "Statement-1 : [CoF6]\n3– is paramagnetic.\nStatement-2 : Co\n3+ has 3d\n6 outer electronic configuration. The unpaired electrons do not pair up\nbecause of weak field provided by F\n–.",
+    "options": [
+      "If statement-1 is true but the statement-2 is false.",
+      "If statement-1 is false but statement-2 is true.",
+      "If both statements are true and the statement-2 is the correct explanation of statement-1.",
+      "If both statements are true and the statement-2 is not the correct explanation of statement-1."
+    ],
+    "image_url": "/images/achiever/q_80.png",
+    "official_answer": 3,
+    "solution_text": "Explaining : Crystal field theory.\nConcept : This question is based on Crystal field theory.\nSolution :\nIn complex [CoF6]\n3–,\nOxidation number of Co = +3\nElectronic configuration of\nCo\n3+ = 1s\n2,2s\n22p\n6, 3s\n23p\n63d\n6\nIn Co\n3+ number of unpaired electrons is four, and F\n– is the ligand of weak field. Hence, it does\nnot pair up the electrons of d-orbital.\nSo, In[CoF6]\n3– is paramagnetic\nCo\n3+ has 3d\n6 outer electronic configuration, but four unpaired electrons do not pair up because\nof weak field provided by F\n–.\nFinal Answer : (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 21
+  },
+  {
+    "id": "achiever_081",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 81,
+    "subject": "Chemistry",
+    "question_type": "mcq",
+    "question_text": "The reduction potential values are given below :\nAl\n3+/Al = –1. 67 volt,        Mg\n2+/Mg = –2.34 volt,\nCu\n2+/Cu = +0.34 volt,       I2/2I¯ = +0.53 volt.\nWhich one is the best reducing agent ?",
+    "options": [
+      "Al",
+      "Mg",
+      "Cu",
+      "I2"
+    ],
+    "image_url": "/images/achiever/q_81.png",
+    "official_answer": 2,
+    "solution_text": "Explaining : Find best reducing agent ?\nConcept : This question is based on application of ECS.\nSolution : Lower the reduction potential, higher is the reducing power.\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 21
+  },
+  {
+    "id": "achiever_082",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 82,
+    "subject": "Chemistry",
+    "question_type": "mcq",
+    "question_text": "During the electrolysis of fused NaCl, which reaction occurs at anode ?",
+    "options": [
+      "Chloride ions are oxidised",
+      "Sodium ions are oxidised",
+      "Chloride ions are reduced",
+      "Sodium ions are reduced"
+    ],
+    "image_url": "/images/achiever/q_82.png",
+    "official_answer": 1,
+    "solution_text": "Explaining : Products at anode ?\nConcept : This question is based on electrolysis\nSolution :\n\n<<<PAGE 66>>>\nReaction at anode (oxidation) :\n2Cl¯ → Cl2(g) + 2e¯\nFinal Answer : (1)",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 21
+  },
+  {
+    "id": "achiever_083",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 83,
+    "subject": "Chemistry",
+    "question_type": "mcq",
+    "question_text": "The amount of electricity required to produce one mole of copper from copper sulphate solution\nwill be :",
+    "options": [
+      "1 faraday",
+      "2.33 faraday",
+      "2 faraday",
+      "1.33 faraday"
+    ],
+    "image_url": "/images/achiever/q_83.png",
+    "official_answer": 3,
+    "solution_text": "Explaining : Amount of electricity ?\nConcept : This question is based on electrolysis \nSolution : Cu\n2+ + 2e¯ → Cu(s)\n1 mole copper requires 2 mole electron, i.e., 2 faraday charge.\nFinal Answer : (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 21
+  },
+  {
+    "id": "achiever_084",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 84,
+    "subject": "Chemistry",
+    "question_type": "mcq",
+    "question_text": "The resistance of 0.01 N solution of an electrolyte was found to be 210 ohm at 298 K using a\nconductivity cell of cell constant 0.66 cm\n–1. The equivalent conductance of solution is :–",
+    "options": [
+      "314.28 mho cm\n2 eq\n–1",
+      "3.14 mho cm\n2 eq\n–1",
+      "Option (3)",
+      "Option (4)"
+    ],
+    "image_url": "/images/achiever/q_84.png",
+    "official_answer": 1,
+    "solution_text": "Explaining : \nConcept : This question is based on electrolytic conductance\nSolution :\nκ = G × G*\nκ = \n  Ω\n–1 cm\n–1\nΛeq = \nΛeq = 314.28 Ω\n–1 cm\n2 eq\n–1\nFinal Answer : (1)",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 21
+  },
+  {
+    "id": "achiever_085",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 85,
+    "subject": "Chemistry",
+    "question_type": "diagram_based",
+    "question_text": "The specific conductance of a N/10 solution of KCl at 25°C is 0.0035 Ω\n–1 cm\n–1. If the resistance of\na cell containing this solution is 500 Ω, what is the cell constant?",
+    "options": [
+      "1.106 cm\n–1",
+      "1.75 cm\n–1",
+      "3.2 cm\n–1",
+      "2 cm\n–1"
+    ],
+    "image_url": "/images/achiever/q_85.png",
+    "official_answer": 2,
+    "solution_text": "Explaining : Find cell constant = ?\nConcept : This question is based on electrolytic conductance\nSolution : κ = G × G*\nG* = \n = \n    \nG* = 1.75 cm\n–1\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 22
+  },
+  {
+    "id": "achiever_086",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 86,
+    "subject": "Chemistry",
+    "question_type": "diagram_based",
+    "question_text": "What is the value of ∆G° for the reaction?\n2A1(s) + 3Cu\n2+ (aq) → 2Al\n3+ (aq) + 3Cu(s) E° = 2.02 V",
+    "options": [
+      "–1170kJ",
+      "–585kJ",
+      "–390kJ",
+      "–195kJ"
+    ],
+    "image_url": "/images/achiever/q_86.png",
+    "official_answer": 1,
+    "solution_text": "Explaining : Find ΔG° = ?\nConcept : This question is based on relation between ΔG° and E°\nSolution : \nFinal Answer : (1)",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 22
+  },
+  {
+    "id": "achiever_087",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 87,
+    "subject": "Chemistry",
+    "question_type": "diagram_based",
+    "question_text": "Three mole of electrons are passed through three solution in succession containing AgNO3,\nCuSO4 and AuCl3 respectively.\nThe ratio of moles of cations reduced at cathode will be :",
+    "options": [
+      "1 : 2 : 3",
+      "2 : 1 : 3",
+      "3 : 2 : 1",
+      "6 : 3 : 2"
+    ],
+    "image_url": "/images/achiever/q_87.png",
+    "official_answer": 4,
+    "solution_text": "Explain the question: Find ratio of cations reduced when equal moles of electrons are\npassed through AgNO3, CuSO4, and AuCl3 solutions.\nConcept: Amount of metal deposited ∝ moles of electrons / n-factor.\nSolution:\n\n<<<PAGE 67>>>\nFor reduction:\nAg\n+ + e⁻ → Ag  (n = 1)\nCu\n2+ + 2e⁻ → Cu  (n = 2)\nAu\n3+ + 3e⁻ → Au  (n = 3)\nMoles of electrons = 3 mol each.\nMoles of cations reduced = (moles of e\n–) / n\nAg\n+ → 3/1 = 3\nCu\n2+ → 3/2 = 1.5\nAu\n3+ → 3/3 = 1\nRatio = 3 : 1.5 : 1 = 6 : 3 : 2\nFinal Answer: 4",
+    "solution_final_answer": 4,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 22
+  },
+  {
+    "id": "achiever_088",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 88,
+    "subject": "Chemistry",
+    "question_type": "diagram_based",
+    "question_text": "A and B respectively are :-",
+    "options": [
+      "HCN, NaCl",
+      "KCl, NaCl",
+      "KCl, CH3COOH",
+      "CH3COOH, HCN"
+    ],
+    "image_url": "/images/achiever/q_88.png",
+    "official_answer": 3,
+    "solution_text": "Explaining : Find out strong and weak electrolyte ?\nConcept : This question is based on graph between Λm and \n.\nSolution :\nA → Represents strong electrolyte (KCl)\nB → Represents weak electrolyte (CH3COOH)\nFinal Answer : (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 22
+  },
+  {
+    "id": "achiever_089",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 89,
+    "subject": "Chemistry",
+    "question_type": "diagram_based",
+    "question_text": "Equivalent conductivity of Fe2(SO4)3 is related to molar conductivity by the expression :-",
+    "options": [
+      "Λeq = 3Λm",
+      "Option (2)",
+      "Λeq = Λm",
+      "Option (4)"
+    ],
+    "image_url": "/images/achiever/q_89.png",
+    "official_answer": 2,
+    "solution_text": "Explaining : Relation between Λm and Λeq\nConcept : This question is based on electrolytic conductance\nSolution : \nn–factor = 6\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 22
+  },
+  {
+    "id": "achiever_090",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 90,
+    "subject": "Chemistry",
+    "question_type": "diagram_based",
+    "question_text": "Saturated solution of KNO3 is used to make 'salt-bridge' because :",
+    "options": [
+      "velocity of both K\n+ and \n are nearly the same",
+      "velocity of \n is greater than that of K\n+",
+      "velocity of K\n+ is greater than that of",
+      "KNO3 is high soluble in water\nBIOLOGY"
+    ],
+    "image_url": "/images/achiever/q_90.png",
+    "official_answer": 1,
+    "solution_text": "Explaining : Properties at salt bridge solution\nConcept : This question is based on salt bridge\nSolution : Velocity of both K\n+ and \n are nearly the same\nFinal Answer : (1)\nBIOLOGY",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 23
+  },
+  {
+    "id": "achiever_091",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 91,
+    "subject": "Biology",
+    "question_type": "statement_based",
+    "question_text": "Which of the following statements regarding the human testis is correct?",
+    "options": [
+      "Each testicular lobule contains 1–3 highly coiled seminiferous tubules.",
+      "Seminiferous tubules are lined only by columnar epithelial cells.",
+      "Leydig cells are present inside the lumen of seminiferous tubules.",
+      "Sertoli cells secrete testosterone."
+    ],
+    "image_url": "/images/achiever/q_91.png",
+    "official_answer": 1,
+    "solution_text": "Solution: Each testicular lobule contains 1–3 highly coiled seminiferous tubules.\nSeminiferous tubules contain Sertoli cells and male germ cells, while Leydig cells occur in\nthe interstitial spaces and secrete androgens.\nFinal Answer : (1)",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 23
+  },
+  {
+    "id": "achiever_092",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 92,
+    "subject": "Biology",
+    "question_type": "diagram_based",
+    "question_text": "During spermatogenesis, which sequence correctly represents the developmental stages?",
+    "options": [
+      "Spermatogonia → Primary spermatocyte → Secondary spermatocyte → Spermatid →\nSpermatozoa",
+      "Spermatogonia → Secondary spermatocyte → Primary spermatocyte → Spermatid →\nSpermatozoa",
+      "Primary spermatocyte → Spermatogonia → Spermatid → Secondary spermatocyte →\nSpermatozoa",
+      "Spermatogonia → Spermatid → Primary spermatocyte → Secondary spermatocyte →\nSpermatozoa"
+    ],
+    "image_url": "/images/achiever/q_92.png",
+    "official_answer": 1,
+    "solution_text": "Solution: The correct sequence is: Spermatogonia → Primary spermatocyte → Secondary\nspermatocyte → Spermatid → Spermatozoa\nPrimary spermatocyte undergoes meiosis I, while secondary spermatocytes undergo meiosis\nII.\nFinal Answer : (1)\n\n<<<PAGE 68>>>",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 23
+  },
+  {
+    "id": "achiever_093",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 93,
+    "subject": "Biology",
+    "question_type": "diagram_based",
+    "question_text": "A primary spermatocyte in humans contains 46 chromosomes and 92 chromatids.\nAfter completion of meiosis I, each secondary spermatocyte will contain:",
+    "options": [
+      "46 chromosomes and 46 chromatids",
+      "23 chromosomes and 46 chromatids",
+      "23 chromosomes and 23 chromatids",
+      "46 chromosomes and 23 chromatids"
+    ],
+    "image_url": "/images/achiever/q_93.png",
+    "official_answer": 2,
+    "solution_text": "Solution: Meiosis I separates homologous chromosomes but sister chromatids remain\ntogether.\nTherefore: Secondary spermatocyte = 23 chromosomes + 46 chromatids.\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 23
+  },
+  {
+    "id": "achiever_094",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 94,
+    "subject": "Biology",
+    "question_type": "diagram_based",
+    "question_text": "Which of the following changes occurs during spermiogenesis?",
+    "options": [
+      "Formation of spermatids by meiosis II",
+      "Transformation of spermatids into spermatozoa",
+      "Formation of primary spermatocytes",
+      "Formation of secondary spermatocytes"
+    ],
+    "image_url": "/images/achiever/q_94.png",
+    "official_answer": 2,
+    "solution_text": "Solution: Spermiogenesis is the process by which spermatids transform into\nspermatozoa. Release of spermatozoa into the lumen is called spermiation.\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 23
+  },
+  {
+    "id": "achiever_095",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 95,
+    "subject": "Biology",
+    "question_type": "diagram_based",
+    "question_text": "Which hormone primarily stimulates the Leydig cells of the testes?",
+    "options": [
+      "(1) Option 1",
+      "(2) Option 2",
+      "(3) Option 3",
+      "(4) Option 4"
+    ],
+    "image_url": "/images/achiever/q_95.png",
+    "official_answer": 3,
+    "solution_text": "Solution: LH acts on Leydig cells and stimulates them to secrete androgens, mainly\ntestosterone.\nFinal Answer : (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 23
+  },
+  {
+    "id": "achiever_096",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 96,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "Which of the following is not a function associated with Sertoli cells?",
+    "options": [
+      "Providing nutrition to developing germ cells",
+      "Supporting spermatogenesis",
+      "Secretion of inhibin",
+      "Secretion of testosterone"
+    ],
+    "image_url": "/images/achiever/q_96.png",
+    "official_answer": 4,
+    "solution_text": "Solution: Testosterone is secreted by Leydig cells, whereas Sertoli cells provide\nnourishment/support to developing germ cells and secrete inhibin.\nFinal Answer : (4)",
+    "solution_final_answer": 4,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 24
+  },
+  {
+    "id": "achiever_097",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 97,
+    "subject": "Biology",
+    "question_type": "statement_based",
+    "question_text": "Which statement regarding human oogenesis is correct?",
+    "options": [
+      "Primary oocytes are formed only after puberty.",
+      "Primary oocytes remain arrested in prophase I until puberty.",
+      "Secondary oocyte is diploid.",
+      "Oogonia continue to multiply throughout reproductive life."
+    ],
+    "image_url": "/images/achiever/q_97.png",
+    "official_answer": 2,
+    "solution_text": "Solution: Oogonia multiply during fetal life and differentiate into primary oocytes, which\nremain arrested in prophase I until puberty.\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 24
+  },
+  {
+    "id": "achiever_098",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 98,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "In a normal 28-day menstrual cycle, ovulation generally occurs around:",
+    "options": [
+      "Day 5",
+      "Day 10",
+      "Day 14",
+      "Day 21"
+    ],
+    "image_url": "/images/achiever/q_98.png",
+    "official_answer": 3,
+    "solution_text": "Solution: Ovulation generally occurs around day 14 and is triggered by the LH surge.\nFinal Answer : (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 24
+  },
+  {
+    "id": "achiever_099",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 99,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "Which event is most directly responsible for triggering ovulation?",
+    "options": [
+      "Sudden fall in FSH",
+      "LH surge",
+      "Increase in progesterone",
+      "Degeneration of corpus luteum"
+    ],
+    "image_url": "/images/achiever/q_99.png",
+    "official_answer": 2,
+    "solution_text": "Solution: A sharp LH surge around the middle of the menstrual cycle causes rupture of\nthe mature Graafian follicle and ovulation.\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 24
+  },
+  {
+    "id": "achiever_100",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 100,
+    "subject": "Biology",
+    "question_type": "match_following",
+    "question_text": "Which combination is correctly matched?",
+    "options": [
+      "Menstrual phase — maximum progesterone secretion",
+      "Luteal phase — shedding of endometrium",
+      "Ovulatory phase — degeneration of corpus luteum",
+      "Follicular phase — development of ovarian follicles"
+    ],
+    "image_url": "/images/achiever/q_100.png",
+    "official_answer": 4,
+    "solution_text": "Solution: During the follicular phase, ovarian follicles develop under the influence of\nFSH. Developing follicles secrete increasing amounts of estrogen.\nFinal Answer : (4)",
+    "solution_final_answer": 4,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 24
+  },
+  {
+    "id": "achiever_101",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 101,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "The corpus luteum primarily secretes:",
+    "options": [
+      "FSH",
+      "LH",
+      "Progesterone",
+      "hCG"
+    ],
+    "image_url": "/images/achiever/q_101.png",
+    "official_answer": 3,
+    "solution_text": "Solution: After ovulation, the ruptured Graafian follicle forms the corpus luteum, which\nmainly secretes progesterone.\nFinal Answer : (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 24
+  },
+  {
+    "id": "achiever_102",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 102,
+    "subject": "Biology",
+    "question_type": "assertion_reason",
+    "question_text": "Assertion (A): Progesterone levels decrease sharply if fertilisation does not occur.\nReason (R): The corpus luteum degenerates in the absence of pregnancy.",
+    "options": [
+      "Both A and R are true, and R correctly explains A",
+      "Both A and R are true, but R does not explain A",
+      "A is true, R is false",
+      "A is false, R is true"
+    ],
+    "image_url": "/images/achiever/q_102.png",
+    "official_answer": 1,
+    "solution_text": "Solution: If pregnancy does not occur, the corpus luteum degenerates, causing a fall in\nprogesterone, which contributes to breakdown of the endometrium and menstruation.\nFinal Answer : (1)",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 25
+  },
+  {
+    "id": "achiever_103",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 103,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "In humans, fertilisation normally occurs in the:",
+    "options": [
+      "Uterus",
+      "Cervix",
+      "Ampullary-isthmic junction of the fallopian tube",
+      "Vagina"
+    ],
+    "image_url": "/images/achiever/q_103.png",
+    "official_answer": 3,
+    "solution_text": "Solution: Fertilisation generally occurs at the ampullary-isthmic junction of the\nfallopian tube.\nFinal Answer : (3)\n\n<<<PAGE 69>>>",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 25
+  },
+  {
+    "id": "achiever_104",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 104,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "Which structure of the sperm is primarily involved in penetration of the zona pellucida?",
+    "options": [
+      "Middle piece",
+      "Acrosome",
+      "Mitochondrial sheath",
+      "Centriole"
+    ],
+    "image_url": "/images/achiever/q_104.png",
+    "official_answer": 2,
+    "solution_text": "Solution: The acrosome contains enzymes that help sperm penetrate the zona\npellucida surrounding the secondary oocyte.\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 25
+  },
+  {
+    "id": "achiever_105",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 105,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "After fusion of sperm and oocyte membranes, which event prevents entry of additional sperms?",
+    "options": [
+      "Acrosome reaction",
+      "Cortical reaction",
+      "Capacitation",
+      "Spermiation"
+    ],
+    "image_url": "/images/achiever/q_105.png",
+    "official_answer": 2,
+    "solution_text": "Solution: Fusion triggers the cortical reaction, which modifies the zona pellucida and\nprevents polyspermy.\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 25
+  },
+  {
+    "id": "achiever_106",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 106,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "At the time of ovulation, the human female releases:",
+    "options": [
+      "Primary oocyte",
+      "Secondary oocyte arrested at metaphase II",
+      "Ovum arrested at metaphase I",
+      "Mature ovum after completion of meiosis II"
+    ],
+    "image_url": "/images/achiever/q_106.png",
+    "official_answer": 2,
+    "solution_text": "Solution: Ovulation releases a secondary oocyte, which is arrested at metaphase II.\nMeiosis II is completed only after sperm entry.\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 25
+  },
+  {
+    "id": "achiever_107",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 107,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "Which sequence correctly represents early embryonic development?",
+    "options": [
+      "Zygote → Morula → Blastocyst → Implantation",
+      "Zygote → Blastocyst → Morula → Implantation",
+      "Morula → Zygote → Blastocyst → Implantation",
+      "Zygote → Implantation → Morula → Blastocyst"
+    ],
+    "image_url": "/images/achiever/q_107.png",
+    "official_answer": 1,
+    "solution_text": "Solution: Following fertilisation: Zygote → Cleavage → Morula → Blastocyst →\nImplantation\nFinal Answer : (1)",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 25
+  },
+  {
+    "id": "achiever_108",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 108,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "Implantation of the blastocyst normally occurs in the:\n(1) Myometrium",
+    "options": [
+      "(1) Option 1",
+      "(2) Option 2",
+      "(3) Option 3",
+      "(4) Option 4"
+    ],
+    "image_url": "/images/achiever/q_108.png",
+    "official_answer": 2,
+    "solution_text": "Solution: The blastocyst becomes attached to and gets embedded in the endometrium,\nthe inner lining of the uterus.\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 25
+  },
+  {
+    "id": "achiever_109",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 109,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "The outer layer of cells of the blastocyst that contributes to the formation of the placenta is:",
+    "options": [
+      "Inner cell mass",
+      "Trophoblast",
+      "Amnion",
+      "Embryoblast"
+    ],
+    "image_url": "/images/achiever/q_109.png",
+    "official_answer": 2,
+    "solution_text": "Solution: The trophoblast forms the outer layer of the blastocyst and contributes to\nimplantation and placenta formation.\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 26
+  },
+  {
+    "id": "achiever_110",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 110,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "Which hormone is detected in maternal blood and urine during early pregnancy and is commonly\nused for pregnancy testing?",
+    "options": [
+      "Progesterone",
+      "Estrogen",
+      "hCG",
+      "FSH"
+    ],
+    "image_url": "/images/achiever/q_110.png",
+    "official_answer": 3,
+    "solution_text": "Solution: Human chorionic gonadotropin (hCG) is secreted by the\ntrophoblast/placental tissue and can be detected in maternal blood and urine during\npregnancy.\nFinal Answer : (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 26
+  },
+  {
+    "id": "achiever_111",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 111,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "Which of the following hormones is not secreted by the placenta?",
+    "options": [
+      "hCG",
+      "hPL",
+      "Estrogen",
+      "FSH"
+    ],
+    "image_url": "/images/achiever/q_111.png",
+    "official_answer": 4,
+    "solution_text": "Solution: Placenta produces hormones such as hCG, hPL, estrogens and\nprogesterone. FSH is a pituitary gonadotropin.\nFinal Answer : (4)",
+    "solution_final_answer": 4,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 26
+  },
+  {
+    "id": "achiever_112",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 112,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "During early pregnancy, hCG maintains the:",
+    "options": [
+      "Graafian follicle",
+      "Corpus luteum",
+      "Primary oocyte",
+      "Seminiferous tubule"
+    ],
+    "image_url": "/images/achiever/q_112.png",
+    "official_answer": 2,
+    "solution_text": "Solution: hCG maintains the corpus luteum, allowing continued secretion of\nprogesterone during early pregnancy.\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 26
+  },
+  {
+    "id": "achiever_113",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 113,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "Which combination is most directly associated with the initiation and progression of parturition?",
+    "options": [
+      "Oxytocin and cortisol",
+      "FSH and inhibin",
+      "hCG and FSH",
+      "Testosterone and LH"
+    ],
+    "image_url": "/images/achiever/q_113.png",
+    "official_answer": 1,
+    "solution_text": "Solution: Parturition involves complex neuroendocrine mechanisms. Oxytocin promotes\npowerful uterine contractions, while cortisol promoting fetal organ maturation.\nFinal Answer : (1)",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 26
+  },
+  {
+    "id": "achiever_114",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 114,
+    "subject": "Biology",
+    "question_type": "statement_based",
+    "question_text": "Which statement regarding lactation is correct?",
+    "options": [
+      "Prolactin causes milk ejection.",
+      "Oxytocin causes milk production.",
+      "hCG causes milk ejection.",
+      "Prolactin stimulates milk production, while oxytocin causes milk ejection."
+    ],
+    "image_url": "/images/achiever/q_114.png",
+    "official_answer": 4,
+    "solution_text": "Solution: Prolactin stimulates milk production by mammary glands, whereas oxytocin\ncauses contraction of myoepithelial cells, resulting in milk ejection.\n\n<<<PAGE 70>>>\nFinal Answer: (4)",
+    "solution_final_answer": 4,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 26
+  },
+  {
+    "id": "achiever_115",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 115,
+    "subject": "Biology",
+    "question_type": "statement_based",
+    "question_text": "Read the following statements:\nA. LH acts on Leydig cells and stimulates androgen secretion.\nB. FSH acts on Sertoli cells and supports spermatogenesis.\nC. Fertilisation normally occurs at the ampullary-isthmic junction.\nD. Implantation occurs in the myometrium.\nE. hCG maintains the corpus luteum during early pregnancy.\nWhich of the following represents the correct statements?",
+    "options": [
+      "A, B and C only",
+      "A, B, C and E only",
+      "B, C and D only",
+      "A, C, D and E only"
+    ],
+    "image_url": "/images/achiever/q_115.png",
+    "official_answer": 2,
+    "solution_text": "Solution: A — Correct: LH → Leydig cells → androgens\nB — Correct: FSH → Sertoli cells → supports spermatogenesis\nC — Correct: Fertilisation occurs at the ampullary-isthmic junction\nD — Incorrect: Implantation occurs in the endometrium, not myometrium\nE — Correct: hCG maintains the corpus luteum during early pregnancy\nFinal Answer: (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 27
+  },
+  {
+    "id": "achiever_116",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 116,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "Which of the following contraceptive methods prevents ovulation and also causes changes in\ncervical mucus?",
+    "options": [
+      "Copper-T",
+      "Vasectomy",
+      "Combined oral contraceptive pills",
+      "Condoms"
+    ],
+    "image_url": "/images/achiever/q_116.png",
+    "official_answer": 3,
+    "solution_text": "Solution: Combined oral contraceptive pills contain estrogen and\nprogesterone/progestin. They primarily inhibit ovulation and also alter cervical mucus,\nmaking it difficult for sperm to enter the uterus.\nFinal Answer: (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 27
+  },
+  {
+    "id": "achiever_117",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 117,
+    "subject": "Biology",
+    "question_type": "statement_based",
+    "question_text": "Which of the following statements regarding Cu-T is correct?",
+    "options": [
+      "It prevents ovulation in all users.",
+      "It increases sperm motility.",
+      "It increases phagocytosis of sperms within the uterus.",
+      "It permanently blocks the fallopian tubes."
+    ],
+    "image_url": "/images/achiever/q_117.png",
+    "official_answer": 3,
+    "solution_text": "Solution: Copper-releasing IUDs such as Cu-T increase phagocytosis of sperms within\nthe uterus. Copper ions also suppress sperm motility and fertilising capacity.\nFinal Answer : (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 27
+  },
+  {
+    "id": "achiever_118",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 118,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "Which of the following is a hormone-releasing IUD?",
+    "options": [
+      "Cu-T",
+      "Multiload 375",
+      "LNG-20",
+      "Lippes loop"
+    ],
+    "image_url": "/images/achiever/q_118.png",
+    "official_answer": 3,
+    "solution_text": "Solution: LNG-20 is a hormone-releasing IUD. It releases levonorgestrel and helps\nprevent pregnancy.\nFinal Answer : (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 27
+  },
+  {
+    "id": "achiever_119",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 119,
+    "subject": "Biology",
+    "question_type": "assertion_reason",
+    "question_text": "Assertion (A): Condoms are considered a useful method for preventing both pregnancy and\nsexually transmitted infections.\nReason (R): Condoms act as a physical barrier between the reproductive tracts of sexual partners.",
+    "options": [
+      "Both A and R are true, and R correctly explains A",
+      "Both A and R are true, but R does not explain A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+    ],
+    "image_url": "/images/achiever/q_119.png",
+    "official_answer": 1,
+    "solution_text": "Solution: Condoms provide a barrier that reduces the exchange of semen, vaginal\nsecretions and infectious agents. Thus, they help prevent pregnancy as well as many STIs.\nFinal Answer : (1)",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 27
+  },
+  {
+    "id": "achiever_120",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 120,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "In vasectomy, which structure is cut and tied?\n(1) Ureter",
+    "options": [
+      "(1) Option 1",
+      "(2) Option 2",
+      "(3) Option 3",
+      "(4) Option 4"
+    ],
+    "image_url": "/images/achiever/q_120.png",
+    "official_answer": 2,
+    "solution_text": "Solution: Vasectomy involves cutting and tying the vas deferens, preventing sperm\nfrom entering the ejaculate.\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 27
+  },
+  {
+    "id": "achiever_121",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 121,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "Tubectomy prevents pregnancy primarily by:",
+    "options": [
+      "Preventing ovulation",
+      "Preventing implantation",
+      "Preventing transport of sperm and ovum through the fallopian tube",
+      "Destroying the corpus luteum"
+    ],
+    "image_url": "/images/achiever/q_121.png",
+    "official_answer": 3,
+    "solution_text": "Solution: In tubectomy, the fallopian tubes are cut and tied, preventing the\nmeeting/transport of sperm and ovum.\nFinal Answer : (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 28
+  },
+  {
+    "id": "achiever_122",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 122,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "Emergency contraceptive pills are most effective when taken:",
+    "options": [
+      "Within 24 hours only",
+      "Within 72 hours of unprotected intercourse",
+      "After implantation",
+      "Only after a positive pregnancy test"
+    ],
+    "image_url": "/images/achiever/q_122.png",
+    "official_answer": 2,
+    "solution_text": "Solution: Emergency contraceptive pills are recommended within 72 hours of\nunprotected intercourse for effective prevention of pregnancy. Their effectiveness generally\ndecreases with delay.\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 28
+  },
+  {
+    "id": "achiever_123",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 123,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "Which of the following is not a natural method of contraception?",
+    "options": [
+      "Periodic abstinence",
+      "Withdrawal method",
+      "Lactational amenorrhea",
+      "Cu-T"
+    ],
+    "image_url": "/images/achiever/q_123.png",
+    "official_answer": 4,
+    "solution_text": "Solution: Cu-T is an intrauterine device, whereas periodic abstinence, withdrawal\nand lactational amenorrhea are natural methods.\nFinal Answer : (4)",
+    "solution_final_answer": 4,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 28
+  },
+  {
+    "id": "achiever_124",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 124,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "Lactational amenorrhea is effective as a contraceptive method mainly because:",
+    "options": [
+      "Ovulation is temporarily suppressed during intense lactation.",
+      "Fertilisation becomes impossible permanently.",
+      "Fallopian tubes become blocked.",
+      "It destroys sperm in the uterus."
+    ],
+    "image_url": "/images/achiever/q_124.png",
+    "official_answer": 1,
+    "solution_text": "Solution: Intense and prolonged breastfeeding can suppress ovarian activity and\n\n<<<PAGE 71>>>\novulation. The method is effective only under specific conditions and for a limited postpartum\nperiod.\nFinal Answer : (1)",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 28
+  },
+  {
+    "id": "achiever_125",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 125,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "Which of the following is not primarily transmitted through sexual contact?",
+    "options": [
+      "Gonorrhoea",
+      "Syphilis",
+      "Malaria",
+      "Genital herpes"
+    ],
+    "image_url": "/images/achiever/q_125.png",
+    "official_answer": 3,
+    "solution_text": "Solution: Gonorrhoea, syphilis and genital herpes are STIs. Malaria is transmitted\nprimarily through the bite of infected female Anopheles mosquitoes.\nFinal Answer : (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 28
+  },
+  {
+    "id": "achiever_126",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 126,
+    "subject": "Biology",
+    "question_type": "match_following",
+    "question_text": "Which pair is incorrectly matched?",
+    "options": [
+      "Gonorrhoea — Neisseria gonorrhoeae",
+      "Syphilis — Treponema pallidum",
+      "Genital herpes — Herpes simplex virus",
+      "AIDS — Plasmodium"
+    ],
+    "image_url": "/images/achiever/q_126.png",
+    "official_answer": 4,
+    "solution_text": "Solution: AIDS is caused by HIV (Human Immunodeficiency Virus), not Plasmodium.\nFinal Answer : (4)",
+    "solution_final_answer": 4,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 28
+  },
+  {
+    "id": "achiever_127",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 127,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "Which of the following may be a symptom of sexually transmitted infections?",
+    "options": [
+      "Genital itching",
+      "Abnormal genital discharge",
+      "Painful urination",
+      "All of the above"
+    ],
+    "image_url": "/images/achiever/q_127.png",
+    "official_answer": 4,
+    "solution_text": "Solution: STIs can cause genital itching, abnormal discharge, painful urination,\nsores and swelling, although some infections may remain asymptomatic.\nFinal Answer : (4)",
+    "solution_final_answer": 4,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 29
+  },
+  {
+    "id": "achiever_128",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 128,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "Which of the following is not an appropriate strategy for preventing sexually transmitted\ninfections?",
+    "options": [
+      "Avoiding sexual contact with unknown/infected partners",
+      "Using condoms",
+      "Maintaining sexual hygiene",
+      "Sharing needles with an infected person"
+    ],
+    "image_url": "/images/achiever/q_128.png",
+    "official_answer": 4,
+    "solution_text": "Solution: Sharing needles can transmit blood-borne infections such as HIV and\nhepatitis B and should be strictly avoided.\nFinal Answer : (4)",
+    "solution_final_answer": 4,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 29
+  },
+  {
+    "id": "achiever_129",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 129,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "Medical Termination of Pregnancy (MTP) is considered relatively safer when performed:",
+    "options": [
+      "During the first trimester",
+      "Only during the third trimester",
+      "After completion of pregnancy",
+      "Only after implantation is complete"
+    ],
+    "image_url": "/images/achiever/q_129.png",
+    "official_answer": 1,
+    "solution_text": "Solution: MTP is relatively safer during the early stages of pregnancy, particularly\nduring the first trimester, compared with later stages.\nFinal Answer : (1)",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 29
+  },
+  {
+    "id": "achiever_130",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 130,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "A couple is unable to conceive because the woman's fallopian tubes are blocked. Which ART\nwould be particularly useful?",
+    "options": [
+      "IVF followed by embryo transfer",
+      "Vasectomy",
+      "Tubectomy",
+      "Lactational amenorrhea"
+    ],
+    "image_url": "/images/achiever/q_130.png",
+    "official_answer": 1,
+    "solution_text": "Solution: In IVF, fertilisation occurs outside the body and the resulting embryo is\ntransferred into the female reproductive tract, making it useful in cases where fallopian tubes\nare blocked.\nFinal Answer : (1)",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 29
+  },
+  {
+    "id": "achiever_131",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 131,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "GIFT involves:",
+    "options": [
+      "Transfer of a zygote into the uterus",
+      "Transfer of gametes into the fallopian tube",
+      "Transfer of an embryo into the uterus only",
+      "Injection of sperm directly into the ovum"
+    ],
+    "image_url": "/images/achiever/q_131.png",
+    "official_answer": 2,
+    "solution_text": "Solution: GIFT (Gamete Intra-Fallopian Transfer) involves transferring gametes\ninto the fallopian tube so that fertilisation can occur inside the female reproductive tract.\nFinal Answer: (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 29
+  },
+  {
+    "id": "achiever_132",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 132,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "Which ART involves the direct injection of a sperm into the ovum?",
+    "options": [
+      "IVF-ET",
+      "GIFT",
+      "ICSI",
+      "ZIFT"
+    ],
+    "image_url": "/images/achiever/q_132.png",
+    "official_answer": 3,
+    "solution_text": "Solution: ICSI (Intracytoplasmic Sperm Injection) involves direct injection of a\nsperm into the cytoplasm of the ovum.\nFinal Answer: (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 29
+  },
+  {
+    "id": "achiever_133",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 133,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "ZIFT involves transfer of:",
+    "options": [
+      "(1) Option 1",
+      "(2) Option 2",
+      "(3) Option 3",
+      "(4) Option 4"
+    ],
+    "image_url": "/images/achiever/q_133.png",
+    "official_answer": 2,
+    "solution_text": "Solution: ZIFT (Zygote Intra-Fallopian Transfer) involves transferring a zygote or\nearly embryo into the fallopian tube.\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 29
+  },
+  {
+    "id": "achiever_134",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 134,
+    "subject": "Biology",
+    "question_type": "match_following",
+    "question_text": "Match List I with List II:\nList I\nList II\nA. GIFT\nP. Sperm injected directly into ovum\nB. ICSI\nQ. Gametes transferred into fallopian tube\nC. ZIFT\nR. Zygote/early embryo transferred into fallopian tube\nD. IVF-ET S. Embryo transferred into female reproductive tract",
+    "options": [
+      "A-R, B-S, C-P, D-Q",
+      "A-P, B-Q, C-S, D-R",
+      "A-Q, B-P, C-R, D-S",
+      "A-S, B-R, C-Q, D-P"
+    ],
+    "image_url": "/images/achiever/q_134.png",
+    "official_answer": 3,
+    "solution_text": "Solution: A-Q, B-P, C-R, D-S\nGIFT → Gametes → fallopian tube\nICSI → Sperm directly injected into ovum\nZIFT → Zygote/early embryo → fallopian tube\n\n<<<PAGE 72>>>\nIVF-ET → Embryo → female reproductive tract\nFinal Answer: (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 30
+  },
+  {
+    "id": "achiever_135",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 135,
+    "subject": "Biology",
+    "question_type": "statement_based",
+    "question_text": "Read the following statements:\nA. Cu-T increases phagocytosis of sperms in the uterus.\nB. Hormone-releasing IUDs make the uterus unsuitable for implantation and the cervix hostile to\nsperms.\nC. Vasectomy prevents sperm formation in the testes.\nD. Condoms can help prevent STIs.\nE. ICSI involves direct injection of sperm into the ovum.\nWhich statements are correct?",
+    "options": [
+      "A, C and D only",
+      "B, C, D and E only",
+      "A, B, D and E only",
+      "A, B, C, D and E"
+    ],
+    "image_url": "/images/achiever/q_135.png",
+    "official_answer": 3,
+    "solution_text": "Solution : A, B, D and E only\nA — Correct \nB — Correct\nC — Incorrect — Vasectomy blocks the vas deferens; it does not stop sperm formation.\nD — Correct\nE — Correct\nFinal Answer: (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 30
+  },
+  {
+    "id": "achiever_136",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 136,
+    "subject": "Biology",
+    "question_type": "match_following",
+    "question_text": "Choose the mis-match :",
+    "options": [
+      "Amylose → contains α-1, 4 glycosidic bond.",
+      "K\n+ → most abundant mineral element in ICF.",
+      "Na\n+ → most abundant mineral element in ECF.",
+      "Cellulose → violet colour with iodine solution."
+    ],
+    "image_url": "/images/achiever/q_136.png",
+    "official_answer": 4,
+    "solution_text": "Explanation : Iodine test is used to detect starch.\nAmylose (a component of starch) reacts with iodine to give a blue or violet-blue color.\nCellulose does not react with iodine because it is a linear polymer and does not contain helices\nso cannot hold iodine molecules. So, the statement is incorrect (mis-match).\nFinal Answer : (4)",
+    "solution_final_answer": 4,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 30
+  },
+  {
+    "id": "achiever_137",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 137,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "Which of the following is not strictly a biomacromolecule?",
+    "options": [
+      "Proteins",
+      "Lipids",
+      "Polysaccharides",
+      "Nucleic acid"
+    ],
+    "image_url": "/images/achiever/q_137.png",
+    "official_answer": 2,
+    "solution_text": "Explanation:\nBiomacromolecules are large molecules with high molecular weight, typically polymers made up of\nrepeating monomeric units. Proteins, polysaccharides, and nucleic acids are true biomacromolecules\nbecause they are formed by polymerization.\nLipids, however, are not strictly biomacromolecules because they do not form true\nA.\npolymers. Instead, they are composed of smaller units like fatty acids and glycerol but\nare not linked in long chains like proteins or nucleic acids.\nCorrect Answer: 2. Lipids",
+    "solution_final_answer": null,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 30
+  },
+  {
+    "id": "achiever_138",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 138,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "An alpha helix represents",
+    "options": [
+      "(1) Option 1",
+      "(2) Option 2",
+      "(3) Option 3",
+      "(4) Option 4"
+    ],
+    "image_url": "/images/achiever/q_138.png",
+    "official_answer": 3,
+    "solution_text": "Explanation:\nThe secondary structure of a protein refers to the localized folding of the polypeptide chain,\nstabilized by hydrogen bonds. The alpha (α) helix is one such common structure, where the\nbackbone coils in a right-handed spiral due to intramolecular hydrogen bonding between the\ncarbonyl (C=O) of one amino acid and the amide (N-H) of another, four residues away.\nCorrect Answer: 3. Secondary structure of protein",
+    "solution_final_answer": null,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 30
+  },
+  {
+    "id": "achiever_139",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 139,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "The full name of NAD is :-",
+    "options": [
+      "Nicotinamide adenosine dinucleotide",
+      "Nicotinamide adenine dinucleotide",
+      "Nicotinamide adenine diamide",
+      "Nicotinamide adenosine diamide"
+    ],
+    "image_url": "/images/achiever/q_139.png",
+    "official_answer": 2,
+    "solution_text": "Solution:\nFull form of NAD is Nicotinamide Adenine Dinucleotide.\nNAD is a coenzyme found in all living cells. It plays a crucial rote in redox reactions\n(reduction-oxidation reactions), which are involved in energy metabolism. There are two forms\nof NAD:\n\n<<<PAGE 73>>>\nNAD\n+ (oxidized from): This form accepts electrons and is reduced to NADH during metabolic\nA.\nreactions.\nNADH (reduced form): NADH donates electrons in other reactions, such as those in the\nB.\nelectron transport chain during cellular respiration.\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 31
+  },
+  {
+    "id": "achiever_140",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 140,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "With continuously increasing substrate concentration enzymatic activity :-",
+    "options": [
+      "Continuously increases",
+      "Continuously decreases",
+      "First increases then decreases",
+      "First increases then become constant"
+    ],
+    "image_url": "/images/achiever/q_140.png",
+    "official_answer": 4,
+    "solution_text": "Solution:\nChange In substrate Concentration: With the increase in substrate concentration, the velocity\nof the enzymatic reaction rises at first. The reaction ultimately reaches a maximum velocity\n(Vmax). This velocity is not exceeded by any further rise in concentration of the substrate.\nReason: The enzyme molecules are fewer than the substrate molecules and after saturation of\nthese enzyme molecules, there are no free enzyme molecules available to bind with the\nadditional substrate molecules.\nHence,\nCorrect option: (4) First increases then become constant",
+    "solution_final_answer": null,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 31
+  },
+  {
+    "id": "achiever_141",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 141,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "Substrate concentration at which an enzyme attains half of its maximum velocity is?",
+    "options": [
+      "Half-life of enzyme",
+      "Km-constant of enzyme",
+      "Concentration ratio",
+      "Turn over number (TON) of enzyme E"
+    ],
+    "image_url": "/images/achiever/q_141.png",
+    "official_answer": 2,
+    "solution_text": "Solution :\nThe Michaelis–Menten constant (Km) is defined as the substrate concentration at which the\nvelocity of an enzyme-catalysed reaction is half of its maximum velocity (Vmax/2).\nKm is a characteristic constant for a particular enzyme–substrate system.\nOther options like half-life, concentration ratio, and turnover number refer to different enzyme\nproperties.\nFinal answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 31
+  },
+  {
+    "id": "achiever_142",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 142,
+    "subject": "Biology",
+    "question_type": "statement_based",
+    "question_text": "Which of the following statements about polysaccharides is correct?",
+    "options": [
+      "Cellulose is a polymer of fructose and forms helical structures that bind iodine to give a blue\ncolor.",
+      "Starch forms helical structures and gives a blue color when treated with iodine solution.",
+      "Glycogen is a homopolymer of amino sugars found in plant cell walls.",
+      "Chitin is a polymer of glucose and is found in the human liver."
+    ],
+    "image_url": "/images/achiever/q_142.png",
+    "official_answer": 2,
+    "solution_text": "Solution: Starch is a polysaccharide of glucose. Its helical structure can hold iodine\nmolecules, producing a characteristic blue colour with iodine solution. Cellulose is also a\nglucose polymer but does not form this iodine-positive helical structure.\nFinal answer: (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 31
+  },
+  {
+    "id": "achiever_143",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 143,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "Proteins present in protoplasm are very important because:-",
+    "options": [
+      "They provide definite shape to cell.",
+      "They function as biocatalyst.",
+      "They yield energy.",
+      "They are stored food."
+    ],
+    "image_url": "/images/achiever/q_143.png",
+    "official_answer": 2,
+    "solution_text": "Solution :  Proteins function as biocatalyst responsible for increasing rate of reaction.\nCarbohydrates yield energy because they are stored food.\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 31
+  },
+  {
+    "id": "achiever_144",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 144,
+    "subject": "Biology",
+    "question_type": "match_following",
+    "question_text": "Which of the following amino acids is correctly matched with its R group?",
+    "options": [
+      "Glycine – Methyl group",
+      "Alanine – Hydroxymethyl group",
+      "Serine – Hydroxymethyl group",
+      "Option (4)"
+    ],
+    "image_url": "/images/achiever/q_144.png",
+    "official_answer": 3,
+    "solution_text": "Question Explanation: Serine has a hydroxymethyl (–CH₂OH) R group.\nConcept: Amino Acid R Groups\nSolution:\n\n<<<PAGE 74>>>\nGlycine → H\nA.\nAlanine → Methyl (–CH₃)\nB.\nSerine → Hydroxymethyl (–CH₂OH)\nC.\nValine → Isopropyl (–CH(CH₃)₂)\nD.\nTherefore, Serine – Hydroxymethyl group is correctly matched.\nFinal answer: Option - 3 (Serine – Hydroxymethyl group)",
+    "solution_final_answer": null,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 31
+  },
+  {
+    "id": "achiever_145",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 145,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "Adenylic acid is: -",
+    "options": [
+      "Ribose + Adenosine + phosphate",
+      "Ribose + cytosine",
+      "Nucleoside",
+      "Deoxyribonucleotide"
+    ],
+    "image_url": "/images/achiever/q_145.png",
+    "official_answer": 1,
+    "solution_text": "Solution: Adenylic acid is nucleotide formed by  adenine, ribose sugar and phosphate group;\nit is also called adenosine monophosphate (AMP).\nFinal answer: (1)",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 32
+  },
+  {
+    "id": "achiever_146",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 146,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "Allosteric enzymes have allosteric sites for",
+    "options": [
+      "Inhibition only",
+      "Activation only",
+      "Reduction in activation energy",
+      "Both activation and inhibition"
+    ],
+    "image_url": "/images/achiever/q_146.png",
+    "official_answer": 4,
+    "solution_text": "Solution:\nSome enzymes have allosteric site to control active site. This control is called modulation.\n• Most of non-competitive inhibitors blind reversibly with allosteric site and negatively change\nthe configuration of active site. Such inhibition is called non-competitive reversible inhibition\nor negative allosteric modulation.\nHence,\nCorrect option: (4) Both activation and inhibition",
+    "solution_final_answer": null,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 32
+  },
+  {
+    "id": "achiever_147",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 147,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "Enzyme inhibition caused by a product of the same biochemical reaction is :-",
+    "options": [
+      "Competitive inhibition",
+      "Feed-back inhibition",
+      "In competitive inhibition",
+      "Semi-competitive inhibition"
+    ],
+    "image_url": "/images/achiever/q_147.png",
+    "official_answer": 2,
+    "solution_text": "Question Explanation: A product of a metabolic pathway can inhibit an earlier enzyme.\nConcept: Feedback Inhibition\nSolution: When the end product of a biochemical pathway inhibits an enzyme involved in an\nearlier step, it is called feedback inhibition. This prevents unnecessary production of the end\nproduct and helps regulate the metabolic pathway.\nFinal answer: Option - 2 (Feedback inhibition)",
+    "solution_final_answer": null,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 32
+  },
+  {
+    "id": "achiever_148",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 148,
+    "subject": "Biology",
+    "question_type": "statement_based",
+    "question_text": "Which of the following statements regarding enzyme inhibition is correct ?",
+    "options": [
+      "Non-competitive inhibition of an enzyme can be overcome by adding large amount of substrate",
+      "Competitive inhibition is seen, when a substrate competes with an enzyme for binding to an\ninhibitor protein",
+      "Competitive inhibition is seen, when the substrate and the inhibitor compete for the active site\non the enzyme",
+      "Non-competitive inhibitors often bind to the enzyme irreversibly."
+    ],
+    "image_url": "/images/achiever/q_148.png",
+    "official_answer": 3,
+    "solution_text": "Question Explanation: In competitive inhibition, substrate and inhibitor compete for the\nactive site.\nConcept: Enzyme Inhibition\n\n<<<PAGE 75>>>\nSolution: In competitive inhibition, the inhibitor resembles the substrate and competes with it\nfor the active site of the enzyme. Increasing substrate concentration can overcome competitive\ninhibition. Non-competitive inhibition cannot normally be overcome by increasing substrate\nconcentration.\nFinal answer: (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 32
+  },
+  {
+    "id": "achiever_149",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 149,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "Prosthetic groups differ from co-enzymes in that :-",
+    "options": [
+      "they require metal ions for their activity.",
+      "they are tightly bound to apoenzymes.",
+      "their association with apoenzymes is transient.",
+      "they can serve as co-factors in a number of enzyme-catalyzed reactions."
+    ],
+    "image_url": "/images/achiever/q_149.png",
+    "official_answer": 2,
+    "solution_text": "Solution :- Prosthetic groups are tightly bound to the aponzyme (permenent\nassociation).\nCoenzymes are loosely bound and can detach after the reaction.\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 32
+  },
+  {
+    "id": "achiever_150",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 150,
+    "subject": "Biology",
+    "question_type": "statement_based",
+    "question_text": "Following are the statements with reference to 'lipids'.\n(a) Lipids having only single bonds are called unsaturated fatty acids.\n(b) Lecithin is a phospholipid.\n(c) Trihydroxy propane is glycerol.\n(d) Palmitic acid has 20 carbon atoms including carboxyl carbon.\n(e) Arachidonic acid has 16 carbon atoms.\nChoose the correct answer from the options given below.",
+    "options": [
+      "(1) Option 1",
+      "(2) Option 2",
+      "(3) Option 3",
+      "(4) Option 4"
+    ],
+    "image_url": "/images/achiever/q_150.png",
+    "official_answer": 3,
+    "solution_text": "Explanation :\n(a) is incorrect because lipids with only single bonds are called saturated fatty acids, not\nA.\nunsaturated.\n(b) is correct : Lecithin is a type of phospholipid.\nB.\n(c) is correct : Glycerol is a trihydroxy propane because it has three hydroxyl groups (–OH)\nC.\n(d) is incorrect because palmitic acid has 16 carbon atoms, not 20.\nD.\n(e) is incorrect because arachidonic acid has 20 carbon atoms, not 16.  \nE.",
+    "solution_final_answer": null,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 32
+  },
+  {
+    "id": "achiever_151",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 151,
+    "subject": "Biology",
+    "question_type": "statement_based",
+    "question_text": "Read the following statements on lipids and find out correct set of statements:\n(a) Lecithin found in the plasma membrane is a glycolipid.\n(b) Saturated fatty acids possess one or more C = C bonds.\n(c) Gingelly oil has lower melting point, hence remains as oil in winter.\n(d) Lipids are generally insoluble in water but soluble in some organic solvents.\n(e) When fatty acid is esterified with glycerol, monoglycerides are formed.\nChoose the correct answer from the options given below:",
+    "options": [
+      "(a), (d) and (e) only",
+      "(c), (d) and (e) only",
+      "(a), (b) and (d) only",
+      "(a), (b) and (c) only"
+    ],
+    "image_url": "/images/achiever/q_151.png",
+    "official_answer": 2,
+    "solution_text": "Solution :\n(a) Lecithin is a phospholipid.\n(b) Saturated fatty acid does not possess double bond between carbon atoms.\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 33
+  },
+  {
+    "id": "achiever_152",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 152,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "Regarding catalytic cycle of an enzyme action, select the correct sequential steps :\nA. Substrate enzyme complex formation.\nB. Free enzyme ready to bind with another substrate.\nC. Release of products.\nD. Chemical bonds of the substrate broken\nE. Substrate binding to active site.\nChoose the correct answer from the options given below:",
+    "options": [
+      "E, A, D, C, B",
+      "A, E, B, D, C",
+      "B, A, C, D, E",
+      "E, D, C, B, A"
+    ],
+    "image_url": "/images/achiever/q_152.png",
+    "official_answer": 1,
+    "solution_text": "Question Explanation : Identifies the correct sequence of the enzyme catalytic cycle.\nConcept :  The enzyme catalytic cycle.\nSolution : \nThe correct sequential steps for the catalytic cycle of an enzyme action are: E. Substrate\nbinding to active site → A. Substrate enzyme complex formation → D. Chemical bonds of the\nsubstrate broken → C. Release of products → B. Free enzyme ready to bind with another\nsubstrate.\nFinal Answer : (1)",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 33
+  },
+  {
+    "id": "achiever_153",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 153,
+    "subject": "Biology",
+    "question_type": "statement_based",
+    "question_text": "How many of the following statement about proteins are correct?\n(A) They are homopolymers of amino acids.\n(B) Collagen is most abundant protein in whole of biosphere.\n(C) A peptide bond is formed between carboxyl group of one amino acid and amino group of the\nnext.\n(D) The left end of a protein chain is represented by the first amino acid (N-terminal).",
+    "options": [
+      "Four",
+      "One",
+      "Two",
+      "Three"
+    ],
+    "image_url": "/images/achiever/q_153.png",
+    "official_answer": 3,
+    "solution_text": "Solution : Statement A and B are incorrect. Proteins are heteropolymers of amino acid,\nnot homopolymers. RuBisCO is the most abundant protein in the biosphere.\nFinal Answer : (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 33
+  },
+  {
+    "id": "achiever_154",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 154,
+    "subject": "Biology",
+    "question_type": "match_following",
+    "question_text": "Match List-I with List-II.\nList-I\nList-II",
+    "options": [
+      "(1) Option 1",
+      "(2) Option 2",
+      "(3) Option 3",
+      "(4) Option 4"
+    ],
+    "image_url": "/images/achiever/q_154.png",
+    "official_answer": 1,
+    "solution_text": "Solution : A–III, B–IV, C–II, D–I\nA. Primary structure of protein\nIII.Polypeptide chain\nB. Secondary structure of protein IV. Alpha helix and β pleated sheet\nC. Tertiary structure of protein\nII.  Disulphide bonds\nD.Quaternary structure of protein I. Human haemoglobin\nFinal Answer : (1)\n\n<<<PAGE 76>>>",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 33
+  },
+  {
+    "id": "achiever_155",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 155,
+    "subject": "Biology",
+    "question_type": "statement_based",
+    "question_text": "At a specific pH, an amino acid exists as a zwitterion, which statement accurately describes this\nmolecular state?",
+    "options": [
+      "Only the R-group of the amino acid is ionized",
+      "The molecule is positively charged due to excess H\n+ ions",
+      "The molecule carries both positive and negative charges, resulting in a net neutral charge",
+      "The amino acid is completely uncharged and non-polar."
+    ],
+    "image_url": "/images/achiever/q_155.png",
+    "official_answer": 3,
+    "solution_text": "Solution : The amino group is NH\n+\n3 and the carboxyl group is COO\n-, creating a dipolar\nions. \nFinal Answer : (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 34
+  },
+  {
+    "id": "achiever_156",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 156,
+    "subject": "Biology",
+    "question_type": "diagram_based",
+    "question_text": "Above diagram showing the concept of activation energy. If in this diagram energy level of ‘P’\nbecome higher than the energy level of ‘S’ then which of the following will not apply for this diagram\n?",
+    "options": [
+      "The process will be endothermic",
+      "Activation energy with enzyme will be less than activation energy without enzyme",
+      "Energy difference between transition state and product will be more than activation energy",
+      "The substrate will go through the transition state"
+    ],
+    "image_url": "/images/achiever/q_156.png",
+    "official_answer": 3,
+    "solution_text": "Solution:\nSince the diagram represents activation energy, it likely shows the energy changes during a\nchemical reaction. Here, the key change is that P (Product) has a higher energy than S\n(Substrate), meaning the reaction absorbs energy, making it endothermic.\nCorrect Answer: Option 3: \"Energy difference between transition state and product will be\nmore than activation energy\" is incorrect.\nActivation energy (Ea) is the energy difference between the transition state and substrate, not\nbetween the transition state and product.\nThe energy difference between the transition state and product is usually smaller than\nactivation energy.",
+    "solution_final_answer": null,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 34
+  },
+  {
+    "id": "achiever_157",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 157,
+    "subject": "Biology",
+    "question_type": "diagram_based",
+    "question_text": "In the B-DNA double helix model, what is the pitch of the helix and distance between two\nadjacent base pairs respectively?",
+    "options": [
+      "(1) Option 1",
+      "(2) Option 2",
+      "(3) Option 3",
+      "(4) Option 4"
+    ],
+    "image_url": "/images/achiever/q_157.png",
+    "official_answer": 2,
+    "solution_text": "Solution : One full turn (pitch) is 34Å long and contains 10 base pairs, making the rise\nper base pair 3.4Å.\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 34
+  },
+  {
+    "id": "achiever_158",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 158,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "Which amino acid is classified as basic based on nature of its R group?",
+    "options": [
+      "Valine",
+      "Glutamic acid",
+      "Lysine",
+      "Tyrosine"
+    ],
+    "image_url": "/images/achiever/q_158.png",
+    "official_answer": 3,
+    "solution_text": "Solution : Lysine, Arginine and histidine are classified as basic amino acid.\nFinal Answer : (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 35
+  },
+  {
+    "id": "achiever_159",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 159,
+    "subject": "Biology",
+    "question_type": "match_following",
+    "question_text": "How many of the following are correctly matched with their category of secondary metabolite?\n(A) Pigments - Carotenoids, Anthocyanins\n(B) Alkaloids - Morphine, Codeine\n(C) Toxin - Curcumin, Ricin\n(D) Lectin - Concanavalin A\n(E) Drugs - Vinblastin, Abrin",
+    "options": [
+      "Two",
+      "Four",
+      "Five",
+      "Three"
+    ],
+    "image_url": "/images/achiever/q_159.png",
+    "official_answer": 4,
+    "solution_text": "Solution : C and E  are incorrectly matched. Toxins are Abrin and Ricin. While drugs are\nVinblastin and Curcumin\nFinal Answer : (4)",
+    "solution_final_answer": 4,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 35
+  },
+  {
+    "id": "achiever_160",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 160,
+    "subject": "Biology",
+    "question_type": "match_following",
+    "question_text": "Match column I and column II :-\n \nColumn I\n \nColumn II\n(A)\nAdenine\n(i)\nPyrimidine found only in RNA\n(B)\nThymine\n(ii)\nPurine found in both DNA and RNA\n(C)\nUracil\n(iii)\nPyrimidine also known as 5-methyl uracil\n(D)\nCytosine\n(iv)\nCommon pyrimidine in both DNA and RNA",
+    "options": [
+      "A-ii, B-iii, C-i, D-iv",
+      "A-iv, B-iii, C-i, D-ii",
+      "A-ii, B-i, C-iii, D-iv",
+      "A-iv, B-i, C-iii, D-ii"
+    ],
+    "image_url": "/images/achiever/q_160.png",
+    "official_answer": 1,
+    "solution_text": "Solution :\n \nColumn I\n \nColumn II\n(A)\nAdenine\n(ii)\nPurine found in both DNA and RNA \n(B)\nThymine\n(iii)\nPyrimidine also known as 5-methyl uracil\n(C)\nUracil\n(i)\nPyrimidine found only in RNA\n(D)\nCytosine\n(iv)\nCommon pyrimidine in both DNA and RNA\nFinal Answer : (1)",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 35
+  },
+  {
+    "id": "achiever_161",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 161,
+    "subject": "Biology",
+    "question_type": "diagram_based",
+    "question_text": "Identify A, B, C and D in the below diagram:",
+    "options": [
+      "(1) Option 1",
+      "(2) Option 2",
+      "(3) Option 3",
+      "(4) Option 4"
+    ],
+    "image_url": "/images/achiever/q_161.png",
+    "official_answer": 1,
+    "solution_text": "Solution : A–G1, B–S, C–G2, D–M Phase\n\n<<<PAGE 77>>>\nFinal Answer : (1)",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 35
+  },
+  {
+    "id": "achiever_162",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 162,
+    "subject": "Biology",
+    "question_type": "diagram_based",
+    "question_text": "S-phase is not characterized by -",
+    "options": [
+      "Chromosome duplication",
+      "No increase in chromosome number",
+      "DNA replication",
+      "Duplication of centriole in nucleus of eukaryotic animal cell"
+    ],
+    "image_url": "/images/achiever/q_162.png",
+    "official_answer": 4,
+    "solution_text": "Solution : S-phase is not characterized by duplication of centriole in nucleus of\neukaryotic animal cell.\nFinal Answer : (4)",
+    "solution_final_answer": 4,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 36
+  },
+  {
+    "id": "achiever_163",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 163,
+    "subject": "Biology",
+    "question_type": "diagram_based",
+    "question_text": "If a cell has 2n number of chromosome in G1 phase, what is the number of chromosome in cell\nafter S-phase?",
+    "options": [
+      "n",
+      "4n",
+      "2n",
+      "8n"
+    ],
+    "image_url": "/images/achiever/q_163.png",
+    "official_answer": 3,
+    "solution_text": "Solution : The number of chromosomes in cell after S-phase are 2n as in S-phase amount\nof DNA per cell doubles but chromosome number remains same.\nFinal Answer : (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 36
+  },
+  {
+    "id": "achiever_164",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 164,
+    "subject": "Biology",
+    "question_type": "diagram_based",
+    "question_text": "Identify A, B and C in the below diagram.",
+    "options": [
+      "A–Interphase, B–Telophase, C–Anaphase",
+      "A–Anaphase, B–Telophase, C–Cytokinesis",
+      "A–Telophase, B–Cytokinesis, C–Anaphase",
+      "A–Cytokinesis, B–Anaphase, C–Telophase"
+    ],
+    "image_url": "/images/achiever/q_164.png",
+    "official_answer": 2,
+    "solution_text": "Solution : A–Anaphase, B–Telophase, C–Cytokinesis\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 36
+  },
+  {
+    "id": "achiever_165",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 165,
+    "subject": "Biology",
+    "question_type": "diagram_based",
+    "question_text": "Cells at the end of prophase, when viewed under the microscope, do not show -",
+    "options": [
+      "Golgi body and ER",
+      "Nucleolus",
+      "Option (3)",
+      "Option (4)"
+    ],
+    "image_url": "/images/achiever/q_165.png",
+    "official_answer": 4,
+    "solution_text": "Solution : Cells at the end of prophase, when viewed under the microscope, do not\nshow Golgi body, ER, Nucleolus and Nuclear envelope.\nFinal Answer : (4)",
+    "solution_final_answer": 4,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 36
+  },
+  {
+    "id": "achiever_166",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 166,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "Which of the following initiates the start of metaphase?",
+    "options": [
+      "Completion of bivalent chromosome formation",
+      "Assemblage of microtubules of nucleoplasm",
+      "Complete disintegration of nuclear envelope",
+      "Duplication of chromosome"
+    ],
+    "image_url": "/images/achiever/q_166.png",
+    "official_answer": 3,
+    "solution_text": "Solution : -\nFinal Answer : (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 37
+  },
+  {
+    "id": "achiever_167",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 167,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "Furrow formation does not occur in plant cell during cytokinesis because of -",
+    "options": [
+      "Extensible cell wall",
+      "Inextensible cell wall",
+      "Extensible plasma membrane",
+      "Inextensible plasma membrane"
+    ],
+    "image_url": "/images/achiever/q_167.png",
+    "official_answer": 2,
+    "solution_text": "Solution : Furrow formation does not occur in plant cell during cytokinesis because of\ninextensible cell wall.\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 37
+  },
+  {
+    "id": "achiever_168",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 168,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "Which of the following holds true about meiosis?\nI. It ensures the production of haploid phase in the life cycle of sexually reproducing organism where\nfertilization restores the diploid phase.\nII. It involves the two sequential cycle of nuclear and cell division called meiosis I and II but only a\nsingle cycle of DNA replication.\nIII. It involves the pairing of homologous chromosomes and recombination between them.\nIV. Four haploid cells are formed at the end of meiosis.",
+    "options": [
+      "I, II, IV only",
+      "IV only",
+      "I and III only",
+      "All of these"
+    ],
+    "image_url": "/images/achiever/q_168.png",
+    "official_answer": 4,
+    "solution_text": "Solution : All statements are correct.\nFinal Answer : (4)",
+    "solution_final_answer": 4,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 37
+  },
+  {
+    "id": "achiever_169",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 169,
+    "subject": "Biology",
+    "question_type": "statement_based",
+    "question_text": "Select the correct statement from the following:",
+    "options": [
+      "In leptotene stage the chromosomes become gradually visible under light microscope",
+      "During zygotene the heterologous chromosome shows pairing",
+      "Chiasmata is a J-shape structure formed in diplotene",
+      "Pachytene is characterized by the formation of synaptonemal complex."
+    ],
+    "image_url": "/images/achiever/q_169.png",
+    "official_answer": 1,
+    "solution_text": "Solution : During zygotene, the homologous chromosome shows pairing. Chiasmata is a\nX-shape structure formed in diplotene. Pachytene is characterized by recombination.\nFinal Answer : (1)",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 37
+  },
+  {
+    "id": "achiever_170",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 170,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "Homologous chromosomes gets separate during",
+    "options": [
+      "Metaphase-I",
+      "Anaphase-I",
+      "Anaphase-II",
+      "Telophase-I"
+    ],
+    "image_url": "/images/achiever/q_170.png",
+    "official_answer": 2,
+    "solution_text": "Solution : Homologous chromosomes gets separate during anaphase-I.\n\n<<<PAGE 78>>>\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 37
+  },
+  {
+    "id": "achiever_171",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 171,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "Diploid somatic cells divides by -\n(1) Meiosis",
+    "options": [
+      "(1) Option 1",
+      "(2) Option 2",
+      "(3) Option 3",
+      "(4) Option 4"
+    ],
+    "image_url": "/images/achiever/q_171.png",
+    "official_answer": 2,
+    "solution_text": "Solution : Diploid somatic cells divides by mitosis only. \nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 37
+  },
+  {
+    "id": "achiever_172",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 172,
+    "subject": "Biology",
+    "question_type": "diagram_based",
+    "question_text": "The number of chromosomes present in pollen grains is six. What shall be their number in leaf\ncells ?",
+    "options": [
+      "12",
+      "24",
+      "6",
+      "3"
+    ],
+    "image_url": "/images/achiever/q_172.png",
+    "official_answer": 1,
+    "solution_text": "Solution : Leaf has diploid cell i.e. 2n = 12.\nPollen grains haploid cell n = 6.\nFinal Answer : (1)",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 38
+  },
+  {
+    "id": "achiever_173",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 173,
+    "subject": "Biology",
+    "question_type": "diagram_based",
+    "question_text": "The following diagram shows modification of the meiosis I. Identify A, B, C, D.",
+    "options": [
+      "A–Telophase I, B–Anaphase I, C–Metaphase I, D–Prophase I",
+      "A–Prophase I, B–Metaphase I, C–Anaphase I, D–Telophase I",
+      "A–Metaphase I, B–Telophase I, C–Prophase I, D–Anaphase I",
+      "A–Anaphase I, B–Prophase I, C–Telophase I, D–Metaphase I"
+    ],
+    "image_url": "/images/achiever/q_173.png",
+    "official_answer": 2,
+    "solution_text": "Solution : A–Prophase I, B–Metaphase I, C–Anaphase I, D–Telophase I.\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 38
+  },
+  {
+    "id": "achiever_174",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 174,
+    "subject": "Biology",
+    "question_type": "diagram_based",
+    "question_text": "Meiosis involves :",
+    "options": [
+      "Two sequential cycles of nuclear and cell divisions and two cycle of DNA replication.",
+      "Two sequential cycles of nuclear and cell divisions and one cycle of DNA replication.",
+      "One sequential cycles of nuclear and cell division and one cycle of DNA replication.",
+      "One sequential cycles of nuclear and cell division and two cycle of DNA replication."
+    ],
+    "image_url": "/images/achiever/q_174.png",
+    "official_answer": 2,
+    "solution_text": "Solution : Meiosis involves two sequential cycles of nuclear and cell divisions and one\nsingle cycle of DNA replication.\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 38
+  },
+  {
+    "id": "achiever_175",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 175,
+    "subject": "Biology",
+    "question_type": "diagram_based",
+    "question_text": "Which of the following represents the correct order in Prophase I?",
+    "options": [
+      "Zygotene, diplotene, pachytene, leptotene, diakinesis",
+      "Diakinesis, diplotene, leptotene, pachytene, zygotene",
+      "Leptotene, zygotene, pachytene, diplotene, diakinesis",
+      "Pachytene, leptotene, zygotene, diplotene, diakinesis"
+    ],
+    "image_url": "/images/achiever/q_175.png",
+    "official_answer": 3,
+    "solution_text": "Solution : Leptotene, zygotene, pachytene, diplotene, diakinesis.\nFinal Answer : (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 38
+  },
+  {
+    "id": "achiever_176",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 176,
+    "subject": "Biology",
+    "question_type": "statement_based",
+    "question_text": "Which is the correct statements from the following:\nI. Synapsis of homologous chromosomes takes place during prophase I of meiosis.\nII. Division of centromeres takes place during anaphase I of meiosis.\nIII. Spindle fibres disappear completely in telophase of mitosis.",
+    "options": [
+      "(1) Option 1",
+      "(2) Option 2",
+      "(3) Option 3",
+      "(4) Option 4"
+    ],
+    "image_url": "/images/achiever/q_176.png",
+    "official_answer": 4,
+    "solution_text": "Solution : Division of centromeres takes place during anaphase II of meiosis.\nHomologous chromosomes separate during anaphase I.\nFinal Answer : (4)",
+    "solution_final_answer": 4,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 38
+  },
+  {
+    "id": "achiever_177",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 177,
+    "subject": "Biology",
+    "question_type": "diagram_based",
+    "question_text": "A stage of cell division is shown in the below figure. Select the answer which gives the\ncorrect identification of this stage with its characteristics.",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "image_url": "/images/achiever/q_177.png",
+    "official_answer": 1,
+    "solution_text": "Solution : Telophase - Nuclear envelope reforms, Golgi complex reforms.\nFinal Answer : (1)",
+    "solution_final_answer": 1,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 39
+  },
+  {
+    "id": "achiever_178",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 178,
+    "subject": "Biology",
+    "question_type": "match_following",
+    "question_text": "Select the correct option.\n \nColumn I\n \nColumn II\nA.\nSynapsis aligns homologous chromosomes\n1.\nPachytene\nB.\nSynthesis of RNA and protein\n2.\nZygotene\nC.\nAction of enzyme recombinase\n3.\nG1 phase\nD.\nCentromeres do not separate but chromosomes\nmove towards opposite poles\n4.\nAnaphase I",
+    "options": [
+      "A : 2, B : 1, C : 3, D : 4",
+      "A : 2, B : 3, C : 1, D : 4",
+      "Option (3)",
+      "Option (4)"
+    ],
+    "image_url": "/images/achiever/q_178.png",
+    "official_answer": 2,
+    "solution_text": "Solution : A : 2, B : 3, C : 1, D : 4\n \nColumn I\n \nColumn II\nA.\nSynapsis aligns homologous chromosomes\n2.\nZygotene\nB.\nSynthesis of RNA and protein\n3.\nG1 phase\nC.\nAction of enzyme recombinase\n1.\nPachytene\nD.\nCentromeres do not separate but chromosomes\nmove towards opposite poles\n4.\nAnaphase I\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 39
+  },
+  {
+    "id": "achiever_179",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 179,
+    "subject": "Biology",
+    "question_type": "mcq",
+    "question_text": "A bivalent of meiosis-I consists of -",
+    "options": [
+      "Two chromatids and one centromere",
+      "Two chromatids and two centromeres",
+      "Four chromatids and two centromeres",
+      "Four chromatids and four centromeres."
+    ],
+    "image_url": "/images/achiever/q_179.png",
+    "official_answer": 3,
+    "solution_text": "Solution : A bivalent of meiosis-I consists of four chromatids and two centromeres\nbecause bivalent consist of two homologous chromosomes.\nFinal Answer : (3)",
+    "solution_final_answer": 3,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 40
+  },
+  {
+    "id": "achiever_180",
+    "exam_id": "achiever_minor_test_02",
+    "question_number": 180,
+    "subject": "Biology",
+    "question_type": "statement_based",
+    "question_text": "Select the correct statement about G1 phase.",
+    "options": [
+      "Cell is metabolically inactive.",
+      "DNA in the cell does not replicate.",
+      "It is not a phase of synthesis of macromolecules.",
+      "Cell stops growing."
+    ],
+    "image_url": "/images/achiever/q_180.png",
+    "official_answer": 2,
+    "solution_text": "Solution : Cell is metabolically active, macromolecules like RNA and proteins are\nsynthesized and cell grow maximally.\n\n<<<PAGE 79>>>\nFinal Answer : (2)",
+    "solution_final_answer": 2,
+    "source_pdf": "Achiever Minor Test 02.pdf",
+    "source_page": 40
+  }
+]

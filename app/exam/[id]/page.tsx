@@ -1,0 +1,782 @@
+'use client';
+
+import React, { useState, useEffect, useRef, use } from 'react';
+import { useRouter, useSearchParams } from 'next/navigation';
+import { 
+  Clock, ShieldAlert, CheckCircle, ChevronLeft, ChevronRight, 
+  Bookmark, RotateCcw, AlertTriangle, Send, Menu, X, User 
+} from 'lucide-react';
+import { QuestionStudentView, PaletteStatus, StudentResponse } from '@/lib/types';
+
+export default function ExamPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id: examId } = use(params);
+  const searchParams = useSearchParams();
+  const attemptId = searchParams.get('attemptId');
+  const chapterParam = searchParams.get('chapter');
+  const chapterIndex = chapterParam ? parseInt(chapterParam, 10) : undefined;
+
+  const router = useRouter();
+
+  // State
+  const [loading, setLoading] = useState(true);
+  const [examTitle, setExamTitle] = useState('');
+  const [questions, setQuestions] = useState<QuestionStudentView[]>([]);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [responses, setResponses] = useState<Record<string, StudentResponse>>({});
+  const [studentInfo, setStudentInfo] = useState<{ name: string; email: string }>({ name: 'Candidate', email: '' });
+  
+  // Timer State
+  const [totalSeconds, setTotalSeconds] = useState(180 * 60);
+  const [timeSpent, setTimeSpent] = useState(0);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [showSubmitModal, setShowSubmitModal] = useState(false);
+  
+  // Mobile Palette Toggle
+  const [showMobilePalette, setShowMobilePalette] = useState(false);
+
+  // Active Subject Filter tab (for Achiever: Physics, Chemistry, Biology)
+  const [activeSubject, setActiveSubject] = useState<string>('All');
+
+  // Load questions and restore previous session
+  useEffect(() => {
+    async function loadData() {
+      try {
+        // 1. Fetch questions
+        const url = chapterIndex 
+          ? `/api/exams/${examId}/questions?chapter=${chapterIndex}`
+          : `/api/exams/${examId}/questions`;
+        
+        const res = await fetch(url);
+        const data = await res.json();
+        
+        if (!data.success || !data.questions || data.questions.length === 0) {
+          alert('Failed to load examination questions.');
+          router.push('/');
+          return;
+        }
+
+        setExamTitle(data.examTitle || 'Examination');
+        setQuestions(data.questions);
+
+        // 2. Set timer duration
+        const durationSec = (data.durationMinutes || 180) * 60;
+
+        // 3. Check localStorage for session recovery
+        const savedSessionKey = `cbt_session_${examId}_${attemptId || 'default'}`;
+        const savedSession = localStorage.getItem(savedSessionKey);
+
+        let initialResponses: Record<string, StudentResponse> = {};
+        let initialTimeSpent = 0;
+
+        if (savedSession) {
+          try {
+            const parsed = JSON.parse(savedSession);
+            initialResponses = parsed.responses || {};
+            initialTimeSpent = parsed.timeSpent || 0;
+            if (parsed.studentInfo) setStudentInfo(parsed.studentInfo);
+          } catch (e) {
+            console.error('Session restore error:', e);
+          }
+        } else {
+          // Attempt info from home
+          const attemptData = localStorage.getItem(`cbt_attempt_${examId}`);
+          if (attemptData) {
+            try {
+              const parsed = JSON.parse(attemptData);
+              setStudentInfo({ name: parsed.studentName, email: parsed.studentEmail });
+            } catch (e) {}
+          }
+        }
+
+        // Initialize state for each question if not already visited
+        data.questions.forEach((q: QuestionStudentView, idx: number) => {
+          if (!initialResponses[q.id]) {
+            initialResponses[q.id] = {
+              questionId: q.id,
+              selectedOption: null,
+              isMarkedForReview: false,
+              paletteState: idx === 0 ? 'not_answered' : 'not_visited'
+            };
+          }
+        });
+
+        // Current question 0 is now visited
+        if (data.questions.length > 0) {
+          const firstId = data.questions[0].id;
+          if (initialResponses[firstId].paletteState === 'not_visited') {
+            initialResponses[firstId].paletteState = 'not_answered';
+          }
+        }
+
+        setResponses(initialResponses);
+        setTotalSeconds(Math.max(0, durationSec - initialTimeSpent));
+        setTimeSpent(initialTimeSpent);
+
+      } catch (err) {
+        console.error('Initialization error:', err);
+      } finally {
+        setLoading(false);
+      }
+    }
+
+    loadData();
+  }, [examId, attemptId, chapterIndex, router]);
+
+  // Timer Tick
+  useEffect(() => {
+    if (loading || isSubmitting) return;
+
+    const timer = setInterval(() => {
+      setTotalSeconds((prev) => {
+        if (prev <= 1) {
+          clearInterval(timer);
+          // Auto submit when timer reaches 0
+          handleAutoSubmit();
+          return 0;
+        }
+        return prev - 1;
+      });
+
+      setTimeSpent((prev) => {
+        const next = prev + 1;
+        // Periodic sync to localStorage
+        if (next % 5 === 0) {
+          persistSession(next, responses);
+        }
+        return next;
+      });
+    }, 1000);
+
+    return () => clearInterval(timer);
+  }, [loading, isSubmitting, responses]);
+
+  const persistSession = (currentSpent: number, currentResponses: Record<string, StudentResponse>) => {
+    const savedSessionKey = `cbt_session_${examId}_${attemptId || 'default'}`;
+    try {
+      localStorage.setItem(savedSessionKey, JSON.stringify({
+        timeSpent: currentSpent,
+        responses: currentResponses,
+        studentInfo
+      }));
+    } catch (e) {}
+  };
+
+  const handleSelectOption = (optionNum: number) => {
+    if (questions.length === 0) return;
+    const currentQ = questions[currentIndex];
+    const prev = responses[currentQ.id];
+
+    const nextState: PaletteStatus = prev.isMarkedForReview ? 'answered_and_marked' : 'answered';
+
+    const updated = {
+      ...responses,
+      [currentQ.id]: {
+        ...prev,
+        selectedOption: optionNum,
+        paletteState: nextState
+      }
+    };
+
+    setResponses(updated);
+    persistSession(timeSpent, updated);
+    syncResponseToBackend(currentQ.id, optionNum, prev.isMarkedForReview, nextState);
+  };
+
+  const handleClearResponse = () => {
+    if (questions.length === 0) return;
+    const currentQ = questions[currentIndex];
+    const prev = responses[currentQ.id];
+
+    const nextState: PaletteStatus = prev.isMarkedForReview ? 'marked_for_review' : 'not_answered';
+
+    const updated = {
+      ...responses,
+      [currentQ.id]: {
+        ...prev,
+        selectedOption: null,
+        paletteState: nextState
+      }
+    };
+
+    setResponses(updated);
+    persistSession(timeSpent, updated);
+    syncResponseToBackend(currentQ.id, null, prev.isMarkedForReview, nextState);
+  };
+
+  const handleMarkForReviewAndNext = () => {
+    if (questions.length === 0) return;
+    const currentQ = questions[currentIndex];
+    const prev = responses[currentQ.id];
+
+    const isMarked = true;
+    const nextState: PaletteStatus = (prev.selectedOption !== null) 
+      ? 'answered_and_marked' 
+      : 'marked_for_review';
+
+    const updated = {
+      ...responses,
+      [currentQ.id]: {
+        ...prev,
+        isMarkedForReview: isMarked,
+        paletteState: nextState
+      }
+    };
+
+    setResponses(updated);
+    persistSession(timeSpent, updated);
+    syncResponseToBackend(currentQ.id, prev.selectedOption, isMarked, nextState);
+
+    // Navigate to next
+    handleNavigate(currentIndex + 1);
+  };
+
+  const handleSaveAndNext = () => {
+    if (questions.length === 0) return;
+    const currentQ = questions[currentIndex];
+    const prev = responses[currentQ.id];
+
+    let nextState = prev.paletteState;
+    if (prev.selectedOption !== null) {
+      nextState = prev.isMarkedForReview ? 'answered_and_marked' : 'answered';
+    } else {
+      nextState = prev.isMarkedForReview ? 'marked_for_review' : 'not_answered';
+    }
+
+    const updated = {
+      ...responses,
+      [currentQ.id]: {
+        ...prev,
+        paletteState: nextState
+      }
+    };
+
+    setResponses(updated);
+    persistSession(timeSpent, updated);
+    syncResponseToBackend(currentQ.id, prev.selectedOption, prev.isMarkedForReview, nextState);
+
+    // Navigate to next
+    handleNavigate(currentIndex + 1);
+  };
+
+  const handleNavigate = (newIndex: number) => {
+    if (newIndex < 0 || newIndex >= questions.length) return;
+    const targetQ = questions[newIndex];
+    
+    // If target question is not visited, mark as not answered
+    const targetPrev = responses[targetQ.id];
+    if (targetPrev && targetPrev.paletteState === 'not_visited') {
+      const nextPaletteState: PaletteStatus = 'not_answered';
+      const updated: Record<string, StudentResponse> = {
+        ...responses,
+        [targetQ.id]: {
+          ...targetPrev,
+          paletteState: nextPaletteState
+        }
+      };
+      setResponses(updated);
+      persistSession(timeSpent, updated);
+      syncResponseToBackend(targetQ.id, targetPrev.selectedOption, targetPrev.isMarkedForReview, nextPaletteState);
+    }
+
+    setCurrentIndex(newIndex);
+  };
+
+  const syncResponseToBackend = async (questionId: string, option: number | null, isMarked: boolean, paletteState: PaletteStatus) => {
+    if (!attemptId) return;
+    try {
+      await fetch(`/api/attempts/${attemptId}/response`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          questionId,
+          selectedOption: option,
+          isMarkedForReview: isMarked,
+          paletteState
+        })
+      });
+    } catch (e) {
+      // Offline / network glitch handled via local persistence
+    }
+  };
+
+  const handleAutoSubmit = () => {
+    alert('Time limit reached! The examination is now being automatically evaluated and submitted.');
+    executeSubmission();
+  };
+
+  const executeSubmission = async () => {
+    if (isSubmitting) return;
+    setIsSubmitting(true);
+    setShowSubmitModal(false);
+
+    try {
+      const effectiveAttemptId = attemptId || `att_${Date.now()}`;
+      const res = await fetch(`/api/attempts/${effectiveAttemptId}/submit`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          timeSpentSeconds: timeSpent,
+          responses
+        })
+      });
+
+      const data = await res.json();
+      if (data.success && data.result) {
+        // Clear active session storage
+        localStorage.removeItem(`cbt_session_${examId}_${attemptId || 'default'}`);
+        // Redirect to results
+        router.push(`/results/${data.result.attemptId}`);
+      } else {
+        alert(data.error || 'Submission failed. Please try again.');
+        setIsSubmitting(false);
+      }
+    } catch (e: any) {
+      alert(e.message || 'Submission error. Please verify your connection.');
+      setIsSubmitting(false);
+    }
+  };
+
+  if (loading) {
+    return (
+      <div className="flex-1 flex flex-col items-center justify-center min-h-screen bg-slate-100">
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-900"></div>
+        <p className="mt-4 font-semibold text-slate-700">Loading NTA CBT Examination Environment...</p>
+        <p className="text-xs text-slate-500 mt-1">Configuring question palette, timer, and auto-sync</p>
+      </div>
+    );
+  }
+
+  // Current Question
+  const currentQ = questions[currentIndex] || null;
+  const currentResp = currentQ ? responses[currentQ.id] : null;
+  const selectedOption = currentResp?.selectedOption ?? null;
+
+  // Format Timer HH:MM:SS
+  const hours = Math.floor(totalSeconds / 3600);
+  const minutes = Math.floor((totalSeconds % 3600) / 60);
+  const seconds = totalSeconds % 60;
+  const timeFormatted = `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+
+  // Counts for Palette Legend
+  let answeredCount = 0;
+  let notAnsweredCount = 0;
+  let notVisitedCount = 0;
+  let markedCount = 0;
+  let answeredAndMarkedCount = 0;
+
+  questions.forEach(q => {
+    const s = responses[q.id]?.paletteState || 'not_visited';
+    if (s === 'answered') answeredCount++;
+    else if (s === 'not_answered') notAnsweredCount++;
+    else if (s === 'not_visited') notVisitedCount++;
+    else if (s === 'marked_for_review') markedCount++;
+    else if (s === 'answered_and_marked') answeredAndMarkedCount++;
+  });
+
+  // Extract unique subjects for section tabs
+  const subjects = ['All', ...Array.from(new Set(questions.map(q => q.subject).filter(Boolean)))];
+
+  return (
+    <div className="flex flex-col h-screen overflow-hidden bg-slate-100 select-none">
+      {/* Top Proctored Exam Header */}
+      <header className="bg-blue-900 text-white px-4 py-2.5 flex items-center justify-between shadow z-20 shrink-0">
+        <div className="flex items-center space-x-3">
+          <div className="bg-amber-400 text-blue-950 font-extrabold px-2 py-1 rounded text-sm tracking-wider">
+            NTA NEET
+          </div>
+          <div>
+            <h1 className="text-sm sm:text-base font-bold leading-tight truncate max-w-[280px] sm:max-w-md">
+              {examTitle}
+            </h1>
+            <p className="text-xs text-blue-200">
+              Candidate: <span className="text-white font-medium">{studentInfo.name}</span>
+            </p>
+          </div>
+        </div>
+
+        {/* Center/Right: Timer & Controls */}
+        <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-2 bg-blue-950/80 px-3 py-1.5 rounded-lg border border-blue-700 shadow-inner">
+            <Clock className="w-4 h-4 text-amber-300 animate-pulse" />
+            <span className="text-xs text-blue-200 uppercase font-semibold">Time Left:</span>
+            <span className={`text-base sm:text-lg font-mono font-bold tracking-wider ${totalSeconds < 300 ? 'text-red-400 animate-bounce' : 'text-amber-300'}`}>
+              {timeFormatted}
+            </span>
+          </div>
+
+          <button
+            onClick={() => setShowSubmitModal(true)}
+            className="hidden sm:inline-flex items-center space-x-1.5 px-4 py-1.5 bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-xs rounded-lg shadow transition"
+          >
+            <Send className="w-3.5 h-3.5" />
+            <span>Submit Test</span>
+          </button>
+
+          {/* Mobile Palette Toggle Button */}
+          <button
+            onClick={() => setShowMobilePalette(!showMobilePalette)}
+            className="lg:hidden p-1.5 bg-blue-800 text-white rounded-lg border border-blue-600"
+          >
+            {showMobilePalette ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+          </button>
+        </div>
+      </header>
+
+      {/* Subject Tabs Bar (Physics, Chemistry, Biology) */}
+      <div className="bg-white border-b border-slate-200 px-4 py-1.5 flex items-center justify-between shrink-0 shadow-sm overflow-x-auto">
+        <div className="flex items-center space-x-2">
+          <span className="text-xs font-bold text-slate-500 uppercase tracking-wider mr-2">Sections:</span>
+          {subjects.map((subj) => (
+            <button
+              key={subj}
+              onClick={() => {
+                setActiveSubject(subj);
+                if (subj !== 'All') {
+                  const firstSubjIdx = questions.findIndex(q => q.subject === subj);
+                  if (firstSubjIdx !== -1) handleNavigate(firstSubjIdx);
+                }
+              }}
+              className={`px-3 py-1 rounded text-xs font-semibold transition ${
+                activeSubject === subj 
+                  ? 'bg-blue-900 text-white shadow-sm' 
+                  : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
+              }`}
+            >
+              {subj}
+            </button>
+          ))}
+        </div>
+
+        <div className="text-xs text-slate-500 font-medium hidden md:block">
+          Question <span className="font-bold text-slate-800">{currentIndex + 1}</span> of <span className="font-bold text-slate-800">{questions.length}</span>
+        </div>
+      </div>
+
+      {/* Main 3-Column / Flexible Workspace */}
+      <div className="flex-1 flex overflow-hidden relative">
+        {/* LEFT / DESKTOP QUESTION PALETTE (280px) */}
+        <aside className={`
+          absolute lg:static inset-y-0 left-0 z-30 w-72 sm:w-80 bg-white border-r border-slate-200 flex flex-col justify-between transition-transform duration-200 shadow-lg lg:shadow-none
+          ${showMobilePalette ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'}
+        `}>
+          {/* Palette Header & Legend */}
+          <div className="p-3 border-b border-slate-200 bg-slate-50">
+            <h2 className="text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Question Palette</h2>
+            <div className="grid grid-cols-2 gap-2 text-[11px]">
+              <div className="flex items-center space-x-1.5">
+                <span className="w-5 h-5 rounded-full flex items-center justify-center font-bold text-[10px] bg-green-500 text-white shrink-0">
+                  {answeredCount}
+                </span>
+                <span className="text-slate-700">Answered</span>
+              </div>
+              <div className="flex items-center space-x-1.5">
+                <span className="w-5 h-5 rounded-full flex items-center justify-center font-bold text-[10px] bg-red-500 text-white shrink-0">
+                  {notAnsweredCount}
+                </span>
+                <span className="text-slate-700">Not Answered</span>
+              </div>
+              <div className="flex items-center space-x-1.5">
+                <span className="w-5 h-5 rounded-full flex items-center justify-center font-bold text-[10px] bg-slate-200 text-slate-700 shrink-0">
+                  {notVisitedCount}
+                </span>
+                <span className="text-slate-700">Not Visited</span>
+              </div>
+              <div className="flex items-center space-x-1.5">
+                <span className="w-5 h-5 rounded-full flex items-center justify-center font-bold text-[10px] bg-purple-500 text-white shrink-0">
+                  {markedCount}
+                </span>
+                <span className="text-slate-700">Marked for Review</span>
+              </div>
+              <div className="col-span-2 flex items-center space-x-1.5 pt-1">
+                <span className="w-5 h-5 rounded-full flex items-center justify-center font-bold text-[10px] bg-green-500 text-white shrink-0 relative after:content-[''] after:absolute after:-top-0.5 after:-right-0.5 after:w-2 after:h-2 after:bg-purple-500 after:rounded-full after:border after:border-white">
+                  {answeredAndMarkedCount}
+                </span>
+                <span className="text-slate-700">Answered & Marked for Review</span>
+              </div>
+            </div>
+          </div>
+
+          {/* Palette Number Grid */}
+          <div className="flex-1 p-3 overflow-y-auto">
+            <div className="grid grid-cols-5 gap-2">
+              {questions.map((q, idx) => {
+                const s = responses[q.id]?.paletteState || 'not_visited';
+                const isCurrent = idx === currentIndex;
+
+                let stateClass = 'palette-not-visited';
+                if (s === 'not_answered') stateClass = 'palette-not-answered';
+                else if (s === 'answered') stateClass = 'palette-answered';
+                else if (s === 'marked_for_review') stateClass = 'palette-marked';
+                else if (s === 'answered_and_marked') stateClass = 'palette-answered-marked';
+
+                return (
+                  <button
+                    key={q.id}
+                    onClick={() => {
+                      handleNavigate(idx);
+                      setShowMobilePalette(false);
+                    }}
+                    className={`
+                      h-9 w-9 rounded-lg font-bold text-xs flex items-center justify-center transition border
+                      ${stateClass}
+                      ${isCurrent ? 'ring-2 ring-blue-900 ring-offset-2 scale-105 z-10' : 'hover:opacity-90'}
+                    `}
+                  >
+                    {idx + 1}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+
+          {/* Palette Footer Status */}
+          <div className="p-3 bg-slate-50 border-t border-slate-200">
+            <div className="text-xs text-slate-600 flex justify-between font-medium">
+              <span>Section: <strong>{currentQ?.subject}</strong></span>
+              <span>Total: <strong>{questions.length}</strong></span>
+            </div>
+          </div>
+        </aside>
+
+        {/* MAIN QUESTION DISPLAY AREA */}
+        <main className="flex-1 flex flex-col bg-white overflow-hidden">
+          {/* Question Top Meta Bar */}
+          <div className="bg-slate-50 border-b border-slate-200 px-6 py-2.5 flex items-center justify-between shrink-0">
+            <div className="flex items-center space-x-3">
+              <span className="text-base font-bold text-slate-900">
+                Question No. {currentIndex + 1}
+              </span>
+              <span className="px-2.5 py-0.5 rounded text-xs font-semibold bg-blue-100 text-blue-800 border border-blue-200">
+                {currentQ?.subject}
+              </span>
+              {currentQ?.chapterName && (
+                <span className="hidden sm:inline-block px-2.5 py-0.5 rounded text-xs font-medium bg-slate-200 text-slate-700 truncate max-w-xs">
+                  {currentQ.chapterName}
+                </span>
+              )}
+            </div>
+
+            <div className="flex items-center space-x-3 text-xs">
+              <span className="text-emerald-700 font-bold bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">
+                +4.00
+              </span>
+              <span className="text-rose-700 font-bold bg-rose-50 px-2 py-0.5 rounded border border-rose-200">
+                -1.00
+              </span>
+            </div>
+          </div>
+
+          {/* Question Text & Options Scrollable Canvas */}
+          <div className="flex-1 p-4 sm:p-6 overflow-y-auto space-y-6">
+            {/* Rendered High-Resolution Question Image (Formulas, Diagrams, Vectors) */}
+            {currentQ?.imageUrl && (
+              <div className="border border-slate-200 rounded-xl overflow-hidden bg-white shadow-sm p-3 inline-block max-w-full">
+                <img
+                  src={currentQ.imageUrl}
+                  alt={`Question ${currentIndex + 1} Diagram and Formula`}
+                  className="max-h-[340px] sm:max-h-[420px] w-auto object-contain mx-auto"
+                />
+              </div>
+            )}
+
+            {/* Extracted Question Statement (for readability and screen readers) */}
+            {currentQ?.questionText && (
+              <div className="text-sm sm:text-base text-slate-900 leading-relaxed font-medium bg-slate-50/70 p-4 rounded-xl border border-slate-100">
+                {currentQ.questionText}
+              </div>
+            )}
+
+            {/* 4 Interactive Selectable Options */}
+            <div className="space-y-3 pt-2">
+              <p className="text-xs font-bold text-slate-500 uppercase tracking-wider">Select Option:</p>
+              {currentQ?.options.map((optText, optIdx) => {
+                const optNum = optIdx + 1;
+                const isSelected = selectedOption === optNum;
+
+                return (
+                  <label
+                    key={optNum}
+                    onClick={() => handleSelectOption(optNum)}
+                    className={`
+                      flex items-start space-x-3 p-3.5 rounded-xl border-2 transition cursor-pointer select-none
+                      ${isSelected 
+                        ? 'border-blue-700 bg-blue-50/80 shadow-sm text-blue-950 font-medium' 
+                        : 'border-slate-200 hover:border-slate-300 hover:bg-slate-50 text-slate-800'}
+                    `}
+                  >
+                    <div className="pt-0.5 shrink-0">
+                      <div className={`
+                        w-5 h-5 rounded-full border flex items-center justify-center font-bold text-xs transition
+                        ${isSelected ? 'border-blue-700 bg-blue-700 text-white' : 'border-slate-400 bg-white text-slate-600'}
+                      `}>
+                        {optNum}
+                      </div>
+                    </div>
+                    <div className="flex-1 text-sm sm:text-base leading-snug">
+                      {optText}
+                    </div>
+                  </label>
+                );
+              })}
+            </div>
+          </div>
+
+          {/* Bottom Action Controls Bar */}
+          <footer className="bg-slate-50 border-t border-slate-200 px-4 sm:px-6 py-3 shrink-0 flex flex-wrap items-center justify-between gap-2 shadow-inner">
+            <div className="flex items-center space-x-2">
+              <button
+                onClick={handleMarkForReviewAndNext}
+                className="px-3.5 py-2 bg-purple-600 hover:bg-purple-700 text-white rounded-lg text-xs sm:text-sm font-semibold transition flex items-center space-x-1.5 shadow-sm"
+              >
+                <Bookmark className="w-4 h-4" />
+                <span>Mark for Review & Next</span>
+              </button>
+
+              <button
+                onClick={handleClearResponse}
+                disabled={selectedOption === null && !currentResp?.isMarkedForReview}
+                className="px-3 py-2 bg-white hover:bg-slate-100 text-slate-700 border border-slate-300 rounded-lg text-xs sm:text-sm font-medium transition flex items-center space-x-1.5 disabled:opacity-40"
+              >
+                <RotateCcw className="w-3.5 h-3.5" />
+                <span>Clear Response</span>
+              </button>
+            </div>
+
+            <div className="flex items-center space-x-2">
+              <button
+                onClick={() => handleNavigate(currentIndex - 1)}
+                disabled={currentIndex === 0}
+                className="px-3.5 py-2 bg-white hover:bg-slate-100 text-slate-700 border border-slate-300 rounded-lg text-xs sm:text-sm font-medium transition flex items-center space-x-1 disabled:opacity-40"
+              >
+                <ChevronLeft className="w-4 h-4" />
+                <span>Previous</span>
+              </button>
+
+              <button
+                onClick={handleSaveAndNext}
+                className="px-5 py-2 bg-blue-900 hover:bg-blue-800 text-white rounded-lg text-xs sm:text-sm font-bold transition flex items-center space-x-1.5 shadow"
+              >
+                <span>Save & Next</span>
+                <ChevronRight className="w-4 h-4" />
+              </button>
+            </div>
+          </footer>
+        </main>
+
+        {/* RIGHT SIDEBAR ON LARGE SCREENS (Summary & Quick Stats) */}
+        <aside className="hidden xl:flex flex-col w-64 bg-slate-50 border-l border-slate-200 p-4 justify-between shrink-0">
+          <div className="space-y-4">
+            <div className="bg-white p-3.5 rounded-xl border border-slate-200 shadow-sm text-center">
+              <div className="text-xs text-slate-500 font-semibold uppercase">Candidate Profile</div>
+              <div className="font-bold text-slate-900 text-sm mt-1">{studentInfo.name}</div>
+              <div className="text-xs text-slate-500 truncate">{studentInfo.email}</div>
+            </div>
+
+            <div className="bg-white p-4 rounded-xl border border-slate-200 shadow-sm space-y-3">
+              <div className="text-xs font-bold text-slate-700 uppercase tracking-wider border-b pb-2">
+                Attempt Summary
+              </div>
+              <div className="space-y-2 text-xs">
+                <div className="flex justify-between">
+                  <span className="text-slate-600">Total Questions:</span>
+                  <span className="font-bold text-slate-900">{questions.length}</span>
+                </div>
+                <div className="flex justify-between">
+                  <span className="text-green-700">Answered:</span>
+                  <span className="font-bold text-green-700">{answeredCount}</span>
+                </div>
+                <div className="flex justify-between">
+                  <span className="text-red-700">Not Answered:</span>
+                  <span className="font-bold text-red-700">{notAnsweredCount}</span>
+                </div>
+                <div className="flex justify-between">
+                  <span className="text-slate-500">Not Visited:</span>
+                  <span className="font-bold text-slate-600">{notVisitedCount}</span>
+                </div>
+                <div className="flex justify-between">
+                  <span className="text-purple-700">Marked for Review:</span>
+                  <span className="font-bold text-purple-700">{markedCount + answeredAndMarkedCount}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button
+            onClick={() => setShowSubmitModal(true)}
+            className="w-full py-3 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-xl shadow-md transition flex items-center justify-center space-x-2 text-sm"
+          >
+            <Send className="w-4 h-4" />
+            <span>Submit Examination</span>
+          </button>
+        </aside>
+      </div>
+
+      {/* Confirmation Modal Before Manual Submission */}
+      {showSubmitModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm p-4">
+          <div className="bg-white rounded-2xl shadow-2xl max-w-md w-full overflow-hidden border border-slate-100 animate-in fade-in zoom-in-95">
+            <div className="bg-blue-900 text-white p-5">
+              <h3 className="text-lg font-bold flex items-center space-x-2">
+                <AlertTriangle className="w-5 h-5 text-amber-400" />
+                <span>Confirm Final Submission</span>
+              </h3>
+              <p className="text-xs text-blue-200 mt-1">
+                Are you sure you want to finish the examination?
+              </p>
+            </div>
+
+            <div className="p-6 space-y-4">
+              <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 text-xs space-y-2">
+                <div className="flex justify-between py-1 border-b border-slate-200">
+                  <span className="text-slate-600 font-medium">Total Questions:</span>
+                  <span className="font-bold text-slate-900">{questions.length}</span>
+                </div>
+                <div className="flex justify-between py-1 border-b border-slate-200">
+                  <span className="text-green-700 font-medium">Answered Questions:</span>
+                  <span className="font-bold text-green-700">{answeredCount + answeredAndMarkedCount}</span>
+                </div>
+                <div className="flex justify-between py-1 border-b border-slate-200">
+                  <span className="text-red-700 font-medium">Unanswered Questions:</span>
+                  <span className="font-bold text-red-700">{notAnsweredCount + notVisitedCount}</span>
+                </div>
+                <div className="flex justify-between py-1">
+                  <span className="text-purple-700 font-medium">Marked for Review:</span>
+                  <span className="font-bold text-purple-700">{markedCount + answeredAndMarkedCount}</span>
+                </div>
+              </div>
+
+              <p className="text-xs text-slate-500 leading-relaxed">
+                Once submitted, you will not be able to change your answers. Your responses will be evaluated on the secure server using the approved NEET answer key.
+              </p>
+
+              <div className="pt-2 flex items-center justify-end space-x-3">
+                <button
+                  type="button"
+                  onClick={() => setShowSubmitModal(false)}
+                  className="px-4 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-100 rounded-lg transition"
+                >
+                  Resume Test
+                </button>
+                <button
+                  type="button"
+                  onClick={executeSubmission}
+                  disabled={isSubmitting}
+                  className="px-5 py-2 text-sm font-bold bg-emerald-600 hover:bg-emerald-500 text-white rounded-lg transition shadow flex items-center space-x-2"
+                >
+                  {isSubmitting ? (
+                    <>
+                      <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin"></div>
+                      <span>Evaluating...</span>
+                    </>
+                  ) : (
+                    <span>Yes, Submit Examination</span>
+                  )}
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
