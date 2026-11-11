@@ -765,10 +765,10 @@
     "questionText": "Fill up the blanks in the following statements with the appropriate options. \n \nI. \nHeterocyst is a specialised cyanobacterial cell that carries out ....(A).... \n \nII. Cyanobacteria have ....(B).... similar to greenplants. \n \nIII. Cyanobacteria often form ....(C).... in polluted water bodies. \n \nIV. Some species of ....(D).... secrete toxins, which inhibit the growth of mosquito larva in water. \n\n\n \nPre-Medical : Biology \n\n5 \n \n(A) \n(B) \n(C) \n(D) \n1 \nPhotosynthesis \nCarotenoids \nDeath factor \nAnabaena \n2 \nNitrogen fixation \nChlorophyll-a \nWater blooms \nOscillatoria \n3 \nReproduction \nChlorophyll-b \nWater blooms \nNostoc \n4 \nMetabolism \nChlorophyll-a \ntrichome \nOscillatoria",
     "question_text": "Fill up the blanks in the following statements with the appropriate options. \n \nI. \nHeterocyst is a specialised cyanobacterial cell that carries out ....(A).... \n \nII. Cyanobacteria have ....(B).... similar to greenplants. \n \nIII. Cyanobacteria often form ....(C).... in polluted water bodies. \n \nIV. Some species of ....(D).... secrete toxins, which inhibit the growth of mosquito larva in water. \n\n\n \nPre-Medical : Biology \n\n5 \n \n(A) \n(B) \n(C) \n(D) \n1 \nPhotosynthesis \nCarotenoids \nDeath factor \nAnabaena \n2 \nNitrogen fixation \nChlorophyll-a \nWater blooms \nOscillatoria \n3 \nReproduction \nChlorophyll-b \nWater blooms \nNostoc \n4 \nMetabolism \nChlorophyll-a \ntrichome \nOscillatoria",
     "options": [
-      "Option (1)",
-      "Option (2)",
-      "Option (3)",
-      "Option (4)"
+      "(A) Photosynthesis, (B) Carotenoids, (C) Death factor, (D) Anabaena",
+      "(A) Nitrogen fixation, (B) Chlorophyll-a, (C) Water blooms, (D) Oscillatoria",
+      "(A) Reproduction, (B) Chlorophyll-b, (C) Water blooms, (D) Nostoc",
+      "(A) Metabolism, (B) Chlorophyll-a, (C) trichome, (D) Oscillatoria"
     ],
     "imageUrl": "/images/biology_diwali/ch01_q26.png",
     "image_url": "/images/biology_diwali/ch01_q26.png",
@@ -1155,10 +1155,10 @@
     "questionText": "Tympanum represents ear in :-",
     "question_text": "Tympanum represents ear in :-",
     "options": [
-      "&",
-      "Option (2)",
+      "Amphibia",
+      "Reptile",
       "Birds",
-      "Both"
+      "Both (1) & (2)"
     ],
     "imageUrl": "/images/biology_diwali/ch02_q09.png",
     "image_url": "/images/biology_diwali/ch02_q09.png",
@@ -1995,10 +1995,10 @@
     "questionText": "Which of the floral formula is correct for given floral diagram of mustard ?",
     "question_text": "Which of the floral formula is correct for given floral diagram of mustard ?",
     "options": [
-      "Option (1)",
-      "Option (2)",
-      "Option (3)",
-      "Option (4)"
+      "Floral formula (1)",
+      "Floral formula (2)",
+      "Floral formula (3)",
+      "Floral formula (4)"
     ],
     "imageUrl": "/images/biology_diwali/ch03_q17.png",
     "image_url": "/images/biology_diwali/ch03_q17.png",
@@ -2007,7 +2007,19 @@
     "sourcePdf": "Biology Diwali Assignment.pdf",
     "source_pdf": "Biology Diwali Assignment.pdf",
     "sourcePage": 16,
-    "source_page": 16
+    "source_page": 16,
+    "optionImages": [
+      "/images/bio_opts/ch03_q17_opt_1.png",
+      "/images/bio_opts/ch03_q17_opt_2.png",
+      "/images/bio_opts/ch03_q17_opt_3.png",
+      "/images/bio_opts/ch03_q17_opt_4.png"
+    ],
+    "option_images": [
+      "/images/bio_opts/ch03_q17_opt_1.png",
+      "/images/bio_opts/ch03_q17_opt_2.png",
+      "/images/bio_opts/ch03_q17_opt_3.png",
+      "/images/bio_opts/ch03_q17_opt_4.png"
+    ]
   },
   {
     "id": "bio_ch03_q18",
@@ -2565,10 +2577,10 @@
     "questionText": "Given below is the diagrammatic view of a monocot leaf. Identify the parts labelled A, B, Cand D and \nselect the right option :- \n \n \n \n \n\n\n \nPre-Medical : Biology \n\n13",
     "question_text": "Given below is the diagrammatic view of a monocot leaf. Identify the parts labelled A, B, Cand D and \nselect the right option :- \n \n \n \n \n\n\n \nPre-Medical : Biology \n\n13",
     "options": [
-      "Option (1)",
-      "Option (2)",
-      "Option (3)",
-      "Option (4)"
+      "Option row (1) from leaf diagram table",
+      "Option row (2) from leaf diagram table",
+      "Option row (3) from leaf diagram table",
+      "Option row (4) from leaf diagram table"
     ],
     "imageUrl": "/images/biology_diwali/ch04_q16.png",
     "image_url": "/images/biology_diwali/ch04_q16.png",
@@ -2577,7 +2589,19 @@
     "sourcePdf": "Biology Diwali Assignment.pdf",
     "source_pdf": "Biology Diwali Assignment.pdf",
     "sourcePage": 18,
-    "source_page": 18
+    "source_page": 18,
+    "optionImages": [
+      "/images/bio_opts/ch04_q16_opt_1.png",
+      "/images/bio_opts/ch04_q16_opt_2.png",
+      "/images/bio_opts/ch04_q16_opt_3.png",
+      "/images/bio_opts/ch04_q16_opt_4.png"
+    ],
+    "option_images": [
+      "/images/bio_opts/ch04_q16_opt_1.png",
+      "/images/bio_opts/ch04_q16_opt_2.png",
+      "/images/bio_opts/ch04_q16_opt_3.png",
+      "/images/bio_opts/ch04_q16_opt_4.png"
+    ]
   },
   {
     "id": "bio_ch04_q17",
@@ -4125,10 +4149,10 @@
     "questionText": "Find out the correct match :-",
     "question_text": "Find out the correct match :-",
     "options": [
-      "Option (1)",
-      "Option (2)",
-      "Option (3)",
-      "Option (4)"
+      "Match pattern (1)",
+      "Match pattern (2)",
+      "Match pattern (3)",
+      "Match pattern (4)"
     ],
     "imageUrl": "/images/biology_diwali/ch08_q06.png",
     "image_url": "/images/biology_diwali/ch08_q06.png",
@@ -4137,7 +4161,19 @@
     "sourcePdf": "Biology Diwali Assignment.pdf",
     "source_pdf": "Biology Diwali Assignment.pdf",
     "sourcePage": 32,
-    "source_page": 32
+    "source_page": 32,
+    "optionImages": [
+      "/images/bio_opts/ch08_q06_opt_1.png",
+      "/images/bio_opts/ch08_q06_opt_2.png",
+      "/images/bio_opts/ch08_q06_opt_3.png",
+      "/images/bio_opts/ch08_q06_opt_4.png"
+    ],
+    "option_images": [
+      "/images/bio_opts/ch08_q06_opt_1.png",
+      "/images/bio_opts/ch08_q06_opt_2.png",
+      "/images/bio_opts/ch08_q06_opt_3.png",
+      "/images/bio_opts/ch08_q06_opt_4.png"
+    ]
   },
   {
     "id": "bio_ch08_q07",
@@ -4545,10 +4581,10 @@
     "questionText": "Which of the following graph correctly represents DNA content (2C) and chromosome number (2n) of a \ndiploid cell undergoing different stages of cell cycle ?",
     "question_text": "Which of the following graph correctly represents DNA content (2C) and chromosome number (2n) of a \ndiploid cell undergoing different stages of cell cycle ?",
     "options": [
-      "Option (1)",
-      "Option (2)",
-      "Option (3)",
-      "Option (4)"
+      "Cell cycle graph (1)",
+      "Cell cycle graph (2)",
+      "Cell cycle graph (3)",
+      "Cell cycle graph (4)"
     ],
     "imageUrl": "/images/biology_diwali/ch09_q10.png",
     "image_url": "/images/biology_diwali/ch09_q10.png",
@@ -4557,7 +4593,19 @@
     "sourcePdf": "Biology Diwali Assignment.pdf",
     "source_pdf": "Biology Diwali Assignment.pdf",
     "sourcePage": 36,
-    "source_page": 36
+    "source_page": 36,
+    "optionImages": [
+      "/images/bio_opts/ch09_q10_opt_1.png",
+      "/images/bio_opts/ch09_q10_opt_2.png",
+      "/images/bio_opts/ch09_q10_opt_3.png",
+      "/images/bio_opts/ch09_q10_opt_4.png"
+    ],
+    "option_images": [
+      "/images/bio_opts/ch09_q10_opt_1.png",
+      "/images/bio_opts/ch09_q10_opt_2.png",
+      "/images/bio_opts/ch09_q10_opt_3.png",
+      "/images/bio_opts/ch09_q10_opt_4.png"
+    ]
   },
   {
     "id": "bio_ch10_q01",
@@ -8145,10 +8193,10 @@
     "questionText": "Blood Ca\n++ level is regulated by :-",
     "question_text": "Blood Ca\n++ level is regulated by :-",
     "options": [
-      "and",
-      "Option (2)",
+      "TCT",
+      "Parathormone",
       "Aldosterone",
-      "Both"
+      "Both (1) and (2)"
     ],
     "imageUrl": "/images/biology_diwali/ch18_q10.png",
     "image_url": "/images/biology_diwali/ch18_q10.png",
@@ -13575,10 +13623,10 @@
     "questionText": "In the below graph relation between species richness and area for a wide variety of taxa is shown. On a \nlogarithmic scale, the relationship shown by straight line, In which area slope of line to be much steeper ? \nHere Area (A) = 1 km2",
     "question_text": "In the below graph relation between species richness and area for a wide variety of taxa is shown. On a \nlogarithmic scale, the relationship shown by straight line, In which area slope of line to be much steeper ? \nHere Area (A) = 1 km2",
     "options": [
-      "Option (1)",
-      "Option (2)",
-      "Option (3)",
-      "Option (4)"
+      "Species richness slope graph (1)",
+      "Species richness slope graph (2)",
+      "Species richness slope graph (3)",
+      "Species richness slope graph (4)"
     ],
     "imageUrl": "/images/biology_diwali/ch28_q26.png",
     "image_url": "/images/biology_diwali/ch28_q26.png",
@@ -13587,7 +13635,19 @@
     "sourcePdf": "Biology Diwali Assignment.pdf",
     "source_pdf": "Biology Diwali Assignment.pdf",
     "sourcePage": 94,
-    "source_page": 94
+    "source_page": 94,
+    "optionImages": [
+      "/images/bio_opts/ch28_q26_opt_1.png",
+      "/images/bio_opts/ch28_q26_opt_2.png",
+      "/images/bio_opts/ch28_q26_opt_3.png",
+      "/images/bio_opts/ch28_q26_opt_4.png"
+    ],
+    "option_images": [
+      "/images/bio_opts/ch28_q26_opt_1.png",
+      "/images/bio_opts/ch28_q26_opt_2.png",
+      "/images/bio_opts/ch28_q26_opt_3.png",
+      "/images/bio_opts/ch28_q26_opt_4.png"
+    ]
   },
   {
     "id": "bio_ch28_q27",

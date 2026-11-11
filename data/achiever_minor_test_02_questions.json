@@ -11,9 +11,9 @@
     "questionText": "The potential energy of a particle of mass 1kg free to move along x-axis is given by \nU(x) =\n joule. If total mechanical energy of the particle is 2J, then find the maximum speed\nof the particle.",
     "question_text": "The potential energy of a particle of mass 1kg free to move along x-axis is given by \nU(x) =\n joule. If total mechanical energy of the particle is 2J, then find the maximum speed\nof the particle.",
     "options": [
-      "Option (1)",
-      "Option (2)",
-      "Option (3)",
+      "See Option (1) in formula/diagram",
+      "See Option (2) in formula/diagram",
+      "See Option (3) in formula/diagram",
       "2 m/s"
     ],
     "imageUrl": "/images/achiever/q_1.png",
@@ -27,7 +27,19 @@
     "sourcePdf": "Achiever Minor Test 02.pdf",
     "source_pdf": "Achiever Minor Test 02.pdf",
     "sourcePage": 1,
-    "source_page": 1
+    "source_page": 1,
+    "optionImages": [
+      "/images/achiever_opts/q1_opt_1.png",
+      "/images/achiever_opts/q1_opt_2.png",
+      "/images/achiever_opts/q1_opt_3.png",
+      "/images/achiever_opts/q1_opt_4.png"
+    ],
+    "option_images": [
+      "/images/achiever_opts/q1_opt_1.png",
+      "/images/achiever_opts/q1_opt_2.png",
+      "/images/achiever_opts/q1_opt_3.png",
+      "/images/achiever_opts/q1_opt_4.png"
+    ]
   },
   {
     "id": "achiever_002",
@@ -41,10 +53,10 @@
     "questionText": "A force F acting on a particle varies with the position x as shown in the graph. Find the work done\nby the force in displacing the particle from x = –a to x = +2a.",
     "question_text": "A force F acting on a particle varies with the position x as shown in the graph. Find the work done\nby the force in displacing the particle from x = –a to x = +2a.",
     "options": [
-      "Option (1)",
-      "Option (2)",
-      "Option (3)",
-      "Option (4)"
+      "See Option (1) in formula/diagram",
+      "See Option (2) in formula/diagram",
+      "See Option (3) in formula/diagram",
+      "See Option (4) in formula/diagram"
     ],
     "imageUrl": "/images/achiever/q_2.png",
     "image_url": "/images/achiever/q_2.png",
@@ -57,7 +69,19 @@
     "sourcePdf": "Achiever Minor Test 02.pdf",
     "source_pdf": "Achiever Minor Test 02.pdf",
     "sourcePage": 1,
-    "source_page": 1
+    "source_page": 1,
+    "optionImages": [
+      "/images/achiever_opts/q2_opt_1.png",
+      "/images/achiever_opts/q2_opt_2.png",
+      "/images/achiever_opts/q2_opt_3.png",
+      "/images/achiever_opts/q2_opt_4.png"
+    ],
+    "option_images": [
+      "/images/achiever_opts/q2_opt_1.png",
+      "/images/achiever_opts/q2_opt_2.png",
+      "/images/achiever_opts/q2_opt_3.png",
+      "/images/achiever_opts/q2_opt_4.png"
+    ]
   },
   {
     "id": "achiever_003",
@@ -68,20 +92,20 @@
     "subject": "Physics",
     "questionType": "diagram_based",
     "question_type": "diagram_based",
-    "questionText": "Velocity-time graph for a body of mass 10 kg is shown in figure. Work-done on the body in first\ntwo seconds of the motion is :- \n(1)  –9300 J",
-    "question_text": "Velocity-time graph for a body of mass 10 kg is shown in figure. Work-done on the body in first\ntwo seconds of the motion is :- \n(1)  –9300 J",
+    "questionText": "Velocity-time graph for a body of mass 10 kg is shown in figure. Work-done on the body in first\ntwo seconds of the motion is :-",
+    "question_text": "Velocity-time graph for a body of mass 10 kg is shown in figure. Work-done on the body in first\ntwo seconds of the motion is :-",
     "options": [
-      "(1) Option 1",
-      "(2) Option 2",
-      "(3) Option 3",
-      "(4) Option 4"
+      "–9300 J",
+      "–12000 J",
+      "12000 J",
+      "–4500 J"
     ],
     "imageUrl": "/images/achiever/q_3.png",
     "image_url": "/images/achiever/q_3.png",
     "officialAnswer": 4,
     "official_answer": 4,
-    "solutionText": "Explaining : Find the work done on the body in first 2 sec.\nConcept : This question is based on work-energy theorem.\nSolution :\nSlope (a) = \n = –5 m/s\n2\nBy the graph at t = 0 sec, v1 = 50 m/s\nvelocity at t = 2 sec,  v2 = 50 – (5)(2) = 40 m/s\nwork done is change in kE \n\n<<<PAGE 43>>>\nω = \nFinal Answer : (4)",
-    "solution_text": "Explaining : Find the work done on the body in first 2 sec.\nConcept : This question is based on work-energy theorem.\nSolution :\nSlope (a) = \n = –5 m/s\n2\nBy the graph at t = 0 sec, v1 = 50 m/s\nvelocity at t = 2 sec,  v2 = 50 – (5)(2) = 40 m/s\nwork done is change in kE \n\n<<<PAGE 43>>>\nω = \nFinal Answer : (4)",
+    "solutionText": "Explaining : Find the work done on the body in first 2 sec.\nConcept : This question is based on work-energy theorem.\nSolution :\nSlope (a) = \n = –5 m/s\n2\nBy the graph at t = 0 sec, v1 = 50 m/s\nvelocity at t = 2 sec,  v2 = 50 – (5)(2) = 40 m/s\nwork done is change in kE \n\n---P42---\nω = \nFinal Answer : (4)",
+    "solution_text": "Explaining : Find the work done on the body in first 2 sec.\nConcept : This question is based on work-energy theorem.\nSolution :\nSlope (a) = \n = –5 m/s\n2\nBy the graph at t = 0 sec, v1 = 50 m/s\nvelocity at t = 2 sec,  v2 = 50 – (5)(2) = 40 m/s\nwork done is change in kE \n\n---P42---\nω = \nFinal Answer : (4)",
     "solutionFinalAnswer": 4,
     "solution_final_answer": 4,
     "sourcePdf": "Achiever Minor Test 02.pdf",
@@ -161,10 +185,10 @@
     "questionText": "A 10kg mass moves along x-axis. Its acceleration as a function of its position is shown in the\nfigure. What is the total work done on the mass by the force as the mass moves from x = 0  to x = 8\ncm",
     "question_text": "A 10kg mass moves along x-axis. Its acceleration as a function of its position is shown in the\nfigure. What is the total work done on the mass by the force as the mass moves from x = 0  to x = 8\ncm",
     "options": [
-      "8 × 10\n–2 joule",
-      "16 × 10\n–2 joule",
-      "4 × 10\n–4 joule",
-      "1.6 × 10\n–3 joule"
+      "8 × 10 –2 joule",
+      "16 × 10 –2 joule",
+      "4 × 10 –4 joule",
+      "1.6 × 10 –3 joule"
     ],
     "imageUrl": "/images/achiever/q_6.png",
     "image_url": "/images/achiever/q_6.png",
@@ -200,8 +224,8 @@
     "image_url": "/images/achiever/q_7.png",
     "officialAnswer": 2,
     "official_answer": 2,
-    "solutionText": "Explaining : Find the total work done on the particle.\nConcept : This question is based on work done by variable force.\nSolution :\n\n<<<PAGE 44>>>\nFor (0, 0) to (0, 2)\n     \nFor (0, 2) to (2, 2)\n       \nTotal work = W1 + W2\n                  = 6 + 4 = 10 J\nFinal Answer : (2)",
-    "solution_text": "Explaining : Find the total work done on the particle.\nConcept : This question is based on work done by variable force.\nSolution :\n\n<<<PAGE 44>>>\nFor (0, 0) to (0, 2)\n     \nFor (0, 2) to (2, 2)\n       \nTotal work = W1 + W2\n                  = 6 + 4 = 10 J\nFinal Answer : (2)",
+    "solutionText": "Explaining : Find the total work done on the particle.\nConcept : This question is based on work done by variable force.\nSolution :\n\n---P43---\nFor (0, 0) to (0, 2)\n     \nFor (0, 2) to (2, 2)\n       \nTotal work = W1 + W2\n                  = 6 + 4 = 10 J\nFinal Answer : (2)",
+    "solution_text": "Explaining : Find the total work done on the particle.\nConcept : This question is based on work done by variable force.\nSolution :\n\n---P43---\nFor (0, 0) to (0, 2)\n     \nFor (0, 2) to (2, 2)\n       \nTotal work = W1 + W2\n                  = 6 + 4 = 10 J\nFinal Answer : (2)",
     "solutionFinalAnswer": 2,
     "solution_final_answer": 2,
     "sourcePdf": "Achiever Minor Test 02.pdf",
@@ -262,8 +286,8 @@
     "official_answer": 3,
     "solutionText": "Question Explanation: Find pump power factor to multiply water mass flow rate by 3.\nConcept: Power and Mass Flow Rate.\nSolution: As we know that\n & \nSo, that \n \ntherefore to mape \n→ 3 times → \nthe, Pnew = (3)\n3 Pold\n= 27 × 2\n= 54 hP",
     "solution_text": "Question Explanation: Find pump power factor to multiply water mass flow rate by 3.\nConcept: Power and Mass Flow Rate.\nSolution: As we know that\n & \nSo, that \n \ntherefore to mape \n→ 3 times → \nthe, Pnew = (3)\n3 Pold\n= 27 × 2\n= 54 hP",
-    "solutionFinalAnswer": null,
-    "solution_final_answer": null,
+    "solutionFinalAnswer": 3,
+    "solution_final_answer": 3,
     "sourcePdf": "Achiever Minor Test 02.pdf",
     "source_pdf": "Achiever Minor Test 02.pdf",
     "sourcePage": 3,
@@ -278,26 +302,38 @@
     "subject": "Physics",
     "questionType": "diagram_based",
     "question_type": "diagram_based",
-    "questionText": "A car of mass m is accelerating on a level smooth road under the action of a single force F. The\npower delivered to the car is constant and equal to P. If the velocity of the car at an instant is v, then",
-    "question_text": "A car of mass m is accelerating on a level smooth road under the action of a single force F. The\npower delivered to the car is constant and equal to P. If the velocity of the car at an instant is v, then",
+    "questionText": "A car of mass m is accelerating on a level smooth road under the action of a single force F. The\npower delivered to the car is constant and equal to P. If the velocity of the car at an instant is v, then\nafter travelling how much distance it becomes double ?",
+    "question_text": "A car of mass m is accelerating on a level smooth road under the action of a single force F. The\npower delivered to the car is constant and equal to P. If the velocity of the car at an instant is v, then\nafter travelling how much distance it becomes double ?",
     "options": [
-      "(1) Option 1",
-      "(2) Option 2",
-      "(3) Option 3",
-      "(4) Option 4"
+      "See Option (1) in formula/diagram",
+      "See Option (2) in formula/diagram",
+      "See Option (3) in formula/diagram",
+      "See Option (4) in formula/diagram"
     ],
     "imageUrl": "/images/achiever/q_10.png",
     "image_url": "/images/achiever/q_10.png",
     "officialAnswer": 1,
     "official_answer": 1,
-    "solutionText": "Explanation Question:\nAsking about distance covered by a car before doubling the speed, if power delivering to the\ncar is constant.\nConcept:\n\n<<<PAGE 45>>>\nThis question is based on Power & use of calculus\nSolution:\nP = Fv\n∵ F = ma\n∵ a = \nP = \nFinal Answer :\nOption (1)",
-    "solution_text": "Explanation Question:\nAsking about distance covered by a car before doubling the speed, if power delivering to the\ncar is constant.\nConcept:\n\n<<<PAGE 45>>>\nThis question is based on Power & use of calculus\nSolution:\nP = Fv\n∵ F = ma\n∵ a = \nP = \nFinal Answer :\nOption (1)",
+    "solutionText": "Explanation Question:\nAsking about distance covered by a car before doubling the speed, if power delivering to the\ncar is constant.\nConcept:\n\n---P44---\nThis question is based on Power & use of calculus\nSolution:\nP = Fv\n∵ F = ma\n∵ a = \nP = \nFinal Answer :\nOption (1)",
+    "solution_text": "Explanation Question:\nAsking about distance covered by a car before doubling the speed, if power delivering to the\ncar is constant.\nConcept:\n\n---P44---\nThis question is based on Power & use of calculus\nSolution:\nP = Fv\n∵ F = ma\n∵ a = \nP = \nFinal Answer :\nOption (1)",
     "solutionFinalAnswer": 1,
     "solution_final_answer": 1,
     "sourcePdf": "Achiever Minor Test 02.pdf",
     "source_pdf": "Achiever Minor Test 02.pdf",
     "sourcePage": 3,
-    "source_page": 3
+    "source_page": 3,
+    "optionImages": [
+      "/images/achiever_opts/q10_opt_1.png",
+      "/images/achiever_opts/q10_opt_2.png",
+      "/images/achiever_opts/q10_opt_3.png",
+      "/images/achiever_opts/q10_opt_4.png"
+    ],
+    "option_images": [
+      "/images/achiever_opts/q10_opt_1.png",
+      "/images/achiever_opts/q10_opt_2.png",
+      "/images/achiever_opts/q10_opt_3.png",
+      "/images/achiever_opts/q10_opt_4.png"
+    ]
   },
   {
     "id": "achiever_011",
@@ -322,8 +358,8 @@
     "official_answer": 2,
     "solutionText": "Question Explanation: Find momentum percentage change for a given KE percentage\nincrease.\nConcept: This question is based on kinetic energy & linear momentum. \nSolution: As we know, that\nP = \ni.e. P ∝ \nthen % change in the momentum will be given as   \nFinal answer: The correct option is (2).",
     "solution_text": "Question Explanation: Find momentum percentage change for a given KE percentage\nincrease.\nConcept: This question is based on kinetic energy & linear momentum. \nSolution: As we know, that\nP = \ni.e. P ∝ \nthen % change in the momentum will be given as   \nFinal answer: The correct option is (2).",
-    "solutionFinalAnswer": null,
-    "solution_final_answer": null,
+    "solutionFinalAnswer": 2,
+    "solution_final_answer": 2,
     "sourcePdf": "Achiever Minor Test 02.pdf",
     "source_pdf": "Achiever Minor Test 02.pdf",
     "sourcePage": 4,
@@ -350,8 +386,8 @@
     "image_url": "/images/achiever/q_12.png",
     "officialAnswer": 3,
     "official_answer": 3,
-    "solutionText": "Question Explanation: Identifying properties of conservative forces.\nConcept: Conservative Forces and Work Done.\n\n<<<PAGE 46>>>\nSolution: A force is called conservative if the work it does on an object depends only on where\nthe object starts and ends, not on the path taken. Because the path doesn't matter, if an object\nreturns to its starting point (a closed loop), the total work done by that force is always zero.\nWhile many conservative forces (like gravity) are central, it is not a requirement. Potential\nenergy changes as work is done, so it does not remain constant.\nStatement (i): True. By definition, work depends only on initial and final positions.\nA.\nStatement (iii): True. Since work is path-independent, wAB = –wBA, making the total work\nB.\nfor a round trip zero.\nFinal Answer: Option 3 (i, iii)",
-    "solution_text": "Question Explanation: Identifying properties of conservative forces.\nConcept: Conservative Forces and Work Done.\n\n<<<PAGE 46>>>\nSolution: A force is called conservative if the work it does on an object depends only on where\nthe object starts and ends, not on the path taken. Because the path doesn't matter, if an object\nreturns to its starting point (a closed loop), the total work done by that force is always zero.\nWhile many conservative forces (like gravity) are central, it is not a requirement. Potential\nenergy changes as work is done, so it does not remain constant.\nStatement (i): True. By definition, work depends only on initial and final positions.\nA.\nStatement (iii): True. Since work is path-independent, wAB = –wBA, making the total work\nB.\nfor a round trip zero.\nFinal Answer: Option 3 (i, iii)",
+    "solutionText": "Question Explanation: Identifying properties of conservative forces.\nConcept: Conservative Forces and Work Done.\n\n---P45---\nSolution: A force is called conservative if the work it does on an object depends only on where\nthe object starts and ends, not on the path taken. Because the path doesn't matter, if an object\nreturns to its starting point (a closed loop), the total work done by that force is always zero.\nWhile many conservative forces (like gravity) are central, it is not a requirement. Potential\nenergy changes as work is done, so it does not remain constant.\nStatement (i): True. By definition, work depends only on initial and final positions.\nA.\nStatement (iii): True. Since work is path-independent, wAB = –wBA, making the total work\nB.\nfor a round trip zero.\nFinal Answer: Option 3 (i, iii)",
+    "solution_text": "Question Explanation: Identifying properties of conservative forces.\nConcept: Conservative Forces and Work Done.\n\n---P45---\nSolution: A force is called conservative if the work it does on an object depends only on where\nthe object starts and ends, not on the path taken. Because the path doesn't matter, if an object\nreturns to its starting point (a closed loop), the total work done by that force is always zero.\nWhile many conservative forces (like gravity) are central, it is not a requirement. Potential\nenergy changes as work is done, so it does not remain constant.\nStatement (i): True. By definition, work depends only on initial and final positions.\nA.\nStatement (iii): True. Since work is path-independent, wAB = –wBA, making the total work\nB.\nfor a round trip zero.\nFinal Answer: Option 3 (i, iii)",
     "solutionFinalAnswer": 3,
     "solution_final_answer": 3,
     "sourcePdf": "Achiever Minor Test 02.pdf",
@@ -382,8 +418,8 @@
     "official_answer": 3,
     "solutionText": "Question Explanation: Evaluate assertion and reason about conservative and non-\nconservative forces.\nConcept:  This question is based on conservative and non-conservative forces.\nSolution: Assertion: Work done by conservative forces does not depend on path taken. (True,\nthis is the definition).\nReason: Work done by non-conservative forces depends only on initial and final position.\n(False, work done by non-conservative forces depends on the path taken).\nFinal answer: The correct option is (3).",
     "solution_text": "Question Explanation: Evaluate assertion and reason about conservative and non-\nconservative forces.\nConcept:  This question is based on conservative and non-conservative forces.\nSolution: Assertion: Work done by conservative forces does not depend on path taken. (True,\nthis is the definition).\nReason: Work done by non-conservative forces depends only on initial and final position.\n(False, work done by non-conservative forces depends on the path taken).\nFinal answer: The correct option is (3).",
-    "solutionFinalAnswer": null,
-    "solution_final_answer": null,
+    "solutionFinalAnswer": 3,
+    "solution_final_answer": 3,
     "sourcePdf": "Achiever Minor Test 02.pdf",
     "source_pdf": "Achiever Minor Test 02.pdf",
     "sourcePage": 4,
@@ -398,13 +434,13 @@
     "subject": "Physics",
     "questionType": "match_following",
     "question_type": "match_following",
-    "questionText": "A block of mass m = 2  kg : -\nColumn I\nColumn II\n(P) Lifting the block vertically by 2 m at constant\nspeed (Work by external agent)\n(i) 0 J",
-    "question_text": "A block of mass m = 2  kg : -\nColumn I\nColumn II\n(P) Lifting the block vertically by 2 m at constant\nspeed (Work by external agent)\n(i) 0 J",
+    "questionText": "A block of mass m = 2  kg : -\nColumn I\nColumn II\n(P) Lifting the block vertically by 2 m at constant\nspeed (Work by external agent)\n(i) 0 J\n(Q) A force F = 10 N acts at 60° to horizontal,\ndisplacement 4 m\n(ii) 40 J\n(R) Moving the block 10 m along a smooth\nhorizontal surface\n(iii) 20 J\n(S) Gravity work when the block slides 5 m down a\n30° smooth incline\n(iv) 50 J",
+    "question_text": "A block of mass m = 2  kg : -\nColumn I\nColumn II\n(P) Lifting the block vertically by 2 m at constant\nspeed (Work by external agent)\n(i) 0 J\n(Q) A force F = 10 N acts at 60° to horizontal,\ndisplacement 4 m\n(ii) 40 J\n(R) Moving the block 10 m along a smooth\nhorizontal surface\n(iii) 20 J\n(S) Gravity work when the block slides 5 m down a\n30° smooth incline\n(iv) 50 J",
     "options": [
-      "(1) Option 1",
-      "(2) Option 2",
-      "(3) Option 3",
-      "(4) Option 4"
+      "P-(iv), Q-(iii), R-(i), S-(ii)",
+      "P-(ii), Q-(iii), R-(i), S-(iv)",
+      "P-(ii), Q-(i), R-(iii), S-(iv)",
+      "P-(iv), Q-(i), R-(ii), S-(iii)"
     ],
     "imageUrl": "/images/achiever/q_14.png",
     "image_url": "/images/achiever/q_14.png",
@@ -431,23 +467,35 @@
     "questionText": "If the maximum compression in the spring is 50 cm then find the value of K(g = 10 m/s\n2) :-",
     "question_text": "If the maximum compression in the spring is 50 cm then find the value of K(g = 10 m/s\n2) :-",
     "options": [
-      "Option (1)",
-      "Option (2)",
-      "Option (3)",
+      "See Option (1) in formula/diagram",
+      "See Option (2) in formula/diagram",
+      "See Option (3) in formula/diagram",
       "None of these"
     ],
     "imageUrl": "/images/achiever/q_15.png",
     "image_url": "/images/achiever/q_15.png",
     "officialAnswer": 1,
     "official_answer": 1,
-    "solutionText": "Explanation the Question : Find spring constant from max compression on a rough\nsurface.\nConcept: This question is based on work-energy theorem.\nSolution:\nwfriction = ΔKE + ΔU\n– μmg(ℓ + x) = \n\n<<<PAGE 47>>>\nFinal answer : (1)",
-    "solution_text": "Explanation the Question : Find spring constant from max compression on a rough\nsurface.\nConcept: This question is based on work-energy theorem.\nSolution:\nwfriction = ΔKE + ΔU\n– μmg(ℓ + x) = \n\n<<<PAGE 47>>>\nFinal answer : (1)",
+    "solutionText": "Explanation the Question : Find spring constant from max compression on a rough\nsurface.\nConcept: This question is based on work-energy theorem.\nSolution:\nwfriction = ΔKE + ΔU\n– μmg(ℓ + x) = \n\n---P46---\nFinal answer : (1)",
+    "solution_text": "Explanation the Question : Find spring constant from max compression on a rough\nsurface.\nConcept: This question is based on work-energy theorem.\nSolution:\nwfriction = ΔKE + ΔU\n– μmg(ℓ + x) = \n\n---P46---\nFinal answer : (1)",
     "solutionFinalAnswer": 1,
     "solution_final_answer": 1,
     "sourcePdf": "Achiever Minor Test 02.pdf",
     "source_pdf": "Achiever Minor Test 02.pdf",
     "sourcePage": 5,
-    "source_page": 5
+    "source_page": 5,
+    "optionImages": [
+      "/images/achiever_opts/q15_opt_1.png",
+      "/images/achiever_opts/q15_opt_2.png",
+      "/images/achiever_opts/q15_opt_3.png",
+      "/images/achiever_opts/q15_opt_4.png"
+    ],
+    "option_images": [
+      "/images/achiever_opts/q15_opt_1.png",
+      "/images/achiever_opts/q15_opt_2.png",
+      "/images/achiever_opts/q15_opt_3.png",
+      "/images/achiever_opts/q15_opt_4.png"
+    ]
   },
   {
     "id": "achiever_016",
@@ -461,10 +509,10 @@
     "questionText": "Current density of an area of cross section is varying according to equation \n. Find\nthe current through the cylinder",
     "question_text": "Current density of an area of cross section is varying according to equation \n. Find\nthe current through the cylinder",
     "options": [
-      "πR\n2J0",
-      "Option (2)",
-      "Option (3)",
-      "Option (4)"
+      "πR 2J0",
+      "See Option (2) in formula/diagram",
+      "See Option (3) in formula/diagram",
+      "See Option (4) in formula/diagram"
     ],
     "imageUrl": "/images/achiever/q_16.png",
     "image_url": "/images/achiever/q_16.png",
@@ -477,7 +525,19 @@
     "sourcePdf": "Achiever Minor Test 02.pdf",
     "source_pdf": "Achiever Minor Test 02.pdf",
     "sourcePage": 5,
-    "source_page": 5
+    "source_page": 5,
+    "optionImages": [
+      "/images/achiever_opts/q16_opt_1.png",
+      "/images/achiever_opts/q16_opt_2.png",
+      "/images/achiever_opts/q16_opt_3.png",
+      "/images/achiever_opts/q16_opt_4.png"
+    ],
+    "option_images": [
+      "/images/achiever_opts/q16_opt_1.png",
+      "/images/achiever_opts/q16_opt_2.png",
+      "/images/achiever_opts/q16_opt_3.png",
+      "/images/achiever_opts/q16_opt_4.png"
+    ]
   },
   {
     "id": "achiever_017",
@@ -491,10 +551,10 @@
     "questionText": "Suppose a current carrying wire has a cross-sectional area that, gradually become smaller along\nthe wire, has the shape of a very long cone as shown in figure. Choose the correct statement:",
     "question_text": "Suppose a current carrying wire has a cross-sectional area that, gradually become smaller along\nthe wire, has the shape of a very long cone as shown in figure. Choose the correct statement:",
     "options": [
-      "(1) Option 1",
-      "(2) Option 2",
-      "(3) Option 3",
-      "(4) Option 4"
+      "Electric current is different in different portions of wire.",
+      "Electric field at point A is same as that of point B.",
+      "Drift speed of electrons at point A is lesser than that of at point B.",
+      "Drift speed of electrons at point A is same as that of at point B."
     ],
     "imageUrl": "/images/achiever/q_17.png",
     "image_url": "/images/achiever/q_17.png",
@@ -521,23 +581,35 @@
     "questionText": "Two metallic wires of identical dimensions are connected in parallel. If ρ1 and ρ2 are the specific\nresistances of the metals respectively the effective resistivity of the combination will be :-",
     "question_text": "Two metallic wires of identical dimensions are connected in parallel. If ρ1 and ρ2 are the specific\nresistances of the metals respectively the effective resistivity of the combination will be :-",
     "options": [
-      "Option (1)",
-      "Option (2)",
-      "Option (3)",
-      "Option (4)"
+      "See Option (1) in formula/diagram",
+      "See Option (2) in formula/diagram",
+      "See Option (3) in formula/diagram",
+      "See Option (4) in formula/diagram"
     ],
     "imageUrl": "/images/achiever/q_18.png",
     "image_url": "/images/achiever/q_18.png",
     "officialAnswer": 2,
     "official_answer": 2,
-    "solutionText": "Explain the question : Find effective resistivity of combination.\nConcept : This question is based on for parallel combination \nSolution : In given question two wire are connected in parallel so \n having same\ndimensions.\n \n\n<<<PAGE 48>>>\nFinal answer : Option (2)",
-    "solution_text": "Explain the question : Find effective resistivity of combination.\nConcept : This question is based on for parallel combination \nSolution : In given question two wire are connected in parallel so \n having same\ndimensions.\n \n\n<<<PAGE 48>>>\nFinal answer : Option (2)",
+    "solutionText": "Explain the question : Find effective resistivity of combination.\nConcept : This question is based on for parallel combination \nSolution : In given question two wire are connected in parallel so \n having same\ndimensions.\n \n\n---P47---\nFinal answer : Option (2)",
+    "solution_text": "Explain the question : Find effective resistivity of combination.\nConcept : This question is based on for parallel combination \nSolution : In given question two wire are connected in parallel so \n having same\ndimensions.\n \n\n---P47---\nFinal answer : Option (2)",
     "solutionFinalAnswer": 2,
     "solution_final_answer": 2,
     "sourcePdf": "Achiever Minor Test 02.pdf",
     "source_pdf": "Achiever Minor Test 02.pdf",
     "sourcePage": 6,
-    "source_page": 6
+    "source_page": 6,
+    "optionImages": [
+      "/images/achiever_opts/q18_opt_1.png",
+      "/images/achiever_opts/q18_opt_2.png",
+      "/images/achiever_opts/q18_opt_3.png",
+      "/images/achiever_opts/q18_opt_4.png"
+    ],
+    "option_images": [
+      "/images/achiever_opts/q18_opt_1.png",
+      "/images/achiever_opts/q18_opt_2.png",
+      "/images/achiever_opts/q18_opt_3.png",
+      "/images/achiever_opts/q18_opt_4.png"
+    ]
   },
   {
     "id": "achiever_019",
@@ -551,10 +623,10 @@
     "questionText": "The V-I graph for two conductor of resistance R1 & R2 are as shown in the figure, the resistance\nof their series combination  (R2 + R1) is proportional to :",
     "question_text": "The V-I graph for two conductor of resistance R1 & R2 are as shown in the figure, the resistance\nof their series combination  (R2 + R1) is proportional to :",
     "options": [
-      "Option (1)",
-      "Option (2)",
-      "Option (3)",
-      "Option (4)"
+      "See Option (1) in formula/diagram",
+      "See Option (2) in formula/diagram",
+      "See Option (3) in formula/diagram",
+      "See Option (4) in formula/diagram"
     ],
     "imageUrl": "/images/achiever/q_19.png",
     "image_url": "/images/achiever/q_19.png",
@@ -567,7 +639,19 @@
     "sourcePdf": "Achiever Minor Test 02.pdf",
     "source_pdf": "Achiever Minor Test 02.pdf",
     "sourcePage": 6,
-    "source_page": 6
+    "source_page": 6,
+    "optionImages": [
+      "/images/achiever_opts/q19_opt_1.png",
+      "/images/achiever_opts/q19_opt_2.png",
+      "/images/achiever_opts/q19_opt_3.png",
+      "/images/achiever_opts/q19_opt_4.png"
+    ],
+    "option_images": [
+      "/images/achiever_opts/q19_opt_1.png",
+      "/images/achiever_opts/q19_opt_2.png",
+      "/images/achiever_opts/q19_opt_3.png",
+      "/images/achiever_opts/q19_opt_4.png"
+    ]
   },
   {
     "id": "achiever_020",
@@ -581,10 +665,10 @@
     "questionText": "In the circuit shown, the potential drop across 6 Ω resistor is 12 V. The emf of the ideal battery is",
     "question_text": "In the circuit shown, the potential drop across 6 Ω resistor is 12 V. The emf of the ideal battery is",
     "options": [
-      "(1) Option 1",
-      "(2) Option 2",
-      "(3) Option 3",
-      "(4) Option 4"
+      "8 V",
+      "16 V",
+      "24 V",
+      "32 V"
     ],
     "imageUrl": "/images/achiever/q_20.png",
     "image_url": "/images/achiever/q_20.png",
@@ -611,23 +695,35 @@
     "questionText": "What is the equivalent resistance between the points A and B of the network :-",
     "question_text": "What is the equivalent resistance between the points A and B of the network :-",
     "options": [
-      "Option (1)",
+      "See Option (1) in formula/diagram",
       "8 Ω",
       "6 Ω",
-      "Option (4)"
+      "See Option (4) in formula/diagram"
     ],
     "imageUrl": "/images/achiever/q_21.png",
     "image_url": "/images/achiever/q_21.png",
     "officialAnswer": 2,
     "official_answer": 2,
-    "solutionText": "Explaining : To find equivalent resistance\nConcept : This question is based on combination of resistors\nSolution : \n\n<<<PAGE 49>>>\nFinal Answer : (2)",
-    "solution_text": "Explaining : To find equivalent resistance\nConcept : This question is based on combination of resistors\nSolution : \n\n<<<PAGE 49>>>\nFinal Answer : (2)",
+    "solutionText": "Explaining : To find equivalent resistance\nConcept : This question is based on combination of resistors\nSolution : \n\n---P48---\nFinal Answer : (2)",
+    "solution_text": "Explaining : To find equivalent resistance\nConcept : This question is based on combination of resistors\nSolution : \n\n---P48---\nFinal Answer : (2)",
     "solutionFinalAnswer": 2,
     "solution_final_answer": 2,
     "sourcePdf": "Achiever Minor Test 02.pdf",
     "source_pdf": "Achiever Minor Test 02.pdf",
     "sourcePage": 7,
-    "source_page": 7
+    "source_page": 7,
+    "optionImages": [
+      "/images/achiever_opts/q21_opt_1.png",
+      "/images/achiever_opts/q21_opt_2.png",
+      "/images/achiever_opts/q21_opt_3.png",
+      "/images/achiever_opts/q21_opt_4.png"
+    ],
+    "option_images": [
+      "/images/achiever_opts/q21_opt_1.png",
+      "/images/achiever_opts/q21_opt_2.png",
+      "/images/achiever_opts/q21_opt_3.png",
+      "/images/achiever_opts/q21_opt_4.png"
+    ]
   },
   {
     "id": "achiever_022",
@@ -641,10 +737,10 @@
     "questionText": "Electric field (E) and current density (J) have relation :-",
     "question_text": "Electric field (E) and current density (J) have relation :-",
     "options": [
-      "E ∝ J\n-1",
+      "E ∝ J -1",
       "E ∝ J",
-      "Option (3)",
-      "Option (4)"
+      "See Option (3) in formula/diagram",
+      "See Option (4) in formula/diagram"
     ],
     "imageUrl": "/images/achiever/q_22.png",
     "image_url": "/images/achiever/q_22.png",
@@ -657,7 +753,19 @@
     "sourcePdf": "Achiever Minor Test 02.pdf",
     "source_pdf": "Achiever Minor Test 02.pdf",
     "sourcePage": 7,
-    "source_page": 7
+    "source_page": 7,
+    "optionImages": [
+      "/images/achiever_opts/q22_opt_1.png",
+      "/images/achiever_opts/q22_opt_2.png",
+      "/images/achiever_opts/q22_opt_3.png",
+      "/images/achiever_opts/q22_opt_4.png"
+    ],
+    "option_images": [
+      "/images/achiever_opts/q22_opt_1.png",
+      "/images/achiever_opts/q22_opt_2.png",
+      "/images/achiever_opts/q22_opt_3.png",
+      "/images/achiever_opts/q22_opt_4.png"
+    ]
   },
   {
     "id": "achiever_023",
@@ -668,13 +776,13 @@
     "subject": "Physics",
     "questionType": "diagram_based",
     "question_type": "diagram_based",
-    "questionText": "10 cells, each of emf 'E' and internal resistance 'r', are connected in series to a variable external\nresistance figure shows the variation of terminal potential difference to their combination with the\ncurrent drawn from the combination. Emf of each cell is: \n(1) 1.6 V",
-    "question_text": "10 cells, each of emf 'E' and internal resistance 'r', are connected in series to a variable external\nresistance figure shows the variation of terminal potential difference to their combination with the\ncurrent drawn from the combination. Emf of each cell is: \n(1) 1.6 V",
+    "questionText": "10 cells, each of emf 'E' and internal resistance 'r', are connected in series to a variable external\nresistance figure shows the variation of terminal potential difference to their combination with the\ncurrent drawn from the combination. Emf of each cell is:",
+    "question_text": "10 cells, each of emf 'E' and internal resistance 'r', are connected in series to a variable external\nresistance figure shows the variation of terminal potential difference to their combination with the\ncurrent drawn from the combination. Emf of each cell is:",
     "options": [
-      "(1) Option 1",
-      "(2) Option 2",
-      "(3) Option 3",
-      "(4) Option 4"
+      "1.6 V",
+      "3.6 V",
+      "1.4 V",
+      "4.2 V"
     ],
     "imageUrl": "/images/achiever/q_23.png",
     "image_url": "/images/achiever/q_23.png",
@@ -710,8 +818,8 @@
     "image_url": "/images/achiever/q_24.png",
     "officialAnswer": 1,
     "official_answer": 1,
-    "solutionText": "Explaining : To find value of n & m.\nConcept : This question is based on Battery grid\nSolution : \n\n<<<PAGE 50>>>\nFinal Answer : (1)",
-    "solution_text": "Explaining : To find value of n & m.\nConcept : This question is based on Battery grid\nSolution : \n\n<<<PAGE 50>>>\nFinal Answer : (1)",
+    "solutionText": "Explaining : To find value of n & m.\nConcept : This question is based on Battery grid\nSolution : \n\n---P49---\nFinal Answer : (1)",
+    "solution_text": "Explaining : To find value of n & m.\nConcept : This question is based on Battery grid\nSolution : \n\n---P49---\nFinal Answer : (1)",
     "solutionFinalAnswer": 1,
     "solution_final_answer": 1,
     "sourcePdf": "Achiever Minor Test 02.pdf",
@@ -770,8 +878,8 @@
     "image_url": "/images/achiever/q_26.png",
     "officialAnswer": 2,
     "official_answer": 2,
-    "solutionText": "Explain Question:\nFind which bulb glow with maximum brightness.\nConcept:\nBrightness of bulb \n.\nSolution:\nIn given question all bulbs are identical i.e. having same resistance.\nSo P × V\n2\nPotential difference of (C) is\nMaximum hence bulb (C) lights with maximum brightness.\n\n<<<PAGE 51>>>\nFinal Answer: Option (2)",
-    "solution_text": "Explain Question:\nFind which bulb glow with maximum brightness.\nConcept:\nBrightness of bulb \n.\nSolution:\nIn given question all bulbs are identical i.e. having same resistance.\nSo P × V\n2\nPotential difference of (C) is\nMaximum hence bulb (C) lights with maximum brightness.\n\n<<<PAGE 51>>>\nFinal Answer: Option (2)",
+    "solutionText": "Explain Question:\nFind which bulb glow with maximum brightness.\nConcept:\nBrightness of bulb \n.\nSolution:\nIn given question all bulbs are identical i.e. having same resistance.\nSo P × V\n2\nPotential difference of (C) is\nMaximum hence bulb (C) lights with maximum brightness.\n\n---P50---\nFinal Answer: Option (2)",
+    "solution_text": "Explain Question:\nFind which bulb glow with maximum brightness.\nConcept:\nBrightness of bulb \n.\nSolution:\nIn given question all bulbs are identical i.e. having same resistance.\nSo P × V\n2\nPotential difference of (C) is\nMaximum hence bulb (C) lights with maximum brightness.\n\n---P50---\nFinal Answer: Option (2)",
     "solutionFinalAnswer": 2,
     "solution_final_answer": 2,
     "sourcePdf": "Achiever Minor Test 02.pdf",
@@ -791,10 +899,10 @@
     "questionText": "A galvanometer of \n resistance yields complete deflection when 10 mA current flows. What\nshould be the value of shunt so that it can measure currents upto 100 mA ?",
     "question_text": "A galvanometer of \n resistance yields complete deflection when 10 mA current flows. What\nshould be the value of shunt so that it can measure currents upto 100 mA ?",
     "options": [
-      "Option (1)",
-      "Option (2)",
-      "Option (3)",
-      "Option (4)"
+      "See Option (1) in formula/diagram",
+      "See Option (2) in formula/diagram",
+      "See Option (3) in formula/diagram",
+      "See Option (4) in formula/diagram"
     ],
     "imageUrl": "/images/achiever/q_27.png",
     "image_url": "/images/achiever/q_27.png",
@@ -802,12 +910,24 @@
     "official_answer": 1,
     "solutionText": "Explaining : To find value of shunt resistance\nConcept : This question is based on Ammeter\nSolution : \nFinal Answer : (4)",
     "solution_text": "Explaining : To find value of shunt resistance\nConcept : This question is based on Ammeter\nSolution : \nFinal Answer : (4)",
-    "solutionFinalAnswer": 4,
-    "solution_final_answer": 4,
+    "solutionFinalAnswer": 1,
+    "solution_final_answer": 1,
     "sourcePdf": "Achiever Minor Test 02.pdf",
     "source_pdf": "Achiever Minor Test 02.pdf",
     "sourcePage": 8,
-    "source_page": 8
+    "source_page": 8,
+    "optionImages": [
+      "/images/achiever_opts/q27_opt_1.png",
+      "/images/achiever_opts/q27_opt_2.png",
+      "/images/achiever_opts/q27_opt_3.png",
+      "/images/achiever_opts/q27_opt_4.png"
+    ],
+    "option_images": [
+      "/images/achiever_opts/q27_opt_1.png",
+      "/images/achiever_opts/q27_opt_2.png",
+      "/images/achiever_opts/q27_opt_3.png",
+      "/images/achiever_opts/q27_opt_4.png"
+    ]
   },
   {
     "id": "achiever_028",
@@ -821,10 +941,10 @@
     "questionText": "The reading of the ammeter as per figure shown is :",
     "question_text": "The reading of the ammeter as per figure shown is :",
     "options": [
-      "Option (1)",
-      "Option (2)",
-      "Option (3)",
-      "Option (4)"
+      "See Option (1) in formula/diagram",
+      "See Option (2) in formula/diagram",
+      "See Option (3) in formula/diagram",
+      "See Option (4) in formula/diagram"
     ],
     "imageUrl": "/images/achiever/q_28.png",
     "image_url": "/images/achiever/q_28.png",
@@ -837,7 +957,19 @@
     "sourcePdf": "Achiever Minor Test 02.pdf",
     "source_pdf": "Achiever Minor Test 02.pdf",
     "sourcePage": 9,
-    "source_page": 9
+    "source_page": 9,
+    "optionImages": [
+      "/images/achiever_opts/q28_opt_1.png",
+      "/images/achiever_opts/q28_opt_2.png",
+      "/images/achiever_opts/q28_opt_3.png",
+      "/images/achiever_opts/q28_opt_4.png"
+    ],
+    "option_images": [
+      "/images/achiever_opts/q28_opt_1.png",
+      "/images/achiever_opts/q28_opt_2.png",
+      "/images/achiever_opts/q28_opt_3.png",
+      "/images/achiever_opts/q28_opt_4.png"
+    ]
   },
   {
     "id": "achiever_029",
@@ -860,8 +992,8 @@
     "image_url": "/images/achiever/q_29.png",
     "officialAnswer": 3,
     "official_answer": 3,
-    "solutionText": "Explaining : Given : Electric circuit with bulb\n                      Ask : Brightness of bulb\nConcept : This question is based on key points :\n(i) \n(ii) \nSolution :\n\n<<<PAGE 52>>>\nP = I\n2R\nCalculation :- As all bulls are identical and the power (related by brightness) is given as P =\nI\n2R so me bulb with the most current will be brightest. In Parallel connection, the current is\nspilt between the branches while in series the current will be same.\nSo in figure we can set mat bulb 'C' will receive into maximum current while the bulbs A, B, D\nwill not get complete current as 'C' as m are connected in Parallel trenches. So bulb 'C' will\nbe the brightest.\nConclusion : The current answer option 3.\nFinal Answer : (3)",
-    "solution_text": "Explaining : Given : Electric circuit with bulb\n                      Ask : Brightness of bulb\nConcept : This question is based on key points :\n(i) \n(ii) \nSolution :\n\n<<<PAGE 52>>>\nP = I\n2R\nCalculation :- As all bulls are identical and the power (related by brightness) is given as P =\nI\n2R so me bulb with the most current will be brightest. In Parallel connection, the current is\nspilt between the branches while in series the current will be same.\nSo in figure we can set mat bulb 'C' will receive into maximum current while the bulbs A, B, D\nwill not get complete current as 'C' as m are connected in Parallel trenches. So bulb 'C' will\nbe the brightest.\nConclusion : The current answer option 3.\nFinal Answer : (3)",
+    "solutionText": "Explaining : Given : Electric circuit with bulb\n                      Ask : Brightness of bulb\nConcept : This question is based on key points :\n(i) \n(ii) \nSolution :\n\n---P51---\nP = I\n2R\nCalculation :- As all bulls are identical and the power (related by brightness) is given as P =\nI\n2R so me bulb with the most current will be brightest. In Parallel connection, the current is\nspilt between the branches while in series the current will be same.\nSo in figure we can set mat bulb 'C' will receive into maximum current while the bulbs A, B, D\nwill not get complete current as 'C' as m are connected in Parallel trenches. So bulb 'C' will\nbe the brightest.\nConclusion : The current answer option 3.\nFinal Answer : (3)",
+    "solution_text": "Explaining : Given : Electric circuit with bulb\n                      Ask : Brightness of bulb\nConcept : This question is based on key points :\n(i) \n(ii) \nSolution :\n\n---P51---\nP = I\n2R\nCalculation :- As all bulls are identical and the power (related by brightness) is given as P =\nI\n2R so me bulb with the most current will be brightest. In Parallel connection, the current is\nspilt between the branches while in series the current will be same.\nSo in figure we can set mat bulb 'C' will receive into maximum current while the bulbs A, B, D\nwill not get complete current as 'C' as m are connected in Parallel trenches. So bulb 'C' will\nbe the brightest.\nConclusion : The current answer option 3.\nFinal Answer : (3)",
     "solutionFinalAnswer": 3,
     "solution_final_answer": 3,
     "sourcePdf": "Achiever Minor Test 02.pdf",
@@ -908,13 +1040,13 @@
     "subject": "Physics",
     "questionType": "diagram_based",
     "question_type": "diagram_based",
-    "questionText": "Figure shows a balanced wheatstone bridge :",
-    "question_text": "Figure shows a balanced wheatstone bridge :",
+    "questionText": "Figure shows a balanced wheatstone bridge :\nThen which of the following is false ?",
+    "question_text": "Figure shows a balanced wheatstone bridge :\nThen which of the following is false ?",
     "options": [
-      "(1) Option 1",
-      "(2) Option 2",
-      "(3) Option 3",
-      "(4) Option 4"
+      "There is no flow of current from galvano meter in the balanced condition",
+      "If R1 is slightly increased, the current in galvanometer flows from D to B",
+      "If R4 is slightly decreased, the current in galvanometer flows from D to B",
+      "If R3 is slightly increased, the current in galvanometer flows from B to D"
     ],
     "imageUrl": "/images/achiever/q_31.png",
     "image_url": "/images/achiever/q_31.png",
@@ -971,23 +1103,35 @@
     "questionText": "A parallel plate condenser has a uniform electric field E(V/m) in the space between the plates. If\nthe distance between the plates is d(m) and area of each plate is A(m\n2) the energy (joules) stored in\nthe condenser is",
     "question_text": "A parallel plate condenser has a uniform electric field E(V/m) in the space between the plates. If\nthe distance between the plates is d(m) and area of each plate is A(m\n2) the energy (joules) stored in\nthe condenser is",
     "options": [
-      "Option (1)",
-      "Option (2)",
-      "Option (3)",
-      "Option (4)"
+      "See Option (1) in formula/diagram",
+      "See Option (2) in formula/diagram",
+      "See Option (3) in formula/diagram",
+      "See Option (4) in formula/diagram"
     ],
     "imageUrl": "/images/achiever/q_33.png",
     "image_url": "/images/achiever/q_33.png",
     "officialAnswer": 4,
     "official_answer": 4,
-    "solutionText": "Explaining : Energy stored in parallel plate capacitor with field (E) between plates\nseparated by (d), area (A).\nConcept : This question is based on energy density\nSolution : \n\n<<<PAGE 53>>>\nFinal Answer : (4)",
-    "solution_text": "Explaining : Energy stored in parallel plate capacitor with field (E) between plates\nseparated by (d), area (A).\nConcept : This question is based on energy density\nSolution : \n\n<<<PAGE 53>>>\nFinal Answer : (4)",
+    "solutionText": "Explaining : Energy stored in parallel plate capacitor with field (E) between plates\nseparated by (d), area (A).\nConcept : This question is based on energy density\nSolution : \n\n---P52---\nFinal Answer : (4)",
+    "solution_text": "Explaining : Energy stored in parallel plate capacitor with field (E) between plates\nseparated by (d), area (A).\nConcept : This question is based on energy density\nSolution : \n\n---P52---\nFinal Answer : (4)",
     "solutionFinalAnswer": 4,
     "solution_final_answer": 4,
     "sourcePdf": "Achiever Minor Test 02.pdf",
     "source_pdf": "Achiever Minor Test 02.pdf",
     "sourcePage": 10,
-    "source_page": 10
+    "source_page": 10,
+    "optionImages": [
+      "/images/achiever_opts/q33_opt_1.png",
+      "/images/achiever_opts/q33_opt_2.png",
+      "/images/achiever_opts/q33_opt_3.png",
+      "/images/achiever_opts/q33_opt_4.png"
+    ],
+    "option_images": [
+      "/images/achiever_opts/q33_opt_1.png",
+      "/images/achiever_opts/q33_opt_2.png",
+      "/images/achiever_opts/q33_opt_3.png",
+      "/images/achiever_opts/q33_opt_4.png"
+    ]
   },
   {
     "id": "achiever_034",
@@ -1001,10 +1145,10 @@
     "questionText": "On placing a dielectric slab between the plates of a charged condenser its:-\n \nCapacity\nCharge\nPotential\nDifference\nEnergy\nstored",
     "question_text": "On placing a dielectric slab between the plates of a charged condenser its:-\n \nCapacity\nCharge\nPotential\nDifference\nEnergy\nstored",
     "options": [
-      "decreases\nremains\nunchanged\ndecreases\nincreases",
-      "increases\nremains\nunchanged\nincreases\nincreases",
-      "increases\nremains\nunchanged\ndecreases\ndecreases",
-      "Option (4)"
+      "1",
+      "2",
+      "3",
+      "4"
     ],
     "imageUrl": "/images/achiever/q_34.png",
     "image_url": "/images/achiever/q_34.png",
@@ -1040,8 +1184,8 @@
     "image_url": "/images/achiever/q_35.png",
     "officialAnswer": 4,
     "official_answer": 4,
-    "solutionText": "Explanation : To find the dielectric constant is the capacitance\nConcept : This question is based on breakdown voltage\nSolution : \n\n<<<PAGE 54>>>\nA = 10\n–4 m\n2\nEmax = 10\n6 V/m\nC = 15 µF\nk ≈ 8.5\nFinal Answer : (4)",
-    "solution_text": "Explanation : To find the dielectric constant is the capacitance\nConcept : This question is based on breakdown voltage\nSolution : \n\n<<<PAGE 54>>>\nA = 10\n–4 m\n2\nEmax = 10\n6 V/m\nC = 15 µF\nk ≈ 8.5\nFinal Answer : (4)",
+    "solutionText": "Explanation : To find the dielectric constant is the capacitance\nConcept : This question is based on breakdown voltage\nSolution : \n\n---P53---\nA = 10\n–4 m\n2\nEmax = 10\n6 V/m\nC = 15 µF\nk ≈ 8.5\nFinal Answer : (4)",
+    "solution_text": "Explanation : To find the dielectric constant is the capacitance\nConcept : This question is based on breakdown voltage\nSolution : \n\n---P53---\nA = 10\n–4 m\n2\nEmax = 10\n6 V/m\nC = 15 µF\nk ≈ 8.5\nFinal Answer : (4)",
     "solutionFinalAnswer": 4,
     "solution_final_answer": 4,
     "sourcePdf": "Achiever Minor Test 02.pdf",
@@ -1091,10 +1235,10 @@
     "questionText": "A galvanometer (G) of 2Ω resistance is connected in the given circuit. The ratio of charge stored\nin C1 and C2 is :",
     "question_text": "A galvanometer (G) of 2Ω resistance is connected in the given circuit. The ratio of charge stored\nin C1 and C2 is :",
     "options": [
-      "Option (1)",
-      "Option (2)",
+      "See Option (1) in formula/diagram",
+      "See Option (2) in formula/diagram",
       "1",
-      "Option (4)"
+      "See Option (4) in formula/diagram"
     ],
     "imageUrl": "/images/achiever/q_37.png",
     "image_url": "/images/achiever/q_37.png",
@@ -1107,7 +1251,19 @@
     "sourcePdf": "Achiever Minor Test 02.pdf",
     "source_pdf": "Achiever Minor Test 02.pdf",
     "sourcePage": 11,
-    "source_page": 11
+    "source_page": 11,
+    "optionImages": [
+      "/images/achiever_opts/q37_opt_1.png",
+      "/images/achiever_opts/q37_opt_2.png",
+      "/images/achiever_opts/q37_opt_3.png",
+      "/images/achiever_opts/q37_opt_4.png"
+    ],
+    "option_images": [
+      "/images/achiever_opts/q37_opt_1.png",
+      "/images/achiever_opts/q37_opt_2.png",
+      "/images/achiever_opts/q37_opt_3.png",
+      "/images/achiever_opts/q37_opt_4.png"
+    ]
   },
   {
     "id": "achiever_038",
@@ -1118,26 +1274,38 @@
     "subject": "Physics",
     "questionType": "diagram_based",
     "question_type": "diagram_based",
-    "questionText": "A dielectric slab of area A is inserted between the plates of a capacitor of area 2A with constant\nspeed v as shown in figure. Distance between the plates is d.",
-    "question_text": "A dielectric slab of area A is inserted between the plates of a capacitor of area 2A with constant\nspeed v as shown in figure. Distance between the plates is d.",
+    "questionText": "A dielectric slab of area A is inserted between the plates of a capacitor of area 2A with constant\nspeed v as shown in figure. Distance between the plates is d.\nThe capacitor is connected to a battery of emf E. The current in the circuit varies with time as",
+    "question_text": "A dielectric slab of area A is inserted between the plates of a capacitor of area 2A with constant\nspeed v as shown in figure. Distance between the plates is d.\nThe capacitor is connected to a battery of emf E. The current in the circuit varies with time as",
     "options": [
-      "(1) Option 1",
-      "(2) Option 2",
-      "(3) Option 3",
-      "(4) Option 4"
+      "See Option (1) in formula/diagram",
+      "See Option (2) in formula/diagram",
+      "See Option (3) in formula/diagram",
+      "See Option (4) in formula/diagram"
     ],
     "imageUrl": "/images/achiever/q_38.png",
     "image_url": "/images/achiever/q_38.png",
     "officialAnswer": 2,
     "official_answer": 2,
-    "solutionText": "Explaining the Question: To choose correct graph between i and t.\nConcept : Q = CV\n\n<<<PAGE 55>>>\nSolution :\nQ = CV\nC↑ , Q↑ ,\n constant,\ni ∝ Constant\nFinal Answer : (2)",
-    "solution_text": "Explaining the Question: To choose correct graph between i and t.\nConcept : Q = CV\n\n<<<PAGE 55>>>\nSolution :\nQ = CV\nC↑ , Q↑ ,\n constant,\ni ∝ Constant\nFinal Answer : (2)",
+    "solutionText": "Explaining the Question: To choose correct graph between i and t.\nConcept : Q = CV\n\n---P54---\nSolution :\nQ = CV\nC↑ , Q↑ ,\n constant,\ni ∝ Constant\nFinal Answer : (2)",
+    "solution_text": "Explaining the Question: To choose correct graph between i and t.\nConcept : Q = CV\n\n---P54---\nSolution :\nQ = CV\nC↑ , Q↑ ,\n constant,\ni ∝ Constant\nFinal Answer : (2)",
     "solutionFinalAnswer": 2,
     "solution_final_answer": 2,
     "sourcePdf": "Achiever Minor Test 02.pdf",
     "source_pdf": "Achiever Minor Test 02.pdf",
     "sourcePage": 11,
-    "source_page": 11
+    "source_page": 11,
+    "optionImages": [
+      "/images/achiever_opts/q38_opt_1.png",
+      "/images/achiever_opts/q38_opt_2.png",
+      "/images/achiever_opts/q38_opt_3.png",
+      "/images/achiever_opts/q38_opt_4.png"
+    ],
+    "option_images": [
+      "/images/achiever_opts/q38_opt_1.png",
+      "/images/achiever_opts/q38_opt_2.png",
+      "/images/achiever_opts/q38_opt_3.png",
+      "/images/achiever_opts/q38_opt_4.png"
+    ]
   },
   {
     "id": "achiever_039",
@@ -1151,23 +1319,35 @@
     "questionText": "Five identical metal plates 1, 2, 3, 4 and 5 each of area A on one side are fixed parallel and\nequidistant (d) to each other. The plates 1 and 4 are joined by a conductor and plates 3 and 5 are\nalso joined by a conductor as shown in figure. Then, the capacitance of this system between A and B\nis :",
     "question_text": "Five identical metal plates 1, 2, 3, 4 and 5 each of area A on one side are fixed parallel and\nequidistant (d) to each other. The plates 1 and 4 are joined by a conductor and plates 3 and 5 are\nalso joined by a conductor as shown in figure. Then, the capacitance of this system between A and B\nis :",
     "options": [
-      "Option (1)",
-      "Option (2)",
-      "Option (3)",
+      "See Option (1) in formula/diagram",
+      "See Option (2) in formula/diagram",
+      "See Option (3) in formula/diagram",
       "None"
     ],
     "imageUrl": "/images/achiever/q_39.png",
     "image_url": "/images/achiever/q_39.png",
     "officialAnswer": 3,
     "official_answer": 3,
-    "solutionText": "Question Explanation:\nFive parallel metal plates of area A are arranged equidistantly at d. Plates 1 and 4 are\nconnected, and plates 3 and 5 are connected. The capacitance between A and B is required.\nConcept :\nCapacitance (combination of plotes)\nFormula Used:\n• Capacitance of a parallel plate capacitor:\nC = \n• For series capacitors:\n• For parallel capacitors:\nCeq = \nVisual Diagram:\nCalculation:\nCeq = C + \nCeq = C +  C\nCeq = C         ∵ C = \n\n<<<PAGE 56>>>\nFinal Answer:\nThe correct option is (3).",
-    "solution_text": "Question Explanation:\nFive parallel metal plates of area A are arranged equidistantly at d. Plates 1 and 4 are\nconnected, and plates 3 and 5 are connected. The capacitance between A and B is required.\nConcept :\nCapacitance (combination of plotes)\nFormula Used:\n• Capacitance of a parallel plate capacitor:\nC = \n• For series capacitors:\n• For parallel capacitors:\nCeq = \nVisual Diagram:\nCalculation:\nCeq = C + \nCeq = C +  C\nCeq = C         ∵ C = \n\n<<<PAGE 56>>>\nFinal Answer:\nThe correct option is (3).",
-    "solutionFinalAnswer": null,
-    "solution_final_answer": null,
+    "solutionText": "Question Explanation:\nFive parallel metal plates of area A are arranged equidistantly at d. Plates 1 and 4 are\nconnected, and plates 3 and 5 are connected. The capacitance between A and B is required.\nConcept :\nCapacitance (combination of plotes)\nFormula Used:\n• Capacitance of a parallel plate capacitor:\nC = \n• For series capacitors:\n• For parallel capacitors:\nCeq = \nVisual Diagram:\nCalculation:\nCeq = C + \nCeq = C +  C\nCeq = C         ∵ C = \n\n---P55---\nFinal Answer:\nThe correct option is (3).",
+    "solution_text": "Question Explanation:\nFive parallel metal plates of area A are arranged equidistantly at d. Plates 1 and 4 are\nconnected, and plates 3 and 5 are connected. The capacitance between A and B is required.\nConcept :\nCapacitance (combination of plotes)\nFormula Used:\n• Capacitance of a parallel plate capacitor:\nC = \n• For series capacitors:\n• For parallel capacitors:\nCeq = \nVisual Diagram:\nCalculation:\nCeq = C + \nCeq = C +  C\nCeq = C         ∵ C = \n\n---P55---\nFinal Answer:\nThe correct option is (3).",
+    "solutionFinalAnswer": 3,
+    "solution_final_answer": 3,
     "sourcePdf": "Achiever Minor Test 02.pdf",
     "source_pdf": "Achiever Minor Test 02.pdf",
     "sourcePage": 12,
-    "source_page": 12
+    "source_page": 12,
+    "optionImages": [
+      "/images/achiever_opts/q39_opt_1.png",
+      "/images/achiever_opts/q39_opt_2.png",
+      "/images/achiever_opts/q39_opt_3.png",
+      "/images/achiever_opts/q39_opt_4.png"
+    ],
+    "option_images": [
+      "/images/achiever_opts/q39_opt_1.png",
+      "/images/achiever_opts/q39_opt_2.png",
+      "/images/achiever_opts/q39_opt_3.png",
+      "/images/achiever_opts/q39_opt_4.png"
+    ]
   },
   {
     "id": "achiever_040",
@@ -1178,13 +1358,13 @@
     "subject": "Physics",
     "questionType": "diagram_based",
     "question_type": "diagram_based",
-    "questionText": "Figure shows a network of capacitors. Find the value of C, if the effective capacitance between",
-    "question_text": "Figure shows a network of capacitors. Find the value of C, if the effective capacitance between",
+    "questionText": "Figure shows a network of capacitors. Find the value of C, if the effective capacitance between\nthe points A and B is 12 μF.",
+    "question_text": "Figure shows a network of capacitors. Find the value of C, if the effective capacitance between\nthe points A and B is 12 μF.",
     "options": [
-      "(1) Option 1",
-      "(2) Option 2",
-      "(3) Option 3",
-      "(4) Option 4"
+      "18 µF",
+      "20 µF",
+      "10 µF",
+      "5 µF"
     ],
     "imageUrl": "/images/achiever/q_40.png",
     "image_url": "/images/achiever/q_40.png",
@@ -1211,17 +1391,17 @@
     "questionText": "In the circuit shown in figure, match the following two columns.\nColumn-I\nColumn-II\n(I) Charge given by battery\n(a) 20 μC\n(II) Charge of 4μF capacitor\n(b) 30 μC\n(III) Charge of 2 μF capacitor\n(c)  60 μC\n(IV) Charge of 3 μF capacitor\n(d)  40 μC",
     "question_text": "In the circuit shown in figure, match the following two columns.\nColumn-I\nColumn-II\n(I) Charge given by battery\n(a) 20 μC\n(II) Charge of 4μF capacitor\n(b) 30 μC\n(III) Charge of 2 μF capacitor\n(c)  60 μC\n(IV) Charge of 3 μF capacitor\n(d)  40 μC",
     "options": [
-      "I → a ;  II → b ;  III → b ;  IV → c",
-      "I → c ;  II → d ;  III → a ;  IV → c",
-      "I → b ;  II → a ;  III → c ;  IV → d",
-      "I → c ;  II → d ;  III → c ;  IV → a"
+      "I → a ; II → b ; III → b ; IV → c",
+      "I → c ; II → d ; III → a ; IV → c",
+      "I → b ; II → a ; III → c ; IV → d",
+      "I → c ; II → d ; III → c ; IV → a"
     ],
     "imageUrl": "/images/achiever/q_41.png",
     "image_url": "/images/achiever/q_41.png",
     "officialAnswer": 2,
     "official_answer": 2,
-    "solutionText": "Explanation: For the circuit shown, match the charge supplied by the battery and the\ncharges on specific capacitors.\nConcept: Capacitors in series have the same charge, and capacitors in parallel have the same\nvoltage. The total charge is \n.\nSolution:\n(i) Qbattery = Ceff V\n     = 2 × 30 = 60 μC\n(ii) Q4μF = 4 × 10\n             = 40 μC\n(iii) Q2μF = 2 × 10\n               = 20 μC\n(iv) Q3μF = 3 × 20\n               = 60 μC\nFinal Answer : (2)\n\n<<<PAGE 57>>>",
-    "solution_text": "Explanation: For the circuit shown, match the charge supplied by the battery and the\ncharges on specific capacitors.\nConcept: Capacitors in series have the same charge, and capacitors in parallel have the same\nvoltage. The total charge is \n.\nSolution:\n(i) Qbattery = Ceff V\n     = 2 × 30 = 60 μC\n(ii) Q4μF = 4 × 10\n             = 40 μC\n(iii) Q2μF = 2 × 10\n               = 20 μC\n(iv) Q3μF = 3 × 20\n               = 60 μC\nFinal Answer : (2)\n\n<<<PAGE 57>>>",
+    "solutionText": "Explanation: For the circuit shown, match the charge supplied by the battery and the\ncharges on specific capacitors.\nConcept: Capacitors in series have the same charge, and capacitors in parallel have the same\nvoltage. The total charge is \n.\nSolution:\n(i) Qbattery = Ceff V\n     = 2 × 30 = 60 μC\n(ii) Q4μF = 4 × 10\n             = 40 μC\n(iii) Q2μF = 2 × 10\n               = 20 μC\n(iv) Q3μF = 3 × 20\n               = 60 μC\nFinal Answer : (2)\n\n---P56---",
+    "solution_text": "Explanation: For the circuit shown, match the charge supplied by the battery and the\ncharges on specific capacitors.\nConcept: Capacitors in series have the same charge, and capacitors in parallel have the same\nvoltage. The total charge is \n.\nSolution:\n(i) Qbattery = Ceff V\n     = 2 × 30 = 60 μC\n(ii) Q4μF = 4 × 10\n             = 40 μC\n(iii) Q2μF = 2 × 10\n               = 20 μC\n(iv) Q3μF = 3 × 20\n               = 60 μC\nFinal Answer : (2)\n\n---P56---",
     "solutionFinalAnswer": 2,
     "solution_final_answer": 2,
     "sourcePdf": "Achiever Minor Test 02.pdf",
@@ -1238,13 +1418,13 @@
     "subject": "Physics",
     "questionType": "diagram_based",
     "question_type": "diagram_based",
-    "questionText": "Find out amount of charge on capacitor shown in circuit. \n(1) 0µC",
-    "question_text": "Find out amount of charge on capacitor shown in circuit. \n(1) 0µC",
+    "questionText": "Find out amount of charge on capacitor shown in circuit.",
+    "question_text": "Find out amount of charge on capacitor shown in circuit.",
     "options": [
-      "(1) Option 1",
-      "(2) Option 2",
-      "(3) Option 3",
-      "(4) Option 4"
+      "0µC",
+      "30µC",
+      "10µC",
+      "25µC"
     ],
     "imageUrl": "/images/achiever/q_42.png",
     "image_url": "/images/achiever/q_42.png",
@@ -1331,10 +1511,10 @@
     "questionText": "Two parallel plate capacitors whose capacitances are C and 2 C respectively, are joined in\nparallel. These are charged to V potential difference. If the battery is now removed and a dielectric\nof dielectric constant K is filled in between the plates of the capacitor 2 C, then what will be the\npotential difference across each capacitor ?",
     "question_text": "Two parallel plate capacitors whose capacitances are C and 2 C respectively, are joined in\nparallel. These are charged to V potential difference. If the battery is now removed and a dielectric\nof dielectric constant K is filled in between the plates of the capacitor 2 C, then what will be the\npotential difference across each capacitor ?",
     "options": [
-      "Option (1)",
-      "Option (2)",
-      "Option (3)",
-      "Option (4)"
+      "See Option (1) in formula/diagram",
+      "See Option (2) in formula/diagram",
+      "See Option (3) in formula/diagram",
+      "See Option (4) in formula/diagram"
     ],
     "imageUrl": "/images/achiever/q_45.png",
     "image_url": "/images/achiever/q_45.png",
@@ -1347,7 +1527,19 @@
     "sourcePdf": "Achiever Minor Test 02.pdf",
     "source_pdf": "Achiever Minor Test 02.pdf",
     "sourcePage": 14,
-    "source_page": 14
+    "source_page": 14,
+    "optionImages": [
+      "/images/achiever_opts/q45_opt_1.png",
+      "/images/achiever_opts/q45_opt_2.png",
+      "/images/achiever_opts/q45_opt_3.png",
+      "/images/achiever_opts/q45_opt_4.png"
+    ],
+    "option_images": [
+      "/images/achiever_opts/q45_opt_1.png",
+      "/images/achiever_opts/q45_opt_2.png",
+      "/images/achiever_opts/q45_opt_3.png",
+      "/images/achiever_opts/q45_opt_4.png"
+    ]
   },
   {
     "id": "achiever_046",
@@ -1370,8 +1562,8 @@
     "image_url": "/images/achiever/q_46.png",
     "officialAnswer": 2,
     "official_answer": 2,
-    "solutionText": "Explaining : Calculate EMF of cell.\nConcept : This question is based on \nSolution :\n\n<<<PAGE 58>>>\n         = +0.8 V – 0.3V = 0.5 V\nFinal Answer : (2)",
-    "solution_text": "Explaining : Calculate EMF of cell.\nConcept : This question is based on \nSolution :\n\n<<<PAGE 58>>>\n         = +0.8 V – 0.3V = 0.5 V\nFinal Answer : (2)",
+    "solutionText": "Explaining : Calculate EMF of cell.\nConcept : This question is based on \nSolution :\n\n---P57---\n         = +0.8 V – 0.3V = 0.5 V\nFinal Answer : (2)",
+    "solution_text": "Explaining : Calculate EMF of cell.\nConcept : This question is based on \nSolution :\n\n---P57---\n         = +0.8 V – 0.3V = 0.5 V\nFinal Answer : (2)",
     "solutionFinalAnswer": 2,
     "solution_final_answer": 2,
     "sourcePdf": "Achiever Minor Test 02.pdf",
@@ -1481,10 +1673,10 @@
     "questionText": "The emf of the cell\nZn | Zn\n2+ (0.01 M) || Fe\n2+ (0.001 M) | Fe\nat 298 K is 0.2905 then the value of equilibrium constant for the cell reaction is:",
     "question_text": "The emf of the cell\nZn | Zn\n2+ (0.01 M) || Fe\n2+ (0.001 M) | Fe\nat 298 K is 0.2905 then the value of equilibrium constant for the cell reaction is:",
     "options": [
-      "Option (1)",
-      "Option (2)",
-      "Option (3)",
-      "Option (4)"
+      "See Option (1) in formula/diagram",
+      "See Option (2) in formula/diagram",
+      "See Option (3) in formula/diagram",
+      "See Option (4) in formula/diagram"
     ],
     "imageUrl": "/images/achiever/q_50.png",
     "image_url": "/images/achiever/q_50.png",
@@ -1497,7 +1689,19 @@
     "sourcePdf": "Achiever Minor Test 02.pdf",
     "source_pdf": "Achiever Minor Test 02.pdf",
     "sourcePage": 15,
-    "source_page": 15
+    "source_page": 15,
+    "optionImages": [
+      "/images/achiever_opts/q50_opt_1.png",
+      "/images/achiever_opts/q50_opt_2.png",
+      "/images/achiever_opts/q50_opt_3.png",
+      "/images/achiever_opts/q50_opt_4.png"
+    ],
+    "option_images": [
+      "/images/achiever_opts/q50_opt_1.png",
+      "/images/achiever_opts/q50_opt_2.png",
+      "/images/achiever_opts/q50_opt_3.png",
+      "/images/achiever_opts/q50_opt_4.png"
+    ]
   },
   {
     "id": "achiever_051",
@@ -1511,23 +1715,35 @@
     "questionText": "The molar conductivities  \n and  \n at infinite dilution in water at 25°C are 91.0\nand 426.2 S cm\n2 mol\n–1 respectively. To calculate \n the additional value required is :",
     "question_text": "The molar conductivities  \n and  \n at infinite dilution in water at 25°C are 91.0\nand 426.2 S cm\n2 mol\n–1 respectively. To calculate \n the additional value required is :",
     "options": [
-      "Option (1)",
-      "Option (2)",
-      "Option (3)",
-      "Option (4)"
+      "See Option (1) in formula/diagram",
+      "See Option (2) in formula/diagram",
+      "See Option (3) in formula/diagram",
+      "See Option (4) in formula/diagram"
     ],
     "imageUrl": "/images/achiever/q_51.png",
     "image_url": "/images/achiever/q_51.png",
     "officialAnswer": 1,
     "official_answer": 1,
-    "solutionText": "Explain the Question : To find molar conductivity of acetic acid (HOAc) at infinite dilution\nusing known values of other electrolytes.\nConcept : This question is based on By Kohlrausch’s Law of Independent Migration of Ions,\n\n<<<PAGE 59>>>\nΛ\n0(HOAc) = Λ\n0(HCl) + Λ\n0(NaOAc) – Λ\n0(NaCl).\nSolution :\nGiven Λ\n0(NaOAc) = 91.0 S cm\n2 mol\n−1,\nΛ\n0(HCl) = 426.2 S cm\n2 mol\n−1.\nHence, to calculate Λ\n0(HOAc), we also need Λ\n0(NaCl).\nFinal Answer : (1)",
-    "solution_text": "Explain the Question : To find molar conductivity of acetic acid (HOAc) at infinite dilution\nusing known values of other electrolytes.\nConcept : This question is based on By Kohlrausch’s Law of Independent Migration of Ions,\n\n<<<PAGE 59>>>\nΛ\n0(HOAc) = Λ\n0(HCl) + Λ\n0(NaOAc) – Λ\n0(NaCl).\nSolution :\nGiven Λ\n0(NaOAc) = 91.0 S cm\n2 mol\n−1,\nΛ\n0(HCl) = 426.2 S cm\n2 mol\n−1.\nHence, to calculate Λ\n0(HOAc), we also need Λ\n0(NaCl).\nFinal Answer : (1)",
+    "solutionText": "Explain the Question : To find molar conductivity of acetic acid (HOAc) at infinite dilution\nusing known values of other electrolytes.\nConcept : This question is based on By Kohlrausch’s Law of Independent Migration of Ions,\n\n---P58---\nΛ\n0(HOAc) = Λ\n0(HCl) + Λ\n0(NaOAc) – Λ\n0(NaCl).\nSolution :\nGiven Λ\n0(NaOAc) = 91.0 S cm\n2 mol\n−1,\nΛ\n0(HCl) = 426.2 S cm\n2 mol\n−1.\nHence, to calculate Λ\n0(HOAc), we also need Λ\n0(NaCl).\nFinal Answer : (1)",
+    "solution_text": "Explain the Question : To find molar conductivity of acetic acid (HOAc) at infinite dilution\nusing known values of other electrolytes.\nConcept : This question is based on By Kohlrausch’s Law of Independent Migration of Ions,\n\n---P58---\nΛ\n0(HOAc) = Λ\n0(HCl) + Λ\n0(NaOAc) – Λ\n0(NaCl).\nSolution :\nGiven Λ\n0(NaOAc) = 91.0 S cm\n2 mol\n−1,\nΛ\n0(HCl) = 426.2 S cm\n2 mol\n−1.\nHence, to calculate Λ\n0(HOAc), we also need Λ\n0(NaCl).\nFinal Answer : (1)",
     "solutionFinalAnswer": 1,
     "solution_final_answer": 1,
     "sourcePdf": "Achiever Minor Test 02.pdf",
     "source_pdf": "Achiever Minor Test 02.pdf",
     "sourcePage": 16,
-    "source_page": 16
+    "source_page": 16,
+    "optionImages": [
+      "/images/achiever_opts/q51_opt_1.png",
+      "/images/achiever_opts/q51_opt_2.png",
+      "/images/achiever_opts/q51_opt_3.png",
+      "/images/achiever_opts/q51_opt_4.png"
+    ],
+    "option_images": [
+      "/images/achiever_opts/q51_opt_1.png",
+      "/images/achiever_opts/q51_opt_2.png",
+      "/images/achiever_opts/q51_opt_3.png",
+      "/images/achiever_opts/q51_opt_4.png"
+    ]
   },
   {
     "id": "achiever_052",
@@ -1601,10 +1817,10 @@
     "questionText": "How many electrons flow when a current  of 5 amperes is passed through a conductor for 200\nsecond ?",
     "question_text": "How many electrons flow when a current  of 5 amperes is passed through a conductor for 200\nsecond ?",
     "options": [
-      "6.214 × 10\n21",
-      "60.241 × 10\n21",
-      "6.241 × 10\n22",
-      "6.0241 × 10\n22"
+      "6.214 × 10 21",
+      "60.241 × 10 21",
+      "6.241 × 10 22",
+      "6.0241 × 10 22"
     ],
     "imageUrl": "/images/achiever/q_54.png",
     "image_url": "/images/achiever/q_54.png",
@@ -1631,17 +1847,17 @@
     "questionText": "The specific conductivity of a saturated solution AgCl is 3.40 × 10\n-6 ohm\n–1cm\n–1 at 25° C. If molar\nconductance of  Ag\n+ = 62.3 ohm\n–1 cm² mol\n–1 and molar conductance of Cl¯ = 67.7 ohm\n–1 cm\n2 mol\n–1 at\ninfinite dilution, the solubility of AgCl at 25° C is:",
     "question_text": "The specific conductivity of a saturated solution AgCl is 3.40 × 10\n-6 ohm\n–1cm\n–1 at 25° C. If molar\nconductance of  Ag\n+ = 62.3 ohm\n–1 cm² mol\n–1 and molar conductance of Cl¯ = 67.7 ohm\n–1 cm\n2 mol\n–1 at\ninfinite dilution, the solubility of AgCl at 25° C is:",
     "options": [
-      "2.6 × 10\n–5 M",
-      "4.5 × 10\n–3 M",
-      "3.6 × 10\n–5 M",
-      "3.6 × 10\n–3 M"
+      "2.6 × 10 –5 M",
+      "4.5 × 10 –3 M",
+      "3.6 × 10 –5 M",
+      "3.6 × 10 –3 M"
     ],
     "imageUrl": "/images/achiever/q_55.png",
     "image_url": "/images/achiever/q_55.png",
     "officialAnswer": 1,
     "official_answer": 1,
-    "solutionText": "Explaining : Calculate solubility.\nConcept : This question is based on application of Kohlrausch law.\nSolution : \n    \n  for sparingly soluble salt.\n\n<<<PAGE 60>>>\n⇒ S = 2.6 × 10\n–5\nFinal Answer : (1)",
-    "solution_text": "Explaining : Calculate solubility.\nConcept : This question is based on application of Kohlrausch law.\nSolution : \n    \n  for sparingly soluble salt.\n\n<<<PAGE 60>>>\n⇒ S = 2.6 × 10\n–5\nFinal Answer : (1)",
+    "solutionText": "Explaining : Calculate solubility.\nConcept : This question is based on application of Kohlrausch law.\nSolution : \n    \n  for sparingly soluble salt.\n\n---P59---\n⇒ S = 2.6 × 10\n–5\nFinal Answer : (1)",
+    "solution_text": "Explaining : Calculate solubility.\nConcept : This question is based on application of Kohlrausch law.\nSolution : \n    \n  for sparingly soluble salt.\n\n---P59---\n⇒ S = 2.6 × 10\n–5\nFinal Answer : (1)",
     "solutionFinalAnswer": 1,
     "solution_final_answer": 1,
     "sourcePdf": "Achiever Minor Test 02.pdf",
@@ -1661,10 +1877,10 @@
     "questionText": "The common features among the species CN\n–, CO and NO\n+ are :",
     "question_text": "The common features among the species CN\n–, CO and NO\n+ are :",
     "options": [
-      "(1) Option 1",
-      "(2) Option 2",
-      "(3) Option 3",
-      "(4) Option 4"
+      "bond order three and diamagnetic",
+      "bond order three and weak field ligands",
+      "paramagnetic and strong field ligands",
+      "paramagnetic and π-acceptor ligands"
     ],
     "imageUrl": "/images/achiever/q_56.png",
     "image_url": "/images/achiever/q_56.png",
@@ -1691,9 +1907,9 @@
     "questionText": "Which of the following ambidentate ligand can act as flexidentate ligand ?",
     "question_text": "Which of the following ambidentate ligand can act as flexidentate ligand ?",
     "options": [
-      "SCN\n–",
-      "OCN\n–",
-      "Option (3)",
+      "SCN –",
+      "OCN –",
+      "See Option (3) in formula/diagram",
       "None of these"
     ],
     "imageUrl": "/images/achiever/q_57.png",
@@ -1707,7 +1923,19 @@
     "sourcePdf": "Achiever Minor Test 02.pdf",
     "source_pdf": "Achiever Minor Test 02.pdf",
     "sourcePage": 17,
-    "source_page": 17
+    "source_page": 17,
+    "optionImages": [
+      "/images/achiever_opts/q57_opt_1.png",
+      "/images/achiever_opts/q57_opt_2.png",
+      "/images/achiever_opts/q57_opt_3.png",
+      "/images/achiever_opts/q57_opt_4.png"
+    ],
+    "option_images": [
+      "/images/achiever_opts/q57_opt_1.png",
+      "/images/achiever_opts/q57_opt_2.png",
+      "/images/achiever_opts/q57_opt_3.png",
+      "/images/achiever_opts/q57_opt_4.png"
+    ]
   },
   {
     "id": "achiever_058",
@@ -1721,10 +1949,10 @@
     "questionText": "CO bond length is longest in :",
     "question_text": "CO bond length is longest in :",
     "options": [
-      "[Mn(CO)6]\n+",
-      "[V(CO)6]\n–",
+      "[Mn(CO)6] +",
+      "[V(CO)6] –",
       "Cr(CO)6",
-      "[Ti(CO)6]\n2–"
+      "[Ti(CO)6] 2–"
     ],
     "imageUrl": "/images/achiever/q_58.png",
     "image_url": "/images/achiever/q_58.png",
@@ -1784,14 +2012,14 @@
       "[CrBrCl(en)2]Br → Ionization and optical isomerism",
       "[CoBr3(H2O)3] → Fac-mer and hydrate isomerism",
       "[PtCl2(NH3)4] [Co(SCN)4] → Linkage isomerism and paramagnetic character",
-      "[Co(ox)3]\n3– → Inner orbital complex and optical isomerism"
+      "[Co(ox)3] 3– → Inner orbital complex and optical isomerism"
     ],
     "imageUrl": "/images/achiever/q_60.png",
     "image_url": "/images/achiever/q_60.png",
     "officialAnswer": 2,
     "official_answer": 2,
-    "solutionText": "<<<PAGE 61>>>\nExplaining : - Incorrect match for given complex compound/ion and its characteristics :\nConcept : This question is based on isomerism in complex compound.\nSolution : [CoBr3(H2O)3] : It does not exhibit hydrate isomerism.\nFinal Answer : (2)",
-    "solution_text": "<<<PAGE 61>>>\nExplaining : - Incorrect match for given complex compound/ion and its characteristics :\nConcept : This question is based on isomerism in complex compound.\nSolution : [CoBr3(H2O)3] : It does not exhibit hydrate isomerism.\nFinal Answer : (2)",
+    "solutionText": "---P60---\nExplaining : - Incorrect match for given complex compound/ion and its characteristics :\nConcept : This question is based on isomerism in complex compound.\nSolution : [CoBr3(H2O)3] : It does not exhibit hydrate isomerism.\nFinal Answer : (2)",
+    "solution_text": "---P60---\nExplaining : - Incorrect match for given complex compound/ion and its characteristics :\nConcept : This question is based on isomerism in complex compound.\nSolution : [CoBr3(H2O)3] : It does not exhibit hydrate isomerism.\nFinal Answer : (2)",
     "solutionFinalAnswer": 2,
     "solution_final_answer": 2,
     "sourcePdf": "Achiever Minor Test 02.pdf",
@@ -1838,13 +2066,13 @@
     "subject": "Chemistry",
     "questionType": "diagram_based",
     "question_type": "diagram_based",
-    "questionText": "If EAN of central metal cation M\n2+ in a non-chelating complex is 36 and atomic no. of metal M is\n26, then the number of monodentate ligand in this complex are :\n(1) 5",
-    "question_text": "If EAN of central metal cation M\n2+ in a non-chelating complex is 36 and atomic no. of metal M is\n26, then the number of monodentate ligand in this complex are :\n(1) 5",
+    "questionText": "If EAN of central metal cation M\n2+ in a non-chelating complex is 36 and atomic no. of metal M is\n26, then the number of monodentate ligand in this complex are :",
+    "question_text": "If EAN of central metal cation M\n2+ in a non-chelating complex is 36 and atomic no. of metal M is\n26, then the number of monodentate ligand in this complex are :",
     "options": [
-      "(1) Option 1",
-      "(2) Option 2",
-      "(3) Option 3",
-      "(4) Option 4"
+      "5",
+      "4",
+      "6",
+      "None of these"
     ],
     "imageUrl": "/images/achiever/q_62.png",
     "image_url": "/images/achiever/q_62.png",
@@ -1871,10 +2099,10 @@
     "questionText": "Which of the following pair the EAN of central metal atom is not same ?",
     "question_text": "Which of the following pair the EAN of central metal atom is not same ?",
     "options": [
-      "[Fe(CN)6]\n3– and [Fe(NH3)6]\n3+",
-      "[Cr(NH3)6]\n3+ and [Cr(CN)6]\n3–",
-      "[FeF6]\n3– and [Fe(CN)6]\n3–",
-      "[Ni(CO)4] and [Ni(CN)4]\n2–"
+      "[Fe(CN)6] 3– and [Fe(NH3)6] 3+",
+      "[Cr(NH3)6] 3+ and [Cr(CN)6] 3–",
+      "[FeF6] 3– and [Fe(CN)6] 3–",
+      "[Ni(CO)4] and [Ni(CN)4] 2–"
     ],
     "imageUrl": "/images/achiever/q_63.png",
     "image_url": "/images/achiever/q_63.png",
@@ -1910,8 +2138,8 @@
     "image_url": "/images/achiever/q_64.png",
     "officialAnswer": 3,
     "official_answer": 3,
-    "solutionText": "Explaining : IUPAC Nomenclature.\nConcept : This question is based on IUPAC Nomenclature.\nSolution :\n[Fe(O2)(CN)4Cl]\n4– ion\nIUPAC name – chlorotetracyano superoxo ferrate (II) ion.\n\n<<<PAGE 62>>>\nFinal Answer : (3)",
-    "solution_text": "Explaining : IUPAC Nomenclature.\nConcept : This question is based on IUPAC Nomenclature.\nSolution :\n[Fe(O2)(CN)4Cl]\n4– ion\nIUPAC name – chlorotetracyano superoxo ferrate (II) ion.\n\n<<<PAGE 62>>>\nFinal Answer : (3)",
+    "solutionText": "Explaining : IUPAC Nomenclature.\nConcept : This question is based on IUPAC Nomenclature.\nSolution :\n[Fe(O2)(CN)4Cl]\n4– ion\nIUPAC name – chlorotetracyano superoxo ferrate (II) ion.\n\n---P61---\nFinal Answer : (3)",
+    "solution_text": "Explaining : IUPAC Nomenclature.\nConcept : This question is based on IUPAC Nomenclature.\nSolution :\n[Fe(O2)(CN)4Cl]\n4– ion\nIUPAC name – chlorotetracyano superoxo ferrate (II) ion.\n\n---P61---\nFinal Answer : (3)",
     "solutionFinalAnswer": 3,
     "solution_final_answer": 3,
     "sourcePdf": "Achiever Minor Test 02.pdf",
@@ -2023,8 +2251,8 @@
     "options": [
       "tetranuclear",
       "mononuclear",
-      "Option (3)",
-      "Option (4)"
+      "trinuclear",
+      "dinuclear"
     ],
     "imageUrl": "/images/achiever/q_68.png",
     "image_url": "/images/achiever/q_68.png",
@@ -2051,23 +2279,35 @@
     "questionText": "What is the correct electronic configuration of the central atom in K4[Fe(CN)6] based on crystal\nfield theory ?",
     "question_text": "What is the correct electronic configuration of the central atom in K4[Fe(CN)6] based on crystal\nfield theory ?",
     "options": [
-      "Option (1)",
-      "Option (2)",
-      "Option (3)",
-      "Option (4)"
+      "See Option (1) in formula/diagram",
+      "See Option (2) in formula/diagram",
+      "See Option (3) in formula/diagram",
+      "See Option (4) in formula/diagram"
     ],
     "imageUrl": "/images/achiever/q_69.png",
     "image_url": "/images/achiever/q_69.png",
     "officialAnswer": 3,
     "official_answer": 3,
-    "solutionText": "Explaining : Crystal field theory.\nConcept : This question is based on Crystal field theory.\n\n<<<PAGE 63>>>\nSolution :\nIn K4[Fe(CN)6] is complex, Fe is in +2 oxidation state.\nAs CN\n– is a strong field ligand, it causes pairing of electrons therefore, electronic configuration\nof Fe\n2+ in K4[Fe(CN)6] is \n.\nFinal Answer : (3)",
-    "solution_text": "Explaining : Crystal field theory.\nConcept : This question is based on Crystal field theory.\n\n<<<PAGE 63>>>\nSolution :\nIn K4[Fe(CN)6] is complex, Fe is in +2 oxidation state.\nAs CN\n– is a strong field ligand, it causes pairing of electrons therefore, electronic configuration\nof Fe\n2+ in K4[Fe(CN)6] is \n.\nFinal Answer : (3)",
+    "solutionText": "Explaining : Crystal field theory.\nConcept : This question is based on Crystal field theory.\n\n---P62---\nSolution :\nIn K4[Fe(CN)6] is complex, Fe is in +2 oxidation state.\nAs CN\n– is a strong field ligand, it causes pairing of electrons therefore, electronic configuration\nof Fe\n2+ in K4[Fe(CN)6] is \n.\nFinal Answer : (3)",
+    "solution_text": "Explaining : Crystal field theory.\nConcept : This question is based on Crystal field theory.\n\n---P62---\nSolution :\nIn K4[Fe(CN)6] is complex, Fe is in +2 oxidation state.\nAs CN\n– is a strong field ligand, it causes pairing of electrons therefore, electronic configuration\nof Fe\n2+ in K4[Fe(CN)6] is \n.\nFinal Answer : (3)",
     "solutionFinalAnswer": 3,
     "solution_final_answer": 3,
     "sourcePdf": "Achiever Minor Test 02.pdf",
     "source_pdf": "Achiever Minor Test 02.pdf",
     "sourcePage": 19,
-    "source_page": 19
+    "source_page": 19,
+    "optionImages": [
+      "/images/achiever_opts/q69_opt_1.png",
+      "/images/achiever_opts/q69_opt_2.png",
+      "/images/achiever_opts/q69_opt_3.png",
+      "/images/achiever_opts/q69_opt_4.png"
+    ],
+    "option_images": [
+      "/images/achiever_opts/q69_opt_1.png",
+      "/images/achiever_opts/q69_opt_2.png",
+      "/images/achiever_opts/q69_opt_3.png",
+      "/images/achiever_opts/q69_opt_4.png"
+    ]
   },
   {
     "id": "achiever_070",
@@ -2081,10 +2321,10 @@
     "questionText": "Which of the following is the correct order of increasing field strength of ligands to form\ncoordination compounds ?",
     "question_text": "Which of the following is the correct order of increasing field strength of ligands to form\ncoordination compounds ?",
     "options": [
-      "Option (1)",
-      "Option (2)",
-      "Option (3)",
-      "Option (4)"
+      "See Option (1) in formula/diagram",
+      "See Option (2) in formula/diagram",
+      "See Option (3) in formula/diagram",
+      "See Option (4) in formula/diagram"
     ],
     "imageUrl": "/images/achiever/q_70.png",
     "image_url": "/images/achiever/q_70.png",
@@ -2097,7 +2337,19 @@
     "sourcePdf": "Achiever Minor Test 02.pdf",
     "source_pdf": "Achiever Minor Test 02.pdf",
     "sourcePage": 19,
-    "source_page": 19
+    "source_page": 19,
+    "optionImages": [
+      "/images/achiever_opts/q70_opt_1.png",
+      "/images/achiever_opts/q70_opt_2.png",
+      "/images/achiever_opts/q70_opt_3.png",
+      "/images/achiever_opts/q70_opt_4.png"
+    ],
+    "option_images": [
+      "/images/achiever_opts/q70_opt_1.png",
+      "/images/achiever_opts/q70_opt_2.png",
+      "/images/achiever_opts/q70_opt_3.png",
+      "/images/achiever_opts/q70_opt_4.png"
+    ]
   },
   {
     "id": "achiever_071",
@@ -2141,10 +2393,10 @@
     "questionText": "Which of the following complex ions is expected to absorb visible light ?",
     "question_text": "Which of the following complex ions is expected to absorb visible light ?",
     "options": [
-      "[Ti(en)2(NH3)2]\n4+",
-      "[Cr(NH3)6]\n3+",
-      "[Zn(NH3)6]\n2+",
-      "[Sc(H2O)3(NH3)3]\n3+\n[At. no. : Zn = 30, Sc = 21, Ti = 22, Cr = 24]"
+      "[Ti(en)2(NH3)2] 4+",
+      "[Cr(NH3)6] 3+",
+      "[Zn(NH3)6] 2+",
+      "[Sc(H2O)3(NH3)3] 3+ [At. no. : Zn = 30, Sc = 21, Ti = 22, Cr = 24]"
     ],
     "imageUrl": "/images/achiever/q_72.png",
     "image_url": "/images/achiever/q_72.png",
@@ -2171,10 +2423,10 @@
     "questionText": "Which one of the following has an optical isomer ?",
     "question_text": "Which one of the following has an optical isomer ?",
     "options": [
-      "(1) Option 1",
-      "(2) Option 2",
-      "(3) Option 3",
-      "(4) Option 4"
+      "[Co(H2O)4(en)] 3+",
+      "[Zn(en)2] 2+",
+      "[Zn(en)(NH3)2] 2+",
+      "[Co(en)3] 3+"
     ],
     "imageUrl": "/images/achiever/q_73.png",
     "image_url": "/images/achiever/q_73.png",
@@ -2201,17 +2453,17 @@
     "questionText": "Which of the following complex has minimum magnitude of Δ0?",
     "question_text": "Which of the following complex has minimum magnitude of Δ0?",
     "options": [
-      "[Cr(CN)6]\n3–",
-      "[Co(NH3)6]\n3+",
-      "[CoCl6]\n3–",
-      "[Cr(H2O)6]\n3+"
+      "[Cr(CN)6] 3–",
+      "[Co(NH3)6] 3+",
+      "[CoCl6] 3–",
+      "[Cr(H2O)6] 3+"
     ],
     "imageUrl": "/images/achiever/q_74.png",
     "image_url": "/images/achiever/q_74.png",
     "officialAnswer": 3,
     "official_answer": 3,
-    "solutionText": "<<<PAGE 64>>>\nExplaining : - C.F.S.E.\nConcept : This question is based on Crystal field theory\nSolution :\nIn[Cr(CN)6]\n3– complex ion,           Cr\n3+ = d\n3 = \n \nIn[Co(NH3)6]\n3+ complex ion,        Co\n3+ = d\n6 = \n                   (low spin)\nIn[CoCl6]\n3– complex ion,              Co\n3+ = d\n6 = \n    ; Weaker the ligand lesser the splitting   \nIn[Co(H2O)6]\n3+ complex ion,        Co\n3+ = d\n6 = \nFinal Answer : (3)",
-    "solution_text": "<<<PAGE 64>>>\nExplaining : - C.F.S.E.\nConcept : This question is based on Crystal field theory\nSolution :\nIn[Cr(CN)6]\n3– complex ion,           Cr\n3+ = d\n3 = \n \nIn[Co(NH3)6]\n3+ complex ion,        Co\n3+ = d\n6 = \n                   (low spin)\nIn[CoCl6]\n3– complex ion,              Co\n3+ = d\n6 = \n    ; Weaker the ligand lesser the splitting   \nIn[Co(H2O)6]\n3+ complex ion,        Co\n3+ = d\n6 = \nFinal Answer : (3)",
+    "solutionText": "---P63---\nExplaining : - C.F.S.E.\nConcept : This question is based on Crystal field theory\nSolution :\nIn[Cr(CN)6]\n3– complex ion,           Cr\n3+ = d\n3 = \n \nIn[Co(NH3)6]\n3+ complex ion,        Co\n3+ = d\n6 = \n                   (low spin)\nIn[CoCl6]\n3– complex ion,              Co\n3+ = d\n6 = \n    ; Weaker the ligand lesser the splitting   \nIn[Co(H2O)6]\n3+ complex ion,        Co\n3+ = d\n6 = \nFinal Answer : (3)",
+    "solution_text": "---P63---\nExplaining : - C.F.S.E.\nConcept : This question is based on Crystal field theory\nSolution :\nIn[Cr(CN)6]\n3– complex ion,           Cr\n3+ = d\n3 = \n \nIn[Co(NH3)6]\n3+ complex ion,        Co\n3+ = d\n6 = \n                   (low spin)\nIn[CoCl6]\n3– complex ion,              Co\n3+ = d\n6 = \n    ; Weaker the ligand lesser the splitting   \nIn[Co(H2O)6]\n3+ complex ion,        Co\n3+ = d\n6 = \nFinal Answer : (3)",
     "solutionFinalAnswer": 3,
     "solution_final_answer": 3,
     "sourcePdf": "Achiever Minor Test 02.pdf",
@@ -2232,7 +2484,7 @@
     "question_text": "The ligands in anti-cancer drug cis platin are :",
     "options": [
       "NH3, Cl",
-      "Option (2)",
+      "See Option (2) in formula/diagram",
       "Cl, H2O",
       "NO, Cl"
     ],
@@ -2247,7 +2499,19 @@
     "sourcePdf": "Achiever Minor Test 02.pdf",
     "source_pdf": "Achiever Minor Test 02.pdf",
     "sourcePage": 20,
-    "source_page": 20
+    "source_page": 20,
+    "optionImages": [
+      "/images/achiever_opts/q75_opt_1.png",
+      "/images/achiever_opts/q75_opt_2.png",
+      "/images/achiever_opts/q75_opt_3.png",
+      "/images/achiever_opts/q75_opt_4.png"
+    ],
+    "option_images": [
+      "/images/achiever_opts/q75_opt_1.png",
+      "/images/achiever_opts/q75_opt_2.png",
+      "/images/achiever_opts/q75_opt_3.png",
+      "/images/achiever_opts/q75_opt_4.png"
+    ]
   },
   {
     "id": "achiever_076",
@@ -2263,7 +2527,7 @@
     "options": [
       "NH3",
       "CO",
-      "F\n–",
+      "F –",
       "Ethylene diamine"
     ],
     "imageUrl": "/images/achiever/q_76.png",
@@ -2330,8 +2594,8 @@
     "image_url": "/images/achiever/q_78.png",
     "officialAnswer": 2,
     "official_answer": 2,
-    "solutionText": "Explaining : Color in coordination compounds.\nConcept : This question is based on applications of coordination chemistry.\nSolution :\nBoth [Ti(H2O)6]\n4+ and [Sc(H2O)6]\n3+ are colourless, due to absence of free electrons in 3d\nsubshell.\nFinal Answer : (2)\n\n<<<PAGE 65>>>",
-    "solution_text": "Explaining : Color in coordination compounds.\nConcept : This question is based on applications of coordination chemistry.\nSolution :\nBoth [Ti(H2O)6]\n4+ and [Sc(H2O)6]\n3+ are colourless, due to absence of free electrons in 3d\nsubshell.\nFinal Answer : (2)\n\n<<<PAGE 65>>>",
+    "solutionText": "Explaining : Color in coordination compounds.\nConcept : This question is based on applications of coordination chemistry.\nSolution :\nBoth [Ti(H2O)6]\n4+ and [Sc(H2O)6]\n3+ are colourless, due to absence of free electrons in 3d\nsubshell.\nFinal Answer : (2)\n\n---P64---",
+    "solution_text": "Explaining : Color in coordination compounds.\nConcept : This question is based on applications of coordination chemistry.\nSolution :\nBoth [Ti(H2O)6]\n4+ and [Sc(H2O)6]\n3+ are colourless, due to absence of free electrons in 3d\nsubshell.\nFinal Answer : (2)\n\n---P64---",
     "solutionFinalAnswer": 2,
     "solution_final_answer": 2,
     "sourcePdf": "Achiever Minor Test 02.pdf",
@@ -2348,13 +2612,13 @@
     "subject": "Chemistry",
     "questionType": "statement_based",
     "question_type": "statement_based",
-    "questionText": "Statement-1 : Zeise’s salt is π-bonded organometallic compound.",
-    "question_text": "Statement-1 : Zeise’s salt is π-bonded organometallic compound.",
+    "questionText": "Statement-1 : Zeise’s salt is π-bonded organometallic compound.\nStatement-2 : Zeise’s salt contain C2H4 molecules as one of the ligand.",
+    "question_text": "Statement-1 : Zeise’s salt is π-bonded organometallic compound.\nStatement-2 : Zeise’s salt contain C2H4 molecules as one of the ligand.",
     "options": [
-      "(1) Option 1",
-      "(2) Option 2",
-      "(3) Option 3",
-      "(4) Option 4"
+      "If statement-1 is true but the statement-2 is false.",
+      "If statement-1 is false but statement-2 is true.",
+      "If both statements are true and the statement-2 is the correct explanation of statement-1.",
+      "If both statements are true and the statement-2 is not the correct explanation of statement-1."
     ],
     "imageUrl": "/images/achiever/q_79.png",
     "image_url": "/images/achiever/q_79.png",
@@ -2450,8 +2714,8 @@
     "image_url": "/images/achiever/q_82.png",
     "officialAnswer": 1,
     "official_answer": 1,
-    "solutionText": "Explaining : Products at anode ?\nConcept : This question is based on electrolysis\nSolution :\n\n<<<PAGE 66>>>\nReaction at anode (oxidation) :\n2Cl¯ → Cl2(g) + 2e¯\nFinal Answer : (1)",
-    "solution_text": "Explaining : Products at anode ?\nConcept : This question is based on electrolysis\nSolution :\n\n<<<PAGE 66>>>\nReaction at anode (oxidation) :\n2Cl¯ → Cl2(g) + 2e¯\nFinal Answer : (1)",
+    "solutionText": "Explaining : Products at anode ?\nConcept : This question is based on electrolysis\nSolution :\n\n---P65---\nReaction at anode (oxidation) :\n2Cl¯ → Cl2(g) + 2e¯\nFinal Answer : (1)",
+    "solution_text": "Explaining : Products at anode ?\nConcept : This question is based on electrolysis\nSolution :\n\n---P65---\nReaction at anode (oxidation) :\n2Cl¯ → Cl2(g) + 2e¯\nFinal Answer : (1)",
     "solutionFinalAnswer": 1,
     "solution_final_answer": 1,
     "sourcePdf": "Achiever Minor Test 02.pdf",
@@ -2501,10 +2765,10 @@
     "questionText": "The resistance of 0.01 N solution of an electrolyte was found to be 210 ohm at 298 K using a\nconductivity cell of cell constant 0.66 cm\n–1. The equivalent conductance of solution is :–",
     "question_text": "The resistance of 0.01 N solution of an electrolyte was found to be 210 ohm at 298 K using a\nconductivity cell of cell constant 0.66 cm\n–1. The equivalent conductance of solution is :–",
     "options": [
-      "314.28 mho cm\n2 eq\n–1",
-      "3.14 mho cm\n2 eq\n–1",
-      "Option (3)",
-      "Option (4)"
+      "314.28 mho cm 2 eq –1",
+      "3.14 mho cm 2 eq –1",
+      "314.28 mho –1 cm 2 eq –1",
+      "3.14 mho –1 cm 2 eq –1"
     ],
     "imageUrl": "/images/achiever/q_84.png",
     "image_url": "/images/achiever/q_84.png",
@@ -2531,10 +2795,10 @@
     "questionText": "The specific conductance of a N/10 solution of KCl at 25°C is 0.0035 Ω\n–1 cm\n–1. If the resistance of\na cell containing this solution is 500 Ω, what is the cell constant?",
     "question_text": "The specific conductance of a N/10 solution of KCl at 25°C is 0.0035 Ω\n–1 cm\n–1. If the resistance of\na cell containing this solution is 500 Ω, what is the cell constant?",
     "options": [
-      "1.106 cm\n–1",
-      "1.75 cm\n–1",
-      "3.2 cm\n–1",
-      "2 cm\n–1"
+      "1.106 cm –1",
+      "1.75 cm –1",
+      "3.2 cm –1",
+      "2 cm –1"
     ],
     "imageUrl": "/images/achiever/q_85.png",
     "image_url": "/images/achiever/q_85.png",
@@ -2600,8 +2864,8 @@
     "image_url": "/images/achiever/q_87.png",
     "officialAnswer": 4,
     "official_answer": 4,
-    "solutionText": "Explain the question: Find ratio of cations reduced when equal moles of electrons are\npassed through AgNO3, CuSO4, and AuCl3 solutions.\nConcept: Amount of metal deposited ∝ moles of electrons / n-factor.\nSolution:\n\n<<<PAGE 67>>>\nFor reduction:\nAg\n+ + e⁻ → Ag  (n = 1)\nCu\n2+ + 2e⁻ → Cu  (n = 2)\nAu\n3+ + 3e⁻ → Au  (n = 3)\nMoles of electrons = 3 mol each.\nMoles of cations reduced = (moles of e\n–) / n\nAg\n+ → 3/1 = 3\nCu\n2+ → 3/2 = 1.5\nAu\n3+ → 3/3 = 1\nRatio = 3 : 1.5 : 1 = 6 : 3 : 2\nFinal Answer: 4",
-    "solution_text": "Explain the question: Find ratio of cations reduced when equal moles of electrons are\npassed through AgNO3, CuSO4, and AuCl3 solutions.\nConcept: Amount of metal deposited ∝ moles of electrons / n-factor.\nSolution:\n\n<<<PAGE 67>>>\nFor reduction:\nAg\n+ + e⁻ → Ag  (n = 1)\nCu\n2+ + 2e⁻ → Cu  (n = 2)\nAu\n3+ + 3e⁻ → Au  (n = 3)\nMoles of electrons = 3 mol each.\nMoles of cations reduced = (moles of e\n–) / n\nAg\n+ → 3/1 = 3\nCu\n2+ → 3/2 = 1.5\nAu\n3+ → 3/3 = 1\nRatio = 3 : 1.5 : 1 = 6 : 3 : 2\nFinal Answer: 4",
+    "solutionText": "Explain the question: Find ratio of cations reduced when equal moles of electrons are\npassed through AgNO3, CuSO4, and AuCl3 solutions.\nConcept: Amount of metal deposited ∝ moles of electrons / n-factor.\nSolution:\n\n---P66---\nFor reduction:\nAg\n+ + e⁻ → Ag  (n = 1)\nCu\n2+ + 2e⁻ → Cu  (n = 2)\nAu\n3+ + 3e⁻ → Au  (n = 3)\nMoles of electrons = 3 mol each.\nMoles of cations reduced = (moles of e\n–) / n\nAg\n+ → 3/1 = 3\nCu\n2+ → 3/2 = 1.5\nAu\n3+ → 3/3 = 1\nRatio = 3 : 1.5 : 1 = 6 : 3 : 2\nFinal Answer: 4",
+    "solution_text": "Explain the question: Find ratio of cations reduced when equal moles of electrons are\npassed through AgNO3, CuSO4, and AuCl3 solutions.\nConcept: Amount of metal deposited ∝ moles of electrons / n-factor.\nSolution:\n\n---P66---\nFor reduction:\nAg\n+ + e⁻ → Ag  (n = 1)\nCu\n2+ + 2e⁻ → Cu  (n = 2)\nAu\n3+ + 3e⁻ → Au  (n = 3)\nMoles of electrons = 3 mol each.\nMoles of cations reduced = (moles of e\n–) / n\nAg\n+ → 3/1 = 3\nCu\n2+ → 3/2 = 1.5\nAu\n3+ → 3/3 = 1\nRatio = 3 : 1.5 : 1 = 6 : 3 : 2\nFinal Answer: 4",
     "solutionFinalAnswer": 4,
     "solution_final_answer": 4,
     "sourcePdf": "Achiever Minor Test 02.pdf",
@@ -2681,9 +2945,9 @@
     "questionText": "Saturated solution of KNO3 is used to make 'salt-bridge' because :",
     "question_text": "Saturated solution of KNO3 is used to make 'salt-bridge' because :",
     "options": [
-      "velocity of both K\n+ and \n are nearly the same",
-      "velocity of \n is greater than that of K\n+",
-      "velocity of K\n+ is greater than that of",
+      "velocity of both K + and are nearly the same",
+      "velocity of is greater than that of K +",
+      "velocity of K + is greater than that of",
       "KNO3 is high soluble in water"
     ],
     "imageUrl": "/images/achiever/q_90.png",
@@ -2741,17 +3005,17 @@
     "questionText": "During spermatogenesis, which sequence correctly represents the developmental stages?",
     "question_text": "During spermatogenesis, which sequence correctly represents the developmental stages?",
     "options": [
-      "Spermatogonia → Primary spermatocyte → Secondary spermatocyte → Spermatid →\nSpermatozoa",
-      "Spermatogonia → Secondary spermatocyte → Primary spermatocyte → Spermatid →\nSpermatozoa",
-      "Primary spermatocyte → Spermatogonia → Spermatid → Secondary spermatocyte →\nSpermatozoa",
-      "Spermatogonia → Spermatid → Primary spermatocyte → Secondary spermatocyte →\nSpermatozoa"
+      "Spermatogonia → Primary spermatocyte → Secondary spermatocyte → Spermatid → Spermatozoa",
+      "Spermatogonia → Secondary spermatocyte → Primary spermatocyte → Spermatid → Spermatozoa",
+      "Primary spermatocyte → Spermatogonia → Spermatid → Secondary spermatocyte → Spermatozoa",
+      "Spermatogonia → Spermatid → Primary spermatocyte → Secondary spermatocyte → Spermatozoa"
     ],
     "imageUrl": "/images/achiever/q_92.png",
     "image_url": "/images/achiever/q_92.png",
     "officialAnswer": 1,
     "official_answer": 1,
-    "solutionText": "Solution: The correct sequence is: Spermatogonia → Primary spermatocyte → Secondary\nspermatocyte → Spermatid → Spermatozoa\nPrimary spermatocyte undergoes meiosis I, while secondary spermatocytes undergo meiosis\nII.\nFinal Answer : (1)\n\n<<<PAGE 68>>>",
-    "solution_text": "Solution: The correct sequence is: Spermatogonia → Primary spermatocyte → Secondary\nspermatocyte → Spermatid → Spermatozoa\nPrimary spermatocyte undergoes meiosis I, while secondary spermatocytes undergo meiosis\nII.\nFinal Answer : (1)\n\n<<<PAGE 68>>>",
+    "solutionText": "Solution: The correct sequence is: Spermatogonia → Primary spermatocyte → Secondary\nspermatocyte → Spermatid → Spermatozoa\nPrimary spermatocyte undergoes meiosis I, while secondary spermatocytes undergo meiosis\nII.\nFinal Answer : (1)\n\n---P67---",
+    "solution_text": "Solution: The correct sequence is: Spermatogonia → Primary spermatocyte → Secondary\nspermatocyte → Spermatid → Spermatozoa\nPrimary spermatocyte undergoes meiosis I, while secondary spermatocytes undergo meiosis\nII.\nFinal Answer : (1)\n\n---P67---",
     "solutionFinalAnswer": 1,
     "solution_final_answer": 1,
     "sourcePdf": "Achiever Minor Test 02.pdf",
@@ -2831,10 +3095,10 @@
     "questionText": "Which hormone primarily stimulates the Leydig cells of the testes?",
     "question_text": "Which hormone primarily stimulates the Leydig cells of the testes?",
     "options": [
-      "(1) Option 1",
-      "(2) Option 2",
-      "(3) Option 3",
-      "(4) Option 4"
+      "FSH",
+      "Prolactin",
+      "LH",
+      "Oxytocin"
     ],
     "imageUrl": "/images/achiever/q_95.png",
     "image_url": "/images/achiever/q_95.png",
@@ -3080,8 +3344,8 @@
     "image_url": "/images/achiever/q_103.png",
     "officialAnswer": 3,
     "official_answer": 3,
-    "solutionText": "Solution: Fertilisation generally occurs at the ampullary-isthmic junction of the\nfallopian tube.\nFinal Answer : (3)\n\n<<<PAGE 69>>>",
-    "solution_text": "Solution: Fertilisation generally occurs at the ampullary-isthmic junction of the\nfallopian tube.\nFinal Answer : (3)\n\n<<<PAGE 69>>>",
+    "solutionText": "Solution: Fertilisation generally occurs at the ampullary-isthmic junction of the\nfallopian tube.\nFinal Answer : (3)\n\n---P68---",
+    "solution_text": "Solution: Fertilisation generally occurs at the ampullary-isthmic junction of the\nfallopian tube.\nFinal Answer : (3)\n\n---P68---",
     "solutionFinalAnswer": 3,
     "solution_final_answer": 3,
     "sourcePdf": "Achiever Minor Test 02.pdf",
@@ -3218,13 +3482,13 @@
     "subject": "Biology",
     "questionType": "mcq",
     "question_type": "mcq",
-    "questionText": "Implantation of the blastocyst normally occurs in the:\n(1) Myometrium",
-    "question_text": "Implantation of the blastocyst normally occurs in the:\n(1) Myometrium",
+    "questionText": "Implantation of the blastocyst normally occurs in the:",
+    "question_text": "Implantation of the blastocyst normally occurs in the:",
     "options": [
-      "(1) Option 1",
-      "(2) Option 2",
-      "(3) Option 3",
-      "(4) Option 4"
+      "Myometrium",
+      "Endometrium",
+      "Perimetrium",
+      "Cervical canal"
     ],
     "imageUrl": "/images/achiever/q_108.png",
     "image_url": "/images/achiever/q_108.png",
@@ -3410,8 +3674,8 @@
     "image_url": "/images/achiever/q_114.png",
     "officialAnswer": 4,
     "official_answer": 4,
-    "solutionText": "Solution: Prolactin stimulates milk production by mammary glands, whereas oxytocin\ncauses contraction of myoepithelial cells, resulting in milk ejection.\n\n<<<PAGE 70>>>\nFinal Answer: (4)",
-    "solution_text": "Solution: Prolactin stimulates milk production by mammary glands, whereas oxytocin\ncauses contraction of myoepithelial cells, resulting in milk ejection.\n\n<<<PAGE 70>>>\nFinal Answer: (4)",
+    "solutionText": "Solution: Prolactin stimulates milk production by mammary glands, whereas oxytocin\ncauses contraction of myoepithelial cells, resulting in milk ejection.\n\n---P69---\nFinal Answer: (4)",
+    "solution_text": "Solution: Prolactin stimulates milk production by mammary glands, whereas oxytocin\ncauses contraction of myoepithelial cells, resulting in milk ejection.\n\n---P69---\nFinal Answer: (4)",
     "solutionFinalAnswer": 4,
     "solution_final_answer": 4,
     "sourcePdf": "Achiever Minor Test 02.pdf",
@@ -3578,13 +3842,13 @@
     "subject": "Biology",
     "questionType": "mcq",
     "question_type": "mcq",
-    "questionText": "In vasectomy, which structure is cut and tied?\n(1) Ureter",
-    "question_text": "In vasectomy, which structure is cut and tied?\n(1) Ureter",
+    "questionText": "In vasectomy, which structure is cut and tied?",
+    "question_text": "In vasectomy, which structure is cut and tied?",
     "options": [
-      "(1) Option 1",
-      "(2) Option 2",
-      "(3) Option 3",
-      "(4) Option 4"
+      "Ureter",
+      "Vas deferens",
+      "Epididymis",
+      "Seminiferous tubule"
     ],
     "imageUrl": "/images/achiever/q_120.png",
     "image_url": "/images/achiever/q_120.png",
@@ -3710,8 +3974,8 @@
     "image_url": "/images/achiever/q_124.png",
     "officialAnswer": 1,
     "official_answer": 1,
-    "solutionText": "Solution: Intense and prolonged breastfeeding can suppress ovarian activity and\n\n<<<PAGE 71>>>\novulation. The method is effective only under specific conditions and for a limited postpartum\nperiod.\nFinal Answer : (1)",
-    "solution_text": "Solution: Intense and prolonged breastfeeding can suppress ovarian activity and\n\n<<<PAGE 71>>>\novulation. The method is effective only under specific conditions and for a limited postpartum\nperiod.\nFinal Answer : (1)",
+    "solutionText": "Solution: Intense and prolonged breastfeeding can suppress ovarian activity and\n\n---P70---\novulation. The method is effective only under specific conditions and for a limited postpartum\nperiod.\nFinal Answer : (1)",
+    "solution_text": "Solution: Intense and prolonged breastfeeding can suppress ovarian activity and\n\n---P70---\novulation. The method is effective only under specific conditions and for a limited postpartum\nperiod.\nFinal Answer : (1)",
     "solutionFinalAnswer": 1,
     "solution_final_answer": 1,
     "sourcePdf": "Achiever Minor Test 02.pdf",
@@ -3971,10 +4235,10 @@
     "questionText": "ZIFT involves transfer of:",
     "question_text": "ZIFT involves transfer of:",
     "options": [
-      "(1) Option 1",
-      "(2) Option 2",
-      "(3) Option 3",
-      "(4) Option 4"
+      "Gametes into the fallopian tube",
+      "Zygote/early embryo into the fallopian tube",
+      "Blastocyst into the ovary",
+      "Sperm into the uterus"
     ],
     "imageUrl": "/images/achiever/q_133.png",
     "image_url": "/images/achiever/q_133.png",
@@ -4010,8 +4274,8 @@
     "image_url": "/images/achiever/q_134.png",
     "officialAnswer": 3,
     "official_answer": 3,
-    "solutionText": "Solution: A-Q, B-P, C-R, D-S\nGIFT → Gametes → fallopian tube\nICSI → Sperm directly injected into ovum\nZIFT → Zygote/early embryo → fallopian tube\n\n<<<PAGE 72>>>\nIVF-ET → Embryo → female reproductive tract\nFinal Answer: (3)",
-    "solution_text": "Solution: A-Q, B-P, C-R, D-S\nGIFT → Gametes → fallopian tube\nICSI → Sperm directly injected into ovum\nZIFT → Zygote/early embryo → fallopian tube\n\n<<<PAGE 72>>>\nIVF-ET → Embryo → female reproductive tract\nFinal Answer: (3)",
+    "solutionText": "Solution: A-Q, B-P, C-R, D-S\nGIFT → Gametes → fallopian tube\nICSI → Sperm directly injected into ovum\nZIFT → Zygote/early embryo → fallopian tube\n\n---P71---\nIVF-ET → Embryo → female reproductive tract\nFinal Answer: (3)",
+    "solution_text": "Solution: A-Q, B-P, C-R, D-S\nGIFT → Gametes → fallopian tube\nICSI → Sperm directly injected into ovum\nZIFT → Zygote/early embryo → fallopian tube\n\n---P71---\nIVF-ET → Embryo → female reproductive tract\nFinal Answer: (3)",
     "solutionFinalAnswer": 3,
     "solution_final_answer": 3,
     "sourcePdf": "Achiever Minor Test 02.pdf",
@@ -4062,8 +4326,8 @@
     "question_text": "Choose the mis-match :",
     "options": [
       "Amylose → contains α-1, 4 glycosidic bond.",
-      "K\n+ → most abundant mineral element in ICF.",
-      "Na\n+ → most abundant mineral element in ECF.",
+      "K + → most abundant mineral element in ICF.",
+      "Na + → most abundant mineral element in ECF.",
       "Cellulose → violet colour with iodine solution."
     ],
     "imageUrl": "/images/achiever/q_136.png",
@@ -4102,8 +4366,8 @@
     "official_answer": 2,
     "solutionText": "Explanation:\nBiomacromolecules are large molecules with high molecular weight, typically polymers made up of\nrepeating monomeric units. Proteins, polysaccharides, and nucleic acids are true biomacromolecules\nbecause they are formed by polymerization.\nLipids, however, are not strictly biomacromolecules because they do not form true\nA.\npolymers. Instead, they are composed of smaller units like fatty acids and glycerol but\nare not linked in long chains like proteins or nucleic acids.\nCorrect Answer: 2. Lipids",
     "solution_text": "Explanation:\nBiomacromolecules are large molecules with high molecular weight, typically polymers made up of\nrepeating monomeric units. Proteins, polysaccharides, and nucleic acids are true biomacromolecules\nbecause they are formed by polymerization.\nLipids, however, are not strictly biomacromolecules because they do not form true\nA.\npolymers. Instead, they are composed of smaller units like fatty acids and glycerol but\nare not linked in long chains like proteins or nucleic acids.\nCorrect Answer: 2. Lipids",
-    "solutionFinalAnswer": null,
-    "solution_final_answer": null,
+    "solutionFinalAnswer": 2,
+    "solution_final_answer": 2,
     "sourcePdf": "Achiever Minor Test 02.pdf",
     "source_pdf": "Achiever Minor Test 02.pdf",
     "sourcePage": 30,
@@ -4121,10 +4385,10 @@
     "questionText": "An alpha helix represents",
     "question_text": "An alpha helix represents",
     "options": [
-      "(1) Option 1",
-      "(2) Option 2",
-      "(3) Option 3",
-      "(4) Option 4"
+      "primary structure of protein",
+      "aggregation of protein",
+      "secondary structure of protein",
+      "tertiary structure of protein"
     ],
     "imageUrl": "/images/achiever/q_138.png",
     "image_url": "/images/achiever/q_138.png",
@@ -4132,8 +4396,8 @@
     "official_answer": 3,
     "solutionText": "Explanation:\nThe secondary structure of a protein refers to the localized folding of the polypeptide chain,\nstabilized by hydrogen bonds. The alpha (α) helix is one such common structure, where the\nbackbone coils in a right-handed spiral due to intramolecular hydrogen bonding between the\ncarbonyl (C=O) of one amino acid and the amide (N-H) of another, four residues away.\nCorrect Answer: 3. Secondary structure of protein",
     "solution_text": "Explanation:\nThe secondary structure of a protein refers to the localized folding of the polypeptide chain,\nstabilized by hydrogen bonds. The alpha (α) helix is one such common structure, where the\nbackbone coils in a right-handed spiral due to intramolecular hydrogen bonding between the\ncarbonyl (C=O) of one amino acid and the amide (N-H) of another, four residues away.\nCorrect Answer: 3. Secondary structure of protein",
-    "solutionFinalAnswer": null,
-    "solution_final_answer": null,
+    "solutionFinalAnswer": 3,
+    "solution_final_answer": 3,
     "sourcePdf": "Achiever Minor Test 02.pdf",
     "source_pdf": "Achiever Minor Test 02.pdf",
     "sourcePage": 30,
@@ -4160,8 +4424,8 @@
     "image_url": "/images/achiever/q_139.png",
     "officialAnswer": 2,
     "official_answer": 2,
-    "solutionText": "Solution:\nFull form of NAD is Nicotinamide Adenine Dinucleotide.\nNAD is a coenzyme found in all living cells. It plays a crucial rote in redox reactions\n(reduction-oxidation reactions), which are involved in energy metabolism. There are two forms\nof NAD:\n\n<<<PAGE 73>>>\nNAD\n+ (oxidized from): This form accepts electrons and is reduced to NADH during metabolic\nA.\nreactions.\nNADH (reduced form): NADH donates electrons in other reactions, such as those in the\nB.\nelectron transport chain during cellular respiration.\nFinal Answer : (2)",
-    "solution_text": "Solution:\nFull form of NAD is Nicotinamide Adenine Dinucleotide.\nNAD is a coenzyme found in all living cells. It plays a crucial rote in redox reactions\n(reduction-oxidation reactions), which are involved in energy metabolism. There are two forms\nof NAD:\n\n<<<PAGE 73>>>\nNAD\n+ (oxidized from): This form accepts electrons and is reduced to NADH during metabolic\nA.\nreactions.\nNADH (reduced form): NADH donates electrons in other reactions, such as those in the\nB.\nelectron transport chain during cellular respiration.\nFinal Answer : (2)",
+    "solutionText": "Solution:\nFull form of NAD is Nicotinamide Adenine Dinucleotide.\nNAD is a coenzyme found in all living cells. It plays a crucial rote in redox reactions\n(reduction-oxidation reactions), which are involved in energy metabolism. There are two forms\nof NAD:\n\n---P72---\nNAD\n+ (oxidized from): This form accepts electrons and is reduced to NADH during metabolic\nA.\nreactions.\nNADH (reduced form): NADH donates electrons in other reactions, such as those in the\nB.\nelectron transport chain during cellular respiration.\nFinal Answer : (2)",
+    "solution_text": "Solution:\nFull form of NAD is Nicotinamide Adenine Dinucleotide.\nNAD is a coenzyme found in all living cells. It plays a crucial rote in redox reactions\n(reduction-oxidation reactions), which are involved in energy metabolism. There are two forms\nof NAD:\n\n---P72---\nNAD\n+ (oxidized from): This form accepts electrons and is reduced to NADH during metabolic\nA.\nreactions.\nNADH (reduced form): NADH donates electrons in other reactions, such as those in the\nB.\nelectron transport chain during cellular respiration.\nFinal Answer : (2)",
     "solutionFinalAnswer": 2,
     "solution_final_answer": 2,
     "sourcePdf": "Achiever Minor Test 02.pdf",
@@ -4192,8 +4456,8 @@
     "official_answer": 4,
     "solutionText": "Solution:\nChange In substrate Concentration: With the increase in substrate concentration, the velocity\nof the enzymatic reaction rises at first. The reaction ultimately reaches a maximum velocity\n(Vmax). This velocity is not exceeded by any further rise in concentration of the substrate.\nReason: The enzyme molecules are fewer than the substrate molecules and after saturation of\nthese enzyme molecules, there are no free enzyme molecules available to bind with the\nadditional substrate molecules.\nHence,\nCorrect option: (4) First increases then become constant",
     "solution_text": "Solution:\nChange In substrate Concentration: With the increase in substrate concentration, the velocity\nof the enzymatic reaction rises at first. The reaction ultimately reaches a maximum velocity\n(Vmax). This velocity is not exceeded by any further rise in concentration of the substrate.\nReason: The enzyme molecules are fewer than the substrate molecules and after saturation of\nthese enzyme molecules, there are no free enzyme molecules available to bind with the\nadditional substrate molecules.\nHence,\nCorrect option: (4) First increases then become constant",
-    "solutionFinalAnswer": null,
-    "solution_final_answer": null,
+    "solutionFinalAnswer": 4,
+    "solution_final_answer": 4,
     "sourcePdf": "Achiever Minor Test 02.pdf",
     "source_pdf": "Achiever Minor Test 02.pdf",
     "sourcePage": 31,
@@ -4241,7 +4505,7 @@
     "questionText": "Which of the following statements about polysaccharides is correct?",
     "question_text": "Which of the following statements about polysaccharides is correct?",
     "options": [
-      "Cellulose is a polymer of fructose and forms helical structures that bind iodine to give a blue\ncolor.",
+      "Cellulose is a polymer of fructose and forms helical structures that bind iodine to give a blue color.",
       "Starch forms helical structures and gives a blue color when treated with iodine solution.",
       "Glycogen is a homopolymer of amino sugars found in plant cell walls.",
       "Chitin is a polymer of glucose and is found in the human liver."
@@ -4304,16 +4568,16 @@
       "Glycine – Methyl group",
       "Alanine – Hydroxymethyl group",
       "Serine – Hydroxymethyl group",
-      "Option (4)"
+      "Valine – Aromatic ring"
     ],
     "imageUrl": "/images/achiever/q_144.png",
     "image_url": "/images/achiever/q_144.png",
     "officialAnswer": 3,
     "official_answer": 3,
-    "solutionText": "Question Explanation: Serine has a hydroxymethyl (–CH₂OH) R group.\nConcept: Amino Acid R Groups\nSolution:\n\n<<<PAGE 74>>>\nGlycine → H\nA.\nAlanine → Methyl (–CH₃)\nB.\nSerine → Hydroxymethyl (–CH₂OH)\nC.\nValine → Isopropyl (–CH(CH₃)₂)\nD.\nTherefore, Serine – Hydroxymethyl group is correctly matched.\nFinal answer: Option - 3 (Serine – Hydroxymethyl group)",
-    "solution_text": "Question Explanation: Serine has a hydroxymethyl (–CH₂OH) R group.\nConcept: Amino Acid R Groups\nSolution:\n\n<<<PAGE 74>>>\nGlycine → H\nA.\nAlanine → Methyl (–CH₃)\nB.\nSerine → Hydroxymethyl (–CH₂OH)\nC.\nValine → Isopropyl (–CH(CH₃)₂)\nD.\nTherefore, Serine – Hydroxymethyl group is correctly matched.\nFinal answer: Option - 3 (Serine – Hydroxymethyl group)",
-    "solutionFinalAnswer": null,
-    "solution_final_answer": null,
+    "solutionText": "Question Explanation: Serine has a hydroxymethyl (–CH₂OH) R group.\nConcept: Amino Acid R Groups\nSolution:\n\n---P73---\nGlycine → H\nA.\nAlanine → Methyl (–CH₃)\nB.\nSerine → Hydroxymethyl (–CH₂OH)\nC.\nValine → Isopropyl (–CH(CH₃)₂)\nD.\nTherefore, Serine – Hydroxymethyl group is correctly matched.\nFinal answer: Option - 3 (Serine – Hydroxymethyl group)",
+    "solution_text": "Question Explanation: Serine has a hydroxymethyl (–CH₂OH) R group.\nConcept: Amino Acid R Groups\nSolution:\n\n---P73---\nGlycine → H\nA.\nAlanine → Methyl (–CH₃)\nB.\nSerine → Hydroxymethyl (–CH₂OH)\nC.\nValine → Isopropyl (–CH(CH₃)₂)\nD.\nTherefore, Serine – Hydroxymethyl group is correctly matched.\nFinal answer: Option - 3 (Serine – Hydroxymethyl group)",
+    "solutionFinalAnswer": 3,
+    "solution_final_answer": 3,
     "sourcePdf": "Achiever Minor Test 02.pdf",
     "source_pdf": "Achiever Minor Test 02.pdf",
     "sourcePage": 31,
@@ -4372,8 +4636,8 @@
     "official_answer": 4,
     "solutionText": "Solution:\nSome enzymes have allosteric site to control active site. This control is called modulation.\n• Most of non-competitive inhibitors blind reversibly with allosteric site and negatively change\nthe configuration of active site. Such inhibition is called non-competitive reversible inhibition\nor negative allosteric modulation.\nHence,\nCorrect option: (4) Both activation and inhibition",
     "solution_text": "Solution:\nSome enzymes have allosteric site to control active site. This control is called modulation.\n• Most of non-competitive inhibitors blind reversibly with allosteric site and negatively change\nthe configuration of active site. Such inhibition is called non-competitive reversible inhibition\nor negative allosteric modulation.\nHence,\nCorrect option: (4) Both activation and inhibition",
-    "solutionFinalAnswer": null,
-    "solution_final_answer": null,
+    "solutionFinalAnswer": 4,
+    "solution_final_answer": 4,
     "sourcePdf": "Achiever Minor Test 02.pdf",
     "source_pdf": "Achiever Minor Test 02.pdf",
     "sourcePage": 32,
@@ -4402,8 +4666,8 @@
     "official_answer": 2,
     "solutionText": "Question Explanation: A product of a metabolic pathway can inhibit an earlier enzyme.\nConcept: Feedback Inhibition\nSolution: When the end product of a biochemical pathway inhibits an enzyme involved in an\nearlier step, it is called feedback inhibition. This prevents unnecessary production of the end\nproduct and helps regulate the metabolic pathway.\nFinal answer: Option - 2 (Feedback inhibition)",
     "solution_text": "Question Explanation: A product of a metabolic pathway can inhibit an earlier enzyme.\nConcept: Feedback Inhibition\nSolution: When the end product of a biochemical pathway inhibits an enzyme involved in an\nearlier step, it is called feedback inhibition. This prevents unnecessary production of the end\nproduct and helps regulate the metabolic pathway.\nFinal answer: Option - 2 (Feedback inhibition)",
-    "solutionFinalAnswer": null,
-    "solution_final_answer": null,
+    "solutionFinalAnswer": 2,
+    "solution_final_answer": 2,
     "sourcePdf": "Achiever Minor Test 02.pdf",
     "source_pdf": "Achiever Minor Test 02.pdf",
     "sourcePage": 32,
@@ -4422,16 +4686,16 @@
     "question_text": "Which of the following statements regarding enzyme inhibition is correct ?",
     "options": [
       "Non-competitive inhibition of an enzyme can be overcome by adding large amount of substrate",
-      "Competitive inhibition is seen, when a substrate competes with an enzyme for binding to an\ninhibitor protein",
-      "Competitive inhibition is seen, when the substrate and the inhibitor compete for the active site\non the enzyme",
+      "Competitive inhibition is seen, when a substrate competes with an enzyme for binding to an inhibitor protein",
+      "Competitive inhibition is seen, when the substrate and the inhibitor compete for the active site on the enzyme",
       "Non-competitive inhibitors often bind to the enzyme irreversibly."
     ],
     "imageUrl": "/images/achiever/q_148.png",
     "image_url": "/images/achiever/q_148.png",
     "officialAnswer": 3,
     "official_answer": 3,
-    "solutionText": "Question Explanation: In competitive inhibition, substrate and inhibitor compete for the\nactive site.\nConcept: Enzyme Inhibition\n\n<<<PAGE 75>>>\nSolution: In competitive inhibition, the inhibitor resembles the substrate and competes with it\nfor the active site of the enzyme. Increasing substrate concentration can overcome competitive\ninhibition. Non-competitive inhibition cannot normally be overcome by increasing substrate\nconcentration.\nFinal answer: (3)",
-    "solution_text": "Question Explanation: In competitive inhibition, substrate and inhibitor compete for the\nactive site.\nConcept: Enzyme Inhibition\n\n<<<PAGE 75>>>\nSolution: In competitive inhibition, the inhibitor resembles the substrate and competes with it\nfor the active site of the enzyme. Increasing substrate concentration can overcome competitive\ninhibition. Non-competitive inhibition cannot normally be overcome by increasing substrate\nconcentration.\nFinal answer: (3)",
+    "solutionText": "Question Explanation: In competitive inhibition, substrate and inhibitor compete for the\nactive site.\nConcept: Enzyme Inhibition\n\n---P74---\nSolution: In competitive inhibition, the inhibitor resembles the substrate and competes with it\nfor the active site of the enzyme. Increasing substrate concentration can overcome competitive\ninhibition. Non-competitive inhibition cannot normally be overcome by increasing substrate\nconcentration.\nFinal answer: (3)",
+    "solution_text": "Question Explanation: In competitive inhibition, substrate and inhibitor compete for the\nactive site.\nConcept: Enzyme Inhibition\n\n---P74---\nSolution: In competitive inhibition, the inhibitor resembles the substrate and competes with it\nfor the active site of the enzyme. Increasing substrate concentration can overcome competitive\ninhibition. Non-competitive inhibition cannot normally be overcome by increasing substrate\nconcentration.\nFinal answer: (3)",
     "solutionFinalAnswer": 3,
     "solution_final_answer": 3,
     "sourcePdf": "Achiever Minor Test 02.pdf",
@@ -4481,10 +4745,10 @@
     "questionText": "Following are the statements with reference to 'lipids'.\n(a) Lipids having only single bonds are called unsaturated fatty acids.\n(b) Lecithin is a phospholipid.\n(c) Trihydroxy propane is glycerol.\n(d) Palmitic acid has 20 carbon atoms including carboxyl carbon.\n(e) Arachidonic acid has 16 carbon atoms.\nChoose the correct answer from the options given below.",
     "question_text": "Following are the statements with reference to 'lipids'.\n(a) Lipids having only single bonds are called unsaturated fatty acids.\n(b) Lecithin is a phospholipid.\n(c) Trihydroxy propane is glycerol.\n(d) Palmitic acid has 20 carbon atoms including carboxyl carbon.\n(e) Arachidonic acid has 16 carbon atoms.\nChoose the correct answer from the options given below.",
     "options": [
-      "(1) Option 1",
-      "(2) Option 2",
-      "(3) Option 3",
-      "(4) Option 4"
+      "(a) and (b) only",
+      "(c) and (d) only",
+      "(b) and (c) only",
+      "(b) and (e) only"
     ],
     "imageUrl": "/images/achiever/q_150.png",
     "image_url": "/images/achiever/q_150.png",
@@ -4492,8 +4756,8 @@
     "official_answer": 3,
     "solutionText": "Explanation :\n(a) is incorrect because lipids with only single bonds are called saturated fatty acids, not\nA.\nunsaturated.\n(b) is correct : Lecithin is a type of phospholipid.\nB.\n(c) is correct : Glycerol is a trihydroxy propane because it has three hydroxyl groups (–OH)\nC.\n(d) is incorrect because palmitic acid has 16 carbon atoms, not 20.\nD.\n(e) is incorrect because arachidonic acid has 20 carbon atoms, not 16.  \nE.",
     "solution_text": "Explanation :\n(a) is incorrect because lipids with only single bonds are called saturated fatty acids, not\nA.\nunsaturated.\n(b) is correct : Lecithin is a type of phospholipid.\nB.\n(c) is correct : Glycerol is a trihydroxy propane because it has three hydroxyl groups (–OH)\nC.\n(d) is incorrect because palmitic acid has 16 carbon atoms, not 20.\nD.\n(e) is incorrect because arachidonic acid has 20 carbon atoms, not 16.  \nE.",
-    "solutionFinalAnswer": null,
-    "solution_final_answer": null,
+    "solutionFinalAnswer": 3,
+    "solution_final_answer": 3,
     "sourcePdf": "Achiever Minor Test 02.pdf",
     "source_pdf": "Achiever Minor Test 02.pdf",
     "sourcePage": 32,
@@ -4598,20 +4862,20 @@
     "subject": "Biology",
     "questionType": "match_following",
     "question_type": "match_following",
-    "questionText": "Match List-I with List-II.\nList-I\nList-II",
-    "question_text": "Match List-I with List-II.\nList-I\nList-II",
+    "questionText": "Match List-I with List-II.\nList-I\nList-II\nA.\nPrimary structure of\nprotein\nI.\nHuman haemoglobin\nB.\nSecondary structure of\nprotein\nII.\nDisulphide bonds\nC.\nTertiary structure of\nprotein\nIII.\nPolypeptide chain\nD.\nQuaternary structure\nof protein\nIV.\nAlpha helix and β pleated\nsheet\nChoose the correct answer from the options given below :",
+    "question_text": "Match List-I with List-II.\nList-I\nList-II\nA.\nPrimary structure of\nprotein\nI.\nHuman haemoglobin\nB.\nSecondary structure of\nprotein\nII.\nDisulphide bonds\nC.\nTertiary structure of\nprotein\nIII.\nPolypeptide chain\nD.\nQuaternary structure\nof protein\nIV.\nAlpha helix and β pleated\nsheet\nChoose the correct answer from the options given below :",
     "options": [
-      "(1) Option 1",
-      "(2) Option 2",
-      "(3) Option 3",
-      "(4) Option 4"
+      "A-III, B-IV, C-II, D-I",
+      "A-III, B-II, C-I, D -IV",
+      "A-I, B-III, C-II, D-IV",
+      "A-IV, B-III, C-II, D-I"
     ],
     "imageUrl": "/images/achiever/q_154.png",
     "image_url": "/images/achiever/q_154.png",
     "officialAnswer": 1,
     "official_answer": 1,
-    "solutionText": "Solution : A–III, B–IV, C–II, D–I\nA. Primary structure of protein\nIII.Polypeptide chain\nB. Secondary structure of protein IV. Alpha helix and β pleated sheet\nC. Tertiary structure of protein\nII.  Disulphide bonds\nD.Quaternary structure of protein I. Human haemoglobin\nFinal Answer : (1)\n\n<<<PAGE 76>>>",
-    "solution_text": "Solution : A–III, B–IV, C–II, D–I\nA. Primary structure of protein\nIII.Polypeptide chain\nB. Secondary structure of protein IV. Alpha helix and β pleated sheet\nC. Tertiary structure of protein\nII.  Disulphide bonds\nD.Quaternary structure of protein I. Human haemoglobin\nFinal Answer : (1)\n\n<<<PAGE 76>>>",
+    "solutionText": "Solution : A–III, B–IV, C–II, D–I\nA. Primary structure of protein\nIII.Polypeptide chain\nB. Secondary structure of protein IV. Alpha helix and β pleated sheet\nC. Tertiary structure of protein\nII.  Disulphide bonds\nD.Quaternary structure of protein I. Human haemoglobin\nFinal Answer : (1)\n\n---P75---",
+    "solution_text": "Solution : A–III, B–IV, C–II, D–I\nA. Primary structure of protein\nIII.Polypeptide chain\nB. Secondary structure of protein IV. Alpha helix and β pleated sheet\nC. Tertiary structure of protein\nII.  Disulphide bonds\nD.Quaternary structure of protein I. Human haemoglobin\nFinal Answer : (1)\n\n---P75---",
     "solutionFinalAnswer": 1,
     "solution_final_answer": 1,
     "sourcePdf": "Achiever Minor Test 02.pdf",
@@ -4632,7 +4896,7 @@
     "question_text": "At a specific pH, an amino acid exists as a zwitterion, which statement accurately describes this\nmolecular state?",
     "options": [
       "Only the R-group of the amino acid is ionized",
-      "The molecule is positively charged due to excess H\n+ ions",
+      "The molecule is positively charged due to excess H + ions",
       "The molecule carries both positive and negative charges, resulting in a net neutral charge",
       "The amino acid is completely uncharged and non-polar."
     ],
@@ -4672,8 +4936,8 @@
     "official_answer": 3,
     "solutionText": "Solution:\nSince the diagram represents activation energy, it likely shows the energy changes during a\nchemical reaction. Here, the key change is that P (Product) has a higher energy than S\n(Substrate), meaning the reaction absorbs energy, making it endothermic.\nCorrect Answer: Option 3: \"Energy difference between transition state and product will be\nmore than activation energy\" is incorrect.\nActivation energy (Ea) is the energy difference between the transition state and substrate, not\nbetween the transition state and product.\nThe energy difference between the transition state and product is usually smaller than\nactivation energy.",
     "solution_text": "Solution:\nSince the diagram represents activation energy, it likely shows the energy changes during a\nchemical reaction. Here, the key change is that P (Product) has a higher energy than S\n(Substrate), meaning the reaction absorbs energy, making it endothermic.\nCorrect Answer: Option 3: \"Energy difference between transition state and product will be\nmore than activation energy\" is incorrect.\nActivation energy (Ea) is the energy difference between the transition state and substrate, not\nbetween the transition state and product.\nThe energy difference between the transition state and product is usually smaller than\nactivation energy.",
-    "solutionFinalAnswer": null,
-    "solution_final_answer": null,
+    "solutionFinalAnswer": 3,
+    "solution_final_answer": 3,
     "sourcePdf": "Achiever Minor Test 02.pdf",
     "source_pdf": "Achiever Minor Test 02.pdf",
     "sourcePage": 34,
@@ -4691,10 +4955,10 @@
     "questionText": "In the B-DNA double helix model, what is the pitch of the helix and distance between two\nadjacent base pairs respectively?",
     "question_text": "In the B-DNA double helix model, what is the pitch of the helix and distance between two\nadjacent base pairs respectively?",
     "options": [
-      "(1) Option 1",
-      "(2) Option 2",
-      "(3) Option 3",
-      "(4) Option 4"
+      "3.4 Å and 34Å",
+      "34Å and 3.4Å",
+      "36 nm and 3.6 nm",
+      "36Å and 3.6Å"
     ],
     "imageUrl": "/images/achiever/q_157.png",
     "image_url": "/images/achiever/q_157.png",
@@ -4811,17 +5075,17 @@
     "questionText": "Identify A, B, C and D in the below diagram:",
     "question_text": "Identify A, B, C and D in the below diagram:",
     "options": [
-      "(1) Option 1",
-      "(2) Option 2",
-      "(3) Option 3",
-      "(4) Option 4"
+      "A–G1, B–S, C–G2, D–M Phase",
+      "A–G2, B–M Phase, C–G1, D–S",
+      "A–S, B–G2, C–G1, D–M Phase",
+      "A–M Phase, B–G1, C–G1, D–S"
     ],
     "imageUrl": "/images/achiever/q_161.png",
     "image_url": "/images/achiever/q_161.png",
     "officialAnswer": 1,
     "official_answer": 1,
-    "solutionText": "Solution : A–G1, B–S, C–G2, D–M Phase\n\n<<<PAGE 77>>>\nFinal Answer : (1)",
-    "solution_text": "Solution : A–G1, B–S, C–G2, D–M Phase\n\n<<<PAGE 77>>>\nFinal Answer : (1)",
+    "solutionText": "Solution : A–G1, B–S, C–G2, D–M Phase\n\n---P76---\nFinal Answer : (1)",
+    "solution_text": "Solution : A–G1, B–S, C–G2, D–M Phase\n\n---P76---\nFinal Answer : (1)",
     "solutionFinalAnswer": 1,
     "solution_final_answer": 1,
     "sourcePdf": "Achiever Minor Test 02.pdf",
@@ -4933,8 +5197,8 @@
     "options": [
       "Golgi body and ER",
       "Nucleolus",
-      "Option (3)",
-      "Option (4)"
+      "Nuclear envelope",
+      "All of these"
     ],
     "imageUrl": "/images/achiever/q_165.png",
     "image_url": "/images/achiever/q_165.png",
@@ -5090,8 +5354,8 @@
     "image_url": "/images/achiever/q_170.png",
     "officialAnswer": 2,
     "official_answer": 2,
-    "solutionText": "Solution : Homologous chromosomes gets separate during anaphase-I.\n\n<<<PAGE 78>>>\nFinal Answer : (2)",
-    "solution_text": "Solution : Homologous chromosomes gets separate during anaphase-I.\n\n<<<PAGE 78>>>\nFinal Answer : (2)",
+    "solutionText": "Solution : Homologous chromosomes gets separate during anaphase-I.\n\n---P77---\nFinal Answer : (2)",
+    "solution_text": "Solution : Homologous chromosomes gets separate during anaphase-I.\n\n---P77---\nFinal Answer : (2)",
     "solutionFinalAnswer": 2,
     "solution_final_answer": 2,
     "sourcePdf": "Achiever Minor Test 02.pdf",
@@ -5108,13 +5372,13 @@
     "subject": "Biology",
     "questionType": "mcq",
     "question_type": "mcq",
-    "questionText": "Diploid somatic cells divides by -\n(1) Meiosis",
-    "question_text": "Diploid somatic cells divides by -\n(1) Meiosis",
+    "questionText": "Diploid somatic cells divides by -",
+    "question_text": "Diploid somatic cells divides by -",
     "options": [
-      "(1) Option 1",
-      "(2) Option 2",
-      "(3) Option 3",
-      "(4) Option 4"
+      "Meiosis",
+      "Mitosis only",
+      "Both meiosis and mitosis",
+      "None of these"
     ],
     "imageUrl": "/images/achiever/q_171.png",
     "image_url": "/images/achiever/q_171.png",
@@ -5258,13 +5522,13 @@
     "subject": "Biology",
     "questionType": "statement_based",
     "question_type": "statement_based",
-    "questionText": "Which is the correct statements from the following:\nI. Synapsis of homologous chromosomes takes place during prophase I of meiosis.\nII. Division of centromeres takes place during anaphase I of meiosis.\nIII. Spindle fibres disappear completely in telophase of mitosis.",
-    "question_text": "Which is the correct statements from the following:\nI. Synapsis of homologous chromosomes takes place during prophase I of meiosis.\nII. Division of centromeres takes place during anaphase I of meiosis.\nIII. Spindle fibres disappear completely in telophase of mitosis.",
+    "questionText": "Which is the correct statements from the following:\nI. Synapsis of homologous chromosomes takes place during prophase I of meiosis.\nII. Division of centromeres takes place during anaphase I of meiosis.\nIII. Spindle fibres disappear completely in telophase of mitosis.\nIV. Nucleoli reappear at telophase I of meiosis.",
+    "question_text": "Which is the correct statements from the following:\nI. Synapsis of homologous chromosomes takes place during prophase I of meiosis.\nII. Division of centromeres takes place during anaphase I of meiosis.\nIII. Spindle fibres disappear completely in telophase of mitosis.\nIV. Nucleoli reappear at telophase I of meiosis.",
     "options": [
-      "(1) Option 1",
-      "(2) Option 2",
-      "(3) Option 3",
-      "(4) Option 4"
+      "I only",
+      "III only",
+      "I and II only",
+      "I, III and IV only"
     ],
     "imageUrl": "/images/achiever/q_176.png",
     "image_url": "/images/achiever/q_176.png",
@@ -5323,8 +5587,8 @@
     "options": [
       "A : 2, B : 1, C : 3, D : 4",
       "A : 2, B : 3, C : 1, D : 4",
-      "Option (3)",
-      "Option (4)"
+      "A : 1, B : 2, C : 3, D : 4",
+      "A : 2, B : 3, C : 4, D : 1"
     ],
     "imageUrl": "/images/achiever/q_178.png",
     "image_url": "/images/achiever/q_178.png",
@@ -5390,8 +5654,8 @@
     "image_url": "/images/achiever/q_180.png",
     "officialAnswer": 2,
     "official_answer": 2,
-    "solutionText": "Solution : Cell is metabolically active, macromolecules like RNA and proteins are\nsynthesized and cell grow maximally.\n\n<<<PAGE 79>>>\nFinal Answer : (2)",
-    "solution_text": "Solution : Cell is metabolically active, macromolecules like RNA and proteins are\nsynthesized and cell grow maximally.\n\n<<<PAGE 79>>>\nFinal Answer : (2)",
+    "solutionText": "Solution : Cell is metabolically active, macromolecules like RNA and proteins are\nsynthesized and cell grow maximally.\n\n---P78---\nFinal Answer : (2)",
+    "solution_text": "Solution : Cell is metabolically active, macromolecules like RNA and proteins are\nsynthesized and cell grow maximally.\n\n---P78---\nFinal Answer : (2)",
     "solutionFinalAnswer": 2,
     "solution_final_answer": 2,
     "sourcePdf": "Achiever Minor Test 02.pdf",

@@ -185,6 +185,7 @@ export function getStudentQuestions(examId: string, chapterIndex?: number): Ques
     questionType: q.questionType || (q as any).question_type || 'mcq',
     questionText: q.questionText || (q as any).question_text || '',
     options: q.options || [],
+    optionImages: q.optionImages || (q as any).option_images,
     imageUrl: q.imageUrl || (q as any).image_url || ''
   }));
 }

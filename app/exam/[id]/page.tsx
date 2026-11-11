@@ -698,7 +698,21 @@ export default function ExamPage({ params }: { params: Promise<{ id: string }> }
                       </div>
                     </div>
                     <div className={`flex-1 leading-snug break-words ${fontSize}`}>
-                      {optText}
+                      {currentQ?.optionImages && currentQ.optionImages[optIdx] ? (
+                        <div className="space-y-1.5">
+                          <img 
+                            src={currentQ.optionImages[optIdx]} 
+                            alt={`Option (${optNum}) formula/diagram`}
+                            className="max-h-24 sm:max-h-32 w-auto max-w-full object-contain rounded border border-slate-200 bg-white p-1"
+                            loading="eager"
+                          />
+                          {optText && !optText.startsWith("See Option") && (
+                            <div className="text-xs text-slate-600 font-medium">{optText}</div>
+                          )}
+                        </div>
+                      ) : (
+                        <span>{optText}</span>
+                      )}
                     </div>
                   </label>
                 );

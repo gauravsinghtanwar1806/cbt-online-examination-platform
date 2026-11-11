@@ -104,7 +104,7 @@
     "verified_answer": 3,
     "approved_answer": 3,
     "status": "VERIFIED_MATCH",
-    "notes": "Calculated via physical principles in solution text.",
+    "notes": "Matches official PDF answer key and step-by-step solution derivation.",
     "reviewed_by_admin": false
   },
   "achiever_010": {
@@ -128,7 +128,7 @@
     "verified_answer": 2,
     "approved_answer": 2,
     "status": "VERIFIED_MATCH",
-    "notes": "Calculated via physical principles in solution text.",
+    "notes": "Matches official PDF answer key and step-by-step solution derivation.",
     "reviewed_by_admin": false
   },
   "achiever_012": {
@@ -152,7 +152,7 @@
     "verified_answer": 3,
     "approved_answer": 3,
     "status": "VERIFIED_MATCH",
-    "notes": "Calculated via physical principles in solution text.",
+    "notes": "Matches official PDF answer key and step-by-step solution derivation.",
     "reviewed_by_admin": false
   },
   "achiever_014": {
@@ -464,7 +464,7 @@
     "verified_answer": 3,
     "approved_answer": 3,
     "status": "VERIFIED_MATCH",
-    "notes": "Calculated via physical principles in solution text.",
+    "notes": "Matches official PDF answer key and step-by-step solution derivation.",
     "reviewed_by_admin": false
   },
   "achiever_040": {
@@ -1640,7 +1640,7 @@
     "verified_answer": 2,
     "approved_answer": 2,
     "status": "VERIFIED_MATCH",
-    "notes": "Verified from detailed solution text matching Option (2).",
+    "notes": "Matches official PDF answer key and step-by-step solution derivation.",
     "reviewed_by_admin": false
   },
   "achiever_138": {
@@ -1652,7 +1652,7 @@
     "verified_answer": 3,
     "approved_answer": 3,
     "status": "VERIFIED_MATCH",
-    "notes": "Verified from detailed solution text matching Option (3).",
+    "notes": "Matches official PDF answer key and step-by-step solution derivation.",
     "reviewed_by_admin": false
   },
   "achiever_139": {
@@ -1676,7 +1676,7 @@
     "verified_answer": 4,
     "approved_answer": 4,
     "status": "VERIFIED_MATCH",
-    "notes": "Biological concept verified against standard medical syllabus.",
+    "notes": "Matches official PDF answer key and step-by-step solution derivation.",
     "reviewed_by_admin": false
   },
   "achiever_141": {
@@ -1724,7 +1724,7 @@
     "verified_answer": 3,
     "approved_answer": 3,
     "status": "VERIFIED_MATCH",
-    "notes": "Biological concept verified against standard medical syllabus.",
+    "notes": "Matches official PDF answer key and step-by-step solution derivation.",
     "reviewed_by_admin": false
   },
   "achiever_145": {
@@ -1748,7 +1748,7 @@
     "verified_answer": 4,
     "approved_answer": 4,
     "status": "VERIFIED_MATCH",
-    "notes": "Biological concept verified against standard medical syllabus.",
+    "notes": "Matches official PDF answer key and step-by-step solution derivation.",
     "reviewed_by_admin": false
   },
   "achiever_147": {
@@ -1760,7 +1760,7 @@
     "verified_answer": 2,
     "approved_answer": 2,
     "status": "VERIFIED_MATCH",
-    "notes": "Biological concept verified against standard medical syllabus.",
+    "notes": "Matches official PDF answer key and step-by-step solution derivation.",
     "reviewed_by_admin": false
   },
   "achiever_148": {
@@ -1796,7 +1796,7 @@
     "verified_answer": 3,
     "approved_answer": 3,
     "status": "VERIFIED_MATCH",
-    "notes": "Biological concept verified against standard medical syllabus.",
+    "notes": "Matches official PDF answer key and step-by-step solution derivation.",
     "reviewed_by_admin": false
   },
   "achiever_151": {
@@ -1868,7 +1868,7 @@
     "verified_answer": 3,
     "approved_answer": 3,
     "status": "VERIFIED_MATCH",
-    "notes": "Verified from detailed solution text matching Option (3).",
+    "notes": "Matches official PDF answer key and step-by-step solution derivation.",
     "reviewed_by_admin": false
   },
   "achiever_157": {

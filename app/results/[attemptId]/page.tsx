@@ -405,7 +405,20 @@ export default function ResultsPage({ params }: { params: Promise<{ attemptId: s
                                 </span>
                               </div>
                               <div className="flex-1 leading-snug">
-                                {optText}
+                                {q.optionImages && q.optionImages[optIdx] ? (
+                                  <div className="space-y-1">
+                                    <img 
+                                      src={q.optionImages[optIdx]} 
+                                      alt={`Option (${optNum})`}
+                                      className="max-h-20 w-auto rounded border border-slate-200 bg-white p-1"
+                                    />
+                                    {optText && !optText.startsWith("See Option") && (
+                                      <div className="text-xs">{optText}</div>
+                                    )}
+                                  </div>
+                                ) : (
+                                  <span>{optText}</span>
+                                )}
                               </div>
                               <div className="shrink-0 text-xs font-bold">
                                 {isApprovedCorrect && (

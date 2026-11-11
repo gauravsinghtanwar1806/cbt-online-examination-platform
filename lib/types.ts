@@ -58,7 +58,11 @@ export interface Question {
   questionType: QuestionType;
   questionText: string;
   options: string[];
+  optionImages?: string[];
   imageUrl?: string;
+  officialAnswer?: number;
+  solutionText?: string;
+  solutionFinalAnswer?: number;
   sourcePdf: string;
   sourcePage: number;
 }
@@ -74,6 +78,7 @@ export interface QuestionStudentView {
   questionType: QuestionType;
   questionText: string;
   options: string[];
+  optionImages?: string[];
   imageUrl?: string;
 }
 
@@ -119,6 +124,7 @@ export interface QuestionResultAnalysis {
   chapterName?: string;
   questionText: string;
   options: string[];
+  optionImages?: string[];
   imageUrl?: string;
   selectedOption: number | null;
   approvedAnswer: number;

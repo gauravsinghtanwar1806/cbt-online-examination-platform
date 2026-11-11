@@ -1,0 +1,1373 @@
+
+---P41---
+SOLUTIONS
+PHYSICS
+1) Explaining : We have to find the maximum speed of particle.
+Concept : This question is based on F = –
+U and equilibrium.
+Solution :
+Potential energy U = 
+ 
+For minimum U,  
+ = 
+ – 1 = 0    &       
+ = 1 = positive
+So at x = 1, U is minimum. Hence Umin = –  J
+Total mechanical energy = Max KE + Min PE
+Max KE = mv
+2
+max = 2 – 
+ =  
+⇒  vmax = 
+ = 
+ ms
+–1.
+Final Answer : (1)
+2) Question Explanation: The question asks to find the work done by a variable force when a
+particle moves from x = –a to x = +2a.
+Concept: Work done by variable force.
+Solution: 
+Final answer: Option (1)
+3) Explaining : Find the work done on the body in first 2 sec.
+Concept : This question is based on work-energy theorem.
+Solution :
+Slope (a) = 
+ = –5 m/s
+2
+By the graph at t = 0 sec, v1 = 50 m/s
+velocity at t = 2 sec,  v2 = 50 – (5)(2) = 40 m/s
+work done is change in kE 
+
+---P42---
+ω = 
+Final Answer : (4)
+4) Explaining : Find the work done by tension on the block.
+Concept : This question is based on work done by tension.
+Solution :
+Acceleration of block is = 10 m/s
+2
+∴ displacement s =  at
+2 =  × 10 × 4 = 20m
+Tension in the string is 40 N
+and work done by tension is
+ω = T× s = 40 × 20 = 800 J
+Final Answer : (1)
+5) Explaining : Find the maximum compression in spring.
+Concept : This question is based on conservation of mechanical energy.
+Solution :
+From COME
+g = 9.8 ms
+2
+⇒  (2) (1960)
+2 = 2 × 9.8 (x + 0.4)
+⇒ x = 0.10 m
+Final Answer : (4)
+6) Explaining : Find the total work done.
+Concept : This question is based on work done by constant force.
+Solution :
+Work done = Area covered in between force displacement curve and displacement axis
+ = Mass × Area covered in between acceleration–displacement curve and displacement axis.
+    = 
+    = 
+Final Answer : (1)
+7) Explaining : Find the total work done on the particle.
+Concept : This question is based on work done by variable force.
+Solution :
+
+---P43---
+For (0, 0) to (0, 2)
+     
+For (0, 2) to (2, 2)
+       
+Total work = W1 + W2
+                  = 6 + 4 = 10 J
+Final Answer : (2)
+8) Explaining : Find the K.E. of block at position C.
+Concept : This question is based on conservation of mechanical energy.
+Solution :
+Gain in KE = Loss in PE
+          = 70 J
+Final Answer : (3)
+9) Question Explanation: Find pump power factor to multiply water mass flow rate by 3.
+Concept: Power and Mass Flow Rate.
+Solution: As we know that
+ & 
+So, that 
+ 
+therefore to mape 
+→ 3 times → 
+the, Pnew = (3)
+3 Pold
+= 27 × 2
+= 54 hP
+10) Explanation Question:
+Asking about distance covered by a car before doubling the speed, if power delivering to the
+car is constant.
+Concept:
+
+---P44---
+This question is based on Power & use of calculus
+Solution:
+P = Fv
+∵ F = ma
+∵ a = 
+P = 
+Final Answer :
+Option (1)
+11)
+Question Explanation: Find momentum percentage change for a given KE percentage
+increase.
+Concept: This question is based on kinetic energy & linear momentum. 
+Solution: As we know, that
+P = 
+i.e. P ∝ 
+then % change in the momentum will be given as   
+Final answer: The correct option is (2).
+12)
+Question Explanation: Identifying properties of conservative forces.
+Concept: Conservative Forces and Work Done.
+
+---P45---
+Solution: A force is called conservative if the work it does on an object depends only on where
+the object starts and ends, not on the path taken. Because the path doesn't matter, if an object
+returns to its starting point (a closed loop), the total work done by that force is always zero.
+While many conservative forces (like gravity) are central, it is not a requirement. Potential
+energy changes as work is done, so it does not remain constant.
+Statement (i): True. By definition, work depends only on initial and final positions.
+A.
+Statement (iii): True. Since work is path-independent, wAB = –wBA, making the total work
+B.
+for a round trip zero.
+Final Answer: Option 3 (i, iii)
+13) Question Explanation: Evaluate assertion and reason about conservative and non-
+conservative forces.
+Concept:  This question is based on conservative and non-conservative forces.
+Solution: Assertion: Work done by conservative forces does not depend on path taken. (True,
+this is the definition).
+Reason: Work done by non-conservative forces depends only on initial and final position.
+(False, work done by non-conservative forces depends on the path taken).
+Final answer: The correct option is (3). 
+14) Explaining : Find the work done by given forces and match the correct values with
+column-II.
+Concept : This question is based on work done by variable force.
+Solution :
+(P) 
+(Q) 
+(R) Gravity and Normal force are perpendicular to displacement. 
+(S) 
+ 
+Final Answer : (2)
+15) Explanation the Question : Find spring constant from max compression on a rough
+surface.
+Concept: This question is based on work-energy theorem.
+Solution:
+wfriction = ΔKE + ΔU
+– μmg(ℓ + x) = 
+
+---P46---
+Final answer : (1)
+16) Explaining : To find the current through the cylinder.
+Concept : This question is based on non uniform current density.
+Solution : 
+Final Answer : (3)
+17) Explaining : To choose the current statements.
+Concept : This question is based on Drift Velocity
+Solution : 
+Electric current is same in different portions of wire but current density (or electric field) is
+different in different portions of the wire. 
+From I = neAvd we have 
+Final Answer : (3)
+18) Explain the question : Find effective resistivity of combination.
+Concept : This question is based on for parallel combination 
+Solution : In given question two wire are connected in parallel so 
+ having same
+dimensions.
+ 
+
+---P47---
+Final answer : Option (2)
+19) Explaining : To fine R1 + R2 is proportional to 
+Concept : This question is based on VI characteristics 
+Solution : 
+Slope of VI curve = Resistance
+R1 = tan θ ; R2 = tan (90 – θ) = cot θ
+R2 + R1 
+ tan θ + cot θ = tan θ + 
+= 
+ = 
+ = 
+Final Answer : (2)
+20) Explanation : To find EMF when potential drop is 12 volt across 6Ω as shown in circuit. 
+Concept : This question is based on KVL
+Solution :
+From the above diagram the branch having 6Ω, 12Ω & 4Ω is in parallel with "E" therefore,
+E = 12 + 12
+    = 24 volt
+Final Answer : (3)
+21) Explaining : To find equivalent resistance
+Concept : This question is based on combination of resistors
+Solution : 
+
+---P48---
+Final Answer : (2)
+22)
+Explain the Question : In this question, we have to find how electric field (E) and current
+density (J) are related in a conductor. 
+Concept : This question is based on relation between electric field and current density
+Solution :
+E = ρJ, where = resistivity.
+Hence, E ∝ J (for same material)  
+Final answer : 2
+23) Explaining : To find emf of each cell
+Concept : This question is based on combination of cells
+Solution : 
+For combination V = 10E –(10r)i
+at i = 12 A ; V = 6V ; Put values
+6 = 10 E –(10r) (12) .....(i)
+at i = 14 A ;  V = 0
+0 = 10 E –(10r) (14) ⇒ 10 E = 140r .... (ii)
+E = 4.2 Volt
+Final Answer : (4)
+24) Explaining : To find value of n & m.
+Concept : This question is based on Battery grid
+Solution : 
+
+---P49---
+Final Answer : (1)
+25)
+Explain the Question : We need to calculate maximum power dissipated in resistance R of
+the given circuit. 
+Concept : This question is based on maximum power transfer occurs when R = req.
+Solution : 
+Eeq = (10 + 5) = 15V and
+req = (3 + 2) = 5Ω
+For maximum power in R
+R = req = 5Ω
+So current 
+Power in resistance R
+P = I
+2R
+= (1.5)
+2 × 5W
+= 11.25 W
+Final answer : 1
+26) Explain Question:
+Find which bulb glow with maximum brightness.
+Concept:
+Brightness of bulb 
+.
+Solution:
+In given question all bulbs are identical i.e. having same resistance.
+So P × V
+2
+Potential difference of (C) is
+Maximum hence bulb (C) lights with maximum brightness.
+
+---P50---
+Final Answer: Option (2)
+27) Explaining : To find value of shunt resistance
+Concept : This question is based on Ammeter
+Solution : 
+Final Answer : (4)
+28) Explaining : Given : Electric circuit
+                      Ask : Reading of ammeter
+Concept : This question is based on key points :
+(i) 
+(ii) 
+Solution :
+x–2 + x –4 + 2x = 0 
+4x = 6 
+x = 3/2 = 1.5 V
+Let say I1, I2 and I3 are current in branches applying KCl on assuming potential at lift as x and
+on Right as zero. 
+I1 = 
+Final Answer : (4)
+29) Explaining : Given : Electric circuit with bulb
+                      Ask : Brightness of bulb
+Concept : This question is based on key points :
+(i) 
+(ii) 
+Solution :
+
+---P51---
+P = I
+2R
+Calculation :- As all bulls are identical and the power (related by brightness) is given as P =
+I
+2R so me bulb with the most current will be brightest. In Parallel connection, the current is
+spilt between the branches while in series the current will be same.
+So in figure we can set mat bulb 'C' will receive into maximum current while the bulbs A, B, D
+will not get complete current as 'C' as m are connected in Parallel trenches. So bulb 'C' will
+be the brightest.
+Conclusion : The current answer option 3.
+Final Answer : (3)
+30) Explaining : Given : Electric network
+                     Ask : Ratio of equivalent resistance of three different cases
+Concept : This question is based on key points :
+(i) 
+(ii) 
+(iii) Circuit reduction
+Solution :
+5 : 4 : 3
+Final Answer : (3)
+31) Explanation : To find direction of flow of current in galvanometer.
+Concept : This question is based on galvanometer (wheat stone bridge)
+Solution : 
+If  
+  Current B → D
+Final Answer : (3)
+32) Explaining : Energy dissipated when 100 μF capacitor charged to 200 V is discharged
+through resistor.
+Concept : This question is based on All stored energy converts to heat.
+Solution : 
+C = 100μf       V = 200V
+Heat generated = 
+Final Answer : (1)
+33) Explaining : Energy stored in parallel plate capacitor with field (E) between plates
+separated by (d), area (A).
+Concept : This question is based on energy density
+Solution : 
+
+---P52---
+Final Answer : (4)
+34) Explain Question:
+A dielectric slab is inserted between the plates of a charged condenser (isolated capacitor). We
+have to determine the change in capacitance, charge, potential difference, and energy stored.
+Concept:
+For an isolated charged capacitor, charge remains constant; inserting a dielectric increases
+capacitance, hence potential difference and energy decrease.
+Solution:
+On inserting a dielectric, capacitance increases: 
+A.
+         C' = kC
+Since the condenser is charged and isolated, charge remains unchanged:
+A.
+         Q' = Q
+Potential difference:
+A.
+          
+        Hence, potential difference decreases.
+Energy stored:
+A.
+         
+Hence, energy stored decreases.
+Therefore:
+Capacitance increases, charge remains unchanged, potential difference decreases, and energy
+stored decreases.
+Final answer: Option (3)
+35) Explanation : To find the dielectric constant is the capacitance
+Concept : This question is based on breakdown voltage
+Solution : 
+
+---P53---
+A = 10
+–4 m
+2
+Emax = 10
+6 V/m
+C = 15 µF
+k ≈ 8.5
+Final Answer : (4)
+36) Explaining : To solve for energy lost in redistribution of charge
+Concept : This question is based on Energy lost, 
+Solution : 
+Final Answer : (2)
+37) Explaining the Question: To find the ratio of charge stored in C1 and C2.
+Concept : Charge on capacitor is Q = CV
+Solution :
+In steady state
+Req = 12Ω
+P.D across C1 = 3V
+P.D across C2 = 4V
+q1 = C1V1 = 12 μC
+q2 = C2V2 = 24 μC
+Final Answer : (4)
+38) Explaining the Question: To choose correct graph between i and t.
+Concept : Q = CV
+
+---P54---
+Solution :
+Q = CV
+C↑ , Q↑ ,
+ constant,
+i ∝ Constant
+Final Answer : (2)
+39)
+Question Explanation:
+Five parallel metal plates of area A are arranged equidistantly at d. Plates 1 and 4 are
+connected, and plates 3 and 5 are connected. The capacitance between A and B is required.
+Concept :
+Capacitance (combination of plotes)
+Formula Used:
+• Capacitance of a parallel plate capacitor:
+C = 
+• For series capacitors:
+• For parallel capacitors:
+Ceq = 
+Visual Diagram:
+Calculation:
+Ceq = C + 
+Ceq = C +  C
+Ceq = C         ∵ C = 
+
+---P55---
+Final Answer:
+The correct option is (3).
+40) Explanation : To find equivalent capacitance between A and B
+Concept : This question is based on equivalent capacitance
+Solution : 
+Equivalent diagram                    
+≡  
+≡ 
+C = 18 µF    
+Final Answer : (1)
+41) Explanation: For the circuit shown, match the charge supplied by the battery and the
+charges on specific capacitors.
+Concept: Capacitors in series have the same charge, and capacitors in parallel have the same
+voltage. The total charge is 
+.
+Solution:
+(i) Qbattery = Ceff V
+     = 2 × 30 = 60 μC
+(ii) Q4μF = 4 × 10
+             = 40 μC
+(iii) Q2μF = 2 × 10
+               = 20 μC
+(iv) Q3μF = 3 × 20
+               = 60 μC
+Final Answer : (2)
+
+---P56---
+42) Explanation : To find charge on the given capacitor
+Concept : This question is based on RC circuit
+Solution : 
+Current in 2Ω is 1 amp.
+Potential difference across capacitor is 2 volt
+Q = CV = 10 µC
+Final Answer : (3)
+43) Explanation : To find the smallest of the three resistance
+Concept : This question is based on RC circuit
+Solution : 
+Slope 
+At t =0, Slope = i
+0 = 
+Q Slope 1 > Slope2 > Slope3
+∴ R1 < R2 < R3
+Final Answer : (3)
+44) Explain the Question : In the given RC circuit, we need to find the current through 2Ω
+resistor in steady state.  
+Concept : This question is based on RC circuit at steady state.
+Solution :
+At steady state no current is flow in capacitor branch
+ and 
+= 0.9 A
+Final Answer : 2
+45) Explanation : To find the potential difference across each of the capacitor
+Concept : This question is based on sharing of charges
+Solution : 
+VCommon = 
+        = 
+ = 
+Final Answer : (4)
+CHEMISTRY
+46)
+Explaining : Calculate EMF of cell.
+Concept : This question is based on 
+Solution :
+
+---P57---
+         = +0.8 V – 0.3V = 0.5 V
+Final Answer : (2)
+47)
+Explaining : Calculate 
+Concept : This question is based on 
+Solution : 
+ = – 0.41 – 0.15 = –0.56 V
+Final Answer : (2)
+48)
+Explaining : Calculate Ecell.
+Concept : This question is based on nernst equation
+Solution : Net cell reaction :
+2Cr + 3Fe
+2+ → 2Cr
+3+ + 3Fe
+Ecell = 
+Final Answer : (4)
+49)
+Explaining : Find reaction quotient.
+Concept : This question is based on Nernst equation
+Solution : 
+Final Answer : (1)
+50)
+Explaining : Calculate equilibrium constant.
+Concept : This question is based on Nernst equation.
+Solution : 
+ ; E° = 0.32 V
+Final Answer : (2)
+51)
+Explain the Question : To find molar conductivity of acetic acid (HOAc) at infinite dilution
+using known values of other electrolytes.
+Concept : This question is based on By Kohlrausch’s Law of Independent Migration of Ions,
+
+---P58---
+Λ
+0(HOAc) = Λ
+0(HCl) + Λ
+0(NaOAc) – Λ
+0(NaCl).
+Solution :
+Given Λ
+0(NaOAc) = 91.0 S cm
+2 mol
+−1,
+Λ
+0(HCl) = 426.2 S cm
+2 mol
+−1.
+Hence, to calculate Λ
+0(HOAc), we also need Λ
+0(NaCl).
+Final Answer : (1)
+52)
+Explaining : Calculate number of faradays.
+Concept : This question is based on apply faradays law
+Solution :
+   ;       No. of E = No. of Faradays
+5 mole e
+– = 5 Faradays            mol × Vf = No. of F
+                                                  1 × 5 = No. of F
+Final Answer : (4)
+53)
+Explaining : Calculate mass of iron deposited.
+Concept : This question is based on apply faradays law.
+Solution : 
+No. of F = No. of Faradays
+ ; w = 84 g
+Final Answer : (2)
+54)
+Explaining : Find number of electrons.
+Concept : This question is based on Faradays law
+Solution :
+ = 6.24 × 10
+21
+{No. of Faradays = No. of mol of e
+–}
+ = mol of e
+–
+Final Answer : (1)
+55)
+Explaining : Calculate solubility.
+Concept : This question is based on application of Kohlrausch law.
+Solution : 
+    
+  for sparingly soluble salt.
+
+---P59---
+⇒ S = 2.6 × 10
+–5
+Final Answer : (1)
+56)
+Explaining : - The common features among the species CN
+–, CO and NO
++ are :
+Concept : This question is based on types of ligand.
+Solution :
+CN
+–, CO and NO
++ have bond order three and diamagnetic.
+Final Answer : (1)
+57)
+Explaining : - Which of the following ambidentate ligand can act as flexidentate ligand ?
+Concept : This question is based on types of ligand.
+Solution :
+SCN
+–, OCN
+–, 
+ all are ambidentate ligand, but only 
+ can act as flexidentate ligand.
+Final Answer : (3)
+58)
+Explaining : - CO bond length is longest in which complex?
+Concept : This question is based on metal carbonyl compounds.
+Solution :
+(Bond length)CO ∝ 
+  ; All central have same configuration but Ti
+–2 has strongest
+M–C back bond so bond length C–O is longest.
+(Bond order)CO ∝ 
+ 
+Final Answer : (4)
+59)
+Explaining : - What is the oxidation number of Fe in [Fe(H2O)5(NO)]
+2+ ion?
+Concept : This question is based on oxidation state calculation.
+Solution :
+[Fe
++1(H2O)5(NO)
+2+] ion
+Final Answer : (3)
+60)
+
+---P60---
+Explaining : - Incorrect match for given complex compound/ion and its characteristics :
+Concept : This question is based on isomerism in complex compound.
+Solution : [CoBr3(H2O)3] : It does not exhibit hydrate isomerism.
+Final Answer : (2)
+61)
+Explaining : - Find IUPAC name of the hydrate isomer of CrCl3.6H2O, which is having lowest
+electrical conductivity.
+Concept : This question is based on IUPAC
+Solution :
+[Cr(H2O)4Cl2]Cl.2H2O ; hydrate isomer of complex [Cr(H2O)6]Cl3 has lowest electrical
+conductivity, because it gives only two ions on ionization in aqueous medium.
+Final Answer : (2)
+62)
+Explaining : - If EAN of central metal cation M
+2+ in a non-chelating complex is 36 and atomic
+no. of metal M is 26, then the number of monodentate ligand in this complex are :
+Concept : This question is based on EAN rule.
+Solution :
+EAN = Z–O.S. + 2 × C.N. ; 36 = 26 – 2 + 2x
+                                            x = 6 = Co-ordination no.
+Final Answer : (3)
+63)
+Explaining : Effective atomic number
+Concept : This question is based on Effective atomic number
+Solution :
+EAN = Z–O.S. + 2 × C.N.
+                [Fe(CN)6]
+3– and [Fe(NH3)6]
+3+
+EAN                35                       35
+                [Cr(NH3)6]
+3+ and [Cr(CN)6]
+3–
+EAN                33                       33
+                [FeF6]
+3– and [Fe(CN)6]
+3–
+EAN           35                      35
+                [Ni(CO)4] and [Ni(CN)4]
+2–
+EAN               36                   34
+Final Answer : (4)
+64)
+Explaining : IUPAC Nomenclature.
+Concept : This question is based on IUPAC Nomenclature.
+Solution :
+[Fe(O2)(CN)4Cl]
+4– ion
+IUPAC name – chlorotetracyano superoxo ferrate (II) ion.
+
+---P61---
+Final Answer : (3)
+65)
+Explaining : - Select the correct IUPAC name of Prussian blue :
+Concept : This question is based on IUPAC.
+Solution :
+Prussian blue : Fe4[Fe(CN)6]3 or Fe
+3+[Fe
+2+(CN)6]
+4–
+Iron(III) hexacyanoferrate(II)
+Final Answer : (3)
+66)
+Explaining : - Which of the following complex compound is “Pentaaquacyanidoiron
+(III)trichloridotricyanido cobaltate (III)” ?
+Concept : This question is based on IUPAC.
+Solution :
+In “Pentaaquacyanidoiron (III)trichloridotricyanido cobaltate (III)”.
+Complex cation is [Fe
+III(CN)(H2O)5]
+2+ and complex anion[Co
+IIICl3(CN)3]
+3–
+Therefore complex is [Fe(CN)(H2O)5]3[CoCl3(CN)3]2
+Final Answer : (4)
+67)
+Explaining : No. of ions.
+Concept : This question is based on Werner's Theory
+Solution :
+[Pt(NH3)5Cl]Cl3 produces four ions per molecule
+[Pt(NH3)6Cl]Cl4 produces five ions per molecule
+[Pt(NH3)2Cl4] produces 0 ions per molecule
+[Pt(NH3)4Cl2]Cl2 produces three ions per molecule in the solution.
+Final Answer : (1)
+68)
+Explaining : - Iron carbonyl, Fe(CO)5 is :
+Concept : This question is based on metal carbonyl.
+Solution :
+Based on the number of metal atoms present in a complex, they are classified as :
+e.g., : Fe(CO)5 : mononuclear
+Co2(CO)8 : dinuclear
+Fe3(CO)12 : trinuclear
+Final Answer : (2)
+69)
+Explaining : Crystal field theory.
+Concept : This question is based on Crystal field theory.
+
+---P62---
+Solution :
+In K4[Fe(CN)6] is complex, Fe is in +2 oxidation state.
+As CN
+– is a strong field ligand, it causes pairing of electrons therefore, electronic configuration
+of Fe
+2+ in K4[Fe(CN)6] is 
+.
+Final Answer : (3)
+70)
+Explaining : - Which of the following is the correct order of increasing field strength
+of ligands to form coordination compounds ?
+Concept : This question is based on spectrochemical series.
+Solution :
+Spectrochemical series (as given in NCERT) :
+Final Answer : (4)
+71)
+Explaining : Magnetic moment
+Concept : This question is based on Magnetic moment
+Solution : 
+(A)-(iv), (B)-(i), (C)-(ii), (D)-(iii)
+Formula : 
+where n = number of unpaired electron.
+Final Answer : (4)
+72)
+Explaining : - Applications of Crystal field theory
+Concept : This question is based on Applications of Crystal field theory
+Solution :
+Ti
+4+ and Sc
+3+ have d
+0 configuration whereas Zn
+2+ has d
+10 configuration. These are colourless
+species. Cr
+3+ has d
+3 configuration. Due to d-d transitions, it is coloured.
+Final Answer : (2)
+73)
+Explaining : - Which one of the following has an optical isomer ?
+Concept : This question is based on isomerism in complex compound.
+Solution :
+Read in optical isomerism of type [M(AA)3]. Here AA is a symmetrical didentate ligand.
+Final Answer : (4)
+74)
+
+---P63---
+Explaining : - C.F.S.E.
+Concept : This question is based on Crystal field theory
+Solution :
+In[Cr(CN)6]
+3– complex ion,           Cr
+3+ = d
+3 = 
+ 
+In[Co(NH3)6]
+3+ complex ion,        Co
+3+ = d
+6 = 
+                   (low spin)
+In[CoCl6]
+3– complex ion,              Co
+3+ = d
+6 = 
+    ; Weaker the ligand lesser the splitting   
+In[Co(H2O)6]
+3+ complex ion,        Co
+3+ = d
+6 = 
+Final Answer : (3)
+75)
+Explaining : Cis platin formula.
+Concept : This question is based on application of coordination compounds.
+Solution : The complex cis-platin, [Pt(NH3)2Cl2] is anti-cancer.
+Final Answer : (1)
+76)
+Explaining : Types of Ligand.
+Concept : This question is based on Synergic Bonding.
+Solution :
+CO is a π-acid ligand 
+.
+Final Answer : (2)
+77)
+Explaining : - Statement based question.
+Concept : This question is based on types of ligand.
+Solution :
+N2H4 can only act as monodentate ligand.
+; Three membered (unstable) ring. Hence it acts as monodentate ligand only.
+Final Answer : (1)
+78)
+Explaining : Color in coordination compounds.
+Concept : This question is based on applications of coordination chemistry.
+Solution :
+Both [Ti(H2O)6]
+4+ and [Sc(H2O)6]
+3+ are colourless, due to absence of free electrons in 3d
+subshell.
+Final Answer : (2)
+
+---P64---
+79)
+Explaining : - Statement based question.
+Concept : This question is based on organometallic compound.
+Solution : 
+Zeise’s salt is a π-bonded organo-metallic compound, K[PtCl3(π-C2H4)]
+Zeise’s salt contains C2H4 molecule as one of the ligand.
+Final Answer : (3)
+80)
+Explaining : Crystal field theory.
+Concept : This question is based on Crystal field theory.
+Solution :
+In complex [CoF6]
+3–,
+Oxidation number of Co = +3
+Electronic configuration of
+Co
+3+ = 1s
+2,2s
+22p
+6, 3s
+23p
+63d
+6
+In Co
+3+ number of unpaired electrons is four, and F
+– is the ligand of weak field. Hence, it does
+not pair up the electrons of d-orbital.
+So, In[CoF6]
+3– is paramagnetic
+Co
+3+ has 3d
+6 outer electronic configuration, but four unpaired electrons do not pair up because
+of weak field provided by F
+–.
+Final Answer : (3)
+81) Explaining : Find best reducing agent ?
+Concept : This question is based on application of ECS.
+Solution : Lower the reduction potential, higher is the reducing power.
+Final Answer : (2)
+82)
+Explaining : Products at anode ?
+Concept : This question is based on electrolysis
+Solution :
+
+---P65---
+Reaction at anode (oxidation) :
+2Cl¯ → Cl2(g) + 2e¯
+Final Answer : (1)
+83) Explaining : Amount of electricity ?
+Concept : This question is based on electrolysis 
+Solution : Cu
+2+ + 2e¯ → Cu(s)
+1 mole copper requires 2 mole electron, i.e., 2 faraday charge.
+Final Answer : (3)
+84)
+Explaining : 
+Concept : This question is based on electrolytic conductance
+Solution :
+κ = G × G*
+κ = 
+  Ω
+–1 cm
+–1
+Λeq = 
+Λeq = 314.28 Ω
+–1 cm
+2 eq
+–1
+Final Answer : (1)
+85)
+Explaining : Find cell constant = ?
+Concept : This question is based on electrolytic conductance
+Solution : κ = G × G*
+G* = 
+ = 
+    
+G* = 1.75 cm
+–1
+Final Answer : (2)
+86)
+Explaining : Find ΔG° = ?
+Concept : This question is based on relation between ΔG° and E°
+Solution : 
+Final Answer : (1)
+87)
+Explain the question: Find ratio of cations reduced when equal moles of electrons are
+passed through AgNO3, CuSO4, and AuCl3 solutions.
+Concept: Amount of metal deposited ∝ moles of electrons / n-factor.
+Solution:
+
+---P66---
+For reduction:
+Ag
++ + e⁻ → Ag  (n = 1)
+Cu
+2+ + 2e⁻ → Cu  (n = 2)
+Au
+3+ + 3e⁻ → Au  (n = 3)
+Moles of electrons = 3 mol each.
+Moles of cations reduced = (moles of e
+–) / n
+Ag
++ → 3/1 = 3
+Cu
+2+ → 3/2 = 1.5
+Au
+3+ → 3/3 = 1
+Ratio = 3 : 1.5 : 1 = 6 : 3 : 2
+Final Answer: 4
+88) Explaining : Find out strong and weak electrolyte ?
+Concept : This question is based on graph between Λm and 
+.
+Solution :
+A → Represents strong electrolyte (KCl)
+B → Represents weak electrolyte (CH3COOH)
+Final Answer : (3)
+89) Explaining : Relation between Λm and Λeq
+Concept : This question is based on electrolytic conductance
+Solution : 
+n–factor = 6
+Final Answer : (2)
+90) Explaining : Properties at salt bridge solution
+Concept : This question is based on salt bridge
+Solution : Velocity of both K
++ and 
+ are nearly the same
+Final Answer : (1)
+BIOLOGY
+91) Solution: Each testicular lobule contains 1–3 highly coiled seminiferous tubules.
+Seminiferous tubules contain Sertoli cells and male germ cells, while Leydig cells occur in
+the interstitial spaces and secrete androgens.
+Final Answer : (1)
+92) Solution: The correct sequence is: Spermatogonia → Primary spermatocyte → Secondary
+spermatocyte → Spermatid → Spermatozoa
+Primary spermatocyte undergoes meiosis I, while secondary spermatocytes undergo meiosis
+II.
+Final Answer : (1)
+
+---P67---
+93) Solution: Meiosis I separates homologous chromosomes but sister chromatids remain
+together.
+Therefore: Secondary spermatocyte = 23 chromosomes + 46 chromatids.
+Final Answer : (2)
+94) Solution: Spermiogenesis is the process by which spermatids transform into
+spermatozoa. Release of spermatozoa into the lumen is called spermiation.
+Final Answer : (2)
+95) Solution: LH acts on Leydig cells and stimulates them to secrete androgens, mainly
+testosterone.
+Final Answer : (3)
+96) Solution: Testosterone is secreted by Leydig cells, whereas Sertoli cells provide
+nourishment/support to developing germ cells and secrete inhibin.
+Final Answer : (4)
+97) Solution: Oogonia multiply during fetal life and differentiate into primary oocytes, which
+remain arrested in prophase I until puberty.
+Final Answer : (2)
+98) Solution: Ovulation generally occurs around day 14 and is triggered by the LH surge.
+Final Answer : (3)
+99) Solution: A sharp LH surge around the middle of the menstrual cycle causes rupture of
+the mature Graafian follicle and ovulation.
+Final Answer : (2)
+100) Solution: During the follicular phase, ovarian follicles develop under the influence of
+FSH. Developing follicles secrete increasing amounts of estrogen.
+Final Answer : (4)
+101) Solution: After ovulation, the ruptured Graafian follicle forms the corpus luteum, which
+mainly secretes progesterone.
+Final Answer : (3)
+102) Solution: If pregnancy does not occur, the corpus luteum degenerates, causing a fall in
+progesterone, which contributes to breakdown of the endometrium and menstruation.
+Final Answer : (1)
+103) Solution: Fertilisation generally occurs at the ampullary-isthmic junction of the
+fallopian tube.
+Final Answer : (3)
+
+---P68---
+104) Solution: The acrosome contains enzymes that help sperm penetrate the zona
+pellucida surrounding the secondary oocyte.
+Final Answer : (2)
+105) Solution: Fusion triggers the cortical reaction, which modifies the zona pellucida and
+prevents polyspermy.
+Final Answer : (2)
+106) Solution: Ovulation releases a secondary oocyte, which is arrested at metaphase II.
+Meiosis II is completed only after sperm entry.
+Final Answer : (2)
+107) Solution: Following fertilisation: Zygote → Cleavage → Morula → Blastocyst →
+Implantation
+Final Answer : (1)
+108) Solution: The blastocyst becomes attached to and gets embedded in the endometrium,
+the inner lining of the uterus.
+Final Answer : (2)
+109) Solution: The trophoblast forms the outer layer of the blastocyst and contributes to
+implantation and placenta formation.
+Final Answer : (2)
+110) Solution: Human chorionic gonadotropin (hCG) is secreted by the
+trophoblast/placental tissue and can be detected in maternal blood and urine during
+pregnancy.
+Final Answer : (3)
+111) Solution: Placenta produces hormones such as hCG, hPL, estrogens and
+progesterone. FSH is a pituitary gonadotropin.
+Final Answer : (4)
+112) Solution: hCG maintains the corpus luteum, allowing continued secretion of
+progesterone during early pregnancy.
+Final Answer : (2)
+113) Solution: Parturition involves complex neuroendocrine mechanisms. Oxytocin promotes
+powerful uterine contractions, while cortisol promoting fetal organ maturation.
+Final Answer : (1)
+114) Solution: Prolactin stimulates milk production by mammary glands, whereas oxytocin
+causes contraction of myoepithelial cells, resulting in milk ejection.
+
+---P69---
+Final Answer: (4)
+115) Solution: A — Correct: LH → Leydig cells → androgens
+B — Correct: FSH → Sertoli cells → supports spermatogenesis
+C — Correct: Fertilisation occurs at the ampullary-isthmic junction
+D — Incorrect: Implantation occurs in the endometrium, not myometrium
+E — Correct: hCG maintains the corpus luteum during early pregnancy
+Final Answer: (2) 
+116) Solution: Combined oral contraceptive pills contain estrogen and
+progesterone/progestin. They primarily inhibit ovulation and also alter cervical mucus,
+making it difficult for sperm to enter the uterus.
+Final Answer: (3)
+117) Solution: Copper-releasing IUDs such as Cu-T increase phagocytosis of sperms within
+the uterus. Copper ions also suppress sperm motility and fertilising capacity.
+Final Answer : (3)
+118) Solution: LNG-20 is a hormone-releasing IUD. It releases levonorgestrel and helps
+prevent pregnancy.
+Final Answer : (3)
+119) Solution: Condoms provide a barrier that reduces the exchange of semen, vaginal
+secretions and infectious agents. Thus, they help prevent pregnancy as well as many STIs.
+Final Answer : (1)
+120) Solution: Vasectomy involves cutting and tying the vas deferens, preventing sperm
+from entering the ejaculate.
+Final Answer : (2)
+121) Solution: In tubectomy, the fallopian tubes are cut and tied, preventing the
+meeting/transport of sperm and ovum.
+Final Answer : (3)
+122) Solution: Emergency contraceptive pills are recommended within 72 hours of
+unprotected intercourse for effective prevention of pregnancy. Their effectiveness generally
+decreases with delay.
+Final Answer : (2)
+123) Solution: Cu-T is an intrauterine device, whereas periodic abstinence, withdrawal
+and lactational amenorrhea are natural methods.
+Final Answer : (4)
+124) Solution: Intense and prolonged breastfeeding can suppress ovarian activity and
+
+---P70---
+ovulation. The method is effective only under specific conditions and for a limited postpartum
+period.
+Final Answer : (1)
+125) Solution: Gonorrhoea, syphilis and genital herpes are STIs. Malaria is transmitted
+primarily through the bite of infected female Anopheles mosquitoes.
+Final Answer : (3)
+126) Solution: AIDS is caused by HIV (Human Immunodeficiency Virus), not Plasmodium.
+Final Answer : (4)
+127) Solution: STIs can cause genital itching, abnormal discharge, painful urination,
+sores and swelling, although some infections may remain asymptomatic.
+Final Answer : (4)
+128) Solution: Sharing needles can transmit blood-borne infections such as HIV and
+hepatitis B and should be strictly avoided.
+Final Answer : (4)
+129) Solution: MTP is relatively safer during the early stages of pregnancy, particularly
+during the first trimester, compared with later stages.
+Final Answer : (1)
+130) Solution: In IVF, fertilisation occurs outside the body and the resulting embryo is
+transferred into the female reproductive tract, making it useful in cases where fallopian tubes
+are blocked.
+Final Answer : (1)
+131) Solution: GIFT (Gamete Intra-Fallopian Transfer) involves transferring gametes
+into the fallopian tube so that fertilisation can occur inside the female reproductive tract.
+Final Answer: (2)
+132) Solution: ICSI (Intracytoplasmic Sperm Injection) involves direct injection of a
+sperm into the cytoplasm of the ovum.
+Final Answer: (3)
+133) Solution: ZIFT (Zygote Intra-Fallopian Transfer) involves transferring a zygote or
+early embryo into the fallopian tube.
+Final Answer : (2)
+134) Solution: A-Q, B-P, C-R, D-S
+GIFT → Gametes → fallopian tube
+ICSI → Sperm directly injected into ovum
+ZIFT → Zygote/early embryo → fallopian tube
+
+---P71---
+IVF-ET → Embryo → female reproductive tract
+Final Answer: (3)
+135) Solution : A, B, D and E only
+A — Correct 
+B — Correct
+C — Incorrect — Vasectomy blocks the vas deferens; it does not stop sperm formation.
+D — Correct
+E — Correct
+Final Answer: (3)
+136) Explanation : Iodine test is used to detect starch.
+Amylose (a component of starch) reacts with iodine to give a blue or violet-blue color.
+Cellulose does not react with iodine because it is a linear polymer and does not contain helices
+so cannot hold iodine molecules. So, the statement is incorrect (mis-match).
+Final Answer : (4)
+137)
+Explanation:
+Biomacromolecules are large molecules with high molecular weight, typically polymers made up of
+repeating monomeric units. Proteins, polysaccharides, and nucleic acids are true biomacromolecules
+because they are formed by polymerization.
+Lipids, however, are not strictly biomacromolecules because they do not form true
+A.
+polymers. Instead, they are composed of smaller units like fatty acids and glycerol but
+are not linked in long chains like proteins or nucleic acids.
+Correct Answer: 2. Lipids
+138)
+Explanation:
+The secondary structure of a protein refers to the localized folding of the polypeptide chain,
+stabilized by hydrogen bonds. The alpha (α) helix is one such common structure, where the
+backbone coils in a right-handed spiral due to intramolecular hydrogen bonding between the
+carbonyl (C=O) of one amino acid and the amide (N-H) of another, four residues away.
+Correct Answer: 3. Secondary structure of protein
+ 
+139) Solution:
+Full form of NAD is Nicotinamide Adenine Dinucleotide.
+NAD is a coenzyme found in all living cells. It plays a crucial rote in redox reactions
+(reduction-oxidation reactions), which are involved in energy metabolism. There are two forms
+of NAD:
+
+---P72---
+NAD
++ (oxidized from): This form accepts electrons and is reduced to NADH during metabolic
+A.
+reactions.
+NADH (reduced form): NADH donates electrons in other reactions, such as those in the
+B.
+electron transport chain during cellular respiration.
+Final Answer : (2)
+140) Solution:
+Change In substrate Concentration: With the increase in substrate concentration, the velocity
+of the enzymatic reaction rises at first. The reaction ultimately reaches a maximum velocity
+(Vmax). This velocity is not exceeded by any further rise in concentration of the substrate.
+Reason: The enzyme molecules are fewer than the substrate molecules and after saturation of
+these enzyme molecules, there are no free enzyme molecules available to bind with the
+additional substrate molecules.
+Hence,
+Correct option: (4) First increases then become constant
+ 
+141)
+Solution :
+The Michaelis–Menten constant (Km) is defined as the substrate concentration at which the
+velocity of an enzyme-catalysed reaction is half of its maximum velocity (Vmax/2).
+Km is a characteristic constant for a particular enzyme–substrate system.
+Other options like half-life, concentration ratio, and turnover number refer to different enzyme
+properties.
+Final answer : (2)
+142)
+Solution: Starch is a polysaccharide of glucose. Its helical structure can hold iodine
+molecules, producing a characteristic blue colour with iodine solution. Cellulose is also a
+glucose polymer but does not form this iodine-positive helical structure.
+Final answer: (2)
+143) Solution :  Proteins function as biocatalyst responsible for increasing rate of reaction.
+Carbohydrates yield energy because they are stored food.
+Final Answer : (2)
+144)
+Question Explanation: Serine has a hydroxymethyl (–CH₂OH) R group.
+Concept: Amino Acid R Groups
+Solution:
+
+---P73---
+Glycine → H
+A.
+Alanine → Methyl (–CH₃)
+B.
+Serine → Hydroxymethyl (–CH₂OH)
+C.
+Valine → Isopropyl (–CH(CH₃)₂)
+D.
+Therefore, Serine – Hydroxymethyl group is correctly matched.
+Final answer: Option - 3 (Serine – Hydroxymethyl group)
+145)
+Solution: Adenylic acid is nucleotide formed by  adenine, ribose sugar and phosphate group;
+it is also called adenosine monophosphate (AMP).
+Final answer: (1)
+146)
+Solution:
+Some enzymes have allosteric site to control active site. This control is called modulation.
+• Most of non-competitive inhibitors blind reversibly with allosteric site and negatively change
+the configuration of active site. Such inhibition is called non-competitive reversible inhibition
+or negative allosteric modulation.
+Hence,
+Correct option: (4) Both activation and inhibition
+147)
+Question Explanation: A product of a metabolic pathway can inhibit an earlier enzyme.
+Concept: Feedback Inhibition
+Solution: When the end product of a biochemical pathway inhibits an enzyme involved in an
+earlier step, it is called feedback inhibition. This prevents unnecessary production of the end
+product and helps regulate the metabolic pathway.
+Final answer: Option - 2 (Feedback inhibition)
+148)
+Question Explanation: In competitive inhibition, substrate and inhibitor compete for the
+active site.
+Concept: Enzyme Inhibition
+
+---P74---
+Solution: In competitive inhibition, the inhibitor resembles the substrate and competes with it
+for the active site of the enzyme. Increasing substrate concentration can overcome competitive
+inhibition. Non-competitive inhibition cannot normally be overcome by increasing substrate
+concentration.
+Final answer: (3) 
+149) Solution :- Prosthetic groups are tightly bound to the aponzyme (permenent
+association).
+Coenzymes are loosely bound and can detach after the reaction.
+Final Answer : (2)
+150) Explanation :
+(a) is incorrect because lipids with only single bonds are called saturated fatty acids, not
+A.
+unsaturated.
+(b) is correct : Lecithin is a type of phospholipid.
+B.
+(c) is correct : Glycerol is a trihydroxy propane because it has three hydroxyl groups (–OH)
+C.
+(d) is incorrect because palmitic acid has 16 carbon atoms, not 20.
+D.
+(e) is incorrect because arachidonic acid has 20 carbon atoms, not 16.  
+E.
+151) Solution :
+(a) Lecithin is a phospholipid.
+(b) Saturated fatty acid does not possess double bond between carbon atoms.
+Final Answer : (2)
+152) Question Explanation : Identifies the correct sequence of the enzyme catalytic cycle.
+Concept :  The enzyme catalytic cycle.
+Solution : 
+The correct sequential steps for the catalytic cycle of an enzyme action are: E. Substrate
+binding to active site → A. Substrate enzyme complex formation → D. Chemical bonds of the
+substrate broken → C. Release of products → B. Free enzyme ready to bind with another
+substrate.
+Final Answer : (1)
+153) Solution : Statement A and B are incorrect. Proteins are heteropolymers of amino acid,
+not homopolymers. RuBisCO is the most abundant protein in the biosphere.
+Final Answer : (3)
+154) Solution : A–III, B–IV, C–II, D–I
+A. Primary structure of protein
+III.Polypeptide chain
+B. Secondary structure of protein IV. Alpha helix and β pleated sheet
+C. Tertiary structure of protein
+II.  Disulphide bonds
+D.Quaternary structure of protein I. Human haemoglobin
+Final Answer : (1)
+
+---P75---
+155) Solution : The amino group is NH
++
+3 and the carboxyl group is COO
+-, creating a dipolar
+ions. 
+Final Answer : (3)
+156)
+Solution:
+Since the diagram represents activation energy, it likely shows the energy changes during a
+chemical reaction. Here, the key change is that P (Product) has a higher energy than S
+(Substrate), meaning the reaction absorbs energy, making it endothermic.
+Correct Answer: Option 3: "Energy difference between transition state and product will be
+more than activation energy" is incorrect.
+Activation energy (Ea) is the energy difference between the transition state and substrate, not
+between the transition state and product.
+The energy difference between the transition state and product is usually smaller than
+activation energy.
+157) Solution : One full turn (pitch) is 34Å long and contains 10 base pairs, making the rise
+per base pair 3.4Å.
+Final Answer : (2)
+158) Solution : Lysine, Arginine and histidine are classified as basic amino acid.
+Final Answer : (3)
+159) Solution : C and E  are incorrectly matched. Toxins are Abrin and Ricin. While drugs are
+Vinblastin and Curcumin
+Final Answer : (4)
+160) Solution :
+ 
+Column I
+ 
+Column II
+(A)
+Adenine
+(ii)
+Purine found in both DNA and RNA 
+(B)
+Thymine
+(iii)
+Pyrimidine also known as 5-methyl uracil
+(C)
+Uracil
+(i)
+Pyrimidine found only in RNA
+(D)
+Cytosine
+(iv)
+Common pyrimidine in both DNA and RNA
+Final Answer : (1)
+161) Solution : A–G1, B–S, C–G2, D–M Phase
+
+---P76---
+Final Answer : (1)
+162) Solution : S-phase is not characterized by duplication of centriole in nucleus of
+eukaryotic animal cell.
+Final Answer : (4)
+163) Solution : The number of chromosomes in cell after S-phase are 2n as in S-phase amount
+of DNA per cell doubles but chromosome number remains same.
+Final Answer : (3)
+164) Solution : A–Anaphase, B–Telophase, C–Cytokinesis
+Final Answer : (2)
+165) Solution : Cells at the end of prophase, when viewed under the microscope, do not
+show Golgi body, ER, Nucleolus and Nuclear envelope.
+Final Answer : (4)
+166) Solution : -
+Final Answer : (3)
+167) Solution : Furrow formation does not occur in plant cell during cytokinesis because of
+inextensible cell wall.
+Final Answer : (2)
+168) Solution : All statements are correct.
+Final Answer : (4)
+169) Solution : During zygotene, the homologous chromosome shows pairing. Chiasmata is a
+X-shape structure formed in diplotene. Pachytene is characterized by recombination.
+Final Answer : (1)
+170) Solution : Homologous chromosomes gets separate during anaphase-I.
+
+---P77---
+Final Answer : (2)
+171) Solution : Diploid somatic cells divides by mitosis only. 
+Final Answer : (2)
+172) Solution : Leaf has diploid cell i.e. 2n = 12.
+Pollen grains haploid cell n = 6.
+Final Answer : (1)
+173) Solution : A–Prophase I, B–Metaphase I, C–Anaphase I, D–Telophase I.
+Final Answer : (2)
+174) Solution : Meiosis involves two sequential cycles of nuclear and cell divisions and one
+single cycle of DNA replication.
+Final Answer : (2)
+175) Solution : Leptotene, zygotene, pachytene, diplotene, diakinesis.
+Final Answer : (3)
+176) Solution : Division of centromeres takes place during anaphase II of meiosis.
+Homologous chromosomes separate during anaphase I.
+Final Answer : (4)
+177) Solution : Telophase - Nuclear envelope reforms, Golgi complex reforms.
+Final Answer : (1)
+178) Solution : A : 2, B : 3, C : 1, D : 4
+ 
+Column I
+ 
+Column II
+A.
+Synapsis aligns homologous chromosomes
+2.
+Zygotene
+B.
+Synthesis of RNA and protein
+3.
+G1 phase
+C.
+Action of enzyme recombinase
+1.
+Pachytene
+D.
+Centromeres do not separate but chromosomes
+move towards opposite poles
+4.
+Anaphase I
+Final Answer : (2)
+179) Solution : A bivalent of meiosis-I consists of four chromatids and two centromeres
+because bivalent consist of two homologous chromosomes.
+Final Answer : (3)
+180) Solution : Cell is metabolically active, macromolecules like RNA and proteins are
+synthesized and cell grow maximally.
+
+---P78---
+Final Answer : (2)
