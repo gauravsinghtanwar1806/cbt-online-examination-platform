@@ -434,27 +434,30 @@ export default function ExamPage({ params }: { params: Promise<{ id: string }> }
         </div>
 
         {/* Center/Right: Timer & Controls */}
-        <div className="flex items-center space-x-4">
-          <div className="flex items-center space-x-2 bg-blue-950/80 px-3 py-1.5 rounded-lg border border-blue-700 shadow-inner">
-            <Clock className="w-4 h-4 text-amber-300 animate-pulse" />
-            <span className="text-xs text-blue-200 uppercase font-semibold">Time Left:</span>
-            <span className={`text-base sm:text-lg font-mono font-bold tracking-wider ${totalSeconds < 300 ? 'text-red-400 animate-bounce' : 'text-amber-300'}`}>
+        <div className="flex items-center space-x-2 sm:space-x-4">
+          <div className="flex items-center space-x-1.5 sm:space-x-2 bg-blue-950/80 px-2 sm:px-3 py-1 sm:py-1.5 rounded-lg border border-blue-700 shadow-inner">
+            <Clock className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-amber-300 animate-pulse shrink-0" />
+            <span className="text-[11px] sm:text-xs text-blue-200 uppercase font-semibold hidden xs:inline">Time:</span>
+            <span className={`text-sm sm:text-lg font-mono font-bold tracking-wider ${totalSeconds < 300 ? 'text-red-400 animate-bounce' : 'text-amber-300'}`}>
               {timeFormatted}
             </span>
           </div>
 
+          {/* Submit Test Button (Visible on ALL devices including mobile) */}
           <button
             onClick={() => setShowSubmitModal(true)}
-            className="hidden sm:inline-flex items-center space-x-1.5 px-4 py-1.5 bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-xs rounded-lg shadow transition"
+            className="inline-flex items-center space-x-1 px-2.5 sm:px-4 py-1.5 bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs rounded-lg shadow transition active:scale-95"
+            title="Submit your examination"
           >
-            <Send className="w-3.5 h-3.5" />
-            <span>Submit Test</span>
+            <Send className="w-3.5 h-3.5 shrink-0" />
+            <span>Submit</span>
           </button>
 
           {/* Mobile Palette Toggle Button */}
           <button
             onClick={() => setShowMobilePalette(!showMobilePalette)}
-            className="lg:hidden p-1.5 bg-blue-800 text-white rounded-lg border border-blue-600"
+            className="lg:hidden p-1.5 bg-blue-800 text-white rounded-lg border border-blue-600 active:scale-95"
+            aria-label="Toggle Question Palette"
           >
             {showMobilePalette ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
           </button>
@@ -603,12 +606,23 @@ export default function ExamPage({ params }: { params: Promise<{ id: string }> }
             </div>
           </div>
 
-          {/* Palette Footer Status */}
-          <div className="p-3 bg-slate-50 border-t border-slate-200">
+          {/* Palette Footer Status & Mobile Submit */}
+          <div className="p-3 bg-slate-50 border-t border-slate-200 space-y-2">
             <div className="text-xs text-slate-600 flex justify-between font-medium">
               <span>Section: <strong>{currentQ?.subject}</strong></span>
               <span>Total: <strong>{questions.length}</strong></span>
             </div>
+            {/* Direct Submit button at bottom of mobile drawer */}
+            <button
+              onClick={() => {
+                setShowMobilePalette(false);
+                setShowSubmitModal(true);
+              }}
+              className="w-full lg:hidden py-2.5 bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs rounded-lg shadow flex items-center justify-center space-x-1.5 transition"
+            >
+              <Send className="w-3.5 h-3.5" />
+              <span>Submit Entire Test</span>
+            </button>
           </div>
         </aside>
 
