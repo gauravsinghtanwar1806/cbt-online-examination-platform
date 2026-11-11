@@ -13,8 +13,8 @@
 
 | Question ID | Question Statement | Option 1 | Option 2 | Option 3 | Option 4 | Status |
 | --- | --- | --- | --- | --- | --- | --- |
-| `achiever_001` | The potential energy of a particle of mass 1kg free to move along x-axis is given by  U(x) =  joule. | See Option (1) in formula/diagram | See Option (2) in formula/diagram | See Option (3) in formula/diagram | 2 m/s | **COMPLETE** |
-| `achiever_002` | A force F acting on a particle varies with the position x as shown in the graph. Find the work done  | See Option (1) in formula/diagram | See Option (2) in formula/diagram | See Option (3) in formula/diagram | See Option (4) in formula/diagram | **COMPLETE** |
+| `achiever_001` | The potential energy of a particle of mass 1kg free to move along x-axis is given by U(x) = (x²/2 -  | √5 m/s | √10 m/s | 5/2 m/s | 2 m/s | **COMPLETE** |
+| `achiever_002` | A force F acting on a particle varies with the position x as shown in the graph. Find the work done  | (3/2) F₀a | (5/2) F₀a | 2 F₀a | F₀a | **COMPLETE** |
 | `achiever_003` | Velocity-time graph for a body of mass 10 kg is shown in figure. Work-done on the body in first two  | –9300 J | –12000 J | 12000 J | –4500 J | **COMPLETE** |
 | `achiever_004` | A block of mass 2 kg is hanging over a smooth and light pulley through a light string. The other end | 800 J | 400 J | –400 J | –800 J | **COMPLETE** |
 | `achiever_005` | A 2.0 kg block is dropped from a height of 40 cm onto a spring of spring constant k = 1960 N/m. Find | 0.080 m | 0.20 m | 0.40 m | 0.10 m | **COMPLETE** |
@@ -22,19 +22,19 @@
 | `achiever_007` | Force on a particle is given by   What is the work done on the particle if it moves from (0, 0) to ( | 3 J | 10 J | 5 J | 4 J | **COMPLETE** |
 | `achiever_008` | Figure shows the vertical section of frictionless surface. A block of mass 1 kg is released from the | 180J | 140J | 70J | 280J | **COMPLETE** |
 | `achiever_009` | A farmer wants to have delivery rate of water (mass/sec.) three times as that of existing delivery r | 16 hp | 32 hp | 54 hp | 64 hp | **COMPLETE** |
-| `achiever_010` | A car of mass m is accelerating on a level smooth road under the action of a single force F. The pow | See Option (1) in formula/diagram | See Option (2) in formula/diagram | See Option (3) in formula/diagram | See Option (4) in formula/diagram | **COMPLETE** |
+| `achiever_010` | A car of mass m is accelerating on a level smooth road under the action of a single force F. The pow | 7mv³ / (3P) | 4mv³ / (3P) | mv³ / P | 2mv³ / P | **COMPLETE** |
 | `achiever_011` | If KE is increased by 400% then % change in momentum :- | 150 % | 123 % | 100 % | 500 % | **COMPLETE** |
 | `achiever_012` | If a force is conservative, then correct statements are :- (i) work is path independent (ii) it must | (i,ii) | (ii,iii) | (i,iii) | (i,ii,iv) | **COMPLETE** |
 | `achiever_013` | Assertion: The work done by conservative forces does not depend on path taken. Reason: The work done | If both assertion and reason are true and reason is correct explanation of the assertion. | If both assertion and reason are true and reason is not correct explanation of the assertion. | If assertion is true but reason is false. | If assertion and reason both are false. | **COMPLETE** |
 | `achiever_014` | A block of mass m = 2  kg : - Column I Column II (P) Lifting the block vertically by 2 m at constant | P-(iv), Q-(iii), R-(i), S-(ii) | P-(ii), Q-(iii), R-(i), S-(iv) | P-(ii), Q-(i), R-(iii), S-(iv) | P-(iv), Q-(i), R-(ii), S-(iii) | **COMPLETE** |
-| `achiever_015` | If the maximum compression in the spring is 50 cm then find the value of K(g = 10 m/s 2) :- | See Option (1) in formula/diagram | See Option (2) in formula/diagram | See Option (3) in formula/diagram | None of these | **COMPLETE** |
-| `achiever_016` | Current density of an area of cross section is varying according to equation  . Find the current thr | πR 2J0 | See Option (2) in formula/diagram | See Option (3) in formula/diagram | See Option (4) in formula/diagram | **COMPLETE** |
+| `achiever_015` | A block of mass m is projected on a rough surface with velocity v₀ against a spring of stiffness k.  | 50 N/m | 100 N/m | 200 N/m | None of these | **COMPLETE** |
+| `achiever_016` | Current density of an area of cross section is varying according to J = J₀(1 - r/R). The total curre | πR²J₀ | πR²J₀ / 2 | πR²J₀ / 3 | 2πR²J₀ / 3 | **COMPLETE** |
 | `achiever_017` | Suppose a current carrying wire has a cross-sectional area that, gradually become smaller along the  | Electric current is different in different portions of wire. | Electric field at point A is same as that of point B. | Drift speed of electrons at point A is lesser than that of at point B. | Drift speed of electrons at point A is same as that of at point B. | **COMPLETE** |
-| `achiever_018` | Two metallic wires of identical dimensions are connected in parallel. If ρ1 and ρ2 are the specific  | See Option (1) in formula/diagram | See Option (2) in formula/diagram | See Option (3) in formula/diagram | See Option (4) in formula/diagram | **COMPLETE** |
-| `achiever_019` | The V-I graph for two conductor of resistance R1 & R2 are as shown in the figure, the resistance of  | See Option (1) in formula/diagram | See Option (2) in formula/diagram | See Option (3) in formula/diagram | See Option (4) in formula/diagram | **COMPLETE** |
+| `achiever_018` | Two metallic wires of identical dimensions are connected in parallel. If their resistivities are ρ₁  | (ρ₁ + ρ₂) / 2 | 2ρ₁ρ₂ / (ρ₁ + ρ₂) | ρ₁ρ₂ / (ρ₁ + ρ₂) | √(ρ₁ρ₂) | **COMPLETE** |
+| `achiever_019` | The V-I graph for two conductors of resistance R₁ & R₂ are as shown in figure. R₁ + R₂ is proportion | sin 2θ | cos 2θ | tan 2θ | 1 / sin 2θ | **COMPLETE** |
 | `achiever_020` | In the circuit shown, the potential drop across 6 Ω resistor is 12 V. The emf of the ideal battery i | 8 V | 16 V | 24 V | 32 V | **COMPLETE** |
-| `achiever_021` | What is the equivalent resistance between the points A and B of the network :- | See Option (1) in formula/diagram | 8 Ω | 6 Ω | See Option (4) in formula/diagram | **COMPLETE** |
-| `achiever_022` | Electric field (E) and current density (J) have relation :- | E ∝ J -1 | E ∝ J | See Option (3) in formula/diagram | See Option (4) in formula/diagram | **COMPLETE** |
+| `achiever_021` | What is the equivalent resistance between the points A and B in the given bridge circuit ? | 4 Ω | 8 Ω | 6 Ω | 12 Ω | **COMPLETE** |
+| `achiever_022` | Electric field (E) and current density (J) have relation :- | E ∝ J⁻¹ | E ∝ J | E ∝ J² | E ∝ J⁰ | **COMPLETE** |
 | `achiever_023` | 10 cells, each of emf 'E' and internal resistance 'r', are connected in series to a variable externa | 1.6 V | 3.6 V | 1.4 V | 4.2 V | **COMPLETE** |
 | `achiever_024` | To get maximum current through a resistance of 2.5 , one can use m rows of cells, each row having n  | m= 3, n = 15 | m= 5, n = 9 | m= 9, n = 5 | m= 15, n = 3 | **COMPLETE** |
 | `achiever_025` | Find maximum power in resistance R :- | 11.25 W | 20 W | 15.5 W | 25 W | **COMPLETE** |

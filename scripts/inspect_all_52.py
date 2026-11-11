@@ -7,3 +7,4 @@ for q in flagged:
     qn = q['question_number']
     opts = q['options']
     print(f"Q{qn:3d}: {opts}")
+

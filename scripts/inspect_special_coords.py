@@ -29,3 +29,4 @@ for qn in special_q:
                 txt = b[4].strip()
                 if any(txt.startswith(f"({i})") or f"({i})" in txt for i in [1, 2, 3, 4]):
                     print(f"  P{p} bbox=({b[0]:.1f}, {b[1]:.1f}, {b[2]:.1f}, {b[3]:.1f}): {repr(txt[:60])}")
+

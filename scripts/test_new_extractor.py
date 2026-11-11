@@ -155,3 +155,4 @@ incomplete = [r for r in results if len(r['opts_found']) < 4]
 print(f"Questions requiring image/special handling: {len(incomplete)}")
 for r in incomplete:
     print(f"Q{r['q_num']:3d} (P{r['sp']}->P{r['ep']}): found opts {r['opts_found']} | {r['stem']}")
+

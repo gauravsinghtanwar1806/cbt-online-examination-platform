@@ -14,3 +14,4 @@ for fid in flagged_ids:
     print("Options:", q['options'])
     print("Raw page text snippet:")
     print(doc[p].get_text('text')[:400])
+

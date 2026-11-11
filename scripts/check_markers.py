@@ -23,3 +23,4 @@ for p in range(len(doc)):
     txt = doc[p].get_text('text')
     matches = re.findall(r'(?:^|\n)\s*(\d+)\)\s*', txt)
     print(f"Page {p} (1-indexed {p+1}): found question markers: {matches}")
+

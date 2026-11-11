@@ -60,3 +60,4 @@ for qn in special_q:
         pix.save(os.path.join('public/images/achiever_opts', img_name))
 
 print("Rendered option crops for all 22 special questions!")
+

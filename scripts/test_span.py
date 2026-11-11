@@ -31,3 +31,4 @@ for b in p1_blocks:
         print("  Q4 reached, stopping.")
         break
     print("  Q3 continuation:", b[4])
+

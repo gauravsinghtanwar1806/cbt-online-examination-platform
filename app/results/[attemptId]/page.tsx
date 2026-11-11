@@ -440,15 +440,32 @@ export default function ResultsPage({ params }: { params: Promise<{ attemptId: s
                       </div>
 
                       {/* Detailed Solution / Explanation */}
-                      {q.solutionText && (
-                        <div className="bg-amber-50/70 border border-amber-200 rounded-xl p-4 text-xs sm:text-sm text-slate-800 space-y-2">
+                      {(q.solutionText || q.solutionImageUrl) && (
+                        <div className="bg-amber-50/70 border border-amber-200 rounded-xl p-4 text-xs sm:text-sm text-slate-800 space-y-3">
                           <div className="font-bold text-amber-900 uppercase tracking-wide flex items-center space-x-1.5">
                             <BookOpen className="w-4 h-4" />
                             <span>Official Solution & Concept Derivation:</span>
                           </div>
-                          <div className="whitespace-pre-line leading-relaxed font-mono text-slate-800 bg-white/70 p-3 rounded-lg border border-amber-100">
-                            {q.solutionText}
-                          </div>
+
+                          {/* Original Solution Page Image (High-Fidelity Math & Formulas) */}
+                          {q.solutionImageUrl && (
+                            <div className="border border-amber-200/80 rounded-lg overflow-hidden bg-white shadow-sm p-2">
+                              <p className="text-[11px] font-semibold text-amber-900/80 mb-1.5">Original Solution Book Diagram & Working:</p>
+                              <img
+                                src={q.solutionImageUrl}
+                                alt={`Question ${q.questionNumber} Detailed Solution`}
+                                className="max-h-96 w-auto max-w-full object-contain mx-auto rounded"
+                                loading="lazy"
+                              />
+                            </div>
+                          )}
+
+                          {/* Solution Text / Transcription */}
+                          {q.solutionText && (
+                            <div className="whitespace-pre-line leading-relaxed font-mono text-slate-800 bg-white/70 p-3 rounded-lg border border-amber-100">
+                              {q.solutionText}
+                            </div>
+                          )}
                         </div>
                       )}
                     </div>

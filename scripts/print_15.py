@@ -7,3 +7,4 @@ for q in ach[:15]:
     txt = q['question_text'].replace('\n', ' ')[:40]
     opts = q['options']
     print(f"Q{qn:2d} (P{p:2d}): {txt} | opts: {opts}")
+

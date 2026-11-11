@@ -108,3 +108,4 @@ print(f"Total questions: {len(all_180)}")
 print(f"Questions crossing pages: {len(cross_page_q)}")
 for q in cross_page_q:
     print(f"Q{q['overall_num']} ({q['subject']} #{q['sub_num']}): starts P{q['start_page']} at y={q['start_y']:.1f}, ends P{q['end_page']} at y={q['end_y']:.1f}")
+

@@ -132,6 +132,7 @@ export interface QuestionResultAnalysis {
   isAttempted: boolean;
   marksAwarded: number;
   solutionText?: string;
+  solutionImageUrl?: string;
   verificationStatus: VerificationStatus;
 }
 

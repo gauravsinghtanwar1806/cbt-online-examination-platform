@@ -19,3 +19,4 @@ for q_num in gen_nums:
     print(f"--- Q{q_num} (Page {p}) ---")
     print(f"  Bottom of P{p}: {' / '.join(bottom_text)}")
     print(f"  Top of P{p+1}:    {' / '.join(top_text)}")
+

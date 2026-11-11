@@ -51,8 +51,14 @@ export function calculateExamScore(
 
     const ver = verifications[q.id];
     // Strict requirement: approved_answer is used for evaluation
-    const approvedAnswer = ver ? ver.approvedAnswer : (q as any).official_answer || 1;
-    const verStatus = ver ? ver.status : 'VERIFIED_MATCH';
+    // Fallback order: ver.approvedAnswer -> ver.approved_answer -> q.officialAnswer -> q.official_answer -> 1
+    const approvedAnswer: number = (
+      (ver && typeof (ver as any).approvedAnswer === 'number') ? (ver as any).approvedAnswer :
+      (ver && typeof (ver as any).approved_answer === 'number') ? (ver as any).approved_answer :
+      (typeof (q as any).officialAnswer === 'number') ? (q as any).officialAnswer :
+      (typeof (q as any).official_answer === 'number') ? (q as any).official_answer : 1
+    );
+    const verStatus = ver ? (ver.status || (ver as any).status || 'VERIFIED_MATCH') : 'VERIFIED_MATCH';
 
     let isCorrect = false;
     let marksAwarded = 0;
@@ -97,6 +103,7 @@ export function calculateExamScore(
       isAttempted: isAttempted,
       marksAwarded: marksAwarded,
       solutionText: solutionTexts[q.id] || (q as any).solution_text || (q as any).solutionText || undefined,
+      solutionImageUrl: (q as any).solutionImageUrl || (q as any).solution_image_url || (`/images/achiever_solutions/sol_${q.questionNumber || (q as any).question_number}.png`),
       verificationStatus: verStatus
     });
   }

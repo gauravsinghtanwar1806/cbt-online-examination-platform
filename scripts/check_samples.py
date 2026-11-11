@@ -7,3 +7,4 @@ for qn in [1, 2, 3, 10, 11, 20, 25, 45, 90, 180]:
     print(f"Text: {q['question_text'][:70]}...")
     print(f"Options: {q['options']}")
     print(f"OptionImages: {q.get('optionImages')}")
+

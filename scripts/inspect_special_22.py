@@ -15,3 +15,4 @@ print(f"Inspecting {len(special_q)} questions...")
 for q_num in special_q:
     print(f"\n=================== QUESTION {q_num} ===================")
     # find where in test_new_extractor it was
+

@@ -19,3 +19,4 @@ doc = fitz.open('source_pdfs/Achiever Minor Test 02.pdf')
 # Biology: 1) to 90) on pages 22..39
 
 # Let's detect each question precisely!
+

@@ -60,3 +60,4 @@ def analyze_section(name, markers, expected_count):
 phys_map = analyze_section("Physics", phys_markers, 45)
 chem_map = analyze_section("Chemistry", chem_markers, 45)
 bio_map = analyze_section("Biology", bio_markers, 90)
+

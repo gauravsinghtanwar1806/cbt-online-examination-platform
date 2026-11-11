@@ -12,3 +12,4 @@ for q in gen_q:
     p = q['source_page']
     q_text = q['question_text'].replace('\n', ' ')[:70]
     print(f"Q{q_num:3d} (Page {p:2d}): {q_text}...")
+

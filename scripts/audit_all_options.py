@@ -90,3 +90,4 @@ with open("data/options_audit_report.md", "w", encoding="utf-8") as f:
         f.write(f"| `{row['question_id']}` | {qtxt} | {o1} | {o2} | {o3} | {o4} | **{row['status']}** |\n")
 
 print("Saved options audit report to data/options_audit_report.md")
+

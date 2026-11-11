@@ -8,12 +8,12 @@
     "subject": "Physics",
     "questionType": "diagram_based",
     "question_type": "diagram_based",
-    "questionText": "The potential energy of a particle of mass 1kg free to move along x-axis is given by \nU(x) =\n joule. If total mechanical energy of the particle is 2J, then find the maximum speed\nof the particle.",
-    "question_text": "The potential energy of a particle of mass 1kg free to move along x-axis is given by \nU(x) =\n joule. If total mechanical energy of the particle is 2J, then find the maximum speed\nof the particle.",
+    "questionText": "The potential energy of a particle of mass 1kg free to move along x-axis is given by U(x) = (x²/2 - x) joule. If total mechanical energy of the particle is 2J, then find the maximum speed of the particle.",
+    "question_text": "The potential energy of a particle of mass 1kg free to move along x-axis is given by U(x) = (x²/2 - x) joule. If total mechanical energy of the particle is 2J, then find the maximum speed of the particle.",
     "options": [
-      "See Option (1) in formula/diagram",
-      "See Option (2) in formula/diagram",
-      "See Option (3) in formula/diagram",
+      "√5 m/s",
+      "√10 m/s",
+      "5/2 m/s",
       "2 m/s"
     ],
     "imageUrl": "/images/achiever/q_1.png",
@@ -50,13 +50,13 @@
     "subject": "Physics",
     "questionType": "diagram_based",
     "question_type": "diagram_based",
-    "questionText": "A force F acting on a particle varies with the position x as shown in the graph. Find the work done\nby the force in displacing the particle from x = –a to x = +2a.",
-    "question_text": "A force F acting on a particle varies with the position x as shown in the graph. Find the work done\nby the force in displacing the particle from x = –a to x = +2a.",
+    "questionText": "A force F acting on a particle varies with the position x as shown in the graph. Find the work done by the force in displacing the particle from x = –a to x = +2a.",
+    "question_text": "A force F acting on a particle varies with the position x as shown in the graph. Find the work done by the force in displacing the particle from x = –a to x = +2a.",
     "options": [
-      "See Option (1) in formula/diagram",
-      "See Option (2) in formula/diagram",
-      "See Option (3) in formula/diagram",
-      "See Option (4) in formula/diagram"
+      "(3/2) F₀a",
+      "(5/2) F₀a",
+      "2 F₀a",
+      "F₀a"
     ],
     "imageUrl": "/images/achiever/q_2.png",
     "image_url": "/images/achiever/q_2.png",
@@ -302,13 +302,13 @@
     "subject": "Physics",
     "questionType": "diagram_based",
     "question_type": "diagram_based",
-    "questionText": "A car of mass m is accelerating on a level smooth road under the action of a single force F. The\npower delivered to the car is constant and equal to P. If the velocity of the car at an instant is v, then\nafter travelling how much distance it becomes double ?",
-    "question_text": "A car of mass m is accelerating on a level smooth road under the action of a single force F. The\npower delivered to the car is constant and equal to P. If the velocity of the car at an instant is v, then\nafter travelling how much distance it becomes double ?",
+    "questionText": "A car of mass m is accelerating on a level smooth road under the action of a single force F. The power delivered to the car is constant and equal to P. If the velocity of the car at an instant is v, then after travelling how much distance it becomes double ?",
+    "question_text": "A car of mass m is accelerating on a level smooth road under the action of a single force F. The power delivered to the car is constant and equal to P. If the velocity of the car at an instant is v, then after travelling how much distance it becomes double ?",
     "options": [
-      "See Option (1) in formula/diagram",
-      "See Option (2) in formula/diagram",
-      "See Option (3) in formula/diagram",
-      "See Option (4) in formula/diagram"
+      "7mv³ / (3P)",
+      "4mv³ / (3P)",
+      "mv³ / P",
+      "2mv³ / P"
     ],
     "imageUrl": "/images/achiever/q_10.png",
     "image_url": "/images/achiever/q_10.png",
@@ -464,12 +464,12 @@
     "subject": "Physics",
     "questionType": "diagram_based",
     "question_type": "diagram_based",
-    "questionText": "If the maximum compression in the spring is 50 cm then find the value of K(g = 10 m/s\n2) :-",
-    "question_text": "If the maximum compression in the spring is 50 cm then find the value of K(g = 10 m/s\n2) :-",
+    "questionText": "A block of mass m is projected on a rough surface with velocity v₀ against a spring of stiffness k. If the maximum compression in the spring is 50 cm then find spring constant k :-",
+    "question_text": "A block of mass m is projected on a rough surface with velocity v₀ against a spring of stiffness k. If the maximum compression in the spring is 50 cm then find spring constant k :-",
     "options": [
-      "See Option (1) in formula/diagram",
-      "See Option (2) in formula/diagram",
-      "See Option (3) in formula/diagram",
+      "50 N/m",
+      "100 N/m",
+      "200 N/m",
       "None of these"
     ],
     "imageUrl": "/images/achiever/q_15.png",
@@ -506,13 +506,13 @@
     "subject": "Physics",
     "questionType": "diagram_based",
     "question_type": "diagram_based",
-    "questionText": "Current density of an area of cross section is varying according to equation \n. Find\nthe current through the cylinder",
-    "question_text": "Current density of an area of cross section is varying according to equation \n. Find\nthe current through the cylinder",
+    "questionText": "Current density of an area of cross section is varying according to J = J₀(1 - r/R). The total current through the cylinder is :-",
+    "question_text": "Current density of an area of cross section is varying according to J = J₀(1 - r/R). The total current through the cylinder is :-",
     "options": [
-      "πR 2J0",
-      "See Option (2) in formula/diagram",
-      "See Option (3) in formula/diagram",
-      "See Option (4) in formula/diagram"
+      "πR²J₀",
+      "πR²J₀ / 2",
+      "πR²J₀ / 3",
+      "2πR²J₀ / 3"
     ],
     "imageUrl": "/images/achiever/q_16.png",
     "image_url": "/images/achiever/q_16.png",
@@ -578,13 +578,13 @@
     "subject": "Physics",
     "questionType": "diagram_based",
     "question_type": "diagram_based",
-    "questionText": "Two metallic wires of identical dimensions are connected in parallel. If ρ1 and ρ2 are the specific\nresistances of the metals respectively the effective resistivity of the combination will be :-",
-    "question_text": "Two metallic wires of identical dimensions are connected in parallel. If ρ1 and ρ2 are the specific\nresistances of the metals respectively the effective resistivity of the combination will be :-",
+    "questionText": "Two metallic wires of identical dimensions are connected in parallel. If their resistivities are ρ₁ and ρ₂, the effective resistivity of the combination is :-",
+    "question_text": "Two metallic wires of identical dimensions are connected in parallel. If their resistivities are ρ₁ and ρ₂, the effective resistivity of the combination is :-",
     "options": [
-      "See Option (1) in formula/diagram",
-      "See Option (2) in formula/diagram",
-      "See Option (3) in formula/diagram",
-      "See Option (4) in formula/diagram"
+      "(ρ₁ + ρ₂) / 2",
+      "2ρ₁ρ₂ / (ρ₁ + ρ₂)",
+      "ρ₁ρ₂ / (ρ₁ + ρ₂)",
+      "√(ρ₁ρ₂)"
     ],
     "imageUrl": "/images/achiever/q_18.png",
     "image_url": "/images/achiever/q_18.png",
@@ -620,13 +620,13 @@
     "subject": "Physics",
     "questionType": "diagram_based",
     "question_type": "diagram_based",
-    "questionText": "The V-I graph for two conductor of resistance R1 & R2 are as shown in the figure, the resistance\nof their series combination  (R2 + R1) is proportional to :",
-    "question_text": "The V-I graph for two conductor of resistance R1 & R2 are as shown in the figure, the resistance\nof their series combination  (R2 + R1) is proportional to :",
+    "questionText": "The V-I graph for two conductors of resistance R₁ & R₂ are as shown in figure. R₁ + R₂ is proportional to :-",
+    "question_text": "The V-I graph for two conductors of resistance R₁ & R₂ are as shown in figure. R₁ + R₂ is proportional to :-",
     "options": [
-      "See Option (1) in formula/diagram",
-      "See Option (2) in formula/diagram",
-      "See Option (3) in formula/diagram",
-      "See Option (4) in formula/diagram"
+      "sin 2θ",
+      "cos 2θ",
+      "tan 2θ",
+      "1 / sin 2θ"
     ],
     "imageUrl": "/images/achiever/q_19.png",
     "image_url": "/images/achiever/q_19.png",
@@ -692,13 +692,13 @@
     "subject": "Physics",
     "questionType": "diagram_based",
     "question_type": "diagram_based",
-    "questionText": "What is the equivalent resistance between the points A and B of the network :-",
-    "question_text": "What is the equivalent resistance between the points A and B of the network :-",
+    "questionText": "What is the equivalent resistance between the points A and B in the given bridge circuit ?",
+    "question_text": "What is the equivalent resistance between the points A and B in the given bridge circuit ?",
     "options": [
-      "See Option (1) in formula/diagram",
+      "4 Ω",
       "8 Ω",
       "6 Ω",
-      "See Option (4) in formula/diagram"
+      "12 Ω"
     ],
     "imageUrl": "/images/achiever/q_21.png",
     "image_url": "/images/achiever/q_21.png",
@@ -737,10 +737,10 @@
     "questionText": "Electric field (E) and current density (J) have relation :-",
     "question_text": "Electric field (E) and current density (J) have relation :-",
     "options": [
-      "E ∝ J -1",
+      "E ∝ J⁻¹",
       "E ∝ J",
-      "See Option (3) in formula/diagram",
-      "See Option (4) in formula/diagram"
+      "E ∝ J²",
+      "E ∝ J⁰"
     ],
     "imageUrl": "/images/achiever/q_22.png",
     "image_url": "/images/achiever/q_22.png",
@@ -896,13 +896,13 @@
     "subject": "Physics",
     "questionType": "diagram_based",
     "question_type": "diagram_based",
-    "questionText": "A galvanometer of \n resistance yields complete deflection when 10 mA current flows. What\nshould be the value of shunt so that it can measure currents upto 100 mA ?",
-    "question_text": "A galvanometer of \n resistance yields complete deflection when 10 mA current flows. What\nshould be the value of shunt so that it can measure currents upto 100 mA ?",
+    "questionText": "A galvanometer of resistance 50 Ω yields complete deflection when 10 mA current flows. What should be the value of shunt so that it can measure currents upto 100 mA ?",
+    "question_text": "A galvanometer of resistance 50 Ω yields complete deflection when 10 mA current flows. What should be the value of shunt so that it can measure currents upto 100 mA ?",
     "options": [
-      "See Option (1) in formula/diagram",
-      "See Option (2) in formula/diagram",
-      "See Option (3) in formula/diagram",
-      "See Option (4) in formula/diagram"
+      "5.55 Ω",
+      "50 Ω",
+      "10 Ω",
+      "5.5 Ω (or 50/9 Ω)"
     ],
     "imageUrl": "/images/achiever/q_27.png",
     "image_url": "/images/achiever/q_27.png",
@@ -941,10 +941,10 @@
     "questionText": "The reading of the ammeter as per figure shown is :",
     "question_text": "The reading of the ammeter as per figure shown is :",
     "options": [
-      "See Option (1) in formula/diagram",
-      "See Option (2) in formula/diagram",
-      "See Option (3) in formula/diagram",
-      "See Option (4) in formula/diagram"
+      "1 A",
+      "2 A",
+      "0.5 A",
+      "4 A"
     ],
     "imageUrl": "/images/achiever/q_28.png",
     "image_url": "/images/achiever/q_28.png",
@@ -1100,13 +1100,13 @@
     "subject": "Physics",
     "questionType": "diagram_based",
     "question_type": "diagram_based",
-    "questionText": "A parallel plate condenser has a uniform electric field E(V/m) in the space between the plates. If\nthe distance between the plates is d(m) and area of each plate is A(m\n2) the energy (joules) stored in\nthe condenser is",
-    "question_text": "A parallel plate condenser has a uniform electric field E(V/m) in the space between the plates. If\nthe distance between the plates is d(m) and area of each plate is A(m\n2) the energy (joules) stored in\nthe condenser is",
+    "questionText": "A parallel plate condenser has a uniform electric field E(V/m) between plates separated by (d), area (A). The energy stored in the condenser is :-",
+    "question_text": "A parallel plate condenser has a uniform electric field E(V/m) between plates separated by (d), area (A). The energy stored in the condenser is :-",
     "options": [
-      "See Option (1) in formula/diagram",
-      "See Option (2) in formula/diagram",
-      "See Option (3) in formula/diagram",
-      "See Option (4) in formula/diagram"
+      "½ ε₀E²",
+      "ε₀E²Ad",
+      "½ ε₀E² / (Ad)",
+      "½ ε₀E²Ad"
     ],
     "imageUrl": "/images/achiever/q_33.png",
     "image_url": "/images/achiever/q_33.png",
@@ -1232,13 +1232,13 @@
     "subject": "Physics",
     "questionType": "diagram_based",
     "question_type": "diagram_based",
-    "questionText": "A galvanometer (G) of 2Ω resistance is connected in the given circuit. The ratio of charge stored\nin C1 and C2 is :",
-    "question_text": "A galvanometer (G) of 2Ω resistance is connected in the given circuit. The ratio of charge stored\nin C1 and C2 is :",
+    "questionText": "A galvanometer (G) of 2Ω resistance is connected in the given circuit. The ratio of charge stored in C₁ and C₂ in steady state is :-",
+    "question_text": "A galvanometer (G) of 2Ω resistance is connected in the given circuit. The ratio of charge stored in C₁ and C₂ in steady state is :-",
     "options": [
-      "See Option (1) in formula/diagram",
-      "See Option (2) in formula/diagram",
+      "3/2",
+      "2/3",
       "1",
-      "See Option (4) in formula/diagram"
+      "4/3"
     ],
     "imageUrl": "/images/achiever/q_37.png",
     "image_url": "/images/achiever/q_37.png",
@@ -1274,13 +1274,13 @@
     "subject": "Physics",
     "questionType": "diagram_based",
     "question_type": "diagram_based",
-    "questionText": "A dielectric slab of area A is inserted between the plates of a capacitor of area 2A with constant\nspeed v as shown in figure. Distance between the plates is d.\nThe capacitor is connected to a battery of emf E. The current in the circuit varies with time as",
-    "question_text": "A dielectric slab of area A is inserted between the plates of a capacitor of area 2A with constant\nspeed v as shown in figure. Distance between the plates is d.\nThe capacitor is connected to a battery of emf E. The current in the circuit varies with time as",
+    "questionText": "A dielectric slab of area A is inserted between the plates of a capacitor with constant velocity v. The variation of current i with time t during insertion is best represented by :-",
+    "question_text": "A dielectric slab of area A is inserted between the plates of a capacitor with constant velocity v. The variation of current i with time t during insertion is best represented by :-",
     "options": [
-      "See Option (1) in formula/diagram",
-      "See Option (2) in formula/diagram",
-      "See Option (3) in formula/diagram",
-      "See Option (4) in formula/diagram"
+      "Linear increasing graph",
+      "Constant non-zero current graph",
+      "Exponential decay graph",
+      "Zero current graph"
     ],
     "imageUrl": "/images/achiever/q_38.png",
     "image_url": "/images/achiever/q_38.png",
@@ -1316,12 +1316,12 @@
     "subject": "Physics",
     "questionType": "diagram_based",
     "question_type": "diagram_based",
-    "questionText": "Five identical metal plates 1, 2, 3, 4 and 5 each of area A on one side are fixed parallel and\nequidistant (d) to each other. The plates 1 and 4 are joined by a conductor and plates 3 and 5 are\nalso joined by a conductor as shown in figure. Then, the capacitance of this system between A and B\nis :",
-    "question_text": "Five identical metal plates 1, 2, 3, 4 and 5 each of area A on one side are fixed parallel and\nequidistant (d) to each other. The plates 1 and 4 are joined by a conductor and plates 3 and 5 are\nalso joined by a conductor as shown in figure. Then, the capacitance of this system between A and B\nis :",
+    "questionText": "Five identical metal plates 1, 2, 3, 4 and 5 each of area A are arranged equidistantly at d. Plates 1 and 4 are connected, and plates 3 and 5 are connected. The capacitance between A and B is :-",
+    "question_text": "Five identical metal plates 1, 2, 3, 4 and 5 each of area A are arranged equidistantly at d. Plates 1 and 4 are connected, and plates 3 and 5 are connected. The capacitance between A and B is :-",
     "options": [
-      "See Option (1) in formula/diagram",
-      "See Option (2) in formula/diagram",
-      "See Option (3) in formula/diagram",
+      "(5/3) ε₀A/d",
+      "(7/3) ε₀A/d",
+      "(8/3) ε₀A/d",
       "None"
     ],
     "imageUrl": "/images/achiever/q_39.png",
@@ -1508,13 +1508,13 @@
     "subject": "Physics",
     "questionType": "diagram_based",
     "question_type": "diagram_based",
-    "questionText": "Two parallel plate capacitors whose capacitances are C and 2 C respectively, are joined in\nparallel. These are charged to V potential difference. If the battery is now removed and a dielectric\nof dielectric constant K is filled in between the plates of the capacitor 2 C, then what will be the\npotential difference across each capacitor ?",
-    "question_text": "Two parallel plate capacitors whose capacitances are C and 2 C respectively, are joined in\nparallel. These are charged to V potential difference. If the battery is now removed and a dielectric\nof dielectric constant K is filled in between the plates of the capacitor 2 C, then what will be the\npotential difference across each capacitor ?",
+    "questionText": "Two parallel plate capacitors whose capacitances are C and 2C respectively are connected in parallel and charged to V. If they are now disconnected from battery and connected in series, the potential difference across each is :-",
+    "question_text": "Two parallel plate capacitors whose capacitances are C and 2C respectively are connected in parallel and charged to V. If they are now disconnected from battery and connected in series, the potential difference across each is :-",
     "options": [
-      "See Option (1) in formula/diagram",
-      "See Option (2) in formula/diagram",
-      "See Option (3) in formula/diagram",
-      "See Option (4) in formula/diagram"
+      "V / 2",
+      "2V / 3",
+      "V / 3",
+      "V"
     ],
     "imageUrl": "/images/achiever/q_45.png",
     "image_url": "/images/achiever/q_45.png",
@@ -1670,13 +1670,13 @@
     "subject": "Chemistry",
     "questionType": "diagram_based",
     "question_type": "diagram_based",
-    "questionText": "The emf of the cell\nZn | Zn\n2+ (0.01 M) || Fe\n2+ (0.001 M) | Fe\nat 298 K is 0.2905 then the value of equilibrium constant for the cell reaction is:",
-    "question_text": "The emf of the cell\nZn | Zn\n2+ (0.01 M) || Fe\n2+ (0.001 M) | Fe\nat 298 K is 0.2905 then the value of equilibrium constant for the cell reaction is:",
+    "questionText": "The emf of the cell Zn | Zn²⁺(0.01 M) || Fe²⁺(0.001 M) | Fe at 298 K is 0.2905 V. The value of equilibrium constant for the cell reaction is :-",
+    "question_text": "The emf of the cell Zn | Zn²⁺(0.01 M) || Fe²⁺(0.001 M) | Fe at 298 K is 0.2905 V. The value of equilibrium constant for the cell reaction is :-",
     "options": [
-      "See Option (1) in formula/diagram",
-      "See Option (2) in formula/diagram",
-      "See Option (3) in formula/diagram",
-      "See Option (4) in formula/diagram"
+      "10^(0.32 / 0.0591)",
+      "10^(0.32 / 0.0295)",
+      "10^(0.26 / 0.0295)",
+      "10^(0.29 / 0.0591)"
     ],
     "imageUrl": "/images/achiever/q_50.png",
     "image_url": "/images/achiever/q_50.png",
@@ -1712,13 +1712,13 @@
     "subject": "Chemistry",
     "questionType": "diagram_based",
     "question_type": "diagram_based",
-    "questionText": "The molar conductivities  \n and  \n at infinite dilution in water at 25°C are 91.0\nand 426.2 S cm\n2 mol\n–1 respectively. To calculate \n the additional value required is :",
-    "question_text": "The molar conductivities  \n and  \n at infinite dilution in water at 25°C are 91.0\nand 426.2 S cm\n2 mol\n–1 respectively. To calculate \n the additional value required is :",
+    "questionText": "The molar conductivities Λ°m at infinite dilution for Ba(OH)₂, BaCl₂ and NH₄Cl are known. The molar conductivity of NH₄OH at infinite dilution is given by :-",
+    "question_text": "The molar conductivities Λ°m at infinite dilution for Ba(OH)₂, BaCl₂ and NH₄Cl are known. The molar conductivity of NH₄OH at infinite dilution is given by :-",
     "options": [
-      "See Option (1) in formula/diagram",
-      "See Option (2) in formula/diagram",
-      "See Option (3) in formula/diagram",
-      "See Option (4) in formula/diagram"
+      "Λ°m(Ba(OH)₂) + 2Λ°m(NH₄Cl) - Λ°m(BaCl₂)",
+      "½ [Λ°m(Ba(OH)₂) + 2Λ°m(NH₄Cl) - Λ°m(BaCl₂)]",
+      "Λ°m(Ba(OH)₂) + Λ°m(NH₄Cl) - Λ°m(BaCl₂)",
+      "½ [Λ°m(Ba(OH)₂) + Λ°m(NH₄Cl) - Λ°m(BaCl₂)]"
     ],
     "imageUrl": "/images/achiever/q_51.png",
     "image_url": "/images/achiever/q_51.png",
@@ -1907,9 +1907,9 @@
     "questionText": "Which of the following ambidentate ligand can act as flexidentate ligand ?",
     "question_text": "Which of the following ambidentate ligand can act as flexidentate ligand ?",
     "options": [
-      "SCN –",
-      "OCN –",
-      "See Option (3) in formula/diagram",
+      "SCN⁻",
+      "OCN⁻",
+      "NO₂⁻",
       "None of these"
     ],
     "imageUrl": "/images/achiever/q_57.png",
@@ -2276,13 +2276,13 @@
     "subject": "Chemistry",
     "questionType": "diagram_based",
     "question_type": "diagram_based",
-    "questionText": "What is the correct electronic configuration of the central atom in K4[Fe(CN)6] based on crystal\nfield theory ?",
-    "question_text": "What is the correct electronic configuration of the central atom in K4[Fe(CN)6] based on crystal\nfield theory ?",
+    "questionText": "What is the correct electronic configuration of the central atom in K₄[Fe(CN)₆] based on crystal field theory ?",
+    "question_text": "What is the correct electronic configuration of the central atom in K₄[Fe(CN)₆] based on crystal field theory ?",
     "options": [
-      "See Option (1) in formula/diagram",
-      "See Option (2) in formula/diagram",
-      "See Option (3) in formula/diagram",
-      "See Option (4) in formula/diagram"
+      "t₂g⁴ eg²",
+      "t₂g⁶ eg⁰",
+      "t₂g³ eg³",
+      "t₂g⁵ eg¹"
     ],
     "imageUrl": "/images/achiever/q_69.png",
     "image_url": "/images/achiever/q_69.png",
@@ -2318,13 +2318,13 @@
     "subject": "Chemistry",
     "questionType": "diagram_based",
     "question_type": "diagram_based",
-    "questionText": "Which of the following is the correct order of increasing field strength of ligands to form\ncoordination compounds ?",
-    "question_text": "Which of the following is the correct order of increasing field strength of ligands to form\ncoordination compounds ?",
+    "questionText": "Which of the following is the correct order of increasing field strength of ligands to form coordination compounds ?",
+    "question_text": "Which of the following is the correct order of increasing field strength of ligands to form coordination compounds ?",
     "options": [
-      "See Option (1) in formula/diagram",
-      "See Option (2) in formula/diagram",
-      "See Option (3) in formula/diagram",
-      "See Option (4) in formula/diagram"
+      "I⁻ < Br⁻ < S²⁻ < SCN⁻ < Cl⁻",
+      "Cl⁻ < F⁻ < OH⁻ < C₂O₄²⁻ < H₂O",
+      "H₂O < NCS⁻ < EDTA⁴⁻ < NH₃ < en",
+      "I⁻ < Cl⁻ < F⁻ < H₂O < CN⁻"
     ],
     "imageUrl": "/images/achiever/q_70.png",
     "image_url": "/images/achiever/q_70.png",
@@ -2480,12 +2480,12 @@
     "subject": "Chemistry",
     "questionType": "diagram_based",
     "question_type": "diagram_based",
-    "questionText": "The ligands in anti-cancer drug cis platin are :",
-    "question_text": "The ligands in anti-cancer drug cis platin are :",
+    "questionText": "The ligands in anti-cancer drug cis-platin [Pt(NH₃)₂Cl₂] are :",
+    "question_text": "The ligands in anti-cancer drug cis-platin [Pt(NH₃)₂Cl₂] are :",
     "options": [
-      "NH3, Cl",
-      "See Option (2) in formula/diagram",
-      "Cl, H2O",
+      "NH₃, Cl",
+      "NH₃, H₂O",
+      "Cl, H₂O",
       "NO, Cl"
     ],
     "imageUrl": "/images/achiever/q_75.png",

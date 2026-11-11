@@ -114,3 +114,4 @@ with open('data/biology_diwali_questions.json', 'w', encoding='utf-8') as f:
     json.dump(bio, f, indent=2, ensure_ascii=False)
 
 print("Updated data/biology_diwali_questions.json with perfect options and optionImages!")
+

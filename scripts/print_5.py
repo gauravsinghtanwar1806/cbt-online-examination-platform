@@ -6,3 +6,4 @@ for q_num in [3, 10, 14, 17, 20]:
     print(f"Q{q_num}: page={q['source_page']}")
     print(f"  Text: {q['question_text']}")
     print(f"  Options: {q['options']}")
+

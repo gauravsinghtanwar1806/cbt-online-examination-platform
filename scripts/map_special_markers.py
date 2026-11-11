@@ -47,3 +47,4 @@ for qn in special_q:
     
     print(f"Q{qn:2d}: found {len(found_markers)} option markers -> {[m['opt_idx'] for m in found_markers]}")
     option_crops[qn] = found_markers
+
