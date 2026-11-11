@@ -165,3 +165,4 @@ print(f"Net Score: {final_score} / {maximum_marks}")
 print(f"Accuracy: {accuracy}%")
 print(f"Percentage: {percentage}%")
 print(f"Saved to {results_file} and {attempts_file}")
+

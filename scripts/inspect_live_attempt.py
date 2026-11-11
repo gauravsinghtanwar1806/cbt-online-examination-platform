@@ -14,3 +14,4 @@ for q in att['questionsAnalysis']:
         qid = q['questionId']
         sel = q['selectedOption']
         print(f"  Q{qn:2d} ({qid}): Selected Option {sel}")
+

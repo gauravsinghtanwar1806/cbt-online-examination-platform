@@ -77,3 +77,4 @@ for item in sol_ranges:
         pix.save(f"public/images/achiever_solutions/sol_{qn}.png")
 
 print("Rendered all available solution page images in public/images/achiever_solutions!")
+

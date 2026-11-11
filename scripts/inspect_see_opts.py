@@ -11,3 +11,4 @@ see_opts = [q for q in ach if any('See Option' in opt for opt in q.get('options'
 print(f"Questions with 'See Option' text: {len(see_opts)}")
 for q in see_opts:
     print(f"Q{q['question_number']:3d}: {q['options']}")
+
