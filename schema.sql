@@ -148,3 +148,4 @@ CREATE INDEX IF NOT EXISTS idx_question_options_q_id ON question_options(questio
 CREATE INDEX IF NOT EXISTS idx_attempts_student ON exam_attempts(student_id);
 CREATE INDEX IF NOT EXISTS idx_attempts_exam ON exam_attempts(exam_id);
 CREATE INDEX IF NOT EXISTS idx_responses_attempt ON student_responses(attempt_id);
+

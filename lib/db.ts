@@ -172,20 +172,20 @@ export function updateExamConfig(id: string, updates: Partial<Exam>): Exam | nul
 export function getStudentQuestions(examId: string, chapterIndex?: number): QuestionStudentView[] {
   let list = cachedQuestions[examId] || [];
   if (chapterIndex && chapterIndex > 0) {
-    list = list.filter(q => q.chapterIndex === chapterIndex);
+    list = list.filter(q => (q.chapterIndex === chapterIndex || (q as any).chapter_index === chapterIndex));
   }
 
   return list.map(q => ({
     id: q.id,
-    examId: q.examId,
+    examId: q.examId || (q as any).exam_id,
     subject: q.subject,
-    chapterIndex: q.chapterIndex,
-    chapterName: q.chapterName,
-    questionNumber: q.questionNumber,
-    questionType: q.questionType,
-    questionText: q.questionText,
-    options: q.options,
-    imageUrl: q.imageUrl
+    chapterIndex: q.chapterIndex || (q as any).chapter_index,
+    chapterName: q.chapterName || (q as any).chapter_name,
+    questionNumber: q.questionNumber || (q as any).question_number,
+    questionType: q.questionType || (q as any).question_type || 'mcq',
+    questionText: q.questionText || (q as any).question_text || '',
+    options: q.options || [],
+    imageUrl: q.imageUrl || (q as any).image_url || ''
   }));
 }
 
@@ -344,3 +344,4 @@ function saveResults() {
     console.error('Error saving results:', e);
   }
 }
+

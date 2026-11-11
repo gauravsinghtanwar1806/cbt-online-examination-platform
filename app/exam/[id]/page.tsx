@@ -37,6 +37,45 @@ export default function ExamPage({ params }: { params: Promise<{ id: string }> }
   // Active Subject Filter tab (for Achiever: Physics, Chemistry, Biology)
   const [activeSubject, setActiveSubject] = useState<string>('All');
 
+  // Accessibility & Interface controls
+  const [fontSize, setFontSize] = useState<'text-sm' | 'text-base' | 'text-lg'>('text-base');
+  const [paletteFilter, setPaletteFilter] = useState<'all' | 'answered' | 'not_answered' | 'marked'>('all');
+  const [isFullscreen, setIsFullscreen] = useState(false);
+
+  // Toggle Fullscreen
+  const toggleFullscreen = () => {
+    if (!document.fullscreenElement) {
+      document.documentElement.requestFullscreen().catch(() => {});
+      setIsFullscreen(true);
+    } else {
+      if (document.exitFullscreen) {
+        document.exitFullscreen().catch(() => {});
+        setIsFullscreen(false);
+      }
+    }
+  };
+
+  // Keyboard Shortcuts Navigation
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      // Don't trigger if user is in an input field
+      if (['INPUT', 'TEXTAREA', 'SELECT'].includes((e.target as HTMLElement)?.tagName)) return;
+
+      if (e.key === '1') handleSelectOption(1);
+      else if (e.key === '2') handleSelectOption(2);
+      else if (e.key === '3') handleSelectOption(3);
+      else if (e.key === '4') handleSelectOption(4);
+      else if (e.key.toLowerCase() === 'c') handleClearResponse();
+      else if (e.key.toLowerCase() === 'm') handleMarkForReviewAndNext();
+      else if (e.key.toLowerCase() === 's' || e.key === 'Enter') handleSaveAndNext();
+      else if (e.key === 'ArrowLeft') handleNavigate(currentIndex - 1);
+      else if (e.key === 'ArrowRight') handleNavigate(currentIndex + 1);
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [currentIndex, questions, responses, timeSpent]);
+
   // Load questions and restore previous session
   useEffect(() => {
     async function loadData() {
@@ -422,10 +461,10 @@ export default function ExamPage({ params }: { params: Promise<{ id: string }> }
         </div>
       </header>
 
-      {/* Subject Tabs Bar (Physics, Chemistry, Biology) */}
-      <div className="bg-white border-b border-slate-200 px-4 py-1.5 flex items-center justify-between shrink-0 shadow-sm overflow-x-auto">
-        <div className="flex items-center space-x-2">
-          <span className="text-xs font-bold text-slate-500 uppercase tracking-wider mr-2">Sections:</span>
+      {/* Subject Tabs Bar (Physics, Chemistry, Biology) + Font Size & Controls */}
+      <div className="bg-white border-b border-slate-200 px-3 sm:px-4 py-1.5 flex items-center justify-between shrink-0 shadow-sm overflow-x-auto gap-2">
+        <div className="flex items-center space-x-1.5 shrink-0">
+          <span className="text-xs font-bold text-slate-500 uppercase tracking-wider mr-1 hidden sm:inline">Sections:</span>
           {subjects.map((subj) => (
             <button
               key={subj}
@@ -436,7 +475,7 @@ export default function ExamPage({ params }: { params: Promise<{ id: string }> }
                   if (firstSubjIdx !== -1) handleNavigate(firstSubjIdx);
                 }
               }}
-              className={`px-3 py-1 rounded text-xs font-semibold transition ${
+              className={`px-2.5 py-1 rounded text-xs font-semibold transition ${
                 activeSubject === subj 
                   ? 'bg-blue-900 text-white shadow-sm' 
                   : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
@@ -447,8 +486,43 @@ export default function ExamPage({ params }: { params: Promise<{ id: string }> }
           ))}
         </div>
 
-        <div className="text-xs text-slate-500 font-medium hidden md:block">
-          Question <span className="font-bold text-slate-800">{currentIndex + 1}</span> of <span className="font-bold text-slate-800">{questions.length}</span>
+        <div className="flex items-center space-x-2 shrink-0">
+          {/* Font Size Adjuster */}
+          <div className="flex items-center bg-slate-100 rounded-lg p-0.5 border border-slate-200 text-xs">
+            <button
+              onClick={() => setFontSize('text-sm')}
+              className={`px-2 py-0.5 rounded font-bold transition ${fontSize === 'text-sm' ? 'bg-white shadow text-blue-900' : 'text-slate-600'}`}
+              title="Small text"
+            >
+              A-
+            </button>
+            <button
+              onClick={() => setFontSize('text-base')}
+              className={`px-2 py-0.5 rounded font-bold transition ${fontSize === 'text-base' ? 'bg-white shadow text-blue-900' : 'text-slate-600'}`}
+              title="Normal text"
+            >
+              A
+            </button>
+            <button
+              onClick={() => setFontSize('text-lg')}
+              className={`px-2 py-0.5 rounded font-bold transition ${fontSize === 'text-lg' ? 'bg-white shadow text-blue-900' : 'text-slate-600'}`}
+              title="Large text"
+            >
+              A+
+            </button>
+          </div>
+
+          {/* Palette button for mobile */}
+          <button
+            onClick={() => setShowMobilePalette(!showMobilePalette)}
+            className="lg:hidden px-2.5 py-1 bg-amber-400 text-blue-950 rounded text-xs font-bold shadow-sm"
+          >
+            Palette ({currentIndex + 1}/{questions.length})
+          </button>
+
+          <div className="text-xs text-slate-500 font-medium hidden md:block">
+            Question <span className="font-bold text-slate-800">{currentIndex + 1}</span> of <span className="font-bold text-slate-800">{questions.length}</span>
+          </div>
         </div>
       </div>
 
@@ -567,27 +641,38 @@ export default function ExamPage({ params }: { params: Promise<{ id: string }> }
           </div>
 
           {/* Question Text & Options Scrollable Canvas */}
-          <div className="flex-1 p-4 sm:p-6 overflow-y-auto space-y-6">
+          <div className="flex-1 p-3.5 sm:p-6 overflow-y-auto space-y-4 sm:space-y-6">
+            {/* Question Text Statement (Always rendered prominently) */}
+            <div className={`leading-relaxed font-semibold text-slate-900 bg-slate-50/90 p-4 sm:p-5 rounded-xl border border-slate-200 shadow-sm ${fontSize}`}>
+              <div className="flex items-start space-x-2">
+                <span className="text-blue-900 font-extrabold shrink-0">Q{currentIndex + 1}.</span>
+                <span className="flex-1 whitespace-pre-line">
+                  {currentQ?.questionText || (currentQ as any)?.question_text || (
+                    <span className="text-amber-800 italic">
+                      [Question statement under review. Please refer to associated diagram and options below.]
+                    </span>
+                  )}
+                </span>
+              </div>
+            </div>
+
             {/* Rendered High-Resolution Question Image (Formulas, Diagrams, Vectors) */}
-            {currentQ?.imageUrl && (
-              <div className="border border-slate-200 rounded-xl overflow-hidden bg-white shadow-sm p-3 inline-block max-w-full">
+            {(currentQ?.imageUrl || (currentQ as any)?.image_url) && (
+              <div className="border border-slate-200 rounded-xl overflow-hidden bg-white shadow-sm p-2 sm:p-4 w-full text-center">
                 <img
-                  src={currentQ.imageUrl}
+                  src={currentQ?.imageUrl || (currentQ as any)?.image_url}
                   alt={`Question ${currentIndex + 1} Diagram and Formula`}
-                  className="max-h-[340px] sm:max-h-[420px] w-auto object-contain mx-auto"
+                  className="max-h-[300px] sm:max-h-[400px] w-auto max-w-full object-contain mx-auto rounded"
+                  loading="eager"
                 />
+                <p className="text-[11px] text-slate-400 mt-1.5 italic hidden sm:block">
+                  Original test booklet diagram & formula view
+                </p>
               </div>
             )}
 
-            {/* Extracted Question Statement (for readability and screen readers) */}
-            {currentQ?.questionText && (
-              <div className="text-sm sm:text-base text-slate-900 leading-relaxed font-medium bg-slate-50/70 p-4 rounded-xl border border-slate-100">
-                {currentQ.questionText}
-              </div>
-            )}
-
-            {/* 4 Interactive Selectable Options */}
-            <div className="space-y-3 pt-2">
+            {/* 4 Interactive Selectable Options (Touch-Friendly for Mobile) */}
+            <div className="space-y-2.5 sm:space-y-3 pt-1">
               <p className="text-xs font-bold text-slate-500 uppercase tracking-wider">Select Option:</p>
               {currentQ?.options.map((optText, optIdx) => {
                 const optNum = optIdx + 1;
@@ -598,21 +683,21 @@ export default function ExamPage({ params }: { params: Promise<{ id: string }> }
                     key={optNum}
                     onClick={() => handleSelectOption(optNum)}
                     className={`
-                      flex items-start space-x-3 p-3.5 rounded-xl border-2 transition cursor-pointer select-none
+                      flex items-start space-x-3 p-3 sm:p-4 rounded-xl border-2 transition cursor-pointer select-none min-h-[48px] active:scale-[0.99]
                       ${isSelected 
-                        ? 'border-blue-700 bg-blue-50/80 shadow-sm text-blue-950 font-medium' 
-                        : 'border-slate-200 hover:border-slate-300 hover:bg-slate-50 text-slate-800'}
+                        ? 'border-blue-700 bg-blue-50 text-blue-950 font-semibold shadow-sm' 
+                        : 'border-slate-200 hover:border-slate-300 hover:bg-slate-50 text-slate-800 bg-white'}
                     `}
                   >
                     <div className="pt-0.5 shrink-0">
                       <div className={`
-                        w-5 h-5 rounded-full border flex items-center justify-center font-bold text-xs transition
-                        ${isSelected ? 'border-blue-700 bg-blue-700 text-white' : 'border-slate-400 bg-white text-slate-600'}
+                        w-6 h-6 rounded-full border-2 flex items-center justify-center font-bold text-xs transition
+                        ${isSelected ? 'border-blue-700 bg-blue-700 text-white' : 'border-slate-400 bg-white text-slate-700'}
                       `}>
                         {optNum}
                       </div>
                     </div>
-                    <div className="flex-1 text-sm sm:text-base leading-snug">
+                    <div className={`flex-1 leading-snug break-words ${fontSize}`}>
                       {optText}
                     </div>
                   </label>

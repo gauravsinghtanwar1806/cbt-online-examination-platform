@@ -356,10 +356,10 @@ export default function ResultsPage({ params }: { params: Promise<{ attemptId: s
                   {isExpanded && (
                     <div className="p-4 sm:p-6 space-y-5">
                       {/* Diagram Image Crop */}
-                      {q.imageUrl && (
+                      {(q.imageUrl || (q as any).image_url) && (
                         <div className="border border-slate-200 rounded-xl overflow-hidden bg-white p-3 inline-block max-w-full">
                           <img
-                            src={q.imageUrl}
+                            src={q.imageUrl || (q as any).image_url}
                             alt={`Question ${q.questionNumber}`}
                             className="max-h-[300px] w-auto object-contain mx-auto"
                           />
@@ -367,8 +367,10 @@ export default function ResultsPage({ params }: { params: Promise<{ attemptId: s
                       )}
 
                       {/* Question Text */}
-                      <div className="text-sm sm:text-base text-slate-900 leading-relaxed font-medium bg-slate-50/70 p-4 rounded-xl border border-slate-100">
-                        {q.questionText}
+                      <div className="text-sm sm:text-base text-slate-900 leading-relaxed font-semibold bg-slate-50/90 p-4 rounded-xl border border-slate-200">
+                        {q.questionText || (q as any).question_text || (
+                          <span className="text-slate-400 italic">Question statement</span>
+                        )}
                       </div>
 
                       {/* Options with Answer Comparison */}
@@ -454,3 +456,4 @@ export default function ResultsPage({ params }: { params: Promise<{ attemptId: s
     </div>
   );
 }
+

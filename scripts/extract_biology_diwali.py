@@ -218,17 +218,27 @@ for ch_idx, end_p in enumerate(pages_with_ans, 1):
         
         q_record = {
             "id": f"bio_ch{ch_idx:02d}_q{q_num:02d}",
+            "examId": "biology_diwali_assignment",
             "exam_id": "biology_diwali_assignment",
+            "chapterIndex": ch_idx,
             "chapter_index": ch_idx,
+            "chapterName": ch_name,
             "chapter_name": ch_name,
+            "questionNumber": q_num,
             "question_number": q_num,
             "subject": "Biology",
+            "questionType": q_type,
             "question_type": q_type,
+            "questionText": stem if stem else f"Question {q_num}",
             "question_text": stem if stem else f"Question {q_num}",
             "options": options,
+            "imageUrl": f"/images/biology_diwali/{img_filename}",
             "image_url": f"/images/biology_diwali/{img_filename}",
+            "officialAnswer": official_ans,
             "official_answer": official_ans,
+            "sourcePdf": "Biology Diwali Assignment.pdf",
             "source_pdf": "Biology Diwali Assignment.pdf",
+            "sourcePage": page_num + 1,
             "source_page": page_num + 1
         }
         all_questions.append(q_record)
@@ -240,3 +250,4 @@ with open(output_file, "w", encoding="utf-8") as f:
     json.dump(all_questions, f, indent=2, ensure_ascii=False)
 
 print(f"Successfully extracted {len(all_questions)} questions across all 28 chapters into {output_file}")
+

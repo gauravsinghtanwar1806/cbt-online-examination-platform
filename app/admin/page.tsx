@@ -434,9 +434,9 @@ export default function AdminDashboardPage() {
                           setSelectedQuestion(q);
                           setEditingQuestion({
                             id: q.id,
-                            text: q.questionText,
-                            options: [...q.options],
-                            imageUrl: q.imageUrl || ''
+                            text: q.questionText || (q as any).question_text || '',
+                            options: [...(q.options || [])],
+                            imageUrl: q.imageUrl || (q as any).image_url || ''
                           });
                         }}
                         className={`p-3 rounded-lg border text-xs cursor-pointer transition ${
@@ -449,7 +449,7 @@ export default function AdminDashboardPage() {
                           <span className="font-bold">{q.id}</span>
                           <span className="px-2 py-0.5 rounded bg-slate-100 text-slate-600 text-[10px]">{q.subject}</span>
                         </div>
-                        <div className="truncate text-slate-500">{q.questionText}</div>
+                        <div className="truncate text-slate-500">{q.questionText || (q as any).question_text}</div>
                       </div>
                     ))}
                   </div>
@@ -708,3 +708,4 @@ export default function AdminDashboardPage() {
     </div>
   );
 }
+

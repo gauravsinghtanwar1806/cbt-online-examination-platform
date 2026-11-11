@@ -85,18 +85,18 @@ export function calculateExamScore(
 
     questionsAnalysis.push({
       questionId: q.id,
-      questionNumber: q.questionNumber,
+      questionNumber: q.questionNumber || (q as any).question_number,
       subject: subj,
-      chapterName: q.chapterName,
-      questionText: q.questionText,
-      options: q.options,
-      imageUrl: q.imageUrl,
+      chapterName: q.chapterName || (q as any).chapter_name,
+      questionText: q.questionText || (q as any).question_text || '',
+      options: q.options || [],
+      imageUrl: q.imageUrl || (q as any).image_url || '',
       selectedOption: selectedOption,
       approvedAnswer: approvedAnswer,
       isCorrect: isCorrect,
       isAttempted: isAttempted,
       marksAwarded: marksAwarded,
-      solutionText: solutionTexts[q.id] || (q as any).solution_text || undefined,
+      solutionText: solutionTexts[q.id] || (q as any).solution_text || (q as any).solutionText || undefined,
       verificationStatus: verStatus
     });
   }
@@ -136,3 +136,4 @@ export function calculateExamScore(
     questionsAnalysis
   };
 }
+
