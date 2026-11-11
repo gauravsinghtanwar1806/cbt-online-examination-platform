@@ -697,25 +697,61 @@ export default function ExamPage({ params }: { params: Promise<{ id: string }> }
                 <span className="flex-1 whitespace-pre-line min-w-0 break-words">
                   {currentQ?.questionText || (currentQ as any)?.question_text || (
                     <span className="text-amber-800 italic">
-                      [Question statement under review. Please refer to associated diagram and options below.]
+                      [Question statement under review. Please refer to options below.]
                     </span>
                   )}
                 </span>
               </div>
             </div>
 
-            {/* Rendered High-Resolution Question Image (Formulas, Diagrams, Vectors) */}
-            {(currentQ?.imageUrl || (currentQ as any)?.image_url) && (
+            {/* Match-the-Following Structured Table (Rendered cleanly when present) */}
+            {currentQ?.matchData && currentQ.matchData.rows && currentQ.matchData.rows.length > 0 && (
+              <div className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden my-3">
+                <div className="bg-blue-900/10 px-4 py-2 border-b border-slate-200 flex items-center justify-between text-xs font-bold text-slate-800 uppercase tracking-wider">
+                  <span>{currentQ.matchData.column1Title || 'List-I'}</span>
+                  <span>{currentQ.matchData.column2Title || 'List-II'}</span>
+                </div>
+                
+                <div className="divide-y divide-slate-100">
+                  {currentQ.matchData.rows.map((row, rIdx) => (
+                    <div 
+                      key={rIdx} 
+                      className="grid grid-cols-1 sm:grid-cols-2 gap-2 p-3 hover:bg-slate-50/70 transition text-xs sm:text-sm"
+                    >
+                      {/* Left Column Item */}
+                      <div className="flex items-start space-x-2 min-w-0">
+                        <span className="w-6 h-6 rounded-md bg-blue-100 text-blue-950 font-bold text-xs flex items-center justify-center shrink-0 border border-blue-300">
+                          {row.leftKey}
+                        </span>
+                        <span className="font-medium text-slate-900 leading-snug break-words">
+                          {row.leftText}
+                        </span>
+                      </div>
+
+                      {/* Right Column Item */}
+                      <div className="flex items-start space-x-2 min-w-0 pl-0 sm:pl-3 border-t sm:border-t-0 sm:border-l border-slate-100 pt-2 sm:pt-0">
+                        <span className="w-6 h-6 rounded-md bg-amber-100 text-amber-950 font-bold text-xs flex items-center justify-center shrink-0 border border-amber-300">
+                          {row.rightKey}
+                        </span>
+                        <span className="text-slate-800 leading-snug break-words">
+                          {row.rightText}
+                        </span>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Relevant Diagram or Illustration (Rendered ONLY if genuine diagram exists) */}
+            {Boolean(currentQ?.imageUrl || (currentQ as any)?.image_url) && (
               <div className="border border-slate-200 rounded-xl overflow-hidden bg-white shadow-sm p-2 sm:p-4 w-full text-center">
                 <img
                   src={currentQ?.imageUrl || (currentQ as any)?.image_url}
-                  alt={`Question ${currentIndex + 1} Diagram and Formula`}
+                  alt={`Diagram for Question ${currentIndex + 1}`}
                   className="max-h-[260px] xs:max-h-[320px] sm:max-h-[420px] w-auto max-w-full object-contain mx-auto rounded"
                   loading="eager"
                 />
-                <p className="text-[11px] text-slate-400 mt-1.5 italic hidden sm:block">
-                  Original test booklet diagram & formula view
-                </p>
               </div>
             )}
 

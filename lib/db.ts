@@ -207,7 +207,8 @@ export function getStudentQuestions(examId: string, chapterIndex?: number): Ques
     questionText: q.questionText || (q as any).question_text || '',
     options: q.options || [],
     optionImages: q.optionImages || (q as any).option_images,
-    imageUrl: q.imageUrl || (q as any).image_url || ''
+    imageUrl: q.imageUrl || (q as any).image_url || '',
+    matchData: q.matchData || (q as any).match_data
   }));
 }
 

@@ -415,24 +415,60 @@ export default function ResultsPage({ params }: { params: Promise<{ attemptId: s
 
                   {/* Collapsible Card Body */}
                   {isExpanded && (
-                    <div className="p-4 sm:p-6 space-y-5">
-                      {/* Diagram Image Crop */}
-                      {(q.imageUrl || (q as any).image_url) && (
-                        <div className="border border-slate-200 rounded-xl overflow-hidden bg-white p-3 inline-block max-w-full">
-                          <img
-                            src={q.imageUrl || (q as any).image_url}
-                            alt={`Question ${q.questionNumber}`}
-                            className="max-h-[300px] w-auto object-contain mx-auto"
-                          />
-                        </div>
-                      )}
-
-                      {/* Question Text */}
-                      <div className="text-sm sm:text-base text-slate-900 leading-relaxed font-semibold bg-slate-50/90 p-4 rounded-xl border border-slate-200">
+                    <div className="p-4 sm:p-6 space-y-4">
+                      {/* Question Statement (Primary readable text) */}
+                      <div className="text-sm sm:text-base text-slate-900 leading-relaxed font-semibold bg-slate-50/90 p-4 rounded-xl border border-slate-200 break-words">
                         {q.questionText || (q as any).question_text || (
                           <span className="text-slate-400 italic">Question statement</span>
                         )}
                       </div>
+
+                      {/* Match-the-Following Structured Table (If applicable) */}
+                      {q.matchData && q.matchData.rows && q.matchData.rows.length > 0 && (
+                        <div className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden my-3">
+                          <div className="bg-blue-900/10 px-4 py-2 border-b border-slate-200 flex items-center justify-between text-xs font-bold text-slate-800 uppercase tracking-wider">
+                            <span>{q.matchData.column1Title || 'List-I'}</span>
+                            <span>{q.matchData.column2Title || 'List-II'}</span>
+                          </div>
+                          
+                          <div className="divide-y divide-slate-100">
+                            {q.matchData.rows.map((row, rIdx) => (
+                              <div 
+                                key={rIdx} 
+                                className="grid grid-cols-1 sm:grid-cols-2 gap-2 p-3 hover:bg-slate-50/70 transition text-xs sm:text-sm"
+                              >
+                                <div className="flex items-start space-x-2 min-w-0">
+                                  <span className="w-6 h-6 rounded-md bg-blue-100 text-blue-950 font-bold text-xs flex items-center justify-center shrink-0 border border-blue-300">
+                                    {row.leftKey}
+                                  </span>
+                                  <span className="font-medium text-slate-900 leading-snug break-words">
+                                    {row.leftText}
+                                  </span>
+                                </div>
+                                <div className="flex items-start space-x-2 min-w-0 pl-0 sm:pl-3 border-t sm:border-t-0 sm:border-l border-slate-100 pt-2 sm:pt-0">
+                                  <span className="w-6 h-6 rounded-md bg-amber-100 text-amber-950 font-bold text-xs flex items-center justify-center shrink-0 border border-amber-300">
+                                    {row.rightKey}
+                                  </span>
+                                  <span className="text-slate-800 leading-snug break-words">
+                                    {row.rightText}
+                                  </span>
+                                </div>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+
+                      {/* Diagram Image (Only if genuine diagram exists) */}
+                      {Boolean(q.imageUrl || (q as any).image_url) && (
+                        <div className="border border-slate-200 rounded-xl overflow-hidden bg-white p-3 text-center">
+                          <img
+                            src={q.imageUrl || (q as any).image_url}
+                            alt={`Diagram for Question ${q.questionNumber}`}
+                            className="max-h-[260px] sm:max-h-[320px] w-auto max-w-full object-contain mx-auto rounded"
+                          />
+                        </div>
+                      )}
 
                       {/* Options with Answer Comparison */}
                       <div className="space-y-2">

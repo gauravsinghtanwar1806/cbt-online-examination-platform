@@ -97,6 +97,7 @@ export function calculateExamScore(
       questionText: q.questionText || (q as any).question_text || '',
       options: q.options || [],
       imageUrl: q.imageUrl || (q as any).image_url || '',
+      matchData: q.matchData || (q as any).match_data,
       selectedOption: selectedOption,
       approvedAnswer: approvedAnswer,
       isCorrect: isCorrect,

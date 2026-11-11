@@ -48,6 +48,19 @@ export interface Exam {
   markingScheme: MarkingScheme;
 }
 
+export interface MatchRow {
+  leftKey: string;
+  leftText: string;
+  rightKey: string;
+  rightText: string;
+}
+
+export interface MatchData {
+  column1Title: string;
+  column2Title: string;
+  rows: MatchRow[];
+}
+
 export interface Question {
   id: string;
   examId: string;
@@ -60,6 +73,7 @@ export interface Question {
   options: string[];
   optionImages?: string[];
   imageUrl?: string;
+  matchData?: MatchData;
   officialAnswer?: number;
   solutionText?: string;
   solutionFinalAnswer?: number;
@@ -80,6 +94,7 @@ export interface QuestionStudentView {
   options: string[];
   optionImages?: string[];
   imageUrl?: string;
+  matchData?: MatchData;
 }
 
 export interface AnswerVerification {
@@ -126,6 +141,7 @@ export interface QuestionResultAnalysis {
   options: string[];
   optionImages?: string[];
   imageUrl?: string;
+  matchData?: MatchData;
   selectedOption: number | null;
   approvedAnswer: number;
   isCorrect: boolean;
