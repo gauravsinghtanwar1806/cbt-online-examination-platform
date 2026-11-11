@@ -459,6 +459,32 @@ export default function ResultsPage({ params }: { params: Promise<{ attemptId: s
                         </div>
                       )}
 
+                      {/* Structured Table Question View (e.g. Q34 parameter comparison table) */}
+                      {Boolean((q as any)?.tableData || (q as any)?.table_data) && (
+                        <div className="overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-sm my-2">
+                          <table className="w-full text-left border-collapse text-xs sm:text-sm">
+                            <thead>
+                              <tr className="bg-slate-100 border-b border-slate-200 text-slate-800 font-bold">
+                                {(((q as any)?.tableData || (q as any)?.table_data)?.headers || []).map((h: string, idx: number) => (
+                                  <th key={idx} className="p-2 sm:p-3 whitespace-nowrap">{h}</th>
+                                ))}
+                              </tr>
+                            </thead>
+                            <tbody className="divide-y divide-slate-100">
+                              {(((q as any)?.tableData || (q as any)?.table_data)?.rows || []).map((row: string[], rIdx: number) => (
+                                <tr key={rIdx} className="hover:bg-blue-50/50 transition">
+                                  {row.map((cell: string, cIdx: number) => (
+                                    <td key={cIdx} className={`p-2 sm:p-3 ${cIdx === 0 ? 'font-bold text-blue-900 bg-slate-50/70' : 'text-slate-800'}`}>
+                                      {cell}
+                                    </td>
+                                  ))}
+                                </tr>
+                              ))}
+                            </tbody>
+                          </table>
+                        </div>
+                      )}
+
                       {/* Diagram Image (Only if genuine diagram exists) */}
                       {Boolean(q.imageUrl || (q as any).image_url) && (
                         <div className="border border-slate-200 rounded-xl overflow-hidden bg-white p-3 text-center">

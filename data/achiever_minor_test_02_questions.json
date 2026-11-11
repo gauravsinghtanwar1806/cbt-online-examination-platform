@@ -58,8 +58,8 @@
       "2 F₀a",
       "F₀a"
     ],
-    "imageUrl": "/images/achiever/q_2.png",
-    "image_url": "/images/achiever/q_2.png",
+    "imageUrl": "/images/achiever/diag_q2.png",
+    "image_url": "/images/achiever/diag_q2.png",
     "officialAnswer": 1,
     "official_answer": 1,
     "solutionText": "Question Explanation: The question asks to find the work done by a variable force when a\nparticle moves from x = –a to x = +2a.\nConcept: Work done by variable force.\nSolution: \nFinal answer: Option (1)",
@@ -100,8 +100,8 @@
       "12000 J",
       "–4500 J"
     ],
-    "imageUrl": "/images/achiever/q_3.png",
-    "image_url": "/images/achiever/q_3.png",
+    "imageUrl": "/images/achiever/diag_q3.png",
+    "image_url": "/images/achiever/diag_q3.png",
     "officialAnswer": 4,
     "official_answer": 4,
     "solutionText": "Explaining : Find the work done on the body in first 2 sec.\nConcept : This question is based on work-energy theorem.\nSolution :\nSlope (a) = \n = –5 m/s\n2\nBy the graph at t = 0 sec, v1 = 50 m/s\nvelocity at t = 2 sec,  v2 = 50 – (5)(2) = 40 m/s\nwork done is change in kE \n\n---P42---\nω = \nFinal Answer : (4)",
@@ -130,8 +130,8 @@
       "–400 J",
       "–800 J"
     ],
-    "imageUrl": "/images/achiever/q_4.png",
-    "image_url": "/images/achiever/q_4.png",
+    "imageUrl": "/images/achiever/diag_q4.png",
+    "image_url": "/images/achiever/diag_q4.png",
     "officialAnswer": 1,
     "official_answer": 1,
     "solutionText": "Explaining : Find the work done by tension on the block.\nConcept : This question is based on work done by tension.\nSolution :\nAcceleration of block is = 10 m/s\n2\n∴ displacement s =  at\n2 =  × 10 × 4 = 20m\nTension in the string is 40 N\nand work done by tension is\nω = T× s = 40 × 20 = 800 J\nFinal Answer : (1)",
@@ -160,8 +160,8 @@
       "0.40 m",
       "0.10 m"
     ],
-    "imageUrl": "",
-    "image_url": "",
+    "imageUrl": "/images/achiever/diag_q5.png",
+    "image_url": "/images/achiever/diag_q5.png",
     "officialAnswer": 4,
     "official_answer": 4,
     "solutionText": "Explaining : Find the maximum compression in spring.\nConcept : This question is based on conservation of mechanical energy.\nSolution :\nFrom COME\ng = 9.8 ms\n2\n⇒  (2) (1960)\n2 = 2 × 9.8 (x + 0.4)\n⇒ x = 0.10 m\nFinal Answer : (4)",
@@ -190,8 +190,8 @@
       "4 × 10 –4 joule",
       "1.6 × 10 –3 joule"
     ],
-    "imageUrl": "/images/achiever/q_6.png",
-    "image_url": "/images/achiever/q_6.png",
+    "imageUrl": "/images/achiever/diag_q6.png",
+    "image_url": "/images/achiever/diag_q6.png",
     "officialAnswer": 1,
     "official_answer": 1,
     "solutionText": "Explaining : Find the total work done.\nConcept : This question is based on work done by constant force.\nSolution :\nWork done = Area covered in between force displacement curve and displacement axis\n = Mass × Area covered in between acceleration–displacement curve and displacement axis.\n    = \n    = \nFinal Answer : (1)",
@@ -220,8 +220,8 @@
       "5 J",
       "4 J"
     ],
-    "imageUrl": "",
-    "image_url": "",
+    "imageUrl": "/images/achiever/diag_q7.png",
+    "image_url": "/images/achiever/diag_q7.png",
     "officialAnswer": 2,
     "official_answer": 2,
     "solutionText": "Explaining : Find the total work done on the particle.\nConcept : This question is based on work done by variable force.\nSolution :\n\n---P43---\nFor (0, 0) to (0, 2)\n     \nFor (0, 2) to (2, 2)\n       \nTotal work = W1 + W2\n                  = 6 + 4 = 10 J\nFinal Answer : (2)",
@@ -250,8 +250,8 @@
       "70J",
       "280J"
     ],
-    "imageUrl": "/images/achiever/q_8.png",
-    "image_url": "/images/achiever/q_8.png",
+    "imageUrl": "/images/achiever/diag_q8.png",
+    "image_url": "/images/achiever/diag_q8.png",
     "officialAnswer": 3,
     "official_answer": 3,
     "solutionText": "Explaining : Find the K.E. of block at position C.\nConcept : This question is based on conservation of mechanical energy.\nSolution :\nGain in KE = Loss in PE\n          = 70 J\nFinal Answer : (3)",
@@ -532,8 +532,8 @@
       "200 N/m",
       "None of these"
     ],
-    "imageUrl": "",
-    "image_url": "",
+    "imageUrl": "/images/achiever/diag_q15.png",
+    "image_url": "/images/achiever/diag_q15.png",
     "officialAnswer": 1,
     "official_answer": 1,
     "solutionText": "Explanation the Question : Find spring constant from max compression on a rough\nsurface.\nConcept: This question is based on work-energy theorem.\nSolution:\nwfriction = ΔKE + ΔU\n– μmg(ℓ + x) = \n\n---P46---\nFinal answer : (1)",
@@ -616,8 +616,8 @@
       "Drift speed of electrons at point A is lesser than that of at point B.",
       "Drift speed of electrons at point A is same as that of at point B."
     ],
-    "imageUrl": "/images/achiever/q_17.png",
-    "image_url": "/images/achiever/q_17.png",
+    "imageUrl": "/images/achiever/diag_q17.png",
+    "image_url": "/images/achiever/diag_q17.png",
     "officialAnswer": 3,
     "official_answer": 3,
     "solutionText": "Explaining : To choose the current statements.\nConcept : This question is based on Drift Velocity\nSolution : \nElectric current is same in different portions of wire but current density (or electric field) is\ndifferent in different portions of the wire. \nFrom I = neAvd we have \nFinal Answer : (3)",
@@ -688,8 +688,8 @@
       "tan 2θ",
       "1 / sin 2θ"
     ],
-    "imageUrl": "/images/achiever/q_19.png",
-    "image_url": "/images/achiever/q_19.png",
+    "imageUrl": "/images/achiever/diag_q19.png",
+    "image_url": "/images/achiever/diag_q19.png",
     "officialAnswer": 2,
     "official_answer": 2,
     "solutionText": "Explaining : To fine R1 + R2 is proportional to \nConcept : This question is based on VI characteristics \nSolution : \nSlope of VI curve = Resistance\nR1 = tan θ ; R2 = tan (90 – θ) = cot θ\nR2 + R1 \n tan θ + cot θ = tan θ + \n= \n = \n = \nFinal Answer : (2)",
@@ -730,8 +730,8 @@
       "24 V",
       "32 V"
     ],
-    "imageUrl": "/images/achiever/q_20.png",
-    "image_url": "/images/achiever/q_20.png",
+    "imageUrl": "/images/achiever/diag_q20.png",
+    "image_url": "/images/achiever/diag_q20.png",
     "officialAnswer": 3,
     "official_answer": 3,
     "solutionText": "Explanation : To find EMF when potential drop is 12 volt across 6Ω as shown in circuit. \nConcept : This question is based on KVL\nSolution :\nFrom the above diagram the branch having 6Ω, 12Ω & 4Ω is in parallel with \"E\" therefore,\nE = 12 + 12\n    = 24 volt\nFinal Answer : (3)",
@@ -760,8 +760,8 @@
       "6 Ω",
       "12 Ω"
     ],
-    "imageUrl": "/images/achiever/q_21.png",
-    "image_url": "/images/achiever/q_21.png",
+    "imageUrl": "/images/achiever/diag_q21.png",
+    "image_url": "/images/achiever/diag_q21.png",
     "officialAnswer": 2,
     "official_answer": 2,
     "solutionText": "Explaining : To find equivalent resistance\nConcept : This question is based on combination of resistors\nSolution : \n\n---P48---\nFinal Answer : (2)",
@@ -844,8 +844,8 @@
       "1.4 V",
       "4.2 V"
     ],
-    "imageUrl": "/images/achiever/q_23.png",
-    "image_url": "/images/achiever/q_23.png",
+    "imageUrl": "/images/achiever/diag_q23.png",
+    "image_url": "/images/achiever/diag_q23.png",
     "officialAnswer": 4,
     "official_answer": 4,
     "solutionText": "Explaining : To find emf of each cell\nConcept : This question is based on combination of cells\nSolution : \nFor combination V = 10E –(10r)i\nat i = 12 A ; V = 6V ; Put values\n6 = 10 E –(10r) (12) .....(i)\nat i = 14 A ;  V = 0\n0 = 10 E –(10r) (14) ⇒ 10 E = 140r .... (ii)\nE = 4.2 Volt\nFinal Answer : (4)",
@@ -904,8 +904,8 @@
       "15.5 W",
       "25 W"
     ],
-    "imageUrl": "",
-    "image_url": "",
+    "imageUrl": "/images/achiever/diag_q25.png",
+    "image_url": "/images/achiever/diag_q25.png",
     "officialAnswer": 1,
     "official_answer": 1,
     "solutionText": "Explain the Question : We need to calculate maximum power dissipated in resistance R of\nthe given circuit. \nConcept : This question is based on maximum power transfer occurs when R = req.\nSolution : \nEeq = (10 + 5) = 15V and\nreq = (3 + 2) = 5Ω\nFor maximum power in R\nR = req = 5Ω\nSo current \nPower in resistance R\nP = I\n2R\n= (1.5)\n2 × 5W\n= 11.25 W\nFinal answer : 1",
@@ -934,8 +934,8 @@
       "D",
       "E"
     ],
-    "imageUrl": "/images/achiever/q_26.png",
-    "image_url": "/images/achiever/q_26.png",
+    "imageUrl": "/images/achiever/diag_q26.png",
+    "image_url": "/images/achiever/diag_q26.png",
     "officialAnswer": 2,
     "official_answer": 2,
     "solutionText": "Explain Question:\nFind which bulb glow with maximum brightness.\nConcept:\nBrightness of bulb \n.\nSolution:\nIn given question all bulbs are identical i.e. having same resistance.\nSo P × V\n2\nPotential difference of (C) is\nMaximum hence bulb (C) lights with maximum brightness.\n\n---P50---\nFinal Answer: Option (2)",
@@ -1001,15 +1001,15 @@
     "questionText": "The reading of the ammeter as per figure shown is :",
     "question_text": "The reading of the ammeter as per figure shown is :",
     "options": [
-      "1 A",
-      "2 A",
-      "0.5 A",
-      "4 A"
+      "1/8 A",
+      "3/4 A",
+      "1/2 A",
+      "1/4 A"
     ],
-    "imageUrl": "/images/achiever/q_28.png",
-    "image_url": "/images/achiever/q_28.png",
-    "officialAnswer": 4,
-    "official_answer": 4,
+    "imageUrl": "/images/achiever/diag_q28.png",
+    "image_url": "/images/achiever/diag_q28.png",
+    "officialAnswer": 1,
+    "official_answer": 1,
     "solutionText": "Explaining : Given : Electric circuit\n                      Ask : Reading of ammeter\nConcept : This question is based on key points :\n(i) \n(ii) \nSolution :\nx–2 + x –4 + 2x = 0 \n4x = 6 \nx = 3/2 = 1.5 V\nLet say I1, I2 and I3 are current in branches applying KCl on assuming potential at lift as x and\non Right as zero. \nI1 = \nFinal Answer : (4)",
     "solution_text": "Explaining : Given : Electric circuit\n                      Ask : Reading of ammeter\nConcept : This question is based on key points :\n(i) \n(ii) \nSolution :\nx–2 + x –4 + 2x = 0 \n4x = 6 \nx = 3/2 = 1.5 V\nLet say I1, I2 and I3 are current in branches applying KCl on assuming potential at lift as x and\non Right as zero. \nI1 = \nFinal Answer : (4)",
     "solutionFinalAnswer": 4,
@@ -1048,8 +1048,8 @@
       "C",
       "D"
     ],
-    "imageUrl": "/images/achiever/q_29.png",
-    "image_url": "/images/achiever/q_29.png",
+    "imageUrl": "/images/achiever/diag_q29.png",
+    "image_url": "/images/achiever/diag_q29.png",
     "officialAnswer": 3,
     "official_answer": 3,
     "solutionText": "Explaining : Given : Electric circuit with bulb\n                      Ask : Brightness of bulb\nConcept : This question is based on key points :\n(i) \n(ii) \nSolution :\n\n---P51---\nP = I\n2R\nCalculation :- As all bulls are identical and the power (related by brightness) is given as P =\nI\n2R so me bulb with the most current will be brightest. In Parallel connection, the current is\nspilt between the branches while in series the current will be same.\nSo in figure we can set mat bulb 'C' will receive into maximum current while the bulbs A, B, D\nwill not get complete current as 'C' as m are connected in Parallel trenches. So bulb 'C' will\nbe the brightest.\nConclusion : The current answer option 3.\nFinal Answer : (3)",
@@ -1078,8 +1078,8 @@
       "5 : 4 : 3",
       "4 : 3 : 2"
     ],
-    "imageUrl": "/images/achiever/q_30.png",
-    "image_url": "/images/achiever/q_30.png",
+    "imageUrl": "/images/achiever/diag_q30.png",
+    "image_url": "/images/achiever/diag_q30.png",
     "officialAnswer": 3,
     "official_answer": 3,
     "solutionText": "Explaining : Given : Electric network\n                     Ask : Ratio of equivalent resistance of three different cases\nConcept : This question is based on key points :\n(i) \n(ii) \n(iii) Circuit reduction\nSolution :\n5 : 4 : 3\nFinal Answer : (3)",
@@ -1108,8 +1108,8 @@
       "If R4 is slightly decreased, the current in galvanometer flows from D to B",
       "If R3 is slightly increased, the current in galvanometer flows from B to D"
     ],
-    "imageUrl": "/images/achiever/q_31.png",
-    "image_url": "/images/achiever/q_31.png",
+    "imageUrl": "/images/achiever/diag_q31.png",
+    "image_url": "/images/achiever/diag_q31.png",
     "officialAnswer": 3,
     "official_answer": 3,
     "solutionText": "Explanation : To find direction of flow of current in galvanometer.\nConcept : This question is based on galvanometer (wheat stone bridge)\nSolution : \nIf  \n  Current B → D\nFinal Answer : (3)",
@@ -1202,13 +1202,13 @@
     "subject": "Physics",
     "questionType": "diagram_based",
     "question_type": "diagram_based",
-    "questionText": "On placing a dielectric slab between the plates of a charged condenser its:-\n \nCapacity\nCharge\nPotential\nDifference\nEnergy\nstored",
-    "question_text": "On placing a dielectric slab between the plates of a charged condenser its:-\n \nCapacity\nCharge\nPotential\nDifference\nEnergy\nstored",
+    "questionText": "On placing a dielectric slab between the plates of a charged condenser, determine the variation in its parameters:",
+    "question_text": "On placing a dielectric slab between the plates of a charged condenser, determine the variation in its parameters:",
     "options": [
-      "1",
-      "2",
-      "3",
-      "4"
+      "Capacity decreases, Charge remains unchanged, Potential difference decreases, Energy stored increases",
+      "Capacity increases, Charge remains unchanged, Potential difference increases, Energy stored increases",
+      "Capacity increases, Charge remains unchanged, Potential difference decreases, Energy stored decreases",
+      "Capacity decreases, Charge remains unchanged, Potential difference increases, Energy stored decreases"
     ],
     "imageUrl": "",
     "image_url": "",
@@ -1221,7 +1221,85 @@
     "sourcePdf": "Achiever Minor Test 02.pdf",
     "source_pdf": "Achiever Minor Test 02.pdf",
     "sourcePage": 10,
-    "source_page": 10
+    "source_page": 10,
+    "tableData": {
+      "headers": [
+        "Option",
+        "Capacity",
+        "Charge",
+        "Potential Difference",
+        "Energy stored"
+      ],
+      "rows": [
+        [
+          "(1)",
+          "decreases",
+          "remains unchanged",
+          "decreases",
+          "increases"
+        ],
+        [
+          "(2)",
+          "increases",
+          "remains unchanged",
+          "increases",
+          "increases"
+        ],
+        [
+          "(3)",
+          "increases",
+          "remains unchanged",
+          "decreases",
+          "decreases"
+        ],
+        [
+          "(4)",
+          "decreases",
+          "remains unchanged",
+          "increases",
+          "decreases"
+        ]
+      ]
+    },
+    "table_data": {
+      "headers": [
+        "Option",
+        "Capacity",
+        "Charge",
+        "Potential Difference",
+        "Energy stored"
+      ],
+      "rows": [
+        [
+          "(1)",
+          "decreases",
+          "remains unchanged",
+          "decreases",
+          "increases"
+        ],
+        [
+          "(2)",
+          "increases",
+          "remains unchanged",
+          "increases",
+          "increases"
+        ],
+        [
+          "(3)",
+          "increases",
+          "remains unchanged",
+          "decreases",
+          "decreases"
+        ],
+        [
+          "(4)",
+          "decreases",
+          "remains unchanged",
+          "increases",
+          "decreases"
+        ]
+      ]
+    }
   },
   {
     "id": "achiever_035",
@@ -1300,8 +1378,8 @@
       "1",
       "4/3"
     ],
-    "imageUrl": "/images/achiever/q_37.png",
-    "image_url": "/images/achiever/q_37.png",
+    "imageUrl": "/images/achiever/diag_q37.png",
+    "image_url": "/images/achiever/diag_q37.png",
     "officialAnswer": 4,
     "official_answer": 4,
     "solutionText": "Explaining the Question: To find the ratio of charge stored in C1 and C2.\nConcept : Charge on capacitor is Q = CV\nSolution :\nIn steady state\nReq = 12Ω\nP.D across C1 = 3V\nP.D across C2 = 4V\nq1 = C1V1 = 12 μC\nq2 = C2V2 = 24 μC\nFinal Answer : (4)",
@@ -1342,8 +1420,8 @@
       "Exponential decay graph",
       "Zero current graph"
     ],
-    "imageUrl": "",
-    "image_url": "",
+    "imageUrl": "/images/achiever/diag_q38.png",
+    "image_url": "/images/achiever/diag_q38.png",
     "officialAnswer": 2,
     "official_answer": 2,
     "solutionText": "Explaining the Question: To choose correct graph between i and t.\nConcept : Q = CV\n\n---P54---\nSolution :\nQ = CV\nC↑ , Q↑ ,\n constant,\ni ∝ Constant\nFinal Answer : (2)",
@@ -1384,8 +1462,8 @@
       "(8/3) ε₀A/d",
       "None"
     ],
-    "imageUrl": "",
-    "image_url": "",
+    "imageUrl": "/images/achiever/diag_q39.png",
+    "image_url": "/images/achiever/diag_q39.png",
     "officialAnswer": 3,
     "official_answer": 3,
     "solutionText": "Question Explanation:\nFive parallel metal plates of area A are arranged equidistantly at d. Plates 1 and 4 are\nconnected, and plates 3 and 5 are connected. The capacitance between A and B is required.\nConcept :\nCapacitance (combination of plotes)\nFormula Used:\n• Capacitance of a parallel plate capacitor:\nC = \n• For series capacitors:\n• For parallel capacitors:\nCeq = \nVisual Diagram:\nCalculation:\nCeq = C + \nCeq = C +  C\nCeq = C         ∵ C = \n\n---P55---\nFinal Answer:\nThe correct option is (3).",
@@ -1426,8 +1504,8 @@
       "10 µF",
       "5 µF"
     ],
-    "imageUrl": "/images/achiever/q_40.png",
-    "image_url": "/images/achiever/q_40.png",
+    "imageUrl": "/images/achiever/diag_q40.png",
+    "image_url": "/images/achiever/diag_q40.png",
     "officialAnswer": 1,
     "official_answer": 1,
     "solutionText": "Explanation : To find equivalent capacitance between A and B\nConcept : This question is based on equivalent capacitance\nSolution : \nEquivalent diagram                    \n≡  \n≡ \nC = 18 µF    \nFinal Answer : (1)",
@@ -1456,8 +1534,8 @@
       "I → b ; II → a ; III → c ; IV → d",
       "I → c ; II → d ; III → c ; IV → a"
     ],
-    "imageUrl": "/images/achiever/q_41.png",
-    "image_url": "/images/achiever/q_41.png",
+    "imageUrl": "/images/achiever/diag_q41.png",
+    "image_url": "/images/achiever/diag_q41.png",
     "officialAnswer": 2,
     "official_answer": 2,
     "solutionText": "Explanation: For the circuit shown, match the charge supplied by the battery and the\ncharges on specific capacitors.\nConcept: Capacitors in series have the same charge, and capacitors in parallel have the same\nvoltage. The total charge is \n.\nSolution:\n(i) Qbattery = Ceff V\n     = 2 × 30 = 60 μC\n(ii) Q4μF = 4 × 10\n             = 40 μC\n(iii) Q2μF = 2 × 10\n               = 20 μC\n(iv) Q3μF = 3 × 20\n               = 60 μC\nFinal Answer : (2)\n\n---P56---",
@@ -1546,8 +1624,8 @@
       "10µC",
       "25µC"
     ],
-    "imageUrl": "/images/achiever/q_42.png",
-    "image_url": "/images/achiever/q_42.png",
+    "imageUrl": "/images/achiever/diag_q42.png",
+    "image_url": "/images/achiever/diag_q42.png",
     "officialAnswer": 3,
     "official_answer": 3,
     "solutionText": "Explanation : To find charge on the given capacitor\nConcept : This question is based on RC circuit\nSolution : \nCurrent in 2Ω is 1 amp.\nPotential difference across capacitor is 2 volt\nQ = CV = 10 µC\nFinal Answer : (3)",
@@ -1576,8 +1654,8 @@
       "R1",
       "Cannot be predicted"
     ],
-    "imageUrl": "/images/achiever/q_43.png",
-    "image_url": "/images/achiever/q_43.png",
+    "imageUrl": "/images/achiever/diag_q43.png",
+    "image_url": "/images/achiever/diag_q43.png",
     "officialAnswer": 3,
     "official_answer": 3,
     "solutionText": "Explanation : To find the smallest of the three resistance\nConcept : This question is based on RC circuit\nSolution : \nSlope \nAt t =0, Slope = i\n0 = \nQ Slope 1 > Slope2 > Slope3\n∴ R1 < R2 < R3\nFinal Answer : (3)",
@@ -1606,8 +1684,8 @@
       "1.2 A",
       "1.5 A"
     ],
-    "imageUrl": "/images/achiever/q_44.png",
-    "image_url": "/images/achiever/q_44.png",
+    "imageUrl": "/images/achiever/diag_q44.png",
+    "image_url": "/images/achiever/diag_q44.png",
     "officialAnswer": 2,
     "official_answer": 2,
     "solutionText": "Explain the Question : In the given RC circuit, we need to find the current through 2Ω\nresistor in steady state.  \nConcept : This question is based on RC circuit at steady state.\nSolution :\nAt steady state no current is flow in capacitor branch\n and \n= 0.9 A\nFinal Answer : 2",
@@ -3040,8 +3118,8 @@
       "3 : 2 : 1",
       "6 : 3 : 2"
     ],
-    "imageUrl": "",
-    "image_url": "",
+    "imageUrl": "/images/achiever/diag_q87.png",
+    "image_url": "/images/achiever/diag_q87.png",
     "officialAnswer": 4,
     "official_answer": 4,
     "solutionText": "Explain the question: Find ratio of cations reduced when equal moles of electrons are\npassed through AgNO3, CuSO4, and AuCl3 solutions.\nConcept: Amount of metal deposited ∝ moles of electrons / n-factor.\nSolution:\n\n---P66---\nFor reduction:\nAg\n+ + e⁻ → Ag  (n = 1)\nCu\n2+ + 2e⁻ → Cu  (n = 2)\nAu\n3+ + 3e⁻ → Au  (n = 3)\nMoles of electrons = 3 mol each.\nMoles of cations reduced = (moles of e\n–) / n\nAg\n+ → 3/1 = 3\nCu\n2+ → 3/2 = 1.5\nAu\n3+ → 3/3 = 1\nRatio = 3 : 1.5 : 1 = 6 : 3 : 2\nFinal Answer: 4",
@@ -3096,9 +3174,9 @@
     "question_text": "Equivalent conductivity of Fe2(SO4)3 is related to molar conductivity by the expression :-",
     "options": [
       "Λeq = 3Λm",
-      "Option (2)",
+      "Λeq = Λm / 6",
       "Λeq = Λm",
-      "Option (4)"
+      "Λeq = Λm / 3"
     ],
     "imageUrl": "",
     "image_url": "",
@@ -5230,8 +5308,8 @@
       "Energy difference between transition state and product will be more than activation energy",
       "The substrate will go through the transition state"
     ],
-    "imageUrl": "/images/achiever/q_156.png",
-    "image_url": "/images/achiever/q_156.png",
+    "imageUrl": "/images/achiever/diag_q156.png",
+    "image_url": "/images/achiever/diag_q156.png",
     "officialAnswer": 3,
     "official_answer": 3,
     "solutionText": "Solution:\nSince the diagram represents activation energy, it likely shows the energy changes during a\nchemical reaction. Here, the key change is that P (Product) has a higher energy than S\n(Substrate), meaning the reaction absorbs energy, making it endothermic.\nCorrect Answer: Option 3: \"Energy difference between transition state and product will be\nmore than activation energy\" is incorrect.\nActivation energy (Ea) is the energy difference between the transition state and substrate, not\nbetween the transition state and product.\nThe energy difference between the transition state and product is usually smaller than\nactivation energy.",
@@ -5440,8 +5518,8 @@
       "A–S, B–G2, C–G1, D–M Phase",
       "A–M Phase, B–G1, C–G1, D–S"
     ],
-    "imageUrl": "/images/achiever/q_161.png",
-    "image_url": "/images/achiever/q_161.png",
+    "imageUrl": "/images/achiever/diag_q161.png",
+    "image_url": "/images/achiever/diag_q161.png",
     "officialAnswer": 1,
     "official_answer": 1,
     "solutionText": "Solution : A–G1, B–S, C–G2, D–M Phase\n\n---P76---\nFinal Answer : (1)",
@@ -5530,8 +5608,8 @@
       "A–Telophase, B–Cytokinesis, C–Anaphase",
       "A–Cytokinesis, B–Anaphase, C–Telophase"
     ],
-    "imageUrl": "/images/achiever/q_164.png",
-    "image_url": "/images/achiever/q_164.png",
+    "imageUrl": "/images/achiever/diag_q164.png",
+    "image_url": "/images/achiever/diag_q164.png",
     "officialAnswer": 2,
     "official_answer": 2,
     "solutionText": "Solution : A–Anaphase, B–Telophase, C–Cytokinesis\nFinal Answer : (2)",
@@ -5800,8 +5878,8 @@
       "A–Metaphase I, B–Telophase I, C–Prophase I, D–Anaphase I",
       "A–Anaphase I, B–Prophase I, C–Telophase I, D–Metaphase I"
     ],
-    "imageUrl": "/images/achiever/q_173.png",
-    "image_url": "/images/achiever/q_173.png",
+    "imageUrl": "/images/achiever/diag_q173.png",
+    "image_url": "/images/achiever/diag_q173.png",
     "officialAnswer": 2,
     "official_answer": 2,
     "solutionText": "Solution : A–Prophase I, B–Metaphase I, C–Anaphase I, D–Telophase I.\nFinal Answer : (2)",
@@ -5915,13 +5993,13 @@
     "questionText": "A stage of cell division is shown in the below figure. Select the answer which gives the\ncorrect identification of this stage with its characteristics.",
     "question_text": "A stage of cell division is shown in the below figure. Select the answer which gives the\ncorrect identification of this stage with its characteristics.",
     "options": [
-      "1",
-      "2",
-      "3",
-      "4"
+      "Telophase - Nuclear envelope reforms, Golgi complex reforms",
+      "Late anaphase - Chromosomes move away from the equatorial plate, Golgi complex is not present.",
+      "Cytokinesis - Cell plate formed and mitochondria is distributed between two daughter cells.",
+      "Telophase - Endoplasmic reticulum and nucleolus is not reformed yet."
     ],
-    "imageUrl": "/images/achiever/q_177.png",
-    "image_url": "/images/achiever/q_177.png",
+    "imageUrl": "/images/achiever/diag_q177.png",
+    "image_url": "/images/achiever/diag_q177.png",
     "officialAnswer": 1,
     "official_answer": 1,
     "solutionText": "Solution : Telophase - Nuclear envelope reforms, Golgi complex reforms.\nFinal Answer : (1)",

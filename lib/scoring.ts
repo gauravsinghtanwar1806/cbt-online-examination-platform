@@ -98,6 +98,7 @@ export function calculateExamScore(
       options: q.options || [],
       imageUrl: q.imageUrl || (q as any).image_url || '',
       matchData: q.matchData || (q as any).match_data,
+      tableData: (q as any).tableData || (q as any).table_data,
       selectedOption: selectedOption,
       approvedAnswer: approvedAnswer,
       isCorrect: isCorrect,

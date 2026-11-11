@@ -208,7 +208,8 @@ export function getStudentQuestions(examId: string, chapterIndex?: number): Ques
     options: q.options || [],
     optionImages: q.optionImages || (q as any).option_images,
     imageUrl: q.imageUrl || (q as any).image_url || '',
-    matchData: q.matchData || (q as any).match_data
+    matchData: q.matchData || (q as any).match_data,
+    tableData: q.tableData || (q as any).table_data
   }));
 }
 

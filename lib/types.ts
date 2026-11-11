@@ -61,6 +61,11 @@ export interface MatchData {
   rows: MatchRow[];
 }
 
+export interface TableData {
+  headers: string[];
+  rows: string[][];
+}
+
 export interface Question {
   id: string;
   examId: string;
@@ -74,6 +79,7 @@ export interface Question {
   optionImages?: string[];
   imageUrl?: string;
   matchData?: MatchData;
+  tableData?: TableData;
   officialAnswer?: number;
   solutionText?: string;
   solutionFinalAnswer?: number;
@@ -95,6 +101,7 @@ export interface QuestionStudentView {
   optionImages?: string[];
   imageUrl?: string;
   matchData?: MatchData;
+  tableData?: TableData;
 }
 
 export interface AnswerVerification {
@@ -142,6 +149,7 @@ export interface QuestionResultAnalysis {
   optionImages?: string[];
   imageUrl?: string;
   matchData?: MatchData;
+  tableData?: TableData;
   selectedOption: number | null;
   approvedAnswer: number;
   isCorrect: boolean;
