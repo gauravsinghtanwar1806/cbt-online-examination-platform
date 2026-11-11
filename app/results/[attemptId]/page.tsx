@@ -18,16 +18,44 @@ export default function ResultsPage({ params }: { params: Promise<{ attemptId: s
 
   useEffect(() => {
     async function loadResult() {
+      // 1. Check local storage first for instantaneous offline/cold-start render
+      let localCachedResult: ExamResult | null = null;
+      try {
+        const localSaved = localStorage.getItem(`cbt_result_${attemptId}`);
+        if (localSaved) {
+          localCachedResult = JSON.parse(localSaved);
+          if (localCachedResult) {
+            setResult(localCachedResult);
+            setLoading(false);
+          }
+        }
+      } catch (e) {}
+
+      // 2. Fetch fresh result from backend API
       try {
         const res = await fetch(`/api/attempts/${attemptId}`);
         const data = await res.json();
         if (data.success && data.result) {
           setResult(data.result);
+          // Keep localStorage up to date
+          try {
+            localStorage.setItem(`cbt_result_${attemptId}`, JSON.stringify(data.result));
+          } catch (e) {}
+        } else if (!localCachedResult) {
+          alert('Result could not be loaded from server.');
         } else {
-          alert('Result could not be loaded.');
+          // If server cold-started without cached result, re-sync cached result to server
+          fetch(`/api/attempts/${attemptId}`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ result: localCachedResult })
+          }).catch(() => {});
         }
       } catch (e) {
-        console.error('Error fetching result:', e);
+        console.error('Error fetching result from server:', e);
+        if (!localCachedResult) {
+          alert('Could not connect to server to fetch result.');
+        }
       } finally {
         setLoading(false);
       }
@@ -185,16 +213,49 @@ export default function ResultsPage({ params }: { params: Promise<{ attemptId: s
           </div>
         </section>
 
-        {/* Subject-Wise Performance Table */}
+        {/* Subject-Wise Performance Table & Mobile Cards */}
         <section className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
-          <div className="px-6 py-4 bg-slate-50 border-b border-slate-200 flex items-center justify-between">
-            <h2 className="text-base font-bold text-slate-900 flex items-center space-x-2">
-              <BarChart3 className="w-5 h-5 text-blue-900" />
+          <div className="px-4 sm:px-6 py-4 bg-slate-50 border-b border-slate-200 flex items-center justify-between">
+            <h2 className="text-sm sm:text-base font-bold text-slate-900 flex items-center space-x-2">
+              <BarChart3 className="w-4 h-4 sm:w-5 sm:h-5 text-blue-900" />
               <span>Subject-Wise & Section Performance Analysis</span>
             </h2>
           </div>
 
-          <div className="overflow-x-auto">
+          {/* Mobile Stacked Cards (Visible < 768px) */}
+          <div className="md:hidden divide-y divide-slate-100 p-3 space-y-3">
+            {Object.values(result.subjectPerformance).map((s) => (
+              <div key={s.subject} className="bg-slate-50/70 p-3.5 rounded-xl border border-slate-200 space-y-2.5">
+                <div className="flex items-center justify-between">
+                  <span className="font-extrabold text-base text-slate-900">{s.subject}</span>
+                  <span className="font-black text-blue-950 text-base bg-blue-100/70 px-2.5 py-0.5 rounded-lg border border-blue-200">
+                    {s.score} <span className="text-xs text-blue-700 font-medium">pts</span>
+                  </span>
+                </div>
+                <div className="grid grid-cols-3 gap-2 text-xs">
+                  <div className="bg-white p-2 rounded-lg border border-slate-200 text-center">
+                    <span className="text-slate-500 block text-[10px] uppercase font-bold">Total / Att</span>
+                    <span className="font-bold text-slate-800">{s.total} / {s.attempted}</span>
+                  </div>
+                  <div className="bg-white p-2 rounded-lg border border-slate-200 text-center">
+                    <span className="text-green-700 block text-[10px] uppercase font-bold">Correct</span>
+                    <span className="font-bold text-green-700">+{s.correct}</span>
+                  </div>
+                  <div className="bg-white p-2 rounded-lg border border-slate-200 text-center">
+                    <span className="text-red-600 block text-[10px] uppercase font-bold">Incorrect</span>
+                    <span className="font-bold text-red-600">-{s.incorrect}</span>
+                  </div>
+                </div>
+                <div className="flex items-center justify-between text-xs text-slate-600 pt-0.5">
+                  <span>Unattempted: <strong>{s.unattempted}</strong></span>
+                  <span>Accuracy: <strong className="text-indigo-700 font-bold">{s.accuracy}%</strong></span>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Desktop Table (Visible >= 768px) */}
+          <div className="hidden md:block overflow-x-auto">
             <table className="w-full text-left text-sm">
               <thead className="bg-slate-50/70 text-xs font-semibold uppercase text-slate-600 border-b border-slate-200">
                 <tr>

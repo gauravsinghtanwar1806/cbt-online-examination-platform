@@ -349,24 +349,41 @@ export default function ExamPage({ params }: { params: Promise<{ id: string }> }
     setShowSubmitModal(false);
 
     try {
-      const effectiveAttemptId = attemptId || `att_${Date.now()}`;
+      const effectiveAttemptId = attemptId || `att_${Date.now()}_${Math.random().toString(36).substring(2, 7)}`;
+      const payload = {
+        timeSpentSeconds: timeSpent,
+        responses,
+        examId,
+        studentName: studentInfo.name || 'Candidate',
+        studentEmail: studentInfo.email || 'candidate@nta-neet.ac.in',
+        chapterIndex: chapterIndex ? Number(chapterIndex) : undefined
+      };
+
+      console.log('[Exam Page] Submitting examination:', { attemptId: effectiveAttemptId, payload });
+
       const res = await fetch(`/api/attempts/${effectiveAttemptId}/submit`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          timeSpentSeconds: timeSpent,
-          responses
-        })
+        body: JSON.stringify(payload)
       });
 
       const data = await res.json();
       if (data.success && data.result) {
+        // Save result directly in localStorage for instant offline/cold-start reliability
+        try {
+          localStorage.setItem(`cbt_result_${data.result.attemptId}`, JSON.stringify(data.result));
+        } catch (e) {}
+
         // Clear active session storage
-        localStorage.removeItem(`cbt_session_${examId}_${attemptId || 'default'}`);
+        try {
+          localStorage.removeItem(`cbt_session_${examId}_${attemptId || 'default'}`);
+        } catch (e) {}
+
         // Redirect to results
         router.push(`/results/${data.result.attemptId}`);
       } else {
-        alert(data.error || 'Submission failed. Please try again.');
+        const errMsg = data.error || (data.details ? `${data.error}: ${data.details}` : 'Submission failed. Please try again.');
+        alert(errMsg);
         setIsSubmitting(false);
       }
     } catch (e: any) {
@@ -418,35 +435,35 @@ export default function ExamPage({ params }: { params: Promise<{ id: string }> }
   return (
     <div className="flex flex-col h-screen overflow-hidden bg-slate-100 select-none">
       {/* Top Proctored Exam Header */}
-      <header className="bg-blue-900 text-white px-4 py-2.5 flex items-center justify-between shadow z-20 shrink-0">
-        <div className="flex items-center space-x-3">
-          <div className="bg-amber-400 text-blue-950 font-extrabold px-2 py-1 rounded text-sm tracking-wider">
-            NTA NEET
+      <header className="bg-blue-900 text-white px-2.5 sm:px-4 py-1.5 sm:py-2 flex items-center justify-between shadow z-20 shrink-0 gap-2">
+        <div className="flex items-center space-x-2 min-w-0">
+          <div className="bg-amber-400 text-blue-950 font-extrabold px-1.5 sm:px-2 py-0.5 sm:py-1 rounded text-[11px] sm:text-xs tracking-wider shrink-0">
+            NEET
           </div>
-          <div>
-            <h1 className="text-sm sm:text-base font-bold leading-tight truncate max-w-[280px] sm:max-w-md">
+          <div className="min-w-0">
+            <h1 className="text-xs sm:text-base font-bold leading-tight truncate max-w-[130px] xs:max-w-[200px] sm:max-w-md">
               {examTitle}
             </h1>
-            <p className="text-xs text-blue-200">
+            <p className="text-[11px] text-blue-200 hidden sm:block truncate">
               Candidate: <span className="text-white font-medium">{studentInfo.name}</span>
             </p>
           </div>
         </div>
 
         {/* Center/Right: Timer & Controls */}
-        <div className="flex items-center space-x-2 sm:space-x-4">
-          <div className="flex items-center space-x-1.5 sm:space-x-2 bg-blue-950/80 px-2 sm:px-3 py-1 sm:py-1.5 rounded-lg border border-blue-700 shadow-inner">
-            <Clock className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-amber-300 animate-pulse shrink-0" />
-            <span className="text-[11px] sm:text-xs text-blue-200 uppercase font-semibold hidden xs:inline">Time:</span>
-            <span className={`text-sm sm:text-lg font-mono font-bold tracking-wider ${totalSeconds < 300 ? 'text-red-400 animate-bounce' : 'text-amber-300'}`}>
+        <div className="flex items-center space-x-1.5 sm:space-x-3 shrink-0">
+          <div className="flex items-center space-x-1 sm:space-x-2 bg-blue-950/80 px-2 sm:px-3 py-1 sm:py-1.5 rounded-lg border border-blue-700 shadow-inner">
+            <Clock className="w-3.5 h-3.5 text-amber-300 animate-pulse shrink-0" />
+            <span className="text-[10px] sm:text-xs text-blue-200 uppercase font-semibold hidden md:inline">Time:</span>
+            <span className={`text-xs sm:text-lg font-mono font-bold tracking-wider ${totalSeconds < 300 ? 'text-red-400 animate-bounce' : 'text-amber-300'}`}>
               {timeFormatted}
             </span>
           </div>
 
-          {/* Submit Test Button (Visible on ALL devices including mobile) */}
+          {/* Submit Test Button */}
           <button
             onClick={() => setShowSubmitModal(true)}
-            className="inline-flex items-center space-x-1 px-2.5 sm:px-4 py-1.5 bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs rounded-lg shadow transition active:scale-95"
+            className="inline-flex items-center space-x-1 px-2.5 sm:px-4 py-1.5 bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs rounded-lg shadow transition active:scale-95 shrink-0"
             title="Submit your examination"
           >
             <Send className="w-3.5 h-3.5 shrink-0" />
@@ -456,16 +473,16 @@ export default function ExamPage({ params }: { params: Promise<{ id: string }> }
           {/* Mobile Palette Toggle Button */}
           <button
             onClick={() => setShowMobilePalette(!showMobilePalette)}
-            className="lg:hidden p-1.5 bg-blue-800 text-white rounded-lg border border-blue-600 active:scale-95"
+            className="lg:hidden p-1.5 bg-blue-800 hover:bg-blue-700 text-white rounded-lg border border-blue-600 active:scale-95 shrink-0"
             aria-label="Toggle Question Palette"
           >
-            {showMobilePalette ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+            {showMobilePalette ? <X className="w-4 h-4" /> : <Menu className="w-4 h-4" />}
           </button>
         </div>
       </header>
 
       {/* Subject Tabs Bar (Physics, Chemistry, Biology) + Font Size & Controls */}
-      <div className="bg-white border-b border-slate-200 px-3 sm:px-4 py-1.5 flex items-center justify-between shrink-0 shadow-sm overflow-x-auto gap-2">
+      <div className="bg-white border-b border-slate-200 px-2.5 sm:px-4 py-1.5 flex items-center justify-between shrink-0 shadow-sm overflow-x-auto gap-2">
         <div className="flex items-center space-x-1.5 shrink-0">
           <span className="text-xs font-bold text-slate-500 uppercase tracking-wider mr-1 hidden sm:inline">Sections:</span>
           {subjects.map((subj) => (
@@ -518,7 +535,7 @@ export default function ExamPage({ params }: { params: Promise<{ id: string }> }
           {/* Palette button for mobile */}
           <button
             onClick={() => setShowMobilePalette(!showMobilePalette)}
-            className="lg:hidden px-2.5 py-1 bg-amber-400 text-blue-950 rounded text-xs font-bold shadow-sm"
+            className="lg:hidden px-2 py-1 bg-amber-400 hover:bg-amber-300 text-blue-950 rounded text-xs font-bold shadow-sm transition active:scale-95"
           >
             Palette ({currentIndex + 1}/{questions.length})
           </button>
@@ -529,16 +546,33 @@ export default function ExamPage({ params }: { params: Promise<{ id: string }> }
         </div>
       </div>
 
-      {/* Main 3-Column / Flexible Workspace */}
-      <div className="flex-1 flex overflow-hidden relative">
-        {/* LEFT / DESKTOP QUESTION PALETTE (280px) */}
+      {/* Backdrop overlay for mobile palette drawer */}
+      {showMobilePalette && (
+        <div
+          className="fixed inset-0 bg-black/50 backdrop-blur-xs z-30 lg:hidden"
+          onClick={() => setShowMobilePalette(false)}
+        />
+      )}
+
+      {/* Main Workspace */}
+      <div className="flex-1 flex overflow-hidden relative min-w-0">
+        {/* QUESTION PALETTE DRAWER (Fixed drawer on mobile, static sidebar on lg+) */}
         <aside className={`
-          absolute lg:static inset-y-0 left-0 z-30 w-72 sm:w-80 bg-white border-r border-slate-200 flex flex-col justify-between transition-transform duration-200 shadow-lg lg:shadow-none
+          fixed lg:static inset-y-0 left-0 z-40 w-[82vw] max-w-xs sm:w-80 bg-white border-r border-slate-200 flex flex-col justify-between transition-transform duration-300 ease-in-out shadow-2xl lg:shadow-none
           ${showMobilePalette ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'}
         `}>
           {/* Palette Header & Legend */}
-          <div className="p-3 border-b border-slate-200 bg-slate-50">
-            <h2 className="text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Question Palette</h2>
+          <div className="p-3 border-b border-slate-200 bg-slate-50 shrink-0">
+            <div className="flex items-center justify-between mb-2">
+              <h2 className="text-xs font-bold text-slate-700 uppercase tracking-wider">Question Palette</h2>
+              <button
+                onClick={() => setShowMobilePalette(false)}
+                className="lg:hidden p-1 rounded-md text-slate-500 hover:text-slate-800 hover:bg-slate-200"
+                aria-label="Close palette"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
             <div className="grid grid-cols-2 gap-2 text-[11px]">
               <div className="flex items-center space-x-1.5">
                 <span className="w-5 h-5 rounded-full flex items-center justify-center font-bold text-[10px] bg-green-500 text-white shrink-0">
@@ -607,7 +641,7 @@ export default function ExamPage({ params }: { params: Promise<{ id: string }> }
           </div>
 
           {/* Palette Footer Status & Mobile Submit */}
-          <div className="p-3 bg-slate-50 border-t border-slate-200 space-y-2">
+          <div className="p-3 bg-slate-50 border-t border-slate-200 space-y-2 shrink-0">
             <div className="text-xs text-slate-600 flex justify-between font-medium">
               <span>Section: <strong>{currentQ?.subject}</strong></span>
               <span>Total: <strong>{questions.length}</strong></span>
@@ -618,7 +652,7 @@ export default function ExamPage({ params }: { params: Promise<{ id: string }> }
                 setShowMobilePalette(false);
                 setShowSubmitModal(true);
               }}
-              className="w-full lg:hidden py-2.5 bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs rounded-lg shadow flex items-center justify-center space-x-1.5 transition"
+              className="w-full lg:hidden py-2.5 bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs rounded-lg shadow flex items-center justify-center space-x-1.5 transition active:scale-95"
             >
               <Send className="w-3.5 h-3.5" />
               <span>Submit Entire Test</span>
@@ -655,12 +689,12 @@ export default function ExamPage({ params }: { params: Promise<{ id: string }> }
           </div>
 
           {/* Question Text & Options Scrollable Canvas */}
-          <div className="flex-1 p-3.5 sm:p-6 overflow-y-auto space-y-4 sm:space-y-6">
+          <div className="flex-1 p-3 sm:p-6 overflow-y-auto overflow-x-hidden space-y-3.5 sm:space-y-6 min-w-0">
             {/* Question Text Statement (Always rendered prominently) */}
-            <div className={`leading-relaxed font-semibold text-slate-900 bg-slate-50/90 p-4 sm:p-5 rounded-xl border border-slate-200 shadow-sm ${fontSize}`}>
+            <div className={`leading-relaxed font-semibold text-slate-900 bg-slate-50/90 p-3.5 sm:p-5 rounded-xl border border-slate-200 shadow-sm break-words ${fontSize}`}>
               <div className="flex items-start space-x-2">
                 <span className="text-blue-900 font-extrabold shrink-0">Q{currentIndex + 1}.</span>
-                <span className="flex-1 whitespace-pre-line">
+                <span className="flex-1 whitespace-pre-line min-w-0 break-words">
                   {currentQ?.questionText || (currentQ as any)?.question_text || (
                     <span className="text-amber-800 italic">
                       [Question statement under review. Please refer to associated diagram and options below.]
@@ -676,7 +710,7 @@ export default function ExamPage({ params }: { params: Promise<{ id: string }> }
                 <img
                   src={currentQ?.imageUrl || (currentQ as any)?.image_url}
                   alt={`Question ${currentIndex + 1} Diagram and Formula`}
-                  className="max-h-[300px] sm:max-h-[400px] w-auto max-w-full object-contain mx-auto rounded"
+                  className="max-h-[260px] xs:max-h-[320px] sm:max-h-[420px] w-auto max-w-full object-contain mx-auto rounded"
                   loading="eager"
                 />
                 <p className="text-[11px] text-slate-400 mt-1.5 italic hidden sm:block">
@@ -686,7 +720,7 @@ export default function ExamPage({ params }: { params: Promise<{ id: string }> }
             )}
 
             {/* 4 Interactive Selectable Options (Touch-Friendly for Mobile) */}
-            <div className="space-y-2.5 sm:space-y-3 pt-1">
+            <div className="space-y-2 sm:space-y-3 pt-1">
               <p className="text-xs font-bold text-slate-500 uppercase tracking-wider">Select Option:</p>
               {currentQ?.options.map((optText, optIdx) => {
                 const optNum = optIdx + 1;
@@ -697,7 +731,7 @@ export default function ExamPage({ params }: { params: Promise<{ id: string }> }
                     key={optNum}
                     onClick={() => handleSelectOption(optNum)}
                     className={`
-                      flex items-start space-x-3 p-3 sm:p-4 rounded-xl border-2 transition cursor-pointer select-none min-h-[48px] active:scale-[0.99]
+                      flex items-start space-x-3 p-3 sm:p-4 rounded-xl border-2 transition cursor-pointer select-none min-h-[48px] active:scale-[0.99] min-w-0
                       ${isSelected 
                         ? 'border-blue-700 bg-blue-50 text-blue-950 font-semibold shadow-sm' 
                         : 'border-slate-200 hover:border-slate-300 hover:bg-slate-50 text-slate-800 bg-white'}
@@ -711,21 +745,21 @@ export default function ExamPage({ params }: { params: Promise<{ id: string }> }
                         {optNum}
                       </div>
                     </div>
-                    <div className={`flex-1 leading-snug break-words ${fontSize}`}>
+                    <div className={`flex-1 leading-snug break-words min-w-0 ${fontSize}`}>
                       {currentQ?.optionImages && currentQ.optionImages[optIdx] ? (
                         <div className="space-y-1.5">
                           <img 
                             src={currentQ.optionImages[optIdx]} 
                             alt={`Option (${optNum}) formula/diagram`}
-                            className="max-h-24 sm:max-h-32 w-auto max-w-full object-contain rounded border border-slate-200 bg-white p-1"
+                            className="max-h-20 sm:max-h-32 w-auto max-w-full object-contain rounded border border-slate-200 bg-white p-1"
                             loading="eager"
                           />
                           {optText && !optText.startsWith("See Option") && (
-                            <div className="text-xs text-slate-600 font-medium">{optText}</div>
+                            <div className="text-xs text-slate-600 font-medium break-words">{optText}</div>
                           )}
                         </div>
                       ) : (
-                        <span>{optText}</span>
+                        <span className="break-words">{optText}</span>
                       )}
                     </div>
                   </label>
@@ -735,42 +769,46 @@ export default function ExamPage({ params }: { params: Promise<{ id: string }> }
           </div>
 
           {/* Bottom Action Controls Bar */}
-          <footer className="bg-slate-50 border-t border-slate-200 px-4 sm:px-6 py-3 shrink-0 flex flex-wrap items-center justify-between gap-2 shadow-inner">
-            <div className="flex items-center space-x-2">
+          <footer className="bg-slate-50 border-t border-slate-200 px-2.5 sm:px-6 py-2 sm:py-3 shrink-0 flex items-center justify-between gap-1.5 sm:gap-2 shadow-inner pb-[max(0.6rem,env(safe-area-inset-bottom))]">
+            <div className="flex items-center space-x-1.5 sm:space-x-2">
               <button
                 onClick={handleMarkForReviewAndNext}
-                className="px-3.5 py-2 bg-purple-600 hover:bg-purple-700 text-white rounded-lg text-xs sm:text-sm font-semibold transition flex items-center space-x-1.5 shadow-sm"
+                className="px-2.5 sm:px-3.5 py-2 bg-purple-600 hover:bg-purple-700 text-white rounded-lg text-xs sm:text-sm font-semibold transition flex items-center space-x-1 sm:space-x-1.5 shadow-sm active:scale-95 min-h-[38px]"
+                title="Mark for Review & Next"
               >
-                <Bookmark className="w-4 h-4" />
-                <span>Mark for Review & Next</span>
+                <Bookmark className="w-3.5 h-3.5 sm:w-4 sm:h-4 shrink-0" />
+                <span>Mark Review<span className="hidden sm:inline"> & Next</span></span>
               </button>
 
               <button
                 onClick={handleClearResponse}
                 disabled={selectedOption === null && !currentResp?.isMarkedForReview}
-                className="px-3 py-2 bg-white hover:bg-slate-100 text-slate-700 border border-slate-300 rounded-lg text-xs sm:text-sm font-medium transition flex items-center space-x-1.5 disabled:opacity-40"
+                className="px-2 sm:px-3 py-2 bg-white hover:bg-slate-100 text-slate-700 border border-slate-300 rounded-lg text-xs sm:text-sm font-medium transition flex items-center space-x-1 sm:space-x-1.5 disabled:opacity-40 active:scale-95 min-h-[38px]"
+                title="Clear selected option"
               >
-                <RotateCcw className="w-3.5 h-3.5" />
-                <span>Clear Response</span>
+                <RotateCcw className="w-3.5 h-3.5 shrink-0" />
+                <span>Clear<span className="hidden sm:inline"> Response</span></span>
               </button>
             </div>
 
-            <div className="flex items-center space-x-2">
+            <div className="flex items-center space-x-1.5 sm:space-x-2">
               <button
                 onClick={() => handleNavigate(currentIndex - 1)}
                 disabled={currentIndex === 0}
-                className="px-3.5 py-2 bg-white hover:bg-slate-100 text-slate-700 border border-slate-300 rounded-lg text-xs sm:text-sm font-medium transition flex items-center space-x-1 disabled:opacity-40"
+                className="px-2.5 sm:px-3.5 py-2 bg-white hover:bg-slate-100 text-slate-700 border border-slate-300 rounded-lg text-xs sm:text-sm font-medium transition flex items-center space-x-1 disabled:opacity-40 active:scale-95 min-h-[38px]"
+                title="Previous Question"
               >
-                <ChevronLeft className="w-4 h-4" />
-                <span>Previous</span>
+                <ChevronLeft className="w-4 h-4 shrink-0" />
+                <span>Prev<span className="hidden sm:inline">ious</span></span>
               </button>
 
               <button
                 onClick={handleSaveAndNext}
-                className="px-5 py-2 bg-blue-900 hover:bg-blue-800 text-white rounded-lg text-xs sm:text-sm font-bold transition flex items-center space-x-1.5 shadow"
+                className="px-3.5 sm:px-5 py-2 bg-blue-900 hover:bg-blue-800 text-white rounded-lg text-xs sm:text-sm font-bold transition flex items-center space-x-1 sm:space-x-1.5 shadow active:scale-95 min-h-[38px]"
+                title="Save & Next Question"
               >
                 <span>Save & Next</span>
-                <ChevronRight className="w-4 h-4" />
+                <ChevronRight className="w-4 h-4 shrink-0" />
               </button>
             </div>
           </footer>
